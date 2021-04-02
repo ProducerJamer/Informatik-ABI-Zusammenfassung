@@ -1,4 +1,3 @@
-%HALLO JANNIS
 \documentclass[12pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
@@ -38,6 +37,7 @@
 \maketitle
 \tableofcontents
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Zahlensysteme}
 \begin{minipage}{.49\textwidth}
 \subsection{Dezimalsystem}
@@ -75,6 +75,7 @@ Größter Nennwert:&9\\
     \end{tabular}
     \end{center}
 \end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{minipage}{.49\textwidth}
 \subsection{Dualsystem}
 \begin{tabularx}{10cm}{XX}
@@ -111,6 +112,8 @@ Größter Nennwert:&1\\
     \end{tabular}
 \end{center}
 \end{minipage}\newline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Oktal wirklich relevant?
 \begin{minipage}{.49\textwidth}
 \vspace{0.5cm}
 \subsection{Oktalsystem}
@@ -148,6 +151,7 @@ Größter Nennwert:&7\\
     \end{tabular}
 \end{center}
 \end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{minipage}{.49\textwidth}
 \vspace{0.5cm}
 \subsection{Hexadezimalsystem}
@@ -185,6 +189,50 @@ Größter Nennwert:&F\\
     \end{tabular}
 \end{center}
 \end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Aufbau Computer}
+\subsection{Von Neumann Prinzip}
+\textit{\textbf{Quellcode:}\newline
+zahl1 = 5;\newline
+zahl2 = 4;\newline
+sum = zahl1 + zahl2;}
+\newline
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        \draw[black, very thick] (-4,-4) rectangle (2,8);
+        \node (A) at (-1, 7.4){\textbf{CPU}};
+        \draw[black, very thick](-4,6.8) -- (2,6.8);
+        \draw[black, very thick, dotted](-4,0) -- (2,0);
+        \node (B) at (10, 7.4) {\textbf{Arbeitsspeicher}};
+        \draw[black, very thick](8,-4) -- (8,8);
+        \draw[black, very thick](12,-4) -- (12,8);
+        \draw[black, very thick](8,6.8) -- (12,6.8);
+        \draw[black, very thick](8,5) -- (12,5);
+        \draw[black, very thick](8,3.2) -- (12,3.2);
+        \draw[black, very thick](8,1.4) -- (12,1.4);
+        \draw[black, very thick](8,-0.4) -- (12,-0.4);
+        \draw[black, very thick](8,-2.2) -- (12,-2.2);
+        \node (C) at (-1, 4.4) {Steuerwerk};
+        \node (D) at (-1, 3.4) {Rechenwerk};
+        \node (E) at (-1, 2.4) {Arithemtic Logical Unit(ALU)};
+        \node (F) at (-1, -1.4) {Speicherwerk};
+        \node (G) at (-1, -2.6) {Ein- und Ausgabewerk};
+        \node (H) at (10, -4.6) {Hauptspeicher Random Access Memory(RAM)};
+        \node (I) at (10, 5.9) {5};
+        \node (J) at (10, 4.1) {\textcolor{orange}{9}};
+        \node (K) at (10, 2.3) {4};
+        \node (L) at (6.5, 6.8) {\underline{Adresse:}};
+        \node (M) at (6.5, 5.9) {\textit{zahl1}};
+        \node (N) at (6.5, 4.1) {\textcolor{orange}{\textit{sum}}};
+        \node (O) at (6.5, 2.3) {\textit{zahl2}};
+        \draw[->, very thick] (M) to[out=200, in=-30] (G);
+        \draw[->, very thick] (O) to[out=200, in=-30] (G);
+        \draw[->, very thick, dotted, blue] (G) to[out=160, in=200] (D);
+        \draw[->, very thick, orange] (D) to[out=-30, in=160] (N);
+    \end{tikzpicture}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Speicherkonzepte}
 \subsection{Speicherhierarchie}
 Speicher werden nach ihrer Schnelligkeit in eine Hierarchie eingeordnet, von kurzer zu langer Zugriffszeit.
@@ -197,6 +245,7 @@ Speicher werden nach ihrer Schnelligkeit in eine Hierarchie eingeordnet, von kur
 &&5.& Wechseldatenträger&&\\
 \end{tabularx}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Speicherverwaltung}
 \subsection{Direkte Speicherverwaltung}
 Beim Einprogrammbetrieb verwaltet das Betriebssystem den Hauptspeicher als einen großen Speicherblock. Dieser besteht aus System und Benutzerbereich.
@@ -210,6 +259,7 @@ Betriebssystem&Programm&freier Speicher \\
 \textit{Problem:}\newline
 Die Programmgröße ist durch die Speichergröße begrenzt. Der Hauptspeicher ist somit zu klein für alle aktiven Prozesse.\newline
 \textit{Lösung: Swapping}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Swapping}
 Beim Swapping wird ein Bereich der Festplatte als sogenannter \textit{'Swap-Space'} deklariert. In diesen können Prozesse ausgelagert werden. Daten und Programmcode des Prozesses werden vollständig in den Swap Space ausgelagert.\begin{center}
 \textbf{Ein ausgelagerter Prozess kann nicht ausgeführt werden.}
@@ -243,6 +293,7 @@ Demnach wären hier nur Prozess A und Prozess B ausführbar.
 \item Ein Prozess, seinen Hauptspeicherplatz erweitern möchte, jedoch kein zusätzlicher Speicher verfügbar ist.
 \item Ein \textit{wichtigerer} Prozess aus dem Swap-Space eingelagert werden muss und für ihn kein Hauptspeicherbereich verfügbar ist.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{virtueller Speicher}
 \noindent Festplattenspeicher und Hauptspeicher werden zu einem Speicherblock vereint. Dadurch stehen mehr Speicheradressen zur Verfügung, wie tatsächlich im Hauptspeicher vorhanden sind = virtueller Speicher.
 \begin{center}
@@ -325,6 +376,7 @@ Jedem Prozess wird ein virtueller Speicher geboten, in den alles außer arbeiten
 \item Programmbereiche und Datenbereiche sind in ihrer Länge nicht durch die reelle Größe des Hauptspeichers begrenzt.
 \item Es können gleichzeitig mehrere Programme ausgeführt werden, deren Gesamtlänge die Hauptspeichergröße überschreitet.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{segmentorientierter Speicher}
 \noindent Der Adressraum wird in Segmente variabler Größe entsprechend der der logischen Einheiten des Programms unterteilt. Jedem Segment ist ein Speicherbereich im Haupt oder Festplattenspeicher zugeteilt. Die Virtuelle Adresse besteht aus zwei Teilen, der Segmentnummer und dem Offset. Dieser gibt die Position innerhalb des Segments an.
 \begin{figure}[h]
@@ -394,6 +446,7 @@ Der Prozess gibt mit der virtuellen Adresse an, auf welches seiner Segmente und 
 \item Zugriffsrechte
 \end{itemize}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{seitenorientierter Speicher - \textit{Paging}}
 \begin{center}
 \begin{tabularx}{15cm}{cXllXXc}
@@ -424,6 +477,7 @@ virtuelle Adresse&&&Seitentabelle&&&reelle Adresse \\
 
 \noindent Die Seitentabelle stellt die \textit{Schnittstelle (Interface)} zwischen virtueller und reeller Adresse dar. Die virtuelle Adresse, welche hauptsächlich zum leichteren Programmieren eingeführt wurde, \textcolor{red}{verweist} auf die zugehörige Seite der Seitentabelle. Die Seitentabelle stellt demnach ein 1:1 Abbild der virtuellen Adresstabelle dar. Diese wiederum \textcolor{red}{adressiert} die reelle Startadresse im \textit{Hauptspeichers (RAM)}. Demnach muss für jede reelle Adresse eine Seitenspalte existieren. \newline
 \textbf{Wichtig:} die Größe der Segmente der virtuellen und reellen Adresse sind \textit{immer} gleichgroß! (Hier: 2kiB)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Beispielaufgaben}
 \subsubsection{Buch Aufgabe 1, S.243}
 \begin{figure} [h]
@@ -481,6 +535,7 @@ Nun wird die reelle Anfangsadresse der Seite 2 in den Festplattenblock \textit{P
 \hline
 \end{tabularx}
 \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 3, S.243}
 Ein Prozessor besitzt virtuelle Adressen mit \textit{32 Bit}, physische Adressen (reell) mit \textit{28 Bit} und Seiten mit \textit{2 KiB}.\newline
 Wie viele Bit werden für die virtuellen und physischen (reell) Seitennummern benötigt?\newline \newline
@@ -499,6 +554,7 @@ Es bleiben noch \textit{21Bit}, die dazu verwendet werden können, die Anzahl vo
 \end{equation*}
 Es ergeben sich demnach $2^{21}$ adressierbare virtuelle Speicheradressen mit je \textit{2KiB},\newline
 und $2^{17}$ adressierbare reelle Adressen mit je \textit{2KiB}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 4, S.243}
 \begin{center}
 \begin{tabularx}{13cm}{l X l}
@@ -522,6 +578,7 @@ b)&$\frac{128MiB}{4KiB}= 32786 = 2^{15}$  & \\
 \end{tabularx}
 \end{center}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 5, S.243}
 \begin{center}
 \begin{tabularx}{17cm}{X X r}
@@ -555,6 +612,7 @@ c) Wie viel Speicherplatz ist für die Seitentabelle erforderlich?\newline
 \begin{center}
 $\frac{2^{21}\cdot 2Byte}{1024} = 4MiB$
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 6, S.243}
 Bestimmen Sie die Seitentabelle mit Seitennummer und Seitenrahmen für:
 \begin{center}
@@ -606,6 +664,7 @@ virtueller Speicher = \textit{2GiB}& reeller Speicher = \textit{8MiB}&16 Seitenr
 \end{tabularx}
 \end{center}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 7, S.243}
 \begin{center}
 \begin{tabularx}{17cm}{X X r}
@@ -648,6 +707,7 @@ Frame Number = 0101&Offset der Adresse = 1111 \\
 \begin{center}
 \textbf{Die reelle Adresse lautet demnach: \textcolor{red}{0101 1111}}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Datensicherung}
 Ein Backup dient als Schutz vor:
 \begin{itemize}
@@ -657,6 +717,7 @@ Ein Backup dient als Schutz vor:
 \item logische Fehler in einer Datei
 \item Diebstahl
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sicherungsmedien}
 Bekannte Sicherungsmedien sind:
 \begin{itemize}
@@ -671,6 +732,7 @@ t_b = \dfrac{m}{r_b}
 \end{equation*}
 $t_b$ = Backup Zeit \hspace{3cm} $m$ = Datenmenge \hspace{3cm} $r_b$ = Schreibrate in Bit/s
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Datenverlust}
 Durch falsche Lagerung, äußere Gewalteinwirkung, aussetzen von bestimmten Strahlungen (Magnetfeld), kann es zu Schäden der Dateien auf dem Datenträger kommen. Auch bei versehentlichem Löschen einer Datei kann diese noch wiederhergestellt werden. Beim Löschen oder Formatieren werden Dateien nicht wirklich \textit{vernichtet}, generell werden sie nur ausgeblendet bzw. Verzeichniseinträge werden gelöscht. Man unterscheidet zwischen drei \textit{Recovery Verfahren:}\newline \newline
 \textbf{1. Einfache Rettung:}\newline
@@ -679,6 +741,7 @@ Eine Datei wurde versehentlich gelöscht, der Eintrag über die gelöschte Datei
 Der Eintrag im Verzeichnis ist nicht mehr vorhanden. Die Datei muss mithilfe spezieller Dateisignaturen, die den Dateityp, den Dateianfang und das Dateiende enthalten, erkannt und wiederhergestellt werden.\newline\newline
 \textbf{3. Schwierige Rettung:}\newline
 Ist die Datei darüber hinaus auch noch fragmentiere, erschwert das die Rettung erheblich. Die Recovery Software muss die Inhalte der Datenfragmente analysieren und sie dann zusammenfügen. Mit zusätzlicher Software kann der Datenverlust durch Erkennung von Verschleißerscheinungen vermieden werden.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Datenvernichtung}
 Es ist ratsam sensible Daten vor der Entsorgung eines Datenträgers durch verschiedene Maßnahmen annährend vollständig zu vernichten (es besteht keine 100\% -ige Garantie, dass die Daten nicht wiederhergestellt werden können).\newline Angemessene Maßnahmen können:
 \begin{itemize}
@@ -689,8 +752,10 @@ Es ist ratsam sensible Daten vor der Entsorgung eines Datenträgers durch versch
 \end{itemize}
 sein.
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sicherungsverfahren}
 Abhängig vom Maschinentyp, Dateisensibilität und Anwendungsbereich können verschiedene Verfahren angewendet werden.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Vollständige Sicherung}
 Alle Daten werden auf einem Backup-Medium z.B. externer Festplatte gesichert.
 \begin{figure}[h]
@@ -720,6 +785,7 @@ Schnelle Datensicherung und wenig Speicherplatzbedarf auf dem \newline Sicherung
 \end{figure}
 \newline $\longrightarrow$ Eine Vollsicherung wird einmal pro Woche durchgeführt. Die einzelnen Tage werden unabhängig voneinander gesichert. Das Backup vom Mittwoch enthält nur den Tag Mittwoch.
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Sicherungsstrategie: Generationen Konzept}
 Die einzelnen Backups können nach dem \textit{Generationen Konzept} logisch geordnet werden:\newline\newline
 \textbf{Söhne}\newline
@@ -728,6 +794,7 @@ Die am einzelnen Tag ausgeführten Backups werden als Söhne bezeichnet.\newline
 Die Vollsicherungen (einmal pro Woche) werden als Väter bezeichnet.\newline\newline
 \textbf{Großväter}\newline
 Die Vollsicherungen im Zeitraum eines Monates werden als Großväter zusammengefasst.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Vernetzte Sicherung}
 Vor allem in Firmen arbeiten die Mitarbeiter, jeder eigenständig, an Computern. Um die entstandenen Datenmengen zu sichern, werden Sicherungen meist über ein Netzwerk durchgeführt. Dafür können folgende Strategien angewendet werden:
 \subsubsection{verteilte Sicherung}
@@ -745,6 +812,7 @@ t = \dfrac{m}{G}
 \newpage
 \subsubsection{Logfiles}
 Alle bisher genannten Verfahren haben den Nachteil, dass bei z.B. Virusbefall auf das letzte vorhandene Backup zurückgegriffen werden muss, und somit Transaktionsdaten das laufenden Tages verloren gehen. Um dies zu verhindern ist es ratsam eine \textit{Logfile} zu führen, in der jede Änderung an Dateien gespeichert wird. Die \textit{Logfile} enthält alle Datenänderungen seit dem letzten Backup.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RAID Systeme}
 \textit{RAID} = Redundant Array of Independent Disks\newline
 ist ein Sicherungsmedien Verband, mit dem folgende Ziele verfolgt werden können:
@@ -790,6 +858,7 @@ RAID 5& Sicherheit, \newline Performance Gewinn, \newline >50\% Kapazität nutzb
 \end{tabularx}
 \end{table}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Netze}
 \subsection{Einführung}
 \subsubsection{Beispiele für Netze}
@@ -806,6 +875,7 @@ RAID 5& Sicherheit, \newline Performance Gewinn, \newline >50\% Kapazität nutzb
 \item Es bestehen immer Protokolle / Regeln (StVO)
 \item Dienen zum Informationsaustausch / Transport von Informationen
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Einfaches Computernetz}
 \begin{figure}[h]
 \centering
@@ -963,6 +1033,7 @@ Spezifisch können Endgeräte eines Netzes folgende Komponenten freigeben:
 Das Verwenden eines Netzes hat signifikante Vorteile für ein Unternehmen / Betrieb. Ressourcen und Betriebsmittel können gemeinsam genutzt werden (Zentral-Drucker). Dadurch können Kosten eingespart werden. Die Kommunikation innerhalb des Unternehmens wird durch verschiedene Netze (internes Telefon, Kommunikation zwischen den Systemen) um ein vielfaches erleichtert. Sollte das Unternehmen im Laufe der Zeit an Größe zulegen, ist die Skalierbarkeit des Systems im Allgemeinen unbegrenzt. Zusätzliche Systeme oder Server können problemlos hinzugefügt werden. Die Systemleistung eines einzelnen Computers kann außerdem gesteigert werden. Aufwendige Anwendungen können auf einem leistungsstarken Server ausgeführt werden, sind also nicht an die locale Leistung eines einzelnen Computers gebunden. Die Komponente der Teamarbeit im globalen Sinne wird durch ein globales Netzwerk zwischen Unternehmen außerdem vereinfacht.
 \subsubsection{Private Netze}
 Besitzt ein Haushalt einen Home Server mit Internetanbindung, so ist es Privatpersonen möglich, von nahezu überall auf der Welt auf ihre persönlichen Daten zugreifen zu können. Diese Option steht Privatpersonen außerdem durch Cloud Services zur Verfügung. Nachteil: Die Daten werden externen Firmen zur Verfügung gestellt, diese Option ist mit Vorsicht zu genießen. Privatpersonen können durch das Internet außerdem auf, generell betrachtet, Online Services zugreifen (Online Banking, Online Shopping). Die Kommunikation wird auch für Privatpersonen erheblich erleichtert. Durch Chat, Voice Chat oder sogar Video Chat Anwendungen ist die Kommunikation nahezu an jedem Ort der Erde möglich. Auch das Unterhaltungsprogramm profitiert vom Internet. Dienste wie YouTube oder Netflix wären ohne das Internet undenkbar.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Servermodelle}
 \subsubsection{Ein-Server-Modell}
 Ein Computer / Server übernimmt alle zentralen Dienste (Standard)
@@ -975,6 +1046,7 @@ Einer spricht, der Rest hört zu
 Wechselseitiges Sprechen und Hören
 \subsubsection{Vollduplex}
 Jeder spricht und hört gleichzeitig
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Bezeichnungen von Netzen}
 \renewcommand{\arraystretch}{3}
 \begin{tabularx}{17cm}{|l|X|c|X|}
@@ -992,6 +1064,7 @@ Jeder spricht und hört gleichzeitig
 \cellcolor{cyan!30}WAN&Worldwide\newline Area Network&Weltweit&Internet, Telefon\\
 \hline
 \end{tabularx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{OSI 7-Schichten Modell}
 Zweck des OSI-Modells ist, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen.\newline\newline
 \begin{minipage}{.5\textwidth}
@@ -1010,10 +1083,12 @@ Zweck des OSI-Modells ist, Kommunikation über unterschiedlichste technische Sys
 \end{itemize}
 \end{minipage}
 \includegraphics[scale=.75]{Bilder/OSI-Modell2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Subnetting}
 Subnetting ermöglicht es Netzwerkadministratoren beispielsweise, das eigene Firmennetzwerk in Subnetze aufzuteilen, ohne dies im Internet bekannt zu machen. Das heißt, der Router, der schließlich das Netzwerk mit dem Internet verbindet, wird weiterhin als einfache Adresse angegeben.\vspace{.2cm}\\
 Alle Subnetze eines Netzes funktionieren unabhängig voneinander und die Datenvermittlung läuft schneller. Warum ist das so? Subnetting macht das Netzwerk überschaubarer. Ein Broadcast, bei dem ein Teilnehmer Daten an das gesamte Netz sendet, verläuft ohne Ordnung durch Subnetze relativ unkontrolliert.\vspace{.2cm}\\
 Durch Subnets werden Datenpakete durch den Router viel gezielter an die Empfänger geleitet. Beﬁnden sich Sender und Empfänger im gleichen Subnetz, können die Informationen direkt zugestellt und müssen nicht umgeleitet werden.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Die IP Adresse}
 Bei dem Netzwerkprotokoll IPv4 (heute aktuell: IPv6) besteht eine IP-Adresse aus 32 Bit. Diese sind in vier Abschnitte mit je einem Oktett aufgeteilt.\\
 Beispiel IP Adresse:
@@ -1033,6 +1108,7 @@ $2^7$&$2^6$&$2^5$&$2^4$&$2^3$&$2^2$&$2^1$&$2^0$ \\
 \end{tabularx}
 \end{center}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Netzwerkklassen}
 Eine IP Adresse ist immer einem bestimmten System, welches sich in einem bestimmten Netz befindet zuzuordnen. Demnach besitzt eine IP Adresse einen Netzwerk und einen Hostbereich. Die IP Adresse muss dazu nicht in der Mitte geteilt sein (2 Oktette Netzwerk, 2 Oktette Hostbereich), sondern kann dazu beliebig zwischen jedem Bit geteilt werden. Netzen, mit 1 Oktett, 2 Oktetten und 3 Oktetten Netzwerkbereich wurden besondere Bezeichnungen zugewiesen:
 \begin{center}
@@ -1041,6 +1117,7 @@ Eine IP Adresse ist immer einem bestimmten System, welches sich in einem bestimm
 \subsection{Subnetzmaske}
 Um ein bestehendes Computernetz zur besseren Übersicht und Verwaltung in mehrere kleine Netze aufteilen zu können, bedarf es einer Subnetzmaske. Diese gibt den Netzwerkbereich einer IP Adresse an. Mit Hilfe der Subnetzmaske kann außerdem überprüft werden, ob sich zwei Geräte im gleichen Subnetz befinden oder nicht. Verknüpft man IP Adresse und Subnetzmaske durch eine AND Verknüpfung, erhält man die Netzwerkkennung des Subnetzes, indem sich die IP Adresse befindet. Stimmen die Netzwerkkennungen zweier Systeme überein, befinden sie sich im selben Subnetz.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{CIDAR}
 Die CIDAR ist eine vereinfachte Schreibweise für die Subnetzmaske. Da eine Subnetzmaske dadurch definiert wird, dass sie in binär Schreibweise eine fortlaufende Kette von gesetzten Bits haben muss, die nicht durch ein nicht gesetztes Bit unterbrochen werden darf, kann man die Schreibweise dahingehend vereinfachen, dass einfach die gesetzten Bits gezählt werden:
 \begin{center}
@@ -1052,6 +1129,7 @@ Die CIDAR ist eine vereinfachte Schreibweise für die Subnetzmaske. Da eine Subn
 \end{tabularx}\\
 In diesem Falle wäre die CIDAR /17
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ethernet}
 Mit der Erfindung des Ethernets wollte man individuellen Stationen / Systemen den Zugriff auf ein gemeinsames Medium zur Datenübertragung ermöglichen. Dieses gemeinsame Medium wurde durch ein Koaxial Kabel realisiert.
 \begin{figure}[h]
@@ -1105,6 +1183,7 @@ Präambel (7Byte)&SFD (1Byte)&Ziel (MAC)&Quelle (MAC)&Nutzdaten\\
 \hline
 \end{tabularx}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{MAC Adresse}
 Um Informationen im Ether / Internet zuverlässig und zielgenau verschicken zu können, muss jedes Endgerät im Netz seine eigene individuelle Kennung besitzen!\newline $\longrightarrow$ \emph{MAC Adresse}\newline Die MAC Adresse ist in den ROM der Network Interface Card eines jeden Gerätes eingebrannt. Die MAC ist also keine virtuelle Softwarekennung, sondern eine durchaus physisch mit dem Gerät verbundene Kennnummer.
 \subsubsection{Aufbau MAC Adresse}
@@ -1114,6 +1193,7 @@ Um Informationen im Ether / Internet zuverlässig und zielgenau verschicken zu k
 3 Byte OUI (Herstellerkennung)&3Byte Gerät-Seriennummer
 \end{tabularx}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Netzwerkprotokolle}
 Hat die Netzwerkkarte einen Datenrahmen empfangen, muss ermittelt werden, welches Protokoll zur Weiterverarbeitung verwendet werden soll. Innerhalb des Datenrahmens muss also der Typ und das Ziel der Daten festgelegt sein. Diese Informationen stehen in einem 2Byte großem Typenfeld. Für jedes Protokoll existiert eine eigene Kennung:
 \begin{center}
@@ -1143,6 +1223,7 @@ Alle Protokollkennungen müssen also größer als 1536d oder 0x0600h sein!\newli
 \textbf{Achtung:}\newline
 Das ICMP Netzwerkprotokoll ist ein Protokoll der IP-Familie und folgt somit dem IPv4-Protokoll!\newline
 Ebenso gehört das ICMPv6 Netzwerkprotokoll zur IPv6 Familie und folgt somit auch dem IPv6 Protokoll!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Datenübertragung}
 Um sicher zu gehen, dass alle Informationen fehlerfrei übertragen wurden, wird dem Datenrahmen ein 4Byte großes Prüffeld (CRC) angehängt. Dieses Prüffeld ergibt sich aus einer Polynomdivision.
 \begin{center}
@@ -1162,6 +1243,7 @@ Präambel&SFD&Ziel-Mac&Quell-MAC&Typ&Nutzdaten&CRC\\
 \end{scope}
 \end{tikzpicture}\newline\newline\newline
 Unterschreitet der Anteil der Nutzdaten 46Byte, wird durch Padding aufgefüllt.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Vollständiges Ethernet-Paket}
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
@@ -1175,11 +1257,13 @@ Präambel 7&SFD 1&Ziel-Mac 6&Quell-MAC 6&Typ 2&Nutzdaten 46-1500&CRC 4\\
 Zahlenwert im Feld = Bytegröße des Feldes.
 \end{center}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CSMA/CD - Verfahren}
 Programmablaufplan des CSMA/CD Verfahrens:
 \begin{center}
 \includegraphics[scale=0.3]{Bilder/CSMACD.png}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Kollision}
 \textbf{Problem:}\newline 
 Da Alle Systeme mit nur einem Übertragungsmedium vernetzt sind, um Materialkosten zu sparen, und Skalierbarkeit zu erhalten, muss der Leiter bidirektional verwendet werden. Dadurch kann es zu Kollisionen von Impulsen kommen.\newline
@@ -1231,11 +1315,13 @@ k = 0 bis $2^{i}$-1 \hspace{2cm} i = Anzahl Versuche
 \end{center}
 Nach 10 Versuchen wird i nicht mehr erhöht, nach 16 erfolglosen Versuchen wird der Sendeversuch abgebrochen.
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ARP-Protokoll}
 Programmablaufplan des ARP Verfahrens:
 \begin{center}
 \includegraphics[scale=0.3]{Bilder/ARP-Protokoll PAP.png}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Fachsprache}
 \subsection{Fachwörter}
 \renewcommand{\arraystretch}{2}
@@ -1352,6 +1438,7 @@ Virtuelle Kommunikation&Beschreibt die Kommunikation der zwei Systeme auf der en
 \end{tabularx}
 \end{center}
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Epilog}
 \noindent
 Diese Zusammenfassung wurde erstellt und geteilt von \textit{Jannis Müller}. Für Falschaussagen oder Fehlinformationen übernimmt der Autor keinerlei Gewähr. Es ist empfehlenswert, sich selbst mit den Inhalten vertraut zu machen und die hier dargestellten Inhalte gegebenenfalls zu korrigieren. Bei Fragen oder inhaltlichen Fehlern kontaktieren sie bitte umgehend den Autor und weisen auf die von Ihnen festgestellten Mängel hin. 
