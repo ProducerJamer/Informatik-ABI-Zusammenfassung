@@ -31,6 +31,8 @@
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 
+\usepackage[hidelinks]{hyperref}%VON ROBIN --> Macht Hyperlinks in Datei
+
 \author{Jannis Müller}
 \title{IT ABI Zusammenfassung}
 \begin{document}
@@ -232,6 +234,86 @@ sum = zahl1 + zahl2;}
         \draw[->, very thick, orange] (D) to[out=-30, in=160] (N);
     \end{tikzpicture}
 \end{figure}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Betriebssysteme}
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}%Ist bissle hässlich, kannst gerne ändern XD
+        \draw[color=blue!60, very thick](0,0) circle (4.5);
+        \node (E) at (0,4) {Anwendersoftware};
+        \draw[color=blue!60, very thick](0,0) circle (3.5);
+        \node (D) at (0,3) {Kernel};
+        \draw[color=blue!60, very thick](0,0) circle (2.5);
+        \node (B) at (0,-1.5) {Speicherverwaltung};
+        \node (C) at (0,1.5) {Prozess- und};
+        \draw[color=blue!60, very thick](0,0) circle (1);
+        \node (A) at (0,0) {Hardware};
+    \end{tikzpicture}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Kernel}
+Der Kernel ist die Schnittstelle zwischen der Anwendersoftware und der Speicher- und Prozessverwaltung. Er kann auch als Betriebssystem-Kern bezeichnet werden.
+\subsubsection{Monolitischer Kernel}
+\begin{description}
+    \item[+]{sehr schnell, da alles nah bei einander liegt}
+    \item[-]{wenn eine Komponente defekt ist oder einen Fehler hat, ist der Kernel nichtmehr \\ funktionsfähig}
+    \item[-]{Updates müssen im Gesamten direkt erfolgen}
+\end{description}
+Der Monolitische Kernel wird bei Betriebsystemen wie z.B. DOS, Linux und Android verwendet.
+\subsubsection{Mirkokernel}
+\begin{description}
+    \item[+]{wenn eine Komponente defekt ist oder einen Fehler hat, kann man den Kernel trotzdem weiterhin verwenden}
+    \item[-]{Prozesse dauern länger, da nicht Alles bei einander liegt}
+\end{description}
+Der Mirkokernel wird bei Betriebsystemen wie z.B. Echtzeitsbetriebssystemen oder RISC OS verwendet.
+\subsubsection{Hybridkernel}
+\begin{description}
+    \item[+]{Nutzung beider Vorteile}
+    \item[-]{Nutzung beider Nachteile}
+\end{description}
+Der Hybridkernel wird bei Betriebsystemen wie z.B. Windows oder MAC OS verwendet.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Master Boot Record (MBR)}
+Der Master Boot Record (kurz MBR) enthält ein Startprogramm für BIOS-basierte Computer und eine Partitionstabelle.
+Außerdem werden durch den MBR die Partitionen einer Festplatte eingeteilt. Zudem kann man die Betriebssysteme und Dateisysteme der einzelnen Partitionen herauslesen.
+\\
+\\HIER NOCH MEHR INFOS und Schaubilder!!!!!!
+\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{GPT}
+Die Guide Partition Table ist der bessere MBR und hat folgende Vor- und Nachteile gegenüber dem MBR:
+\begin{description}
+    \item[+]{Funktioniert auch bei 64-Bit Systemen}
+    \item[+]{beliebig viele primäre Partitionen}
+    \item[+]{verfügt über Schutz- und Sicherheitsmerkmale(Backups \& Prüfsummen)}
+    \item[-]{Nur mit UEFI kompatibel}
+\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{UEFI und BIOS}
+UEFI ist das modernere und bessere BIOS. UEFI verfügt gegenüber BIOS folgende Vorteile:
+\begin{itemize}
+    \item schnelleres Starten durch paralleles Laden der Treiber
+    \item Datenträger können auch mit mehr als 2TB booten
+    \item Funktioniert auch bei modernen 64-Bit Systemen
+    \item Netzwerke können auch gebootet werden
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Dateisysteme}
+\subsection{FAT}
+\subsection{EXT}
+\subsection{NTFS}
+\subsubsection{Dataruns}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Prozessverwaltung}
+\subsection{Prozesse}
+\subsection{Threads}
+\subsection{Scheduling}
+\subsection{Prozesssynchronisation}
+\subsubsection{Shortest Remaining Time}
+\subsubsection{First Come first Serve}
+\subsubsection{Shortest Job First}
+\subsubsection{Round-Robin}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Speicherkonzepte}
 \subsection{Speicherhierarchie}
@@ -708,6 +790,9 @@ Frame Number = 0101&Offset der Adresse = 1111 \\
 \textbf{Die reelle Adresse lautet demnach: \textcolor{red}{0101 1111}}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Speicherverwaltungsmethodenchronologie}
+direkte Speicherverwaltung > Swapping > seitenorientierte Speicherverwaltung > segmentorientierte Speicherverwaltung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Datensicherung}
 Ein Backup dient als Schutz vor:
 \begin{itemize}
@@ -813,7 +898,7 @@ t = \dfrac{m}{G}
 \subsubsection{Logfiles}
 Alle bisher genannten Verfahren haben den Nachteil, dass bei z.B. Virusbefall auf das letzte vorhandene Backup zurückgegriffen werden muss, und somit Transaktionsdaten das laufenden Tages verloren gehen. Um dies zu verhindern ist es ratsam eine \textit{Logfile} zu führen, in der jede Änderung an Dateien gespeichert wird. Die \textit{Logfile} enthält alle Datenänderungen seit dem letzten Backup.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{RAID Systeme}
+\subsection{RAID Systeme}
 \textit{RAID} = Redundant Array of Independent Disks\newline
 ist ein Sicherungsmedien Verband, mit dem folgende Ziele verfolgt werden können:
 \begin{itemize}
@@ -821,27 +906,27 @@ ist ein Sicherungsmedien Verband, mit dem folgende Ziele verfolgt werden können
 \item Steigerung der Transferraten
 \item Austausch von Sicherungsmedien während des Systembetriebs.
 \end{itemize}
-\subsection{RAID 0}
+\subsubsection{RAID 0}
 Eine zu sichernde Datei wird in verschiedene Segmente aufgeteilt. Jedes Segment wird auf einem seperaten Sicherungsmedium gesichert. Dadurch werden hohe Transferraten durch Aufteilung der Datenmenge auf verschiedene Sicherungsmedien erreicht. Es besteht keine Datensicherheit. Geht ein Sicherungsmedium kaputt, Sind alle Dateien im RAID verband verloren, da jede Datei in Segmente unterteilt wird, und somit ein Segment von jeder Datei auf jedem Sicherungsmedium liegt.
-\subsection{RAID 1}
+\subsubsection{RAID 1}
 Bei diesem Verfahren werden alle Daten doppelt abgelegt. Geht ein Sicherungsmedium kaputt, sind alle Dateien auf einem zweiten im RAID System verknüpften Sicherungsmedium verfügbar. Kaputte platten können einfach ausgetauscht werden. Es kann nur 50\% der Gesamtkapazität der im RAID Verband verknüpften Sicherungsmedien genutzt werden, da alles doppelt vorhanden ist. Es besteht kein Performance Gewinn.
-\subsection{RAID 5}
+\subsubsection{RAID 5}
 Es werden mindestens drei Sicherungsmedien benötigt. Dieses Verfahren unterscheidet sich von RAID 0 in nur einem Punkt. Es werden zusätzlich Paritäten ermittelt, und auf einem Sicherungsmedium gespeichert, um bei einem Ausfall Dateien vollständig zu rekonstruieren. \newline
 Die nutzbare Sicherungskapazität wird wie folgt berechnet:
 \begin{equation*}
 K_5 = s\cdot (n-1)
 \end{equation*}
 $K_5$= nutzbare Kapazität \hspace{1.5cm} $s$= kleinste Platte im Array \hspace{1.5cm} $n$ Anzahl der Platten
-\subsection{RAID 10}
+\subsubsection{RAID 10}
 verbindet RAID 0 und 1. Im Prinzip funktioniert dieses System wie RAID 0, nur dass alle Dateien zusätzlich doppelt vorhanden sind. Durch dieses System erhält man eine hohe Datensicherheit, und gute Performance.
-\subsection{RAID 50}
+\subsubsection{RAID 50}
 Kombination aus RAID 5 und 0. Die Performance im Vergleich zu RAID 10 steigt nicht. Es werden mindestens 6 Sicherungsmedien benötigt. \newline
 Die nutzbare Sicherungskapazität wird wie folgt berechnet:
 \begin{equation*}
 K_{50} = s\cdot \Big(\dfrac{n}{2}-1\Big)
 \end{equation*}
 $K_{50}$= nutzbare Kapazität \hspace{1.5cm} $s$= kleinste Platte im Array \hspace{1.5cm} $n$ Anzahl der Platten
-\subsection{Gegenüberstellung der RAID Systeme}
+\subsubsection{Gegenüberstellung der RAID Systeme}
 \begin{table}[h]
 \centering
 \begin{tabularx}{15cm}{|XX|}
@@ -1047,6 +1132,17 @@ Wechselseitiges Sprechen und Hören
 \subsubsection{Vollduplex}
 Jeder spricht und hört gleichzeitig
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Netzwerkkomponenten}
+\subsubsection{Client}
+\subsubsection{Repeater}
+\subsubsection{HUB}
+\subsubsection{Bridge}
+\subsubsection{Switch}
+\subsubsection{Port}
+\subsubsection{Router}
+\subsubsection{Einordnung der Komponenten ins OSI-Modell}
+\subsection{Round Trip Delay Time - RTDT}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Bezeichnungen von Netzen}
 \renewcommand{\arraystretch}{3}
 \begin{tabularx}{17cm}{|l|X|c|X|}
@@ -1083,52 +1179,6 @@ Zweck des OSI-Modells ist, Kommunikation über unterschiedlichste technische Sys
 \end{itemize}
 \end{minipage}
 \includegraphics[scale=.75]{Bilder/OSI-Modell2}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Subnetting}
-Subnetting ermöglicht es Netzwerkadministratoren beispielsweise, das eigene Firmennetzwerk in Subnetze aufzuteilen, ohne dies im Internet bekannt zu machen. Das heißt, der Router, der schließlich das Netzwerk mit dem Internet verbindet, wird weiterhin als einfache Adresse angegeben.\vspace{.2cm}\\
-Alle Subnetze eines Netzes funktionieren unabhängig voneinander und die Datenvermittlung läuft schneller. Warum ist das so? Subnetting macht das Netzwerk überschaubarer. Ein Broadcast, bei dem ein Teilnehmer Daten an das gesamte Netz sendet, verläuft ohne Ordnung durch Subnetze relativ unkontrolliert.\vspace{.2cm}\\
-Durch Subnets werden Datenpakete durch den Router viel gezielter an die Empfänger geleitet. Beﬁnden sich Sender und Empfänger im gleichen Subnetz, können die Informationen direkt zugestellt und müssen nicht umgeleitet werden.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Die IP Adresse}
-Bei dem Netzwerkprotokoll IPv4 (heute aktuell: IPv6) besteht eine IP-Adresse aus 32 Bit. Diese sind in vier Abschnitte mit je einem Oktett aufgeteilt.\\
-Beispiel IP Adresse:
-\begin{center}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabularx}{10cm}{lc}
-dezimal&192.168.0.1 \\
-binär&11000000.10101000.0000000.00000001 \\
-\end{tabularx}
-\end{center}
-Zu beachten ist dabei, dass jedes Oktett als eigenständig bei der Berechnung der Wertigkeit angesehen wird.\\ Der höchste darstellbare Wert eines Oktettes beläuft sich demnach auf 255.
-\begin{center}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabularx}{6cm}{cccccccc}
-$2^7$&$2^6$&$2^5$&$2^4$&$2^3$&$2^2$&$2^1$&$2^0$ \\
-128&46&32&16&8&4&2&1 \\
-\end{tabularx}
-\end{center}
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Netzwerkklassen}
-Eine IP Adresse ist immer einem bestimmten System, welches sich in einem bestimmten Netz befindet zuzuordnen. Demnach besitzt eine IP Adresse einen Netzwerk und einen Hostbereich. Die IP Adresse muss dazu nicht in der Mitte geteilt sein (2 Oktette Netzwerk, 2 Oktette Hostbereich), sondern kann dazu beliebig zwischen jedem Bit geteilt werden. Netzen, mit 1 Oktett, 2 Oktetten und 3 Oktetten Netzwerkbereich wurden besondere Bezeichnungen zugewiesen:
-\begin{center}
-\includegraphics[scale=0.7]{Bilder/Netzwerkklassen.png}
-\end{center}
-\subsection{Subnetzmaske}
-Um ein bestehendes Computernetz zur besseren Übersicht und Verwaltung in mehrere kleine Netze aufteilen zu können, bedarf es einer Subnetzmaske. Diese gibt den Netzwerkbereich einer IP Adresse an. Mit Hilfe der Subnetzmaske kann außerdem überprüft werden, ob sich zwei Geräte im gleichen Subnetz befinden oder nicht. Verknüpft man IP Adresse und Subnetzmaske durch eine AND Verknüpfung, erhält man die Netzwerkkennung des Subnetzes, indem sich die IP Adresse befindet. Stimmen die Netzwerkkennungen zweier Systeme überein, befinden sie sich im selben Subnetz.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{CIDAR}
-Die CIDAR ist eine vereinfachte Schreibweise für die Subnetzmaske. Da eine Subnetzmaske dadurch definiert wird, dass sie in binär Schreibweise eine fortlaufende Kette von gesetzten Bits haben muss, die nicht durch ein nicht gesetztes Bit unterbrochen werden darf, kann man die Schreibweise dahingehend vereinfachen, dass einfach die gesetzten Bits gezählt werden:
-\begin{center}
-\renewcommand{\arraystretch}{1.5}
-\begin{tabularx}{\columnwidth}{XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}
-1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&\cellcolor{red!50!white}17&18&19&20&21&22&23&24&25&26&27&28&29&30&31&32 \\
-\hline
-1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1\cellcolor{red!50!white}&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0 \\
-\end{tabularx}\\
-In diesem Falle wäre die CIDAR /17
-\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ethernet}
 Mit der Erfindung des Ethernets wollte man individuellen Stationen / Systemen den Zugriff auf ein gemeinsames Medium zur Datenübertragung ermöglichen. Dieses gemeinsame Medium wurde durch ein Koaxial Kabel realisiert.
@@ -1194,7 +1244,7 @@ Um Informationen im Ether / Internet zuverlässig und zielgenau verschicken zu k
 \end{tabularx}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Netzwerkprotokolle}
+\section{Netzwerkprotokolle}%Hier gerne noch andere Protokolle :)
 Hat die Netzwerkkarte einen Datenrahmen empfangen, muss ermittelt werden, welches Protokoll zur Weiterverarbeitung verwendet werden soll. Innerhalb des Datenrahmens muss also der Typ und das Ziel der Daten festgelegt sein. Diese Informationen stehen in einem 2Byte großem Typenfeld. Für jedes Protokoll existiert eine eigene Kennung:
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
@@ -1321,6 +1371,112 @@ Programmablaufplan des ARP Verfahrens:
 \begin{center}
 \includegraphics[scale=0.3]{Bilder/ARP-Protokoll PAP.png}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Subnetting}
+Subnetting ermöglicht es Netzwerkadministratoren beispielsweise, das eigene Firmennetzwerk in Subnetze aufzuteilen, ohne dies im Internet bekannt zu machen. Das heißt, der Router, der schließlich das Netzwerk mit dem Internet verbindet, wird weiterhin als einfache Adresse angegeben.\vspace{.2cm}\\
+Alle Subnetze eines Netzes funktionieren unabhängig voneinander und die Datenvermittlung läuft schneller. Warum ist das so? Subnetting macht das Netzwerk überschaubarer. Ein Broadcast, bei dem ein Teilnehmer Daten an das gesamte Netz sendet, verläuft ohne Ordnung durch Subnetze relativ unkontrolliert.\vspace{.2cm}\\
+Durch Subnets werden Datenpakete durch den Router viel gezielter an die Empfänger geleitet. Beﬁnden sich Sender und Empfänger im gleichen Subnetz, können die Informationen direkt zugestellt und müssen nicht umgeleitet werden.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Die IP Adresse}
+Bei dem Netzwerkprotokoll IPv4 (heute aktuell: IPv6) besteht eine IP-Adresse aus 32 Bit. Diese sind in vier Abschnitte mit je einem Oktett aufgeteilt.\\
+Beispiel IP Adresse:
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{10cm}{lc}
+dezimal&192.168.0.1 \\
+binär&11000000.10101000.0000000.00000001 \\
+\end{tabularx}
+\end{center}
+Zu beachten ist dabei, dass jedes Oktett als eigenständig bei der Berechnung der Wertigkeit angesehen wird.\\ Der höchste darstellbare Wert eines Oktettes beläuft sich demnach auf 255.
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{6cm}{cccccccc}
+$2^7$&$2^6$&$2^5$&$2^4$&$2^3$&$2^2$&$2^1$&$2^0$ \\
+128&46&32&16&8&4&2&1 \\
+\end{tabularx}
+\end{center}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Netzwerkklassen}
+Eine IP Adresse ist immer einem bestimmten System, welches sich in einem bestimmten Netz befindet zuzuordnen. Demnach besitzt eine IP Adresse einen Netzwerk und einen Hostbereich. Die IP Adresse muss dazu nicht in der Mitte geteilt sein (2 Oktette Netzwerk, 2 Oktette Hostbereich), sondern kann dazu beliebig zwischen jedem Bit geteilt werden. Netzen, mit 1 Oktett, 2 Oktetten und 3 Oktetten Netzwerkbereich wurden besondere Bezeichnungen zugewiesen:
+\begin{center}
+\includegraphics[scale=0.7]{Bilder/Netzwerkklassen.png}
+\end{center}
+\subsection{Subnetzmaske}
+Um ein bestehendes Computernetz zur besseren Übersicht und Verwaltung in mehrere kleine Netze aufteilen zu können, bedarf es einer Subnetzmaske. Diese gibt den Netzwerkbereich einer IP Adresse an. Mit Hilfe der Subnetzmaske kann außerdem überprüft werden, ob sich zwei Geräte im gleichen Subnetz befinden oder nicht. Verknüpft man IP Adresse und Subnetzmaske durch eine AND Verknüpfung, erhält man die Netzwerkkennung des Subnetzes, indem sich die IP Adresse befindet. Stimmen die Netzwerkkennungen zweier Systeme überein, befinden sie sich im selben Subnetz.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{CIDAR}
+Die CIDAR ist eine vereinfachte Schreibweise für die Subnetzmaske. Da eine Subnetzmaske dadurch definiert wird, dass sie in binär Schreibweise eine fortlaufende Kette von gesetzten Bits haben muss, die nicht durch ein nicht gesetztes Bit unterbrochen werden darf, kann man die Schreibweise dahingehend vereinfachen, dass einfach die gesetzten Bits gezählt werden:
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\columnwidth}{XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}
+1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&\cellcolor{red!50!white}17&18&19&20&21&22&23&24&25&26&27&28&29&30&31&32 \\
+\hline
+1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1\cellcolor{red!50!white}&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0 \\
+\end{tabularx}\\
+In diesem Falle wäre die CIDAR /17
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{VLSM}%Kommt noch, machen wir grad in IT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schaltnetze und Schaltwerke}
+\subsection{Einfache Bauteile}
+\subsubsection{NOT}%?? des verneinen ding halt
+\subsubsection{AND}
+\subsubsection{OR}
+\subsubsection{NAND}
+\subsubsection{NOR}
+\subsubsection{XOR}
+\subsection{Flip-Flops}
+\subsubsection{RS Flip Flop}
+\subsubsection{T Flip Flop}
+\subsubsection{JK Flip Flop}
+\subsubsection{D Flip Flop}
+\subsection{Schaltwerke}
+\subsection{Schaltznetze}
+\subsection{Taktgeber}
+\subsection{Zähler}
+\subsection{Addierschaltungen}
+\subsection{Subtrahierschaltungen}
+\subsection{Wahrheitstabelle}
+\subsection{KV-Diagramm}
+\subsubsection{Don't-Care-Positions}
+\subsection{Disjunktive Normalform}
+\subsection{Impulsdiagramm}
+\subsection{Zustandsfolgetabelle}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mirkocontroller}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Assembler}
+Eine Assemblersprache, kurz auch Assembler genannt, ist eine Programmiersprache, die auf den Befehlsvorrat eines bestimmten Computertyps ausgerichtet ist.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objektorientierte Programmierung}
+\subsection{Grundverständnis}
+Die objektorientierte Programmierung ist ein auf dem Konzept der Objektorientierung basierendes Programmierparadigma. Die Grundidee besteht darin, die Architektur einer Software an den Grundstrukturen desjenigen Bereichs der Wirklichkeit auszurichten, der die gegebene Anwendung betrifft.
+\subsection{Klassen}
+\subsection{Objekte}
+\subsection{Datentypen}
+\subsection{Notationen}
+\subsection{UML}
+\subsubsection{Struktogramm}
+\subsubsection{Objektdiagramm}
+\subsubsection{Assoziationen}
+\subsubsection{Polymorphie}
+\subsubsection{Vererbungen}
+\subsubsection{Sequenzdiagramm}
+\subsubsection{Zustandsdiagramm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Datenbanken}
+\subsection{Grundverständnis Datenbanken}
+\subsection{Verwendung}
+\subsection{Entity-Relationship-Diagramm}
+\subsection{Realtionen}
+\subsubsection{Primärschlüssel}
+\subsubsection{Sekundärschlüssel}
+\subsection{SQL}
+\subsubsection{SQL Abfragen}
+\subsubsection{SQL Selektion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Fachsprache}
 \subsection{Fachwörter}
