@@ -234,7 +234,6 @@ sum = zahl1 + zahl2;}
         \draw[->, very thick, orange] (D) to[out=-30, in=160] (N);
     \end{tikzpicture}
 \end{figure}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Betriebssysteme}
 \begin{figure}[h]
@@ -455,7 +454,6 @@ Beim Swapping wird ein Bereich der Festplatte als sogenannter \textit{'Swap-Spac
 \begin{center}
 Demnach wären hier nur Prozess A und Prozess B ausführbar.
 \end{center}
-\newpage
 \noindent Ein Prozess wird ausgelagert wenn:
 \begin{itemize}
 \item Ein Prozess, der neu entsteht nicht im Hauptspeicher untergebracht werden kann.
@@ -539,7 +537,6 @@ Jedem Prozess wird ein virtueller Speicher geboten, in den alles außer arbeiten
 \draw [->, very thick, red](J) to[out=180, in=180](K);
 \end{tikzpicture}
 \end{figure}
-\newpage
 \noindent Durch den Einsatz eines Virtuellen Speichers ergeben sich folgende Vorteile:
 \begin{itemize}
 \item Programmbereiche und Datenbereiche sind in ihrer Länge nicht durch die reelle Größe des Hauptspeichers begrenzt.
@@ -614,7 +611,6 @@ Der Prozess gibt mit der virtuellen Adresse an, auf welches seiner Segmente und 
 \item Länge des Segments
 \item Zugriffsrechte
 \end{itemize}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{seitenorientierter Speicher - \textit{Paging}}
 \begin{center}
@@ -746,7 +742,6 @@ b)&$\frac{128MiB}{4KiB}= 32786 = 2^{15}$  & \\
 &verfügbarer RAM = $2^{15}$& weil RAM kleiner als Prozess\\
 \end{tabularx}
 \end{center}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 5, S.243}
 \begin{center}
@@ -832,7 +827,6 @@ virtueller Speicher = \textit{2GiB}& reeller Speicher = \textit{8MiB}&16 Seitenr
 \hline
 \end{tabularx}
 \end{center}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Buch Aufgabe 7, S.243}
 \begin{center}
@@ -903,7 +897,6 @@ Wichtig bei Sicherungsmedien ist, dass die Backup Zeit so klein wie möglich ble
 t_b = \dfrac{m}{r_b}
 \end{equation*}
 $t_b$ = Backup Zeit \hspace{3cm} $m$ = Datenmenge \hspace{3cm} $r_b$ = Schreibrate in Bit/s
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Datenverlust}
 Durch falsche Lagerung, äußere Gewalteinwirkung, aussetzen von bestimmten Strahlungen (Magnetfeld), kann es zu Schäden der Dateien auf dem Datenträger kommen. Auch bei versehentlichem Löschen einer Datei kann diese noch wiederhergestellt werden. Beim Löschen oder Formatieren werden Dateien nicht wirklich \textit{vernichtet}, generell werden sie nur ausgeblendet bzw. Verzeichniseinträge werden gelöscht. Man unterscheidet zwischen drei \textit{Recovery Verfahren:}\newline \newline
@@ -923,7 +916,6 @@ Es ist ratsam sensible Daten vor der Entsorgung eines Datenträgers durch versch
 \item Hardwarezerstörung
 \end{itemize}
 sein.
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Sicherungsverfahren}
 Abhängig vom Maschinentyp, Dateisensibilität und Anwendungsbereich können verschiedene Verfahren angewendet werden.
@@ -956,7 +948,6 @@ Schnelle Datensicherung und wenig Speicherplatzbedarf auf dem \newline Sicherung
 \end{tabularx}
 \end{figure}
 \newline $\longrightarrow$ Eine Vollsicherung wird einmal pro Woche durchgeführt. Die einzelnen Tage werden unabhängig voneinander gesichert. Das Backup vom Mittwoch enthält nur den Tag Mittwoch.
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Sicherungsstrategie: Generationen Konzept}
 Die einzelnen Backups können nach dem \textit{Generationen Konzept} logisch geordnet werden:\newline\newline
@@ -981,7 +972,6 @@ Die Transportkapazität des Netzwerkes stellt bei der Netzwerk und lokalen Siche
 t = \dfrac{m}{G}
 \end{equation*}
 \hspace{4cm} $m$= Datenmenge \hspace{2cm} $G$= Übertragungsgeschwindigkeit $\dfrac{Mbit}{s}$
-\newpage
 \subsubsection{Logfiles}
 Alle bisher genannten Verfahren haben den Nachteil, dass bei z.B. Virusbefall auf das letzte vorhandene Backup zurückgegriffen werden muss, und somit Transaktionsdaten das laufenden Tages verloren gehen. Um dies zu verhindern ist es ratsam eine \textit{Logfile} zu führen, in der jede Änderung an Dateien gespeichert wird. Die \textit{Logfile} enthält alle Datenänderungen seit dem letzten Backup.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1029,7 +1019,6 @@ RAID 5& Sicherheit, \newline Performance Gewinn, \newline >50\% Kapazität nutzb
 \hline
 \end{tabularx}
 \end{table}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Netze}
 \subsection{Einführung}
@@ -1200,7 +1189,6 @@ Spezifisch können Endgeräte eines Netzes folgende Komponenten freigeben:
 \item Unterbrechung des Rings\newline $\longrightarrow$ Totalausfall
 \end{itemize}
 \end{minipage}
-\newpage
 \subsubsection{Netze in Unternehmen}
 Das Verwenden eines Netzes hat signifikante Vorteile für ein Unternehmen / Betrieb. Ressourcen und Betriebsmittel können gemeinsam genutzt werden (Zentral-Drucker). Dadurch können Kosten eingespart werden. Die Kommunikation innerhalb des Unternehmens wird durch verschiedene Netze (internes Telefon, Kommunikation zwischen den Systemen) um ein vielfaches erleichtert. Sollte das Unternehmen im Laufe der Zeit an Größe zulegen, ist die Skalierbarkeit des Systems im Allgemeinen unbegrenzt. Zusätzliche Systeme oder Server können problemlos hinzugefügt werden. Die Systemleistung eines einzelnen Computers kann außerdem gesteigert werden. Aufwendige Anwendungen können auf einem leistungsstarken Server ausgeführt werden, sind also nicht an die locale Leistung eines einzelnen Computers gebunden. Die Komponente der Teamarbeit im globalen Sinne wird durch ein globales Netzwerk zwischen Unternehmen außerdem vereinfacht.
 \subsubsection{Private Netze}
@@ -1393,7 +1381,6 @@ Präambel 7&SFD 1&Ziel-Mac 6&Quell-MAC 6&Typ 2&Nutzdaten 46-1500&CRC 4\\
 \begin{center}
 Zahlenwert im Feld = Bytegröße des Feldes.
 \end{center}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CSMA/CD - Verfahren}
 Programmablaufplan des CSMA/CD Verfahrens:
@@ -1451,7 +1438,6 @@ Wartezeit= k $\cdot$ RTD
 k = 0 bis $2^{i}$-1 \hspace{2cm} i = Anzahl Versuche
 \end{center}
 Nach 10 Versuchen wird i nicht mehr erhöht, nach 16 erfolglosen Versuchen wird der Sendeversuch abgebrochen.
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ARP-Protokoll}
 Programmablaufplan des ARP Verfahrens:
@@ -1482,7 +1468,6 @@ $2^7$&$2^6$&$2^5$&$2^4$&$2^3$&$2^2$&$2^1$&$2^0$ \\
 128&46&32&16&8&4&2&1 \\
 \end{tabularx}
 \end{center}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Netzwerkklassen}
 Eine IP Adresse ist immer einem bestimmten System, welches sich in einem bestimmten Netz befindet zuzuordnen. Demnach besitzt eine IP Adresse einen Netzwerk und einen Hostbereich. Die IP Adresse muss dazu nicht in der Mitte geteilt sein (2 Oktette Netzwerk, 2 Oktette Hostbereich), sondern kann dazu beliebig zwischen jedem Bit geteilt werden. Netzen, mit 1 Oktett, 2 Oktetten und 3 Oktetten Netzwerkbereich wurden besondere Bezeichnungen zugewiesen:
@@ -1608,7 +1593,6 @@ OUI&Organizationally Unique Identifier\\
 OSI (Modell)&Open Systems Interconnedtion (Modell)\\
 \hline
 \end{tabularx}
-\newpage
 \noindent
 \renewcommand{\arraystretch}{2}
 \begin{tabularx}{17cm}{|l|X|}
@@ -1680,7 +1664,6 @@ Virtuelle Kommunikation&Beschreibt die Kommunikation der zwei Systeme auf der en
 \hline
 \end{tabularx}
 \end{center}
-\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Epilog}
 \noindent
