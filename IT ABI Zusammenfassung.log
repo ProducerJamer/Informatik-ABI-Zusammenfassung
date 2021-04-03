@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  2 APR 2021 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  3 APR 2021 13:29
 entering extended mode
 **"d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
 (d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
@@ -216,12 +216,6 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \mult@nat@firstbox=\box93
 \colbreak@box=\box94
 \mc@col@check@num=\count279
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
 ) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen168
@@ -241,323 +235,6 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count282
 \@lastruleclass=\count283
 \@thisrulewidth=\dimen180
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen181
-\pgfutil@tempdimb=\dimen182
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box95
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
-))
-Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks27
-))
-\pgf@x=\dimen183
-\pgf@y=\dimen184
-\pgf@xa=\dimen185
-\pgf@ya=\dimen186
-\pgf@xb=\dimen187
-\pgf@yb=\dimen188
-\pgf@xc=\dimen189
-\pgf@yc=\dimen190
-\pgf@xd=\dimen191
-\pgf@yd=\dimen192
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count288
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
-)
-Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen193
-\pgfmath@count=\count291
-\pgfmath@box=\box96
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count292
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen194
-\pgf@picmaxx=\dimen195
-\pgf@picminy=\dimen196
-\pgf@picmaxy=\dimen197
-\pgf@pathminx=\dimen198
-\pgf@pathmaxx=\dimen199
-\pgf@pathminy=\dimen256
-\pgf@pathmaxy=\dimen257
-\pgf@xx=\dimen258
-\pgf@xy=\dimen259
-\pgf@yx=\dimen260
-\pgf@yy=\dimen261
-\pgf@zx=\dimen262
-\pgf@zy=\dimen263
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen264
-\pgf@path@lasty=\dimen265
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen266
-\pgf@shorten@start@additional=\dimen267
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box97
-\pgf@hbox=\box98
-\pgf@layerbox@main=\box99
-\pgf@picture@serial@count=\count293
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen268
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen269
-\pgf@pt@y=\dimen270
-\pgf@pt@temp=\dimen271
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen272
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen273
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box100
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box101
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen274
-\pgf@nodesepend=\dimen275
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen276
-\pgffor@skip=\dimen277
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count296
-\pgfplotmarksize=\dimen278
-)
-\tikz@lastx=\dimen279
-\tikz@lasty=\dimen280
-\tikz@lastxsaved=\dimen281
-\tikz@lastysaved=\dimen282
-\tikz@lastmovetox=\dimen283
-\tikz@lastmovetoy=\dimen284
-\tikzleveldistance=\dimen285
-\tikzsiblingdistance=\dimen286
-\tikz@figbox=\box102
-\tikz@figbox@bg=\box103
-\tikz@tempbox=\box104
-\tikz@tempbox@bg=\box105
-\tikztreelevel=\count297
-\tikznumberofchildren=\count298
-\tikznumberofcurrentchild=\count299
-\tikz@fig@count=\count300
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count301
-\pgfmatrixcurrentcolumn=\count302
-\pgf@matrix@numberofcolumns=\count303
-)
-\tikz@expandcount=\count304
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
-Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks36
-\t@pgfplots@tokb=\toks37
-\t@pgfplots@tokc=\toks38
-\pgfplots@tmpa=\dimen287
-\c@pgfplots@coordindex=\count305
-\c@pgfplots@scanlineindex=\count306
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count307
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count308
-\t@pgfplotstable@a=\toks39
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count309
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen288
-\pgfdecoratedremainingdistance=\dimen289
-\pgfdecoratedinputsegmentcompleteddistance=\dimen290
-\pgfdecoratedinputsegmentremainingdistance=\dimen291
-\pgf@decorate@distancetomove=\dimen292
-\pgf@decorate@repeatstate=\count310
-\pgfdecorationsegmentamplitude=\dimen293
-\pgfdecorationsegmentlength=\dimen294
-)
-\tikz@lib@dec@box=\box106
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count311
-\pgfplots@xmin@reg=\dimen295
-\pgfplots@xmax@reg=\dimen296
-\pgfplots@ymin@reg=\dimen297
-\pgfplots@ymax@reg=\dimen298
-\pgfplots@zmin@reg=\dimen299
-\pgfplots@zmax@reg=\dimen300
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/tikzmark\tikzlibrarytikzmark.code.tex
-File: tikzlibrarytikzmark.code.tex 2021/02/16 v1.10 TikZ library for marking positions in a document
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
-\l__pdf_internal_box=\box107
-)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2020-10-27 L3 Experimental document command parser
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
-\l__sn_x_dim=\dimen301
-\l__sn_y_dim=\dimen302
-\l__sn_xa_dim=\dimen303
-\l__sn_ya_dim=\dimen304
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count313
-\c@Blindtext=\count314
-\c@blind@countparstart=\count315
-\blind@countxx=\count316
-\blindtext@numBlindtext=\count317
-\blind@countyy=\count318
-\c@blindlist=\count319
-\c@blindlistlevel=\count320
-\c@blindlist@level=\count321
-\blind@listitem=\count322
-\c@blind@listcount=\count323
-\c@blind@levelcount=\count324
-\blind@mathformula=\count325
-\blind@Mathformula=\count326
-\c@blind@randomcount=\count327
-\c@blind@randommax=\count328
-\c@blind@pangramcount=\count329
-\c@blind@pangrammax=\count330
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen305
-\ar@mcellbox=\box108
-\extrarowheight=\dimen306
-\NC@list=\toks40
-\extratabsurround=\skip54
-\backup@length=\skip55
-\ar@cellbox=\box109
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip56
-\multirow@cntb=\count331
-\multirow@dima=\skip57
-\bigstrutjot=\dimen307
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\bigdelim.sty
-Package: bigdelim 2021/03/15 v2.8 Create big delimiters in tabular or array
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks41
-\minrowclearance=\skip58
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen308
-\TX@old@table=\dimen309
-\TX@old@col=\dimen310
-\TX@target=\dimen311
-\TX@delta=\dimen312
-\TX@cols=\count332
-\TX@ftn=\toks42
-) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
-Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
@@ -585,9 +262,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen313
-\Hy@linkcounter=\count333
-\Hy@pagecounter=\count334
+\@linkdim=\dimen181
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -599,7 +276,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count335
+\Hy@SavedSpaceFactor=\count286
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -612,21 +289,21 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count336
+\c@Hy@tempcnt=\count287
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen314
+\XeTeXLinkMargin=\dimen182
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count337
-\Field@Width=\dimen315
-\Fld@charsize=\dimen316
+\Fld@menulength=\count288
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -640,9 +317,9 @@ LaTeX Info: Redefining \pageref on input line 6149.
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
 with kernel methods
 )
-\Hy@abspage=\count338
-\c@Item=\count339
-\c@Hfootnote=\count340
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -651,8 +328,8 @@ File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\Fld@listcount=\count341
-\c@bookmark@seq@number=\count342
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -660,37 +337,357 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip68
+\Hy@SectionHShift=\skip54
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box95
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count294
+\c@pgf@countb=\count295
+\c@pgf@countc=\count296
+\c@pgf@countd=\count297
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count298
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 38.
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count299
+\pgfsyssoftpath@bigbuffer@items=\count300
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count301
+\pgfmath@box=\box96
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count302
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box97
+\pgf@hbox=\box98
+\pgf@layerbox@main=\box99
+\pgf@picture@serial@count=\count303
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen272
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen276
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count304
+\pgf@shadingcount=\count305
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box100
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box101
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count306
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box102
+\tikz@figbox@bg=\box103
+\tikz@tempbox=\box104
+\tikz@tempbox@bg=\box105
+\tikztreelevel=\count307
+\tikznumberofchildren=\count308
+\tikznumberofcurrentchild=\count309
+\tikz@fig@count=\count310
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count311
+\pgfmatrixcurrentcolumn=\count312
+\pgf@matrix@numberofcolumns=\count313
+)
+\tikz@expandcount=\count314
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks36
+\t@pgfplots@tokb=\toks37
+\t@pgfplots@tokc=\toks38
+\pgfplots@tmpa=\dimen291
+\c@pgfplots@coordindex=\count315
+\c@pgfplots@scanlineindex=\count316
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count317
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count318
+\t@pgfplotstable@a=\toks39
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count319
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen292
+\pgfdecoratedremainingdistance=\dimen293
+\pgfdecoratedinputsegmentcompleteddistance=\dimen294
+\pgfdecoratedinputsegmentremainingdistance=\dimen295
+\pgf@decorate@distancetomove=\dimen296
+\pgf@decorate@repeatstate=\count320
+\pgfdecorationsegmentamplitude=\dimen297
+\pgfdecorationsegmentlength=\dimen298
+)
+\tikz@lib@dec@box=\box106
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count321
+\pgfplots@xmin@reg=\dimen299
+\pgfplots@xmax@reg=\dimen300
+\pgfplots@ymin@reg=\dimen301
+\pgfplots@ymax@reg=\dimen302
+\pgfplots@zmin@reg=\dimen303
+\pgfplots@zmax@reg=\dimen304
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count322
+\c@Blindtext=\count323
+\c@blind@countparstart=\count324
+\blind@countxx=\count325
+\blindtext@numBlindtext=\count326
+\blind@countyy=\count327
+\c@blindlist=\count328
+\c@blindlistlevel=\count329
+\c@blindlist@level=\count330
+\blind@listitem=\count331
+\c@blind@listcount=\count332
+\c@blind@levelcount=\count333
+\blind@mathformula=\count334
+\blind@Mathformula=\count335
+\c@blind@randomcount=\count336
+\c@blind@randommax=\count337
+\c@blind@pangramcount=\count338
+\c@blind@pangrammax=\count339
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen305
+\ar@mcellbox=\box107
+\extrarowheight=\dimen306
+\NC@list=\toks40
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box108
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count340
+\multirow@dima=\skip58
+\bigstrutjot=\dimen307
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\bigdelim.sty
+Package: bigdelim 2021/03/15 v2.8 Create big delimiters in tabular or array
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks41
+\minrowclearance=\skip59
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip60
+\f@nch@O@elh=\skip61
+\f@nch@O@erh=\skip62
+\f@nch@O@olh=\skip63
+\f@nch@O@orh=\skip64
+\f@nch@O@elf=\skip65
+\f@nch@O@erf=\skip66
+\f@nch@O@olf=\skip67
+\f@nch@O@orf=\skip68
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen308
+\TX@old@table=\dimen309
+\TX@old@col=\dimen310
+\TX@target=\dimen311
+\TX@delta=\dimen312
+\TX@cols=\count341
+\TX@ftn=\toks42
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.text.code.tex (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box109
+)
+\tikz@lib@dec@te@box=\box110
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/tikzmark\tikzlibrarytikzmark.code.tex
+File: tikzlibrarytikzmark.code.tex 2021/02/16 v1.10 TikZ library for marking positions in a document
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count342
+\l__pdf_internal_box=\box111
+)) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
+\l__sn_x_dim=\dimen313
+\l__sn_y_dim=\dimen314
+\l__sn_xa_dim=\dimen315
+\l__sn_ya_dim=\dimen316
+) (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 39.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 \openout1 = `"IT ABI Zusammenfassung.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count343
 \scratchdimen=\dimen317
-\scratchbox=\box110
+\scratchbox=\box112
 \nofMPsegments=\count344
 \nofMParguments=\count345
 \everyMPshowfont=\toks43
@@ -737,11 +734,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
- on input line 38.
-
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -751,18 +744,23 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count349
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out) (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out)
 \@outlinefile=\write4
 \openout4 = `"IT ABI Zusammenfassung.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
- (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
+ on input line 39.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+(C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc [1
@@ -770,7 +768,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/robin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 38.
-<Bilder/BSZLOGO.png, id=750, 767.86874pt x 198.7425pt>
+<Bilder/BSZLOGO.png, id=755, 767.86874pt x 198.7425pt>
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 82.
@@ -796,38 +794,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[3]
-Overfull \hbox (2.42352pt too wide) detected at line 131
-\T1/phv/m/n/12 16.10 
- []
-
-
-Overfull \hbox (1.6314pt too wide) detected at line 132
-\T1/phv/m/n/12 16.10.1 
- []
-
-
-Overfull \hbox (2.42352pt too wide) detected at line 133
-\T1/phv/m/n/12 16.11 
- []
-
-
-Overfull \hbox (2.42352pt too wide) detected at line 134
-\T1/phv/m/n/12 16.12 
- []
-
-
-Overfull \hbox (2.42352pt too wide) detected at line 135
-\T1/phv/m/n/12 16.13 
- []
-
-)
+[3])
 \tf@toc=\write5
 \openout5 = `"IT ABI Zusammenfassung.toc"'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 41.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 42.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -838,17 +811,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [4]
-Overfull \hbox (19.06068pt too wide) in paragraph at lines 50--51
+Overfull \hbox (19.06068pt too wide) in paragraph at lines 51--52
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Overfull \hbox (47.51344pt too wide) in paragraph at lines 87--88
+Overfull \hbox (47.51344pt too wide) in paragraph at lines 88--89
 [] 
  []
 
@@ -876,7 +849,7 @@ Overfull \hbox (44.1119pt too wide) in paragraph at lines 235--236
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 237.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 238.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -886,11 +859,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 237.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 296.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -899,11 +874,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [6]
+Overfull \hbox (0.62737pt too wide) in paragraph at lines 369--369
+[]|\T1/phv/m/n/12 Partitionstabelle| 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 274.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 374.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -912,22 +896,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 278--284
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--284
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 296.
-(C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 382.
+ (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 321.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 407.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -938,13 +913,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [8]
-Overfull \hbox (4.206pt too wide) in paragraph at lines 333--334
+Overfull \hbox (4.206pt too wide) in paragraph at lines 419--420
 \T1/phv/m/n/12 Beim Ein-pro-gramm-be-trieb ver-wal-tet das Be-triebs-sys-tem den Haupt-spei-cher als einen groÿen
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 345.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 431.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -954,11 +929,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [9]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 467--468
+ [][][] 
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 371.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 541.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -967,13 +945,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [10]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 382--383
- [][][] 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 455.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 611.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -983,11 +960,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [11]
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 615.
+
+Underfull \hbox (badness 10000) in alignment at lines 634--634
+[][][][][][][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--677
+[]|\T1/phv/m/n/10.95 reelle An-fangs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--683
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 530.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 683.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -996,27 +995,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [12]
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 532.
-
-Underfull \hbox (badness 10000) in alignment at lines 551--551
-[][][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-[]|\T1/phv/m/n/10.95 reelle An-fangs-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--600
-
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 600.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 683.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1025,18 +1008,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 618--618
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
 []|\T1/phv/m/n/10.95 reelle An-fangs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--626
+Underfull \hbox (badness 10000) in paragraph at lines 705--709
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 662.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 759.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1046,23 +1029,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [14]
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 718--718
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 800--800
 []|\T1/phv/m/n/10.95 Seitennummer| 
  []
 
 
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 732--732
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 814--814
 []|\T1/phv/m/n/10.95 Seitennummer| 
  []
 
 
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 746--746
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 828--828
 []|\T1/phv/m/n/10.95 Seitennummer| 
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 860--860
+[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 860--860
+[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
+
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 748.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 863.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1072,24 +1070,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [15]
-Underfull \hbox (badness 3068) in paragraph at lines 779--779
-[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 779--779
-[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 817.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 898.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1098,11 +1083,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 902--910
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--910
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--910
+
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 819.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 916.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1111,23 +1109,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 822--830
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--830
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--830
-
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
+[]|\T1/phv/m/n/12 überflüssige Ko-pier-vor-gän-ge, Backups
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 839.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 952.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1137,13 +1125,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 850--850
-[]|\T1/phv/m/n/12 überflüssige Ko-pier-vor-gän-ge, Backups
+Underfull \hbox (badness 10000) in paragraph at lines 953--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 953--961
+
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 872.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 973.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1153,24 +1151,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 875--883
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--883
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--883
-
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 897.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 995.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1181,7 +1166,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [20]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 925.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1032.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1192,11 +1177,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [21]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1156.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1181
+[]
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 945.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1192.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1205,22 +1201,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [22]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1080.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1105
-[]
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1116.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1192.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1229,9 +1214,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [23]
+Overfull \vbox (15.96661pt too high) has occurred while \output is active []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1116.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1192.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1242,11 +1229,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [24]
-Overfull \vbox (15.96661pt too high) has occurred while \output is active []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1116.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1239.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1257,11 +1242,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [25]
+<Bilder/OSI-Modell1.png, id=954, 534.49687pt x 543.53062pt>
+File: Bilder/OSI-Modell1.png Graphic file (type png)
+<use Bilder/OSI-Modell1.png>
+Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1242.
+(pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
+<Bilder/OSI-Modell2.png, id=955, 639.38875pt x 231.86626pt>
+File: Bilder/OSI-Modell2.png Graphic file (type png)
+<use Bilder/OSI-Modell2.png>
+Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1256.
+(pdftex.def)             Requested size: 479.54037pt x 173.89925pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1258
+
+ []
+
+
+Overfull \hbox (2.54399pt too wide) in paragraph at lines 1240--1258
+[]$ $[]$
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1164.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1258.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1270,41 +1274,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [26]
-<Bilder/OSI-Modell1.png, id=951, 534.49687pt x 543.53062pt>
-File: Bilder/OSI-Modell1.png Graphic file (type png)
-<use Bilder/OSI-Modell1.png>
-Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1167.
-(pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
-<Bilder/OSI-Modell2.png, id=952, 639.38875pt x 231.86626pt>
-File: Bilder/OSI-Modell2.png Graphic file (type png)
-<use Bilder/OSI-Modell2.png>
-Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1181.
-(pdftex.def)             Requested size: 479.54037pt x 173.89925pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1165--1183
-
- []
-
-
-Overfull \hbox (2.54399pt too wide) in paragraph at lines 1165--1183
-[]$ $[]$
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1183.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[27]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1213.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1288.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1314,15 +1286,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[28 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png> <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
-<Bilder/MAC.png, id=962, 414.79968pt x 94.10156pt>
+[27 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png> <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
+<Bilder/MAC.png, id=965, 414.79968pt x 94.10156pt>
 File: Bilder/MAC.png Graphic file (type png)
 <use Bilder/MAC.png>
-Package pdftex.def Info: Bilder/MAC.png  used on input line 1241.
+Package pdftex.def Info: Bilder/MAC.png  used on input line 1316.
 (pdftex.def)             Requested size: 414.79868pt x 94.10132pt.
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1260.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1335.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1332,51 +1304,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[29 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1277
+[28 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1294--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1294--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1304--1304
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1379
 []|\T1/phv/m/n/12 Nutzdaten
  []
 
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1309.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[30]
-<Bilder/CSMACD.png, id=972, 1266.7325pt x 1365.1pt>
+<Bilder/CSMACD.png, id=971, 1266.7325pt x 1365.1pt>
 File: Bilder/CSMACD.png Graphic file (type png)
 <use Bilder/CSMACD.png>
-Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1314.
+Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1388.
 (pdftex.def)             Requested size: 380.02269pt x 409.53316pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1322
-
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1322.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1389.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1385,29 +1340,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[31 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1353--1360
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1353--1360
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1353--1360
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1353--1360
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1392--1396
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1367.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1396.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1416,17 +1356,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[32]
-<Bilder/ARP-Protokoll PAP.png, id=983, 975.645pt x 1240.635pt>
+[30 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1434
+
+ []
+
+<Bilder/ARP-Protokoll PAP.png, id=981, 975.645pt x 1240.635pt>
 File: Bilder/ARP-Protokoll PAP.png Graphic file (type png)
 <use Bilder/ARP-Protokoll PAP.png>
-Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1372.
+Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1445.
 (pdftex.def)             Requested size: 292.69576pt x 372.19337pt.
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1383.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1446.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1434,20 +1392,369 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[33 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
-Underfull \hbox (badness 10000) in alignment at lines 1388--1388
+[31]
+Underfull \hbox (badness 10000) in alignment at lines 1461--1461
 [][] 
- []
-
-
-Overfull \hbox (27.83076pt too wide) in alignment at lines 1396--1396
-[][][][][][][][] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1398.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1462.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[32 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
+Overfull \hbox (27.83076pt too wide) in alignment at lines 1469--1469
+[][][][][][][][] 
+ []
+
+<Bilder/Netzwerkklassen.png, id=992, 375.65344pt x 211.54031pt>
+File: Bilder/Netzwerkklassen.png Graphic file (type png)
+<use Bilder/Netzwerkklassen.png>
+Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1475.
+(pdftex.def)             Requested size: 262.9556pt x 148.0772pt.
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 2| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 3| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 4| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 5| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 6| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 7| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 8| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 9| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 10| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 11| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 12| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 13| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 14| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 15| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 16| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 17| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 18| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 19| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 20| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 21| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 22| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 23| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 24| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 25| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 26| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 27| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 28| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 29| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 30| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 31| 
+ []
+
+
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 32| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 1| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1489--1489
+[]|\T1/phv/m/n/12 0| 
+ []
+
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1491.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[33 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1527.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1456,335 +1763,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [34]
-<Bilder/Netzwerkklassen.png, id=993, 375.65344pt x 211.54031pt>
-File: Bilder/Netzwerkklassen.png Graphic file (type png)
-<use Bilder/Netzwerkklassen.png>
-Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1403.
-(pdftex.def)             Requested size: 262.9556pt x 148.0772pt.
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 2| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 3| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 4| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 5| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 6| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 7| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 8| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 9| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 10| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 11| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 12| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 13| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 14| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 15| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 16| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 17| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 18| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 19| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 20| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 21| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 22| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 23| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 24| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 25| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 26| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 27| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 28| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 29| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 30| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 31| 
- []
-
-
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 32| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 1| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
-
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1417--1417
-[]|\T1/phv/m/n/12 0| 
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1454.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1527.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1792,10 +1775,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[35 <d:/Schuldateien/TeX/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
+[35]
+Overfull \vbox (84.352pt too high) has occurred while \output is active []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1454.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1527.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1806,13 +1791,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [36]
-Overfull \vbox (47.91727pt too high) has occurred while \output is active []
+Overfull \hbox (488.78479pt too wide) in paragraph at lines 1596--1619
+[]  [] 
+ []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1454.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1619.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1823,7 +1809,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [37]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1524.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1619.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1834,9 +1820,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [38]
+Overfull \vbox (514.41989pt too high) has occurred while \output is active []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1524.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1619.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1847,11 +1835,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [39]
-Overfull \vbox (514.41989pt too high) has occurred while \output is active []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1524.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1672.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1862,25 +1848,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [40]
-Overfull \hbox (2.54396pt too wide) in paragraph at lines 1525--1547
- [] 
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1595.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[41]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1596.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1672.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1890,35 +1860,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[42]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1601.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[43] (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
+[41] (d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
-(rerunfilecheck)             Checksum: A373D00704C719D4B706D8217E16571D;22350.
+(rerunfilecheck)             Checksum: E37C8F5D5AAF64F0259876D8BB3B1343;22359.
  ) 
 Here is how much of TeX's memory you used:
- 32496 strings out of 479334
- 743172 string characters out of 2857084
- 1181533 words of memory out of 3000000
- 49160 multiletter control sequences out of 15000+200000
- 452462 words of font info for 92 fonts, out of 3000000 for 9000
+ 33083 strings out of 479334
+ 760924 string characters out of 2857084
+ 1205088 words of memory out of 3000000
+ 49746 multiletter control sequences out of 15000+200000
+ 454324 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,89p,1020b,796s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 87i,17n,89p,1020b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (43 pages, 599314 bytes).
+Output written on "d:/Schuldateien\TeX\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (41 pages, 604158 bytes).
 PDF statistics:
- 1118 PDF objects out of 1200 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
- 1360 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1116 PDF objects out of 1200 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 1368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
