@@ -9,18 +9,19 @@
 \usepackage{graphicx}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{multicol}
-\usepackage{color}
 \usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{blindtext}
 \usepackage{array}
-\usepackage{xcolor}
 \usepackage{multirow}
 \usepackage{bigdelim}
 \usepackage{colortbl}
 \usepackage{fancyhdr} 
 \usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{color}
 \usetikzlibrary{decorations.text}
 \usetikzlibrary{tikzmark}
 \pagestyle{fancy} 
@@ -31,8 +32,6 @@
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-
-\usepackage[hidelinks]{hyperref}%VON ROBIN --> Macht Hyperlinks in Datei
 
 \author{\slshape Jannis Müller, Robin Rausch}
 \title{IT ABI Zusammenfassung}
@@ -314,10 +313,62 @@ Der Hybridkernel wird bei Betriebsystemen wie z.B. Windows oder MAC OS verwendet
 \subsection{Master Boot Record (MBR)}
 Der Master Boot Record (kurz MBR) enthält ein Startprogramm für BIOS-basierte Computer und eine Partitionstabelle.
 Außerdem werden durch den MBR die Partitionen einer Festplatte eingeteilt. Zudem kann man die Betriebssysteme und Dateisysteme der einzelnen Partitionen herauslesen.
-\\
-\\HIER NOCH MEHR INFOS und Schaubilder!!!!!!
-\\
+\begin{table}[h]
+\renewcommand{\arraystretch}{1.5}
+\caption{Partitionstabelleneinträge}
+\vspace{.2cm}
+\begin{tabularx}{\columnwidth}{|c|X|}
+\hline
+Adresse&Inhalt \\
+\hline
+00&80hex = bootfähige Partition \\
+&00hex = nicht bootfähige Partition \\
+\hline
+01&CHS-Eintrag des ersten Sektors \\
+\hline
+04&Typ der Partition (Dateisystem/Partitionsytp) \\
+\hline
+05&CHS-Eintrag des letzten Sektors \\
+\hline
+08&Startsektor nach LBA\\
+\hline
+0C&Anzahl der Sektoren in der Partition \\
+\hline
+\end{tabularx}
+\end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[h]
+\caption{Master Boot Record}
+\vspace{.2cm}
+\begin{tabularx}{\columnwidth}{|l|X|X|X|X|X|X|X|X|X|X|X|X|X|X|X|X|X|}
+\hline
+\rowcolor{yellow}Offset&0&1&2&3&4&5&6&7&8&9&A&B&C&D&E&F \\
+\hline
+\rowcolor{yellow}0000&eb&48&90&10&8e&d0&bc&00&b0&b8&00&00&8e&d8&8e&c0 \\
+\hline
+\rowcolor{yellow}0010&fb&be&00&7c&bf&00&06&b9&00&02&f3&a4&ea&21&06&00 \\
+\hline
+\multicolumn{17}{|c|}{\dots}\\
+\hline
+\rowcolor{yellow}01a0&10&ac&3c&00&75&f4&c3&00&00&00&00&00&00&00&00&00 \\
+\hline
+\cellcolor{yellow}01b0&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{yellow}00&\cellcolor{green!70!blue}00&\cellcolor{green!70!blue}00&\cellcolor{green!70!blue}00&\cellcolor{green!70!blue}00&\cellcolor{cyan!60!white}00&\cellcolor{cyan!60!white}00&\cellcolor{red!60!white}80&\cellcolor{red!60!white}01 \\
+\hline
+\rowcolor{red!60!white}01c0&01&00&83&fe&ff&ff&3f&00&00&00&41&29&54&02&\cellcolor{red!50!white}00&\cellcolor{red!50!white}fe\\
+\hline
+\rowcolor{red!50!white}01d0&ff&ff&82&fe&ff&ff&80&29&54&02&fa&e7&1d&00&\cellcolor{red!40!white}00&\cellcolor{red!40!white}fe \\
+\hline
+\rowcolor{red!40!white}01e0&ff&ff&83&fe&ff&ff&7a&11&72&02&fa&e7&1d&00&\cellcolor{red!30!white}00&\cellcolor{red!30!white}fe \\
+\hline
+\rowcolor{red!30!white}01f0&ff&ff&05&fe&ff&ff&74&f9&8f&02&0c&83&6c&04&\cellcolor{purple!50!blue}55&\cellcolor{purple!50!blue}aa \\
+\hline
+\end{tabularx}
+\end{table}\newline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tabularx}{\columnwidth}{XXXXX}
+\cellcolor{yellow}&\cellcolor{green!70!blue}&\cellcolor{cyan!60!white}&\cellcolor{red!60!white}&\cellcolor{purple!50!blue} \\
+Bootloader&Disk Signatur&Nullbytes&Partitionstabelle&Magic Number \\
+\end{tabularx}
 \subsection{GPT}
 Die Guide Partition Table ist der bessere MBR und hat folgende Vor- und Nachteile gegenüber dem MBR:
 \begin{description}
