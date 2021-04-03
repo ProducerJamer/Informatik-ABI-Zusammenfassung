@@ -13,7 +13,6 @@
 \usepackage{booktabs}
 \usepackage{tikz}
 \usepackage{pgfplots}
-\usetikzlibrary{tikzmark}
 \usepackage{blindtext}
 \usepackage{array}
 \usepackage{xcolor}
@@ -22,6 +21,8 @@
 \usepackage{colortbl}
 \usepackage{fancyhdr} 
 \usepackage{tabularx}
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{tikzmark}
 \pagestyle{fancy} 
 	\fancyhf{} 
 	\fancyhead[L]{\includegraphics[scale=0.15]{Bilder/BSZLOGO.png}} 
@@ -116,7 +117,7 @@ Größter Nennwert:&1\\
 \end{center}
 \end{minipage}\newline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Oktal wirklich relevant?
+%Oktal wirklich relevant? Nein, aber lass drinne...
 \begin{minipage}{.49\textwidth}
 \vspace{0.5cm}
 \subsection{Oktalsystem}
@@ -180,8 +181,8 @@ Größter Nennwert:&F\\
         0      & 5      \\
         0      & 6      \\
         0      & 7      \\
-         0     & 8     \\
-        0     & 9      \\
+        0      & 8      \\
+        0      & 9      \\
         0      & A      \\
         0      & B      \\
         0      & C      \\
@@ -239,18 +240,53 @@ sum = zahl1 + zahl2;}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Betriebssysteme}
 \begin{figure}[h]
-    \centering
-    \begin{tikzpicture}%Ist bissle hässlich, kannst gerne ändern XD
-        \draw[color=blue!60, very thick](0,0) circle (4.5);
-        \node (E) at (0,4) {Anwendersoftware};
-        \draw[color=blue!60, very thick](0,0) circle (3.5);
-        \node (D) at (0,3) {Kernel};
-        \draw[color=blue!60, very thick](0,0) circle (2.5);
-        \node (B) at (0,-1.5) {Speicherverwaltung};
-        \node (C) at (0,1.5) {Prozess- und};
-        \draw[color=blue!60, very thick](0,0) circle (1);
-        \node (A) at (0,0) {Hardware};
-    \end{tikzpicture}
+\centering
+\begin{tikzpicture}%Alles klar, habs bissl verschönert
+\def\Radius{2}
+\def\radius{1}
+\begin{scope}[even odd rule]
+  \clip[rotate=0.0] (0,0) -- (0:\Radius) arc (0:360:\Radius) --cycle;
+  \fill[cyan!60!white] circle[radius=\Radius] circle[radius=\radius];
+  \pgfmathsetmacro\bradius{(\radius+\Radius-(\ht\strutbox-\dp\strutbox)/(1cm))/2}
+  \path[
+      decoration={text along path,text align={align=center},reverse path,
+        text={Prozess und Speicherverwaltung}},
+      decorate,rotate=-50]
+    (0:\bradius) arc (0:280:\bradius);
+\end{scope}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\Radius{3}
+\def\radius{2}
+\begin{scope}[even odd rule]
+  \clip[rotate=0.0] (0,0) -- (0:\Radius) arc (0:360:\Radius) --cycle;
+  \fill[cyan!40!white] circle[radius=\Radius] circle[radius=\radius];
+  \pgfmathsetmacro\bradius{(\radius+\Radius-(\ht\strutbox-\dp\strutbox)/(1cm))/2}
+  \path[
+      decoration={text along path,text align={align=center},reverse path,
+        text={Kernel}},
+      decorate,rotate=-50]
+    (0:\bradius) arc (0:280:\bradius);
+\end{scope}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\Radius{4}
+\def\radius{3}
+\begin{scope}[even odd rule]
+  \clip[rotate=0.0] (0,0) -- (0:\Radius) arc (0:360:\Radius) --cycle;
+  \fill[cyan!20!white] circle[radius=\Radius] circle[radius=\radius];
+  \pgfmathsetmacro\bradius{(\radius+\Radius-(\ht\strutbox-\dp\strutbox)/(1cm))/2}
+  \path[
+      decoration={text along path,text align={align=center},reverse path,
+        text={Anwendersoftware}},
+      decorate,rotate=-50]
+    (0:\bradius) arc (0:280:\bradius);
+\end{scope}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\draw [line width = 1.5pt](0,0)circle(2);
+\draw [line width = 1.5pt](0,0)circle(3);
+\draw [line width = 1.5pt](0,0)circle(4);
+\filldraw[fill=cyan!80!white, draw=black, line width = 1.5pt](0,0) circle (1);
+\node at (0,0){\small Hardware};
+\end{tikzpicture}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Kernel}
