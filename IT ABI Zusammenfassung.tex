@@ -194,13 +194,17 @@ Größter Nennwert:&F\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Aufbau Computer}
 \subsection{Von Neumann Prinzip}
-\textit{\textbf{Quellcode:}\newline
-zahl1 = 5;\newline
-zahl2 = 4;\newline
-sum = zahl1 + zahl2;}
-\newline
+\textbf{Quellcode:}
+\begin{align*}
+\text{zahl1} &= \text{1}; \\
+\text{zahl2} &= \text{4}; \\
+\text{zahl1 + zahl2} &= \text{sum}
+\end{align*}
+\vspace{-1cm}
 \begin{figure}[h]
     \centering
+    \caption{Von Neumann Prinzip}
+    \vspace{.3cm}
     \begin{tikzpicture}
         \draw[black, very thick] (-4,-4) rectangle (2,8);
         \node (A) at (-1, 7.4){\textbf{CPU}};
