@@ -19,32 +19,32 @@ Beispiel:
 				Größter Nennwert:&9\\
 			\end{tabularx}\newline
 		\begin{center}
-    		\begin{tabular}{|c|c|}
-        		\hline
+    			\begin{tabular}{|c|c|}
+        			\hline
 
-        		$10^1$ & $10^0$ \\
-        		\hline
-        		10     & 1      \\
-        		\hline
-        		\hline
-        		0      & 0      \\
-        		0      & 1      \\
-        		0      & 2      \\
-        		0      & 3      \\
-        		0      & 4      \\
-        		0      & 5      \\
-        		0      & 6      \\
-        		0      & 7      \\
-        		0      & 8      \\
-        		0      & 9      \\
-        		1      & 0      \\
-        		1      & 1      \\
-        		1      & 2      \\
-        		1      & 3      \\
-        		1      & 4      \\
-        		1      & 5      \\
-        		\hline
-    		\end{tabular}
-    	\end{center}
+        			$10^1$ & $10^0$ \\
+        			\hline
+        			10     & 1      \\
+        			\hline
+        			\hline
+        			0      & 0      \\
+        			0      & 1      \\
+        			0      & 2      \\
+        			0      & 3      \\
+        			0      & 4      \\
+        			0      & 5      \\
+        			0      & 6      \\
+        			0      & 7      \\
+        			0      & 8      \\
+        			0      & 9      \\
+        			1      & 0      \\
+        			1      & 1      \\
+        			1      & 2      \\
+        			1      & 3      \\
+        			1      & 4      \\
+        			1      & 5      \\
+        			\hline
+    			\end{tabular}
+    		\end{center}
 	\end{minipage}
 ```
