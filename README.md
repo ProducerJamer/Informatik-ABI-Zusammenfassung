@@ -4,7 +4,7 @@ Informatik ABI 2021 Baden-Württemberg Zusammenfassung G9
 Zur besseren Übersichtlichkeit bitte an folgende Regeln halten: 
 
 1. Ein \begin{} bedeutet tab in der nächsten Zeile.
-2. vor einer neuen \section{} oder \subsection einmal enter.
+2. vor einer neuen \section{} oder \subsection{} einmal enter.
 3. Ein \end{} bedeutet back-tab in der nächsten Zeile.
 
 Beispiel:
