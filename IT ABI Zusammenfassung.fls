@@ -1,7 +1,7 @@
-PWD d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung
+PWD d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung
 INPUT C:\Users\robin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.tex
-OUTPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.log
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.tex
+OUTPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.log
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -973,10 +973,10 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
-OUTPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
+OUTPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1029,18 +1029,18 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\ge
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-OUTPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-OUTPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+OUTPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+OUTPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -1065,9 +1065,9 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -1098,42 +1098,42 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-OUTPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+OUTPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
@@ -1141,67 +1141,67 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbo8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbo8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbo8r.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -1211,134 +1211,138 @@ INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
-INPUT d:\Schuldateien\TeX\test\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell1.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\OSI-Modell2.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\MAC.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\CSMACD.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\ARP-Protokoll PAP.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\Netzwerkklassen.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\Bilder\BSZLOGO.png
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
+INPUT d:\Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\robin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb

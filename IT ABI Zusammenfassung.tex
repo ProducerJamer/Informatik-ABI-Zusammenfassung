@@ -1680,10 +1680,160 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
             \end{figure}
 
     \subsubsection{NAND}
+    Das NAND-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn mindestens einer der beiden Eingangssignale auf Null steht.
+        \begin{figure}[h]
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw[black,very thick] (-5,-1) rectangle (-3,1);
+                    \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
+                    \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
+                    \draw[black,very thick] (-2.8, 0) circle (0.2);
+                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                    \node at (-4,0){\textbf{\&}};
+                    \node at (-6.5,0.5){\textbf{A}};
+                    \node at (-6.5,-0.5){\textbf{B}};
+                    \node at (-1.5,0){\textbf{Z}};
+
+                    \draw[black] (1.5,1.5) -- (4.5,1.5);
+                    \draw[black] (1.5,0.5) -- (4.5,0.5);
+                    \draw[black] (1.5,-0.5) -- (4.5,-0.5);
+                    \draw[black] (1.5,-1.5) -- (4.5,-1.5);
+                    \draw[black] (3.5,2.5) -- (3.5,-2.5);
+                    \node at (2,2){\textbf{A}};
+                    \node at (3,2){\textbf{B}};
+                    \node at (4,2){\textbf{Z}};
+                    \node at (2,1){0};
+                    \node at (3,1){0};
+                    \node at (4,1){1};
+                    \node at (2,0){0};
+                    \node at (3,0){1};
+                    \node at (4,0){1};
+                    \node at (2,-1){1};
+                    \node at (3,-1){0};
+                    \node at (4,-1){1};
+                    \node at (2,-2){1};
+                    \node at (3,-2){1};
+                    \node at (4,-2){0};
+                \end{tikzpicture}
+            \end{center}
+        \end{figure}
 
     \subsubsection{NOR}
+    Das NOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn beide Eingangssignale auf Null steht.
+        \begin{figure}[h]
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw[black,very thick] (-5,-1) rectangle (-3,1);
+                    \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
+                    \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
+                    \draw[black,very thick] (-2.8, 0) circle (0.2);
+                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                    \node at (-4,0){\textbf{$\geq 1$}};
+                    \node at (-6.5,0.5){\textbf{A}};
+                    \node at (-6.5,-0.5){\textbf{B}};
+                    \node at (-1.5,0){\textbf{Z}};
+
+                    \draw[black] (1.5,1.5) -- (4.5,1.5);
+                    \draw[black] (1.5,0.5) -- (4.5,0.5);
+                    \draw[black] (1.5,-0.5) -- (4.5,-0.5);
+                    \draw[black] (1.5,-1.5) -- (4.5,-1.5);
+                    \draw[black] (3.5,2.5) -- (3.5,-2.5);
+                    \node at (2,2){\textbf{A}};
+                    \node at (3,2){\textbf{B}};
+                    \node at (4,2){\textbf{Z}};
+                    \node at (2,1){0};
+                    \node at (3,1){0};
+                    \node at (4,1){1};
+                    \node at (2,0){0};
+                    \node at (3,0){1};
+                    \node at (4,0){0};
+                    \node at (2,-1){1};
+                    \node at (3,-1){0};
+                    \node at (4,-1){0};
+                    \node at (2,-2){1};
+                    \node at (3,-2){1};
+                    \node at (4,-2){0};
+                \end{tikzpicture}
+            \end{center}
+        \end{figure}
     
     \subsubsection{XOR}
+    Das XOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die Eingangssignale verschieden stehen.
+        \begin{figure}[h]
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw[black,very thick] (-5,-1) rectangle (-3,1);
+                    \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
+                    \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
+                    \draw[black,very thick] (-2.8, 0) circle (0.2);
+                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                    \node at (-4,0){\textbf{=1}};
+                    \node at (-6.5,0.5){\textbf{A}};
+                    \node at (-6.5,-0.5){\textbf{B}};
+                    \node at (-1.5,0){\textbf{Z}};
+
+                    \draw[black] (1.5,1.5) -- (4.5,1.5);
+                    \draw[black] (1.5,0.5) -- (4.5,0.5);
+                    \draw[black] (1.5,-0.5) -- (4.5,-0.5);
+                    \draw[black] (1.5,-1.5) -- (4.5,-1.5);
+                    \draw[black] (3.5,2.5) -- (3.5,-2.5);
+                    \node at (2,2){\textbf{A}};
+                    \node at (3,2){\textbf{B}};
+                    \node at (4,2){\textbf{Z}};
+                    \node at (2,1){0};
+                    \node at (3,1){0};
+                    \node at (4,1){0};
+                    \node at (2,0){0};
+                    \node at (3,0){1};
+                    \node at (4,0){1};
+                    \node at (2,-1){1};
+                    \node at (3,-1){0};
+                    \node at (4,-1){1};
+                    \node at (2,-2){1};
+                    \node at (3,-2){1};
+                    \node at (4,-2){0};
+                \end{tikzpicture}
+            \end{center}
+        \end{figure}
+
+    \subsubsection{XNOR}
+    Das XNOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die beiden Eingangssignale gleich stehen.
+        \begin{figure}[h]
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw[black,very thick] (-5,-1) rectangle (-3,1);
+                    \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
+                    \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
+                    \draw[black,very thick] (-2.8, 0) circle (0.2);
+                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                    \node at (-4,0){\textbf{=}};
+                    \node at (-6.5,0.5){\textbf{A}};
+                    \node at (-6.5,-0.5){\textbf{B}};
+                    \node at (-1.5,0){\textbf{Z}};
+
+                    \draw[black] (1.5,1.5) -- (4.5,1.5);
+                    \draw[black] (1.5,0.5) -- (4.5,0.5);
+                    \draw[black] (1.5,-0.5) -- (4.5,-0.5);
+                    \draw[black] (1.5,-1.5) -- (4.5,-1.5);
+                    \draw[black] (3.5,2.5) -- (3.5,-2.5);
+                    \node at (2,2){\textbf{A}};
+                    \node at (3,2){\textbf{B}};
+                    \node at (4,2){\textbf{Z}};
+                    \node at (2,1){0};
+                    \node at (3,1){0};
+                    \node at (4,1){1};
+                    \node at (2,0){0};
+                    \node at (3,0){1};
+                    \node at (4,0){0};
+                    \node at (2,-1){1};
+                    \node at (3,-1){0};
+                    \node at (4,-1){0};
+                    \node at (2,-2){1};
+                    \node at (3,-2){1};
+                    \node at (4,-2){1};
+                \end{tikzpicture}
+            \end{center}
+        \end{figure}
 
 \subsection{Wahrheitstabelle}
 
