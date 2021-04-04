@@ -1270,29 +1270,31 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
 \subsection{Round Trip Delay Time - RTDT}
     Die Paketumlaufzeit bzw. Round Trip Time gibt die Zeit an, die ein Datenpaket in einem Rechnernetz benötigt, um von der weitesten entfernten Quelle zum Ziel und zurück zu reisen. Es handelt sich also um die Summe aus Laufzeit von Punkt A nach Punkt B und der Laufzeit von Punkt B nach Punkt A.
 	\begin{figure}[h]
-		\begin{tikzpicture}
-    		\draw (-5,-3)rectangle(-3,-1);
-    		\draw (-5.5,-3.5)rectangle(-2.5,-0.5);
-    		\draw (-4,1)rectangle(-2,3);
-    		\draw (-4.5,0.5)rectangle(-1.5,3.5);
-    		\draw (0,-4)rectangle(2,-2);
-    		\draw (-0.5,-4.5)rectangle(2.5,-1.5);
-    		\draw (1,2)rectangle(3,4);
-    		\draw (0.5,1.5)rectangle(3.5,4.5);
-    		\draw (6,1)rectangle(8,3);
-    		\draw (5.5,0.5)rectangle(8.5,3.5);
-    		\draw[black] (-5,0)--(9,0);
-    		\draw[red, very thick](-4,0)--(7,0);
-    		\draw[red, very thick] (-4,-0.5)--(-4,0);
-    		\draw[red, very thick] (7,0)--(7,0.5);
-    		\draw[black] (-3,0)--(-3,0.5);
-    		\draw[black] (1,0)--(1,-1.5);
-    		\draw[black] (2,0)--(2,1.5);
-    		\node at (-4,-2){Client A};
-    		\node at (7,2){Client B};
-    		\draw [->, very thick, red](-0.5,0.5) to(0,0.5);
-   			\draw [->, very thick, red](0,-0.5) to(-0.5,-0.5);
-    	\end{tikzpicture}
+        \begin{center}
+            \begin{tikzpicture}
+                \draw (-5,-3)rectangle(-3,-1);
+                \draw (-5.5,-3.5)rectangle(-2.5,-0.5);
+                \draw (-4,1)rectangle(-2,3);
+                \draw (-4.5,0.5)rectangle(-1.5,3.5);
+                \draw (0,-4)rectangle(2,-2);
+                \draw (-0.5,-4.5)rectangle(2.5,-1.5);
+                \draw (1,2)rectangle(3,4);
+                \draw (0.5,1.5)rectangle(3.5,4.5);
+                \draw (6,1)rectangle(8,3);
+                \draw (5.5,0.5)rectangle(8.5,3.5);
+                \draw[black] (-5,0)--(9,0);
+                \draw[red, very thick](-4,0)--(7,0);
+                \draw[red, very thick] (-4,-0.5)--(-4,0);
+                \draw[red, very thick] (7,0)--(7,0.5);
+                \draw[black] (-3,0)--(-3,0.5);
+                \draw[black] (1,0)--(1,-1.5);
+                \draw[black] (2,0)--(2,1.5);
+                \node at (-4,-2){Client A};
+                \node at (7,2){Client B};
+                \draw [->, very thick, red](-0.5,0.5) to(0,0.5);
+                \draw [->, very thick, red](0,-0.5) to(-0.5,-0.5);
+            \end{tikzpicture}
+        \end{center}
     \end{figure}
 
 \subsection{Bezeichnungen von Netzen}
@@ -1758,7 +1760,7 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
         \end{figure}
     
     \subsubsection{XOR}
-    Das XOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die Eingangssignale verschieden stehen.
+    Das XOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die Eingangssignale ungleich sind.
         \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
