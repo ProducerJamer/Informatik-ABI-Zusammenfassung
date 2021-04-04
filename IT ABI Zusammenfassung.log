@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  4 APR 2021 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  4 APR 2021 18:28
 entering extended mode
 **"d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
 (d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
@@ -768,7 +768,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/robin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 38.
-<Bilder/BSZLOGO.png, id=755, 767.86874pt x 198.7425pt>
+<Bilder/BSZLOGO.png, id=759, 767.86874pt x 198.7425pt>
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 82.
@@ -782,17 +782,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [2 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/BSZLOGO.png>]
-Overfull \hbox (2.42352pt too wide) detected at line 123
+Overfull \hbox (2.42352pt too wide) detected at line 124
 \T1/phv/m/n/12 15.10 
  []
 
 
-Overfull \hbox (2.42352pt too wide) detected at line 124
+Overfull \hbox (2.42352pt too wide) detected at line 125
 \T1/phv/m/n/12 15.11 
  []
 
 
-Overfull \hbox (2.42352pt too wide) detected at line 125
+Overfull \hbox (2.42352pt too wide) detected at line 126
 \T1/phv/m/n/12 15.12 
  []
 
@@ -1221,11 +1221,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [23]
+Overfull \hbox (25.1347pt too wide) in paragraph at lines 1255--1256
+\T1/phv/m/n/12 Ein Port ist der Teil ei-ner Netzwerk-Adresse, der die Zu-ord-nung von TCP- und UDP-Verbindungen
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1299.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1256.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1234,33 +1237,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [24]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Bilder/OSI-Modell1.png, id=950, 534.49687pt x 543.53062pt>
-File: Bilder/OSI-Modell1.png Graphic file (type png)
-<use Bilder/OSI-Modell1.png>
-Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1324.
-(pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
-<Bilder/OSI-Modell2.png, id=951, 639.38875pt x 231.86626pt>
-File: Bilder/OSI-Modell2.png Graphic file (type png)
-<use Bilder/OSI-Modell2.png>
-Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1338.
-(pdftex.def)             Requested size: 479.54037pt x 173.89925pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1339
-
- []
-
-
-Overfull \hbox (2.54399pt too wide) in paragraph at lines 1322--1339
-[]$ $[]$
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1339.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1307.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1271,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [25]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1340.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1385.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1281,10 +1262,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[26 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png>]
+[26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Bilder/OSI-Modell1.png, id=964, 534.49687pt x 543.53062pt>
+File: Bilder/OSI-Modell1.png Graphic file (type png)
+<use Bilder/OSI-Modell1.png>
+Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1410.
+(pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
+<Bilder/OSI-Modell2.png, id=965, 639.38875pt x 231.86626pt>
+File: Bilder/OSI-Modell2.png Graphic file (type png)
+<use Bilder/OSI-Modell2.png>
+Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1424.
+(pdftex.def)             Requested size: 479.54037pt x 173.89925pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1425
+
+ []
+
+
+Overfull \hbox (2.54399pt too wide) in paragraph at lines 1408--1425
+[]$ $[]$
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1396.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1425.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[27]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1426.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1294,20 +1310,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[27 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
-<Bilder/MAC.png, id=967, 414.79968pt x 94.10156pt>
+[28 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png>]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1482.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[29 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
+<Bilder/MAC.png, id=980, 414.79968pt x 94.10156pt>
 File: Bilder/MAC.png Graphic file (type png)
 <use Bilder/MAC.png>
-Package pdftex.def Info: Bilder/MAC.png  used on input line 1399.
+Package pdftex.def Info: Bilder/MAC.png  used on input line 1485.
 (pdftex.def)             Requested size: 414.79868pt x 94.10132pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1430--1434
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1520
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1444.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1530.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1316,34 +1345,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[28 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1452--1454
+[30 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1538--1540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1452--1454
+Underfull \hbox (badness 10000) in paragraph at lines 1538--1540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1462
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1548
 []|\T1/phv/m/n/12 Nutzdaten
  []
 
-<Bilder/CSMACD.png, id=973, 1266.7325pt x 1365.1pt>
+<Bilder/CSMACD.png, id=986, 1266.7325pt x 1365.1pt>
 File: Bilder/CSMACD.png Graphic file (type png)
 <use Bilder/CSMACD.png>
-Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1471.
+Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1557.
 (pdftex.def)             Requested size: 380.02269pt x 409.53316pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1475--1481
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1567
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1481.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1567.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1352,34 +1381,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[29 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1517
+[31 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1517
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1517
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1510--1517
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1603
 
  []
 
-<Bilder/ARP-Protokoll PAP.png, id=979, 975.645pt x 1240.635pt>
+<Bilder/ARP-Protokoll PAP.png, id=993, 975.645pt x 1240.635pt>
 File: Bilder/ARP-Protokoll PAP.png Graphic file (type png)
 <use Bilder/ARP-Protokoll PAP.png>
-Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1528.
+Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1614.
 (pdftex.def)             Requested size: 292.69576pt x 372.19337pt.
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1529.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1615.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1388,10 +1417,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[30]
+[32]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1539.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1625.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1401,344 +1430,344 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[31 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
-Underfull \hbox (badness 10000) in alignment at lines 1544--1544
+[33 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
+Underfull \hbox (badness 10000) in alignment at lines 1630--1630
 [][] 
  []
 
 
-Overfull \hbox (27.83076pt too wide) in alignment at lines 1552--1552
+Overfull \hbox (27.83076pt too wide) in alignment at lines 1638--1638
 [][][][][][][][] 
  []
 
-<Bilder/Netzwerkklassen.png, id=990, 375.65344pt x 211.54031pt>
+<Bilder/Netzwerkklassen.png, id=1003, 375.65344pt x 211.54031pt>
 File: Bilder/Netzwerkklassen.png Graphic file (type png)
 <use Bilder/Netzwerkklassen.png>
-Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1558.
+Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1644.
 (pdftex.def)             Requested size: 262.9556pt x 148.0772pt.
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 2| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 3| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 4| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 5| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 6| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 7| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 8| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 9| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 10| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 11| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 12| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 13| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 14| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 15| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 16| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 17| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 18| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 19| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 20| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 21| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 22| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 23| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 24| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 25| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 26| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 27| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 28| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 29| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 30| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 31| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 32| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1572--1572
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1658--1658
 []|\T1/phv/m/n/12 0| 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1573.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1659.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1747,42 +1776,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[32 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
+[34 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1722.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1808.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[33]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1839.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.16011pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.16011pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
-
-[34]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1881.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1791,11 +1792,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [35]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1966.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1925.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1804,19 +1807,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [36]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2045.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1967.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1827,7 +1822,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [37]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2046.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2052.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1838,11 +1833,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [38]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2046.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2131.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -1853,7 +1856,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [39]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2046.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2132.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1866,7 +1869,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [40]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2046.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2132.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1876,22 +1879,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[41] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
+[41]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2132.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[42]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2132.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[43] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
-(rerunfilecheck)             Checksum: F7F85682B6BB1E5D92B4E8357D531984;22347.
+(rerunfilecheck)             Checksum: 329C40B52970EA0335ED54065FD15CA8;22481.
  ) 
 Here is how much of TeX's memory you used:
- 33092 strings out of 479334
- 761490 string characters out of 2857084
- 1206088 words of memory out of 3000000
- 49753 multiletter control sequences out of 15000+200000
+ 33105 strings out of 479334
+ 761703 string characters out of 2857084
+ 1205088 words of memory out of 3000000
+ 49763 multiletter control sequences out of 15000+200000
  456060 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,89p,1049b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (41 pages, 610456 bytes).
+Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (43 pages, 615822 bytes).
 PDF statistics:
- 1119 PDF objects out of 1200 (max. 8388607)
- 212 named destinations out of 1000 (max. 500000)
- 1368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1133 PDF objects out of 1200 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
+ 1376 words of extra memory for PDF output out of 10000 (max. 10000000)
 

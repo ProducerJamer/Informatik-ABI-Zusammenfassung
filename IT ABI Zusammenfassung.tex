@@ -1251,21 +1251,107 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
 
 \subsection{Netzwerkkomponenten}
 
+\subsubsection{Port}
+    Ein Port ist der Teil einer Netzwerk-Adresse, der die Zuordnung von TCP- und UDP-Verbindungen und -Datenpaketen zu Server- und Client-Programmen durch Betriebssysteme bewirkt. Zu jeder Verbindung dieser beiden Protokolle gehören zwei Ports, je einer auf Seiten des Clients und des Servers.
+
 \subsubsection{Client}
+    Der Client stellt einen Rechner im Netz dar. Er simuliert einen Computer an einem gewissen Standpunkt. Der Client besitzt eine Network-Interface-Card.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black](-1.4, -1) rectangle (1.4,1);
+                \draw[black](-1.1, -0.8) rectangle (1.1,0.8);
+                \node at (0,0){\textbf{Client}};
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
+
+\subsubsection{Netzwerkkarte}
+    Eine Netzwerkkarte besitzt eine individuelle MAC-Adresse und befindet sich in eigentlich jedem Rechner. Sie stellt die Verbindung zwischen dem Rechner und dem Netzwerkmedium dar. Außerdem verfügt sie über eine Netzwerk-Schnittstelle.
 
 \subsubsection{Repeater}
+    Der Repeater hat jeweils einen Eingang und einen Ausgang. Er verstärkt Signale durch regenerieren/synchronisieren des Taktes. Dazu arbeitet er auf Bitebene und verursacht eine kleine Latenz.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black](-1.4, -1) rectangle (1.4,1);
+                \draw [<->, black, very thick](-1,0) to(1,0);
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
 
 \subsubsection{HUB}
+    Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und arbeitet auch auf Bitebene.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black](-1.4, -1) rectangle (1.4,1);
+                \draw [<->, black, very thick](-1,0) to(1,0);
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
 
 \subsubsection{Bridge}
+    Die Bridge fungiert als Brücke zwischen zwei LAN-Netzwerken. Sie kennt die relevanten MAC-Adressen in beiden Netzen und verbindet so die Netze miteinander.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black](-1.4, -1) rectangle (1.4,1);
+                \draw [->, black, very thick](-1,0.2) to(-0.2,0.2);
+                \draw [->, black, very thick](-1,-0.4) to(-0.2,-0.4);
+                \draw [->, black, very thick](1,0.4) to(0.2,0.4);
+                \draw [->, black, very thick](1,-0.2) to(0.2,-0.2);
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
 
 \subsubsection{Switch}
-
-\subsubsection{Port}
+    Der Switch ist eine Multiport-Bridge. D.h. er hat mehrere Ein- und Ausgänge und verbindet so mehrere Netzwerke miteinander. Er verwendet Filtertabellen um den schnellsten Weg für Signale zu finden. Er arbeitet ebenso mit MAC-Adressen.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black](-1.4, -1) rectangle (1.4,1);
+                \draw [->, black, very thick](-1,0.2) to(-0.2,0.2);
+                \draw [->, black, very thick](-1,-0.4) to(-0.2,-0.4);
+                \draw [->, black, very thick](1,0.4) to(0.2,0.4);
+                \draw [->, black, very thick](1,-0.2) to(0.2,-0.2);
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
 
 \subsubsection{Router}
+    Der Router verbindet Netzwerke indem er Datenpackete weiterleitet oder blockiert. Er arbeitet mit IP-Adressen und wird oft auch als intelligenter Switch bezeichnet. Der Router wird für das gesamte Netz verwendet.
+    \begin{figure}[h]
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black, very thick](0, 0) circle (1.6);
+                \draw [->, black, very thick, line width=1mm](-1,1) to(-0.2,0.2);
+                \draw [->, black, very thick, line width=1mm](1,-1) to(0.2,-0.2);
+                \draw [->, black, very thick, line width=1mm](0.2, 0.2) to(1,1);
+                \draw [->, black, very thick, line width=1mm](-0.2,-0.2) to(-1,-1);
+            \end{tikzpicture}
+        \end{center}
+    \end{figure}
 
 \subsubsection{Einordnung der Komponenten ins OSI-Modell}
+    Die Netzwerkkomponenten lassen sich in die Schichten 1 bis 4 einordnen. Die Schicht 1 beinhaltet alle Kabel(Kupferkabel, Ethernetkabel, Glasfaserkabel) und den Repeater. Zu Schicht 2 gehören Switches und Bridges. In Schicht 3 ist der Router und in Schicht 4 handelt es sich um die Netzwerkkarte und die Ports.
+    \begin{center}
+        \begin{table}
+            \begin{tabularx}{17cm}{|c|X|X|}
+                \hline
+                \textbf{Nummer} & \textbf{Bezeichnung} & \textbf{Komponenten}\\
+                \hline
+                1 & Bitübertragungsschicht & Repeater, Kabel\\
+                \hline
+                2 & Sicherungsschicht & Switches, Bridges\\
+                \hline
+                3 & Vermittlungsschicht & Router\\
+                \hline
+                4 & Transportschicht & Netzwerkkarte, Ports\\
+                \hline
+            \end{tabularx}
+        \end{table}
+    \end{center}
 
 \subsection{Round Trip Delay Time - RTDT}
     Die Paketumlaufzeit bzw. Round Trip Time gibt die Zeit an, die ein Datenpaket in einem Rechnernetz benötigt, um von der weitesten entfernten Quelle zum Ziel und zurück zu reisen. Es handelt sich also um die Summe aus Laufzeit von Punkt A nach Punkt B und der Laufzeit von Punkt B nach Punkt A.
