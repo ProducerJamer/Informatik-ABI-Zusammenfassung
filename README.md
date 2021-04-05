@@ -5,7 +5,7 @@ Zur besseren Übersichtlichkeit bitte an folgende Regeln halten:
 
 1. Ein \begin{} bedeutet tab in der nächsten Zeile.
 2. vor einer neuen \section{} oder \subsection{} einmal enter.
-3. Ein \end{} bedeutet back-tab in der nächsten Zeile.
+3. Ein \end{} bedeutet gleiche Höhe in der nächsten Zeile.
 
 Beispiel:
 ```tex
