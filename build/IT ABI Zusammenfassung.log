@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  5 APR 2021 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  5 APR 2021 16:43
 entering extended mode
 **"./IT ABI Zusammenfassung.tex"
 ("IT ABI Zusammenfassung.tex"
@@ -1863,29 +1863,19 @@ File: Bilder/BSZLOGO.png Graphic file (type png)
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2014.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [36]
-<Bilder/Impulsdiagramm.png, id=1017, 477.785pt x 368.37625pt>
-File: Bilder/Impulsdiagramm.png Graphic file (type png)
-<use Bilder/Impulsdiagramm.png>
-Package pdftex.def Info: Bilder/Impulsdiagramm.png  used on input line 2173.
-(pdftex.def)             Requested size: 477.78383pt x 368.37534pt.
-
-Overfull \hbox (235.9354pt too wide) in paragraph at lines 2173--2174
-[][] 
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2176.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2245.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[37]
+ [37]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2207.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2278.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [38 <./Bilder/Impulsdiagramm.png>]
+ [38]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2292.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2363.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [39]
 
@@ -1899,27 +1889,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2371.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2442.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [40]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2443.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [41]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2443.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [42]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2443.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [43]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2443.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [44] ("IT ABI Zusammenfassung.aux")
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not change
@@ -1927,33 +1917,35 @@ d.
 (rerunfilecheck)             Checksum: 1E0A261A87192011FFD5F85A46D7621B;22647.
  ) 
 Here is how much of TeX's memory you used:
- 30978 strings out of 480236
- 746610 string characters out of 2880557
- 1177173 words of memory out of 3000000
- 46738 multiletter control sequences out of 15000+200000
+ 30974 strings out of 480236
+ 746475 string characters out of 2880557
+ 1184173 words of memory out of 3000000
+ 46735 multiletter control sequences out of 15000+200000
  588646 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,17n,105p,975b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx1
 2.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmex10.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/janni/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/janni/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/janni/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/janni/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
-s/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/U
-sers/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><
-C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pf
-b><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
+/cm/cmbx8.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/janni/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/janni/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/janni/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/janni/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
+vetic/uhvb8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
+helvetic/uhvbo8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/
+urw/helvetic/uhvr8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb>
 Output written on "C:\Users\janni\OneDrive\Dokumente\GitHub\Informatik-ABI-Zusa
-mmenfassung\build\IT ABI Zusammenfassung.pdf" (44 pages, 645989 bytes).
+mmenfassung\build\IT ABI Zusammenfassung.pdf" (44 pages, 651925 bytes).
 PDF statistics:
- 1143 PDF objects out of 1200 (max. 8388607)
+ 1149 PDF objects out of 1200 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
- 1381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1376 words of extra memory for PDF output out of 10000 (max. 10000000)
 
