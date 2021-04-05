@@ -1657,7 +1657,6 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 \subsection{Einfache Bauteile}
     \subsubsection{NOT}
         Das Not(Negation)-Bauteil negiert das Signal. Somit wird eine Eins zur Null und Nullen werden zu Einsen.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1679,11 +1678,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-1){1};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
     \subsubsection{AND}
         Das AND-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird nur Eins, wenn beide Eingangssignale auf Eins standen.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1717,11 +1714,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){1};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
     \subsubsection{OR}
         Das OR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn mindestens einer der Beide Eingangssignale auf Eins steht.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1755,11 +1750,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){1};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
     \subsubsection{NAND}
         Das NAND-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn mindestens einer der beiden Eingangssignale auf Null steht.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1794,11 +1787,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){0};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
     \subsubsection{NOR}
         Das NOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn beide Eingangssignale auf Null steht.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1833,11 +1824,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){0};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
     
     \subsubsection{XOR}
         Das XOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die Eingangssignale ungleich sind.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1872,11 +1861,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){0};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
     \subsubsection{XNOR}
         Das XNOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die beiden Eingangssignale gleich stehen.
-        \begin{figure}[h]
             \begin{center}
                 \begin{tikzpicture}
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
@@ -1911,11 +1898,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){1};
                 \end{tikzpicture}
             \end{center}
-        \end{figure}
 
 \subsection{Wahrheitstabelle}
     Die Wahrheitstabelle stellt alle möglichen Zustände einer Schaltung dar. Sie sieht für folgende Schaltung folgendermaßen aus:
-    \begin{figure}[h]
         \begin{center}
             \begin{tikzpicture}
                 \draw[black,very thick] (-8,-1) rectangle (-6,1);
@@ -1986,12 +1971,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                 \node at (5,-3.5){1};
             \end{tikzpicture}
         \end{center}
-    \end{figure}
 
 \subsection{KV-Diagramm}
-    Die Nummern im KV-Diagramm ergeben den dezimalen Wert, des entstehenden Binärcodes(siehe Wahrheitstabelle). Die Disjunktiven Normalformen der Schaltfunktionen lassen sich mit dem KV-Diagramm erheblich leichter kürzen! Man sucht aneinander liegende Einsen und bestimmt deren Gemeinsamkeiten. Jede „1“ darf nur in einem Größeren Bereich verwendet werden, somit müssen möglichst viele Felder zu Einem gruppiert werden.\newline
-    
-    \begin{figure}[h]
+    Die Nummern im KV-Diagramm ergeben den dezimalen Wert, des entstehenden Binärcodes(siehe Wahrheitstabelle). Die Disjunktiven Normalformen der Schaltfunktionen lassen sich mit dem KV-Diagramm erheblich leichter kürzen! Man sucht aneinander liegende Einsen und bestimmt deren Gemeinsamkeiten. Jede „1“ darf nur in einem Größeren Bereich verwendet werden, somit müssen möglichst viele Felder zu Einem gruppiert werden.
         \begin{center}
             \begin{tikzpicture}
                 \draw[black,very thick](1,-5) rectangle (5,-1);
@@ -2030,10 +2012,8 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                 \node[red] at (4.5,-4.5){0};
             \end{tikzpicture}
         \end{center}
-    \end{figure}
     \textbf{Beispiel:}\\
     Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
-    \begin{figure}[h]
         \begin{center}
             \begin{tikzpicture}
                 \draw[black] (-7.5,0.5) -- (-2.5,0.5);
@@ -2180,7 +2160,6 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                 \node[green,very thick] at (3,-7){$Z=A \wedge B$};
             \end{tikzpicture}
         \end{center}
-    \end{figure}
 
 \subsubsection{Don't-Care-Positions}
     Don't-Care-Positions sind Zustände bei welchen der Zustandswert egal ist. Im KV-Diagramm wird hierfür ein X eingetragen. Don't-Care-Positions können auch mit als Kästen zusammengefasst werden.

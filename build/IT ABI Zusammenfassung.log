@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  5 APR 2021 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  5 APR 2021 15:20
 entering extended mode
 **"./IT ABI Zusammenfassung.tex"
 ("IT ABI Zusammenfassung.tex"
@@ -1848,54 +1848,44 @@ File: Bilder/BSZLOGO.png Graphic file (type png)
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1650.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [33 <./Bilder/Netzwerkklassen.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1798.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1752.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[34]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [34]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1915.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1863.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1992--1993
-
- []
-
+ [35]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1993.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2014.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[36]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2188.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [37]
-<Bilder/Impulsdiagramm.png, id=1023, 477.785pt x 368.37625pt>
+ [36]
+<Bilder/Impulsdiagramm.png, id=1017, 477.785pt x 368.37625pt>
 File: Bilder/Impulsdiagramm.png Graphic file (type png)
 <use Bilder/Impulsdiagramm.png>
-Package pdftex.def Info: Bilder/Impulsdiagramm.png  used on input line 2194.
+Package pdftex.def Info: Bilder/Impulsdiagramm.png  used on input line 2173.
 (pdftex.def)             Requested size: 477.78383pt x 368.37534pt.
 
-Overfull \hbox (235.9354pt too wide) in paragraph at lines 2194--2195
+Overfull \hbox (235.9354pt too wide) in paragraph at lines 2173--2174
 [][] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2228.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2176.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[38 <./Bilder/Impulsdiagramm.png>]
+[37]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2313.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2207.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+ [38 <./Bilder/Impulsdiagramm.png>]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2292.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [39]
 
@@ -1909,27 +1899,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2392.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2371.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [40]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2393.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [41]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2393.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [42]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2393.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [43]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2393.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [44] ("IT ABI Zusammenfassung.aux")
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not change
@@ -1961,7 +1951,7 @@ C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pf
 b><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
 Output written on "C:\Users\janni\OneDrive\Dokumente\GitHub\Informatik-ABI-Zusa
-mmenfassung\build\IT ABI Zusammenfassung.pdf" (44 pages, 645928 bytes).
+mmenfassung\build\IT ABI Zusammenfassung.pdf" (44 pages, 645989 bytes).
 PDF statistics:
  1143 PDF objects out of 1200 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
