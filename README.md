@@ -10,14 +10,14 @@ Zur besseren Übersichtlichkeit bitte an folgende Regeln halten:
 Beispiel:
 ```tex
 \section{Zahlensysteme}
-	\begin{minipage}{.49\textwidth}
+\begin{minipage}{.49\textwidth}
 	
-		\subsection{Dezimalsystem}
-			\begin{tabularx}{9cm}{XX}
-				Nennwerte:&0,1,[\dots],8,9\\
-				Basis:&10\\
-				Größter Nennwert:&9\\
-			\end{tabularx}\newline
+	\subsection{Dezimalsystem}
+		\begin{tabularx}{9cm}{XX}
+			Nennwerte:&0,1,[\dots],8,9\\
+			Basis:&10\\
+			Größter Nennwert:&9\\
+		\end{tabularx}\newline
 		\begin{center}
     			\begin{tabular}{|c|c|}
         			\hline
@@ -46,5 +46,5 @@ Beispiel:
         			\hline
     			\end{tabular}
     		\end{center}
-	\end{minipage}
+\end{minipage}
 ```
