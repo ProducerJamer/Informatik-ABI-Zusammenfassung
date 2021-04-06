@@ -2333,11 +2333,13 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Schaltwerke besitzen Speicherverhalten, d.h. der Ausgabewert hängt nicht nur von der Eingabe, sondern auch vom Zustand des Schaltwerks ab.
 
 \subsection{Taktgeber}
-    Der Taktgeber
+    Der Taktgeber gibt einen Takt. Dieser wechselt zwischen Einsen und Nullen. Meist wird die Geschwindigkeit als Frequenz angegeben. Die Zeit $t$ wird berechnet durch: $t=\frac{1}{f}$
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-1.5,-1) rectangle (0.5,1);
             \draw[black,very thick](0.5,0) -- (1.5,0);
+            \draw[black,very thick](-1,-0.3)--(-0.8,-0.3)--(-0.8,-0.1)--(-0.6,-0.1)--(-0.6,-0.3)--(-0.4,-0.3)--(-0.4,-0.1)--(-0.2,-0.1)--(-0.2,-0.3)--(0,-0.3);
+            \node at (-0.5,0.5){10Hz};
         \end{tikzpicture}
     \end{center}
 
