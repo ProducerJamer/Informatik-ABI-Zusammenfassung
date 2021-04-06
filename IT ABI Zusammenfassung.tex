@@ -1864,302 +1864,302 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 
     \subsubsection{XNOR}
         Das XNOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die beiden Eingangssignale gleich stehen.
-            \begin{center}
-                \begin{tikzpicture}
-                    \draw[black,very thick] (-5,-1) rectangle (-3,1);
-                    \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
-                    \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
-                    \draw[black,very thick] (-2.8, 0) circle (0.2);
-                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
-                    \node at (-4,0){\textbf{=}};
-                    \node at (-6.5,0.5){\textbf{A}};
-                    \node at (-6.5,-0.5){\textbf{B}};
-                    \node at (-1.5,0){\textbf{Z}};
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black,very thick] (-5,-1) rectangle (-3,1);
+                \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
+                \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
+                \draw[black,very thick] (-2.8, 0) circle (0.2);
+                \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                \node at (-4,0){\textbf{=}};
+                \node at (-6.5,0.5){\textbf{A}};
+                \node at (-6.5,-0.5){\textbf{B}};
+                \node at (-1.5,0){\textbf{Z}};
 
-                    \draw[black] (1.5,1.5) -- (4.5,1.5);
-                    \draw[black] (1.5,0.5) -- (4.5,0.5);
-                    \draw[black] (1.5,-0.5) -- (4.5,-0.5);
-                    \draw[black] (1.5,-1.5) -- (4.5,-1.5);
-                    \draw[black] (3.5,2.5) -- (3.5,-2.5);
-                    \node at (2,2){\textbf{A}};
-                    \node at (3,2){\textbf{B}};
-                    \node at (4,2){\textbf{Z}};
-                    \node at (2,1){0};
-                    \node at (3,1){0};
-                    \node at (4,1){1};
-                    \node at (2,0){0};
-                    \node at (3,0){1};
-                    \node at (4,0){0};
-                    \node at (2,-1){1};
-                    \node at (3,-1){0};
-                    \node at (4,-1){0};
-                    \node at (2,-2){1};
-                    \node at (3,-2){1};
-                    \node at (4,-2){1};
-                \end{tikzpicture}
-            \end{center}
+                \draw[black] (1.5,1.5) -- (4.5,1.5);
+                \draw[black] (1.5,0.5) -- (4.5,0.5);
+                \draw[black] (1.5,-0.5) -- (4.5,-0.5);
+                \draw[black] (1.5,-1.5) -- (4.5,-1.5);
+                \draw[black] (3.5,2.5) -- (3.5,-2.5);
+                \node at (2,2){\textbf{A}};
+                \node at (3,2){\textbf{B}};
+                \node at (4,2){\textbf{Z}};
+                \node at (2,1){0};
+                \node at (3,1){0};
+                \node at (4,1){1};
+                \node at (2,0){0};
+                \node at (3,0){1};
+                \node at (4,0){0};
+                \node at (2,-1){1};
+                \node at (3,-1){0};
+                \node at (4,-1){0};
+                \node at (2,-2){1};
+                \node at (3,-2){1};
+                \node at (4,-2){1};
+            \end{tikzpicture}
+        \end{center}
 
 \subsection{Wahrheitstabelle}
     Die Wahrheitstabelle stellt alle möglichen Zustände einer Schaltung dar. Sie sieht für folgende Schaltung folgendermaßen aus:
-        \begin{center}
-            \begin{tikzpicture}
-                \draw[black,very thick] (-8,-1) rectangle (-6,1);
-                \draw[black,very thick] (-9, 0.5) -- (-8,0.5);
-                \draw[black,very thick] (-9, -0.5) -- (-8,-0.5);
-                \draw[black,very thick] (-6, 0) -- (-4,0);
-                \node at (-7,0){\textbf{\&}};
-                \node at (-9.5,0.5){\textbf{A}};
-                \node at (-9.5,-0.5){\textbf{B}};
-                \node at (-5.5,0.5){\textbf{X}};
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick] (-8,-1) rectangle (-6,1);
+            \draw[black,very thick] (-9, 0.5) -- (-8,0.5);
+            \draw[black,very thick] (-9, -0.5) -- (-8,-0.5);
+            \draw[black,very thick] (-6, 0) -- (-4,0);
+            \node at (-7,0){\textbf{\&}};
+            \node at (-9.5,0.5){\textbf{A}};
+            \node at (-9.5,-0.5){\textbf{B}};
+            \node at (-5.5,0.5){\textbf{X}};
 
-                \draw[black,very thick] (-7,-4) rectangle (-5,-2);
-                \draw[black,very thick] (-8.5, -2.5) -- (-8.5,-0.5);
-                \filldraw[black, very thick](-8.5,-0.5) circle(0.1);
-                \draw[black,very thick] (-8.5, -2.5) -- (-7,-2.5);
-                \draw[black,very thick] (-9, -3.5) -- (-7,-3.5);
-                \draw[black,very thick] (-5, -3) -- (-4,-3);
-                \node at (-6,-3){\textbf{$\geq 1$}};
-                \node at (-9.5,-3.5){\textbf{C}};
-                \node at (-4.5,-2.5){\textbf{Y}};
+            \draw[black,very thick] (-7,-4) rectangle (-5,-2);
+            \draw[black,very thick] (-8.5, -2.5) -- (-8.5,-0.5);
+            \filldraw[black, very thick](-8.5,-0.5) circle(0.1);
+            \draw[black,very thick] (-8.5, -2.5) -- (-7,-2.5);
+            \draw[black,very thick] (-9, -3.5) -- (-7,-3.5);
+            \draw[black,very thick] (-5, -3) -- (-4,-3);
+            \node at (-6,-3){\textbf{$\geq 1$}};
+            \node at (-9.5,-3.5){\textbf{C}};
+            \node at (-4.5,-2.5){\textbf{Y}};
 
-                \draw[black,very thick] (-3.5,-3) rectangle (-1.5,-1);
-                \draw[black,very thick] (-1.5,-2) -- (-0.5,-2);
-                \draw[black,very thick] (-4,-3) -- (-4,-2.5);
-                \draw[black,very thick] (-4,-2.5) -- (-3.5,-2.5);
-                \draw[black,very thick] (-4,0) -- (-4,-1.5);
-                \draw[black,very thick] (-4,-1.5) -- (-3.5,-1.5);
-                \node at (-2.5,-2){\textbf{\&}};
-                \node at (0,-2){\textbf{Z}};
+            \draw[black,very thick] (-3.5,-3) rectangle (-1.5,-1);
+            \draw[black,very thick] (-1.5,-2) -- (-0.5,-2);
+            \draw[black,very thick] (-4,-3) -- (-4,-2.5);
+            \draw[black,very thick] (-4,-2.5) -- (-3.5,-2.5);
+            \draw[black,very thick] (-4,0) -- (-4,-1.5);
+            \draw[black,very thick] (-4,-1.5) -- (-3.5,-1.5);
+            \node at (-2.5,-2){\textbf{\&}};
+            \node at (0,-2){\textbf{Z}};
 
-                \draw[black] (1.5,0.5) -- (5.5,0.5);
-                \draw[black] (4.5,1.5) -- (4.5,-4);
-                \node at (2,1){\textbf{C}};
-                \node at (3,1){\textbf{B}};
-                \node at (4,1){\textbf{A}};
-                \node at (5,1){\textbf{Z}};
-                \node at (2,0){0};
-                \node at (3,0){0};
-                \node at (4,0){0};
-                \node at (5,0){0};
-                \node at (2,-0.5){0};
-                \node at (3,-0.5){0};
-                \node at (4,-0.5){1};
-                \node at (5,-0.5){0};
-                \node at (2,-1){0};
-                \node at (3,-1){1};
-                \node at (4,-1){0};
-                \node at (5,-1){0};
-                \node at (2,-1.5){0};
-                \node at (3,-1.5){1};
-                \node at (4,-1.5){1};
-                \node at (5,-1.5){1};
-                \node at (2,-2){1};
-                \node at (3,-2){0};
-                \node at (4,-2){0};
-                \node at (5,-2){0};
-                \node at (2,-2.5){1};
-                \node at (3,-2.5){0};
-                \node at (4,-2.5){1};
-                \node at (5,-2.5){0};
-                \node at (2,-3){1};
-                \node at (3,-3){1};
-                \node at (4,-3){0};
-                \node at (5,-3){0};
-                \node at (2,-3.5){1};
-                \node at (3,-3.5){1};
-                \node at (4,-3.5){1};
-                \node at (5,-3.5){1};
-            \end{tikzpicture}
-        \end{center}
+            \draw[black] (1.5,0.5) -- (5.5,0.5);
+            \draw[black] (4.5,1.5) -- (4.5,-4);
+            \node at (2,1){\textbf{C}};
+            \node at (3,1){\textbf{B}};
+            \node at (4,1){\textbf{A}};
+            \node at (5,1){\textbf{Z}};
+            \node at (2,0){0};
+            \node at (3,0){0};
+            \node at (4,0){0};
+            \node at (5,0){0};
+            \node at (2,-0.5){0};
+            \node at (3,-0.5){0};
+            \node at (4,-0.5){1};
+            \node at (5,-0.5){0};
+            \node at (2,-1){0};
+            \node at (3,-1){1};
+            \node at (4,-1){0};
+            \node at (5,-1){0};
+            \node at (2,-1.5){0};
+            \node at (3,-1.5){1};
+            \node at (4,-1.5){1};
+            \node at (5,-1.5){1};
+            \node at (2,-2){1};
+            \node at (3,-2){0};
+            \node at (4,-2){0};
+            \node at (5,-2){0};
+            \node at (2,-2.5){1};
+            \node at (3,-2.5){0};
+            \node at (4,-2.5){1};
+            \node at (5,-2.5){0};
+            \node at (2,-3){1};
+            \node at (3,-3){1};
+            \node at (4,-3){0};
+            \node at (5,-3){0};
+            \node at (2,-3.5){1};
+            \node at (3,-3.5){1};
+            \node at (4,-3.5){1};
+            \node at (5,-3.5){1};
+        \end{tikzpicture}
+    \end{center}
 
 \subsection{KV-Diagramm}
     Die Nummern im KV-Diagramm ergeben den dezimalen Wert, des entstehenden Binärcodes(siehe Wahrheitstabelle). Die Disjunktiven Normalformen der Schaltfunktionen lassen sich mit dem KV-Diagramm erheblich leichter kürzen! Man sucht aneinander liegende Einsen und bestimmt deren Gemeinsamkeiten. Jede „1“ darf nur in einem Größeren Bereich verwendet werden, somit müssen möglichst viele Felder zu Einem gruppiert werden.
-        \begin{center}
-            \begin{tikzpicture}
-                \draw[black,very thick](1,-5) rectangle (5,-1);
-                \draw[black,very thick](1,-2) -- (6,-2);
-                \draw[black,very thick](0,-3) -- (5,-3);
-                \draw[black,very thick](1,-4) -- (6,-4);
-                \draw[black,very thick](2,-1) -- (2,-6);
-                \draw[black,very thick](3,0) -- (3,-5);
-                \draw[black,very thick](4,-1) -- (4,-6);
-                \node at (2,-0.5){A};
-                \node at (4,-0.5){$\mathbf{\bar{A}}$};
-                \node at (0.5,-2){B};
-                \node at (0.5,-4){$\mathbf{\bar{B}}$};
-                \node at (3,-5.5){C};
-                \node at (1.5,-5.5){$\mathbf{\bar{C}}$};
-                \node at (4.5,-5.5){$\mathbf{\bar{C}}$};
-                \node at (5.5,-3){D};
-                \node at (5.5,-1.5){$\mathbf{\bar{D}}$};
-                \node at (5.5,-4.5){$\mathbf{\bar{D}}$};
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](1,-5) rectangle (5,-1);
+            \draw[black,very thick](1,-2) -- (6,-2);
+            \draw[black,very thick](0,-3) -- (5,-3);
+            \draw[black,very thick](1,-4) -- (6,-4);
+            \draw[black,very thick](2,-1) -- (2,-6);
+            \draw[black,very thick](3,0) -- (3,-5);
+            \draw[black,very thick](4,-1) -- (4,-6);
+            \node at (2,-0.5){A};
+            \node at (4,-0.5){$\mathbf{\bar{A}}$};
+            \node at (0.5,-2){B};
+            \node at (0.5,-4){$\mathbf{\bar{B}}$};
+            \node at (3,-5.5){C};
+            \node at (1.5,-5.5){$\mathbf{\bar{C}}$};
+            \node at (4.5,-5.5){$\mathbf{\bar{C}}$};
+            \node at (5.5,-3){D};
+            \node at (5.5,-1.5){$\mathbf{\bar{D}}$};
+            \node at (5.5,-4.5){$\mathbf{\bar{D}}$};
 
-                \node[red] at (1.5,-1.5){3};
-                \node[red] at (2.5,-1.5){7};
-                \node[red] at (3.5,-1.5){6};
-                \node[red] at (4.5,-1.5){2};
-                \node[red] at (1.5,-2.5){11};
-                \node[red] at (2.5,-2.5){15};
-                \node[red] at (3.5,-2.5){14};
-                \node[red] at (4.5,-2.5){10};
-                \node[red] at (1.5,-3.5){9};
-                \node[red] at (2.5,-3.5){13};
-                \node[red] at (3.5,-3.5){12};
-                \node[red] at (4.5,-3.5){8};
-                \node[red] at (1.5,-4.5){1};
-                \node[red] at (2.5,-4.5){5};
-                \node[red] at (3.5,-4.5){4};
-                \node[red] at (4.5,-4.5){0};
-            \end{tikzpicture}
-        \end{center}
-    \textbf{Beispiel:}\\
-    Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
-        \begin{center}
-            \begin{tikzpicture}
-                \draw[black] (-7.5,0.5) -- (-2.5,0.5);
-                \draw[black] (-3.5,1.5) -- (-3.5,-8);
-                \node at (-7,1){\textbf{D}};
-                \node at (-6,1){\textbf{C}};
-                \node at (-5,1){\textbf{B}};
-                \node at (-4,1){\textbf{A}};
-                \node at (-3,1){\textbf{Z}};
-                \node at (-7,0){0};
-                \node at (-6,0){0};
-                \node at (-5,0){0};
-                \node at (-4,0){0};
-                \node at (-3,0){0};
-                \node at (-7,-0.5){0};
-                \node at (-6,-0.5){0};
-                \node at (-5,-0.5){0};
-                \node at (-4,-0.5){1};
-                \node at (-3,-0.5){0};
-                \node at (-7,-1){0};
-                \node at (-6,-1){0};
-                \node at (-5,-1){1};
-                \node at (-4,-1){0};
-                \node at (-3,-1){0};
-                \node at (-7,-1.5){0};
-                \node at (-6,-1.5){0};
-                \node at (-5,-1.5){1};
-                \node at (-4,-1.5){1};
-                \node at (-3,-1.5){1};
-                \node at (-7,-2){0};
-                \node at (-6,-2){1};
-                \node at (-5,-2){0};
-                \node at (-4,-2){0};
-                \node at (-3,-2){0};
-                \node at (-7,-2.5){0};
-                \node at (-6,-2.5){1};
-                \node at (-5,-2.5){0};
-                \node at (-4,-2.5){1};
-                \node at (-3,-2.5){0};
-                \node at (-7,-3){0};
-                \node at (-6,-3){1};
-                \node at (-5,-3){1};
-                \node at (-4,-3){0};
-                \node at (-3,-3){0};
-                \node at (-7,-3.5){0};
-                \node at (-6,-3.5){1};
-                \node at (-5,-3.5){1};
-                \node at (-4,-3.5){1};
-                \node at (-3,-3.5){1};
-                \node at (-7,-4){1};
-                \node at (-6,-4){0};
-                \node at (-5,-4){0};
-                \node at (-4,-4){0};
-                \node at (-3,-4){0};
-                \node at (-7,-4.5){1};
-                \node at (-6,-4.5){0};
-                \node at (-5,-4.5){0};
-                \node at (-4,-4.5){1};
-                \node at (-3,-4.5){0};
-                \node at (-7,-5){1};
-                \node at (-6,-5){0};
-                \node at (-5,-5){1};
-                \node at (-4,-5){0};
-                \node at (-3,-5){0};
-                \node at (-7,-5.5){1};
-                \node at (-6,-5.5){0};
-                \node at (-5,-5.5){1};
-                \node at (-4,-5.5){1};
-                \node at (-3,-5.5){1};
-                \node at (-7,-6){1};
-                \node at (-6,-6){1};
-                \node at (-5,-6){0};
-                \node at (-4,-6){0};
-                \node at (-3,-6){0};
-                \node at (-7,-6.5){1};
-                \node at (-6,-6.5){1};
-                \node at (-5,-6.5){0};
-                \node at (-4,-6.5){1};
-                \node at (-3,-6.5){0};
-                \node at (-7,-7){1};
-                \node at (-6,-7){1};
-                \node at (-5,-7){1};
-                \node at (-4,-7){0};
-                \node at (-3,-7){0};
-                \node at (-7,-7.5){1};
-                \node at (-6,-7.5){1};
-                \node at (-5,-7.5){1};
-                \node at (-4,-7.5){1};
-                \node at (-3,-7.5){1};
+            \node[red] at (1.5,-1.5){3};
+            \node[red] at (2.5,-1.5){7};
+            \node[red] at (3.5,-1.5){6};
+            \node[red] at (4.5,-1.5){2};
+            \node[red] at (1.5,-2.5){11};
+            \node[red] at (2.5,-2.5){15};
+            \node[red] at (3.5,-2.5){14};
+            \node[red] at (4.5,-2.5){10};
+            \node[red] at (1.5,-3.5){9};
+            \node[red] at (2.5,-3.5){13};
+            \node[red] at (3.5,-3.5){12};
+            \node[red] at (4.5,-3.5){8};
+            \node[red] at (1.5,-4.5){1};
+            \node[red] at (2.5,-4.5){5};
+            \node[red] at (3.5,-4.5){4};
+            \node[red] at (4.5,-4.5){0};
+        \end{tikzpicture}
+    \end{center}
+\textbf{Beispiel:}\\
+Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black] (-7.5,0.5) -- (-2.5,0.5);
+            \draw[black] (-3.5,1.5) -- (-3.5,-8);
+            \node at (-7,1){\textbf{D}};
+            \node at (-6,1){\textbf{C}};
+            \node at (-5,1){\textbf{B}};
+            \node at (-4,1){\textbf{A}};
+            \node at (-3,1){\textbf{Z}};
+            \node at (-7,0){0};
+            \node at (-6,0){0};
+            \node at (-5,0){0};
+            \node at (-4,0){0};
+            \node at (-3,0){0};
+            \node at (-7,-0.5){0};
+            \node at (-6,-0.5){0};
+            \node at (-5,-0.5){0};
+            \node at (-4,-0.5){1};
+            \node at (-3,-0.5){0};
+            \node at (-7,-1){0};
+            \node at (-6,-1){0};
+            \node at (-5,-1){1};
+            \node at (-4,-1){0};
+            \node at (-3,-1){0};
+            \node at (-7,-1.5){0};
+            \node at (-6,-1.5){0};
+            \node at (-5,-1.5){1};
+            \node at (-4,-1.5){1};
+            \node at (-3,-1.5){1};
+            \node at (-7,-2){0};
+            \node at (-6,-2){1};
+            \node at (-5,-2){0};
+            \node at (-4,-2){0};
+            \node at (-3,-2){0};
+            \node at (-7,-2.5){0};
+            \node at (-6,-2.5){1};
+            \node at (-5,-2.5){0};
+            \node at (-4,-2.5){1};
+            \node at (-3,-2.5){0};
+            \node at (-7,-3){0};
+            \node at (-6,-3){1};
+            \node at (-5,-3){1};
+            \node at (-4,-3){0};
+            \node at (-3,-3){0};
+            \node at (-7,-3.5){0};
+            \node at (-6,-3.5){1};
+            \node at (-5,-3.5){1};
+            \node at (-4,-3.5){1};
+            \node at (-3,-3.5){1};
+            \node at (-7,-4){1};
+            \node at (-6,-4){0};
+            \node at (-5,-4){0};
+            \node at (-4,-4){0};
+            \node at (-3,-4){0};
+            \node at (-7,-4.5){1};
+            \node at (-6,-4.5){0};
+            \node at (-5,-4.5){0};
+            \node at (-4,-4.5){1};
+            \node at (-3,-4.5){0};
+            \node at (-7,-5){1};
+            \node at (-6,-5){0};
+            \node at (-5,-5){1};
+            \node at (-4,-5){0};
+            \node at (-3,-5){0};
+            \node at (-7,-5.5){1};
+            \node at (-6,-5.5){0};
+            \node at (-5,-5.5){1};
+            \node at (-4,-5.5){1};
+            \node at (-3,-5.5){1};
+            \node at (-7,-6){1};
+            \node at (-6,-6){1};
+            \node at (-5,-6){0};
+            \node at (-4,-6){0};
+            \node at (-3,-6){0};
+            \node at (-7,-6.5){1};
+            \node at (-6,-6.5){1};
+            \node at (-5,-6.5){0};
+            \node at (-4,-6.5){1};
+            \node at (-3,-6.5){0};
+            \node at (-7,-7){1};
+            \node at (-6,-7){1};
+            \node at (-5,-7){1};
+            \node at (-4,-7){0};
+            \node at (-3,-7){0};
+            \node at (-7,-7.5){1};
+            \node at (-6,-7.5){1};
+            \node at (-5,-7.5){1};
+            \node at (-4,-7.5){1};
+            \node at (-3,-7.5){1};
 
-                \node[red] at (-8,0){0};
-                \node[red] at (-8,-0.5){1};
-                \node[red] at (-8,-1){2};
-                \node[red] at (-8,-1.5){3};
-                \node[red] at (-8,-2){4};
-                \node[red] at (-8,-2.5){5};
-                \node[red] at (-8,-3){6};
-                \node[red] at (-8,-3.5){7};
-                \node[red] at (-8,-4){8};
-                \node[red] at (-8,-4.5){9};
-                \node[red] at (-8,-5){10};
-                \node[red] at (-8,-5.5){11};
-                \node[red] at (-8,-6){12};
-                \node[red] at (-8,-6.5){13};
-                \node[red] at (-8,-7){14};
-                \node[red] at (-8,-7.5){15};
-                
-                \draw[black,very thick](1,-5) rectangle (5,-1);
-                \draw[black,very thick](1,-2) -- (6,-2);
-                \draw[black,very thick](0,-3) -- (5,-3);
-                \draw[black,very thick](1,-4) -- (6,-4);
-                \draw[black,very thick](2,-1) -- (2,-6);
-                \draw[black,very thick](3,0) -- (3,-5);
-                \draw[black,very thick](4,-1) -- (4,-6);
-                \node at (2,-0.5){A};
-                \node at (4,-0.5){$\mathbf{\bar{A}}$};
-                \node at (0.5,-2){B};
-                \node at (0.5,-4){$\mathbf{\bar{B}}$};
-                \node at (3,-5.5){C};
-                \node at (1.5,-5.5){$\mathbf{\bar{C}}$};
-                \node at (4.5,-5.5){$\mathbf{\bar{C}}$};
-                \node at (5.5,-3){D};
-                \node at (5.5,-1.5){$\mathbf{\bar{D}}$};
-                \node at (5.5,-4.5){$\mathbf{\bar{D}}$};
+            \node[red] at (-8,0){0};
+            \node[red] at (-8,-0.5){1};
+            \node[red] at (-8,-1){2};
+            \node[red] at (-8,-1.5){3};
+            \node[red] at (-8,-2){4};
+            \node[red] at (-8,-2.5){5};
+            \node[red] at (-8,-3){6};
+            \node[red] at (-8,-3.5){7};
+            \node[red] at (-8,-4){8};
+            \node[red] at (-8,-4.5){9};
+            \node[red] at (-8,-5){10};
+            \node[red] at (-8,-5.5){11};
+            \node[red] at (-8,-6){12};
+            \node[red] at (-8,-6.5){13};
+            \node[red] at (-8,-7){14};
+            \node[red] at (-8,-7.5){15};
+            
+            \draw[black,very thick](1,-5) rectangle (5,-1);
+            \draw[black,very thick](1,-2) -- (6,-2);
+            \draw[black,very thick](0,-3) -- (5,-3);
+            \draw[black,very thick](1,-4) -- (6,-4);
+            \draw[black,very thick](2,-1) -- (2,-6);
+            \draw[black,very thick](3,0) -- (3,-5);
+            \draw[black,very thick](4,-1) -- (4,-6);
+            \node at (2,-0.5){A};
+            \node at (4,-0.5){$\mathbf{\bar{A}}$};
+            \node at (0.5,-2){B};
+            \node at (0.5,-4){$\mathbf{\bar{B}}$};
+            \node at (3,-5.5){C};
+            \node at (1.5,-5.5){$\mathbf{\bar{C}}$};
+            \node at (4.5,-5.5){$\mathbf{\bar{C}}$};
+            \node at (5.5,-3){D};
+            \node at (5.5,-1.5){$\mathbf{\bar{D}}$};
+            \node at (5.5,-4.5){$\mathbf{\bar{D}}$};
 
-                \node at (1.5,-1.5){1};
-                \node at (2.5,-1.5){1};
-                \node at (3.5,-1.5){0};
-                \node at (4.5,-1.5){0};
-                \node at (1.5,-2.5){1};
-                \node at (2.5,-2.5){1};
-                \node at (3.5,-2.5){0};
-                \node at (4.5,-2.5){0};
-                \node at (1.5,-3.5){0};
-                \node at (2.5,-3.5){0};
-                \node at (3.5,-3.5){0};
-                \node at (4.5,-3.5){0};
-                \node at (1.5,-4.5){0};
-                \node at (2.5,-4.5){0};
-                \node at (3.5,-4.5){0};
-                \node at (4.5,-4.5){0};
+            \node at (1.5,-1.5){1};
+            \node at (2.5,-1.5){1};
+            \node at (3.5,-1.5){0};
+            \node at (4.5,-1.5){0};
+            \node at (1.5,-2.5){1};
+            \node at (2.5,-2.5){1};
+            \node at (3.5,-2.5){0};
+            \node at (4.5,-2.5){0};
+            \node at (1.5,-3.5){0};
+            \node at (2.5,-3.5){0};
+            \node at (3.5,-3.5){0};
+            \node at (4.5,-3.5){0};
+            \node at (1.5,-4.5){0};
+            \node at (2.5,-4.5){0};
+            \node at (3.5,-4.5){0};
+            \node at (4.5,-4.5){0};
 
-                \draw[green,very thick](1.2,-1.2) rectangle (2.8,-2.8);
-                \node[green,very thick] at (3,-7){$Z=A \wedge B$};
-            \end{tikzpicture}
-        \end{center}
+            \draw[green,very thick](1.2,-1.2) rectangle (2.8,-2.8);
+            \node[green,very thick] at (3,-7){$Z=A \wedge B$};
+        \end{tikzpicture}
+    \end{center}
 
 \subsubsection{Don't-Care-Positions}
     Don't-Care-Positions sind Zustände bei welchen der Zustandswert egal ist. Im KV-Diagramm wird hierfür ein X eingetragen. Don't-Care-Positions können auch mit als Kästen zusammengefasst werden.
@@ -2168,83 +2168,164 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     Die Disjunktive Normalform ist ein ungekürzter Term für die Bestimmung eines Ausgangssignales. Mit ihr kann das Ausgangssignal bei bekannten Eingangswerten bestimmt werden.
 
 \subsection{Impulsdiagramm}
-Das Impulsdiagramm zeigt die Highs und Lows der Ein- und Ausgänge, also quasi eine bildliche Wahrheitstabelle
-\begin{center}
-	\begin{minipage}{.45\textwidth}
-		\begin{center}
-			\begin{tikzpicture}
-				\draw(0,0)rectangle(7,-4);
-				\node at (0.7,-0.3){\textbf{ODER}};
-				\node at (1,-1.5){$X_1$};
-				\node at (1,-2.5){$X_2$};
-				\draw(1.5,-1.5)--(2.5,-1.5);
-				\draw(1.5,-2.5)--(2.5,-2.5);
-				\draw(2.5,-1)rectangle(4.5,-3);
-				\node at (3.5,-2){$\geqq$1};
-				\draw(4.5,-2)--(5.5,-2);
-				\node at (6,-2){Y};
-			\end{tikzpicture}
-			\begin{tikzpicture}
-				\draw(0,0)rectangle(7,-2);
-				\node at (0.8,-0.3){\textbf{Formel}};
-				\node at (3.5,-1){$\mathbf{Y = X_1 \lor X_2}$};
-			\end{tikzpicture}
-		\end{center}
-	\end{minipage}	   
-	\hspace{.5cm}
-	\begin{minipage}{.45\textwidth}
-		\begin{center}
-			\renewcommand{\arraystretch}{1.7}
-			\begin{tabularx}{\columnwidth}{|X|X|X|}
-				\hline
-				\multicolumn{3}{|l|}{Wahrheitstabelle}\\
-				\hline
-				Eingang&Eingang&Ausgang \\
-				$X_1$&$X_2$&Y \\
-				\hline
-				0&0&0 \\
-				\hline
-				0&1&1 \\
-				\hline
-				1&0&1 \\
-				\hline
-				1&1&1 \\
-				\hline
-			\end{tabularx}
-		\end{center}			
-	\end{minipage}\newline
-	\textcolor{white}{Abstandhalter}	
-	\begin{tikzpicture}
-		\draw(0,0)rectangle(15.7,-5.2);
-		\node at (1.8,-0.3){\textbf{Impulsdiagramm}};
-		\node at (1.75,-1.5){$X_1$};
-		\node at (1.75,-3){$X_2$};
-		\node at (1.75,-4.5){Y};
-		\draw[dotted, very thick](2.5,-2)--(13.5,-2);
-		\draw[dotted, very thick](2.5,-3.5)--(13.5,-3.5);
-		\draw[dotted, very thick](2.5,-5)--(13.5,-5);
-		\draw[dotted, very thick](2.5,-1)--(13.5,-1);
-		\draw[dotted, very thick](2.5,-2.5)--(13.5,-2.5);
-		\draw[dotted, very thick](2.5,-4)--(13.5,-4);
-		\node at (2.3,-2){0};
-		\node at (2.3,-1){1};
-		\node at (2.3,-3.5){0};
-		\node at (2.3,-2.5){1};
-		\node at (2.3,-5){0};
-		\node at (2.3,-4){1};
-		\draw[gray] (3,-1)--(3,-5);
-		\draw[gray] (5,-1)--(5,-5);
-		\draw[gray] (7,-1)--(7,-5);
-		\draw[gray] (9,-1)--(9,-5);
-		\draw[gray] (11,-1)--(11,-5);
-		\draw[gray] (13,-1)--(13,-5);
-		\draw[orange, line width = 1.5pt](2.5,-2)--(3,-2)--(3,-1)--(5,-1)--(5,-2)--(7,-2)--(7,-1)--(9,-1)--(9,-2)--(11,-2)--(11,-1)--(13,-1)--(13,-2)--(13.5,-2);
-		\draw[cyan, line width = 1.5pt](2.5,-3.5)--(3,-3.5)--(3,-2.5)--(7,-2.5)--(7,-3.5)--(13,-3.5)--(13,-2.5)--(13.5,-2.5);
-		\draw[red, line width = 1.5pt](2.5,-5)--(3,-5)--(3,-4)--(9,-4)--(9,-5)--(11,-5)--(11,-4)--(13.5,-4);
-	\end{tikzpicture}
-\end{center}
+    Das Impulsdiagramm zeigt die Highs und Lows der Ein- und Ausgänge, also quasi eine bildliche Wahrheitstabelle
+    \begin{center}
+        \begin{minipage}{.45\textwidth}
+            \begin{center}
+                \begin{tikzpicture}
+                    \draw(0,0)rectangle(7,-4);
+                    \node at (0.7,-0.3){\textbf{ODER}};
+                    \node at (1,-1.5){$X_1$};
+                    \node at (1,-2.5){$X_2$};
+                    \draw(1.5,-1.5)--(2.5,-1.5);
+                    \draw(1.5,-2.5)--(2.5,-2.5);
+                    \draw(2.5,-1)rectangle(4.5,-3);
+                    \node at (3.5,-2){$\geqq$1};
+                    \draw(4.5,-2)--(5.5,-2);
+                    \node at (6,-2){Y};
+                \end{tikzpicture}
+                \begin{tikzpicture}
+                    \draw(0,0)rectangle(7,-2);
+                    \node at (0.8,-0.3){\textbf{Formel}};
+                    \node at (3.5,-1){$\mathbf{Y = X_1 \lor X_2}$};
+                \end{tikzpicture}
+            \end{center}
+        \end{minipage}	   
+        \hspace{.5cm}
+        \begin{minipage}{.45\textwidth}
+            \begin{center}
+                \renewcommand{\arraystretch}{1.7}
+                \begin{tabularx}{\columnwidth}{|X|X|X|}
+                    \hline
+                    \multicolumn{3}{|l|}{Wahrheitstabelle}\\
+                    \hline
+                    Eingang&Eingang&Ausgang \\
+                    $X_1$&$X_2$&Y \\
+                    \hline
+                    0&0&0 \\
+                    \hline
+                    0&1&1 \\
+                    \hline
+                    1&0&1 \\
+                    \hline
+                    1&1&1 \\
+                    \hline
+                \end{tabularx}
+            \end{center}			
+        \end{minipage}\newline
+        \textcolor{white}{Abstandhalter}	
+        \begin{tikzpicture}
+            \draw(0,0)rectangle(15.7,-5.2);
+            \node at (1.8,-0.3){\textbf{Impulsdiagramm}};
+            \node at (1.75,-1.5){$X_1$};
+            \node at (1.75,-3){$X_2$};
+            \node at (1.75,-4.5){Y};
+            \draw[dotted, very thick](2.5,-2)--(13.5,-2);
+            \draw[dotted, very thick](2.5,-3.5)--(13.5,-3.5);
+            \draw[dotted, very thick](2.5,-5)--(13.5,-5);
+            \draw[dotted, very thick](2.5,-1)--(13.5,-1);
+            \draw[dotted, very thick](2.5,-2.5)--(13.5,-2.5);
+            \draw[dotted, very thick](2.5,-4)--(13.5,-4);
+            \node at (2.3,-2){0};
+            \node at (2.3,-1){1};
+            \node at (2.3,-3.5){0};
+            \node at (2.3,-2.5){1};
+            \node at (2.3,-5){0};
+            \node at (2.3,-4){1};
+            \draw[gray] (3,-1)--(3,-5);
+            \draw[gray] (5,-1)--(5,-5);
+            \draw[gray] (7,-1)--(7,-5);
+            \draw[gray] (9,-1)--(9,-5);
+            \draw[gray] (11,-1)--(11,-5);
+            \draw[gray] (13,-1)--(13,-5);
+            \draw[orange, line width = 1.5pt](2.5,-2)--(3,-2)--(3,-1)--(5,-1)--(5,-2)--(7,-2)--(7,-1)--(9,-1)--(9,-2)--(11,-2)--(11,-1)--(13,-1)--(13,-2)--(13.5,-2);
+            \draw[cyan, line width = 1.5pt](2.5,-3.5)--(3,-3.5)--(3,-2.5)--(7,-2.5)--(7,-3.5)--(13,-3.5)--(13,-2.5)--(13.5,-2.5);
+            \draw[red, line width = 1.5pt](2.5,-5)--(3,-5)--(3,-4)--(9,-4)--(9,-5)--(11,-5)--(11,-4)--(13.5,-4);
+        \end{tikzpicture}
+    \end{center}
 
 \subsection{Zustandsfolgetabelle}
+    Die Zustandsfolgetabelle gibt die aktuelle und Übergangsfunktion für ein Schaltwerk oder Schaltnetz.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick] (-5,-1) -- (-5,1);
+            \draw[black,very thick] (-5,1) -- (-3,1);
+            \draw[black,very thick] (-3,-1) -- (-3,1);
+            \draw[black,very thick] (-6, 0) -- (-5,0);
+            \node at (-4,0.5){\textbf{Counter}};
+            \node at (-6.5,0){\textbf{Takt}};
+            \draw[black,very thick] (-5, 0.3) -- (-4.7,0);
+            \draw[black,very thick] (-5, -0.3) -- (-4.7,0);
+            \draw[black,very thick] (-5, -1) -- (-4.5,-1) -- (-4.5,-1.5);
+            \draw[black,very thick] (-3, -1) -- (-3.5,-1) -- (-3.5,-1.5);
+            \draw[black,very thick] (-5,-1.5) rectangle (-3,-4.5);
+            \draw[black,very thick] (-5,-2.5) -- (-3,-2.5);
+            \draw[black,very thick] (-5,-3.5) -- (-3,-3.5);
+            \draw[black,very thick] (-2,-2) -- (-3,-2);
+            \draw[black,very thick] (-2,-3) -- (-3,-3);
+            \draw[black,very thick] (-2,-4) -- (-3,-4);
+            \node at (-1.5,-2){Q1};
+            \node at (-1.5,-3){Q2};
+            \node at (-1.5,-4){Q3};
+
+            \draw[black] (0.5,1.5) -- (6.5,1.5);
+            \draw[black] (3.5,2.5) -- (3.5,-6.5);
+            \node at (1,2){\textbf{Q3}};
+            \node at (2,2){\textbf{Q2}};
+            \node at (3,2){\textbf{Q1}};
+            \node at (4,2){\textbf{Q3}};
+            \node at (5,2){\textbf{Q2}};
+            \node at (6,2){\textbf{Q1}};
+            \node at (1,1){0};
+            \node at (2,1){0};
+            \node at (3,1){0};
+            \node at (4,1){0};
+            \node at (5,1){0};
+            \node at (6,1){1};
+            \node at (1,0){0};
+            \node at (2,0){0};
+            \node at (3,0){1};
+            \node at (4,0){0};
+            \node at (5,0){1};
+            \node at (6,0){0};
+            \node at (1,-1){0};
+            \node at (2,-1){1};
+            \node at (3,-1){0};
+            \node at (4,-1){0};
+            \node at (5,-1){1};
+            \node at (6,-1){1};
+            \node at (1,-2){0};
+            \node at (2,-2){1};
+            \node at (3,-2){1};
+            \node at (4,-2){1};
+            \node at (5,-2){0};
+            \node at (6,-2){0};
+            \node at (1,-3){1};
+            \node at (2,-3){0};
+            \node at (3,-3){0};
+            \node at (4,-3){1};
+            \node at (5,-3){0};
+            \node at (6,-3){1};
+            \node at (1,-4){1};
+            \node at (2,-4){0};
+            \node at (3,-4){1};
+            \node at (4,-4){1};
+            \node at (5,-4){1};
+            \node at (6,-4){0};
+            \node at (1,-5){1};
+            \node at (2,-5){1};
+            \node at (3,-5){0};
+            \node at (4,-5){1};
+            \node at (5,-5){1};
+            \node at (6,-5){1};
+            \node at (1,-6){1};
+            \node at (2,-6){1};
+            \node at (3,-6){1};
+            \node at (4,-6){0};
+            \node at (5,-6){0};
+            \node at (6,-6){0};
+        \end{tikzpicture}
+    \end{center}
 
 \section{Schaltwerke}
 
