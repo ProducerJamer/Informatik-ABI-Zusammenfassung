@@ -2477,7 +2477,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \end{center}
 
 \subsection{Zähler}
-    Der Zähler/Counter zählt bei jedem Takt um Eins hoch bis er sein Limit erreicht hat. Danach beginnt er wieder von Neuem.
+    Der positive/normale Zähler/Counter zählt bei jedem Takt um Eins hoch bis er sein Limit erreicht hat. Danach beginnt er wieder von Neuem. Negative Zähler zählen von Oben nach unten. Hierbei muss außerdem unterschieden werden ob es sich um einen Synchron- oder Asynchronzähler handelt. Synchronzähler zählen bei aufsteigender Taktflanke und Asynchronzähler bei fallender Taktflanke.
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick] (-5,-1) -- (-5,1);
@@ -2485,6 +2485,9 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \draw[black,very thick] (-3,-1) -- (-3,1);
             \draw[black,very thick] (-6, 0) -- (-5,0);
             \node at (-4,0.5){\textbf{Counter}};
+            \node[blue] at (-4,0){\textbf{+3BIT}};
+            \node[blue] at (-5,2.5){\textbf{+} positiver Zähler};
+            \node[blue] at (-5,2){\textbf{-} negativer Zähler};
             \node at (-6.5,0){\textbf{Takt}};
             \draw[black,very thick] (-5, 0.3) -- (-4.7,0);
             \draw[black,very thick] (-5, -0.3) -- (-4.7,0);
@@ -2501,7 +2504,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \node at (-1.5,-4){Q3};
 
             \draw[black] (0.5,1.5) -- (6.5,1.5);
-            \draw[black] (3.5,2.5) -- (3.5,-6.5);
+            \draw[black] (3.5,3.5) -- (3.5,-6.5);
             \node[red] at (2,3){$t_{n}$};
             \node[red] at (5,3){$t_{n+1}$};
             \node at (1,2){\textbf{Q3}};
@@ -2562,16 +2565,32 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \end{center}
 
 \subsection{Addierschaltungen}
+    Addierschaltungen lassen sich aufteilen in Halb- und Volladdierer. Diese unterscheiden sich in der Größe der Summanden.
+    %Ich hab dazu keine Aufschriebe mehr und find die Darstellungen in der Formelsammlung und im Internet scheiße
 
 \subsection{Subtrahierschaltungen}
+    Subtrahierschaltungen lassen sich aufteilen in Halb- und Vollsubtrahierer. Diese unterscheiden sich in der Größe der Subtrahenden.
+    %Ich hab dazu keine Aufschriebe mehr und find die Darstellungen in der Formelsammlung und im Internet scheiße
 
 \subsection{Schieberegister}
 
 \section{Mirkocontroller}
 
+\subsection{Aufbau}
+
 \section{Assembler}
     Eine Assemblersprache, kurz auch Assembler genannt, ist eine Programmiersprache, die auf den Befehlsvorrat eines
-    bestimmten Computertyps ausgerichtet ist.
+    bestimmten Computertyps ausgerichtet ist. Sie ist die letzte/tiefste Sprache vor der Maschienensprache. Alle Hochsprachen basieren auf Assembler oder C.
+
+\subsection{Wichtige Befehle}
+
+\subsection{Adressierungsarten bei Mikrocontroller}
+
+\subsection{Datenpointer}
+
+\subsection{Zeitberechnung mit der Näherungsformel}
+
+\subsection{Zeitschleife erstellen ohne Timer}
 
 \section{Objektorientierte Programmierung}
 
