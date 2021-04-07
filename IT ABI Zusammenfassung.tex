@@ -2349,18 +2349,140 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Flip Flops sind Speichereinheiten, welche ein Signal zwischenspeichern können.
 
 \subsubsection{RS Flip Flop}
-    Das RS Flip Flop 
+    Das RS Flip Flop kann Signale speichern und behält diese bis sie rückgesetzt werden. Hierfür gibt es 3 Eingänge. Der erste Eingang ist R für Rücksetzen, der zweite ist der Takt und der dritte ist S fürs Setzen. Es ist Taktflanken gesteuert und das Signal tritt bei aufsteigender Flanke ein.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-4,-2.5) rectangle (-1,1.5);
+            \draw[black,very thick](-5,0.5) -- (-4,0.5);
+            \draw[black,very thick](-5,-0.5) -- (-4,-0.5);
+            \draw[black,very thick](-5,-1.5) -- (-4,-1.5);
+            \draw[black,very thick](-4,-0.2) -- (-3.7,-0.5) -- (-4,-0.8);
+            \draw[black,very thick](-1,-0.5) -- (0,-0.5);
+            \node at (-3.5,0.5){\textbf{R}};
+            \node at (-3.5,-1.5){\textbf{S}};
+            \node at (0.5,-0.5){\textbf{Q}};
+
+            \draw[black,very thick](2,1) -- (6,1);
+            \draw[black,very thick](4.5,2) -- (4.5,-3);
+            \node at (2.5,1.5){\textbf{Takt}};
+            \node at (3.5,1.5){\textbf{R}};
+            \node at (4,1.5){\textbf{S}};
+            \node at (5.5,1.5){\textbf{Q$^{n+1}$}};
+            \node at (2.5,0.5){$\uparrow$};
+            \node at (3.5,0.5){0};
+            \node at (4,0.5){0};
+            \node at (5.5,0.5){Q$^n$};
+            \node at (2.5,-0.5){$\uparrow$};
+            \node at (3.5,-0.5){1};
+            \node at (4,-0.5){0};
+            \node at (5.5,-0.5){0};
+            \node at (2.5,-1.5){$\uparrow$};
+            \node at (3.5,-1.5){1};
+            \node at (4,-1.5){0};
+            \node at (5.5,-1.5){1};
+            \node at (2.5,-2.5){$\uparrow$};
+            \node at (3.5,-2.5){1};
+            \node at (4,-2.5){1};
+            \node at (5.5,-2.5){undefined};
+        \end{tikzpicture}
+    \end{center}
+
 \subsubsection{T Flip Flop}
+    Das t Flip Flop ändert bei jeder aufsteigenden Taktflanke das Ausgangssignal Q.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-4,-2) rectangle (-1,2);
+            \draw[black,very thick](-5,0) -- (-4,0);
+            \draw[black,very thick](-4,0.3) -- (-3.7,0) -- (-4,-0.3);
+            \draw[black,very thick](-1,0) -- (0,0);
+            \node at (-3,0){\textbf{T}};
+            \node at (0.5,0){\textbf{Q}};
+
+            \draw[black,very thick](3,0.5) -- (6,0.5);
+            \draw[black,very thick](4.5,1.5) -- (4.5,-0.5);
+            \node at (3.75,1){\textbf{Takt T}};
+            \node at (5.25,1){\textbf{Q$^{n+1}$}};
+            \node at (3.75,0){$\uparrow$};
+            \node at (5.25,0){$\overline{\textrm{Q}^n}$};%??? keine Ahnung
+        \end{tikzpicture}
+    \end{center}
 
 \subsubsection{JK Flip Flop}
+    Das JK Flip Flop reagiert ebenfalls auf die aufsteigende Taktflanke und ändert die Signale wie folgt:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-4,-2.5) rectangle (-1,1.5);
+            \draw[black,very thick](-5,0.5) -- (-4,0.5);
+            \draw[black,very thick](-5,-0.5) -- (-4,-0.5);
+            \draw[black,very thick](-5,-1.5) -- (-4,-1.5);
+            \draw[black,very thick](-4,-0.2) -- (-3.7,-0.5) -- (-4,-0.8);
+            \draw[black,very thick](-1,-0.5) -- (0,-0.5);
+            \node at (-3.5,0.5){\textbf{J}};
+            \node at (-3.5,-1.5){\textbf{K}};
+            \node at (0.5,-0.5){\textbf{Q}};
+
+            \draw[black,very thick](2,1) -- (6,1);
+            \draw[black,very thick](4.5,2) -- (4.5,-3);
+            \node at (2.5,1.5){\textbf{Takt}};
+            \node at (3.5,1.5){\textbf{J}};
+            \node at (4,1.5){\textbf{K}};
+            \node at (5.5,1.5){\textbf{Q$^{n+1}$}};
+            \node at (2.5,0.5){$\uparrow$};
+            \node at (3.5,0.5){0};
+            \node at (4,0.5){1};
+            \node at (5.5,0.5){0};
+            \node at (2.5,-0.5){$\uparrow$};
+            \node at (3.5,-0.5){1};
+            \node at (4,-0.5){0};
+            \node at (5.5,-0.5){1};
+            \node at (2.5,-1.5){$\uparrow$};
+            \node at (3.5,-1.5){1};
+            \node at (4,-1.5){1};
+            \node at (5.5,-1.5){$\overline{\textrm{Q}^n}$};
+            \node at (2.5,-2.5){sonst};
+            \node at (3.5,-2.5){X};
+            \node at (4,-2.5){X};
+            \node at (5.5,-2.5){Q$^n$};
+        \end{tikzpicture}
+    \end{center}
 
 \subsubsection{D Flip Flop}
+    Das D Flip Flop reagiert ebenfalls auf die aufsteigende Taktflanke und ändert dabei den Ausgang Q zum Eingang D.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-4,-2.5) rectangle (-1,1.5);
+            \draw[black,very thick](-5,0.5) -- (-4,0.5);
+            \draw[black,very thick](-5,-1.5) -- (-4,-1.5);
+            \draw[black,very thick](-4,-1.2) -- (-3.7,-1.5) -- (-4,-1.8);
+            \draw[black,very thick](-1,-0.5) -- (0,-0.5);
+            \node at (-3.5,0.5){\textbf{D}};
+            \node at (-3,-1.5){\textbf{C}};
+            \node at (0.5,-0.5){\textbf{Q}};
+
+            \draw[black,very thick](2,0.5) -- (6,0.5);
+            \draw[black,very thick](4.5,1.5) -- (4.5,-2.5);
+            \node at (2.5,1){\textbf{Takt}};
+            \node at (4,1){\textbf{D}};
+            \node at (5.5,1){\textbf{Q$^{n+1}$}};
+            \node at (2.5,0){$\uparrow$};
+            \node at (4,0){0};
+            \node at (5.5,0){0};
+            \node at (2.5,-1){$\uparrow$};
+            \node at (4,-1){1};
+            \node at (5.5,-1){1};
+            \node at (2.5,-2){sonst};
+            \node at (4,-2){X};
+            \node at (5.5,-2){Q$^n$};
+        \end{tikzpicture}
+    \end{center}
 
 \subsection{Zähler}
 
 \subsection{Addierschaltungen}
 
 \subsection{Subtrahierschaltungen}
+
+\subsection{Schieberegister}
 
 \section{Mirkocontroller}
 
