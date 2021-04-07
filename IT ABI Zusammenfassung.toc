@@ -136,41 +136,41 @@
 \contentsline {subsection}{\numberline {17.5}Addierschaltungen}{42}{subsection.17.5}%
 \contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{42}{subsection.17.6}%
 \contentsline {subsection}{\numberline {17.7}Schieberegister}{42}{subsection.17.7}%
-\contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{42}{subsection.17.8}%
+\contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{43}{subsection.17.8}%
 \contentsline {section}{\numberline {18}Mirkocontroller}{43}{section.18}%
 \contentsline {subsection}{\numberline {18.1}Aufbau}{43}{subsection.18.1}%
 \contentsline {section}{\numberline {19}Assembler}{43}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{43}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{43}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Datenpointer}{43}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Zeitberechnung mit der Näherungsformel}{43}{subsection.19.4}%
-\contentsline {subsection}{\numberline {19.5}Zeitschleife erstellen ohne Timer}{43}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Interrupt}{43}{subsection.19.6}%
-\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{43}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Grundverständnis}{43}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Klassen}{44}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Objekte}{44}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Datentypen}{44}{subsection.20.4}%
-\contentsline {subsection}{\numberline {20.5}Notationen}{44}{subsection.20.5}%
-\contentsline {subsection}{\numberline {20.6}UML}{44}{subsection.20.6}%
-\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{44}{subsubsection.20.6.1}%
-\contentsline {subsubsection}{\numberline {20.6.2}Objektdiagramm}{44}{subsubsection.20.6.2}%
-\contentsline {subsubsection}{\numberline {20.6.3}Assoziationen}{44}{subsubsection.20.6.3}%
-\contentsline {subsubsection}{\numberline {20.6.4}Polymorphie}{44}{subsubsection.20.6.4}%
-\contentsline {subsubsection}{\numberline {20.6.5}Vererbungen}{44}{subsubsection.20.6.5}%
-\contentsline {subsubsection}{\numberline {20.6.6}Sequenzdiagramm}{44}{subsubsection.20.6.6}%
-\contentsline {subsubsection}{\numberline {20.6.7}Zustandsdiagramm}{44}{subsubsection.20.6.7}%
-\contentsline {section}{\numberline {21}Datenbanken}{44}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{44}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{44}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{44}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Realtionen}{44}{subsection.21.4}%
-\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{44}{subsubsection.21.4.1}%
-\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{44}{subsubsection.21.4.2}%
-\contentsline {subsection}{\numberline {21.5}SQL}{44}{subsection.21.5}%
-\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{44}{subsubsection.21.5.1}%
-\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{44}{subsubsection.21.5.2}%
-\contentsline {section}{\numberline {22}Fachsprache}{44}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{44}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{44}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{44}{section.23}%
+\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{44}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{44}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Datenpointer}{44}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Zeitberechnung mit der Näherungsformel}{44}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}Zeitschleife erstellen ohne Timer}{44}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}Interrupt}{44}{subsection.19.6}%
+\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{44}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Grundverständnis}{44}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Klassen}{45}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Objekte}{45}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Datentypen}{45}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}Notationen}{45}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}UML}{45}{subsection.20.6}%
+\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{45}{subsubsection.20.6.1}%
+\contentsline {subsubsection}{\numberline {20.6.2}Objektdiagramm}{45}{subsubsection.20.6.2}%
+\contentsline {subsubsection}{\numberline {20.6.3}Assoziationen}{45}{subsubsection.20.6.3}%
+\contentsline {subsubsection}{\numberline {20.6.4}Polymorphie}{45}{subsubsection.20.6.4}%
+\contentsline {subsubsection}{\numberline {20.6.5}Vererbungen}{45}{subsubsection.20.6.5}%
+\contentsline {subsubsection}{\numberline {20.6.6}Sequenzdiagramm}{45}{subsubsection.20.6.6}%
+\contentsline {subsubsection}{\numberline {20.6.7}Zustandsdiagramm}{45}{subsubsection.20.6.7}%
+\contentsline {section}{\numberline {21}Datenbanken}{45}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{45}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{45}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{45}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Realtionen}{45}{subsection.21.4}%
+\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{45}{subsubsection.21.4.1}%
+\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{45}{subsubsection.21.4.2}%
+\contentsline {subsection}{\numberline {21.5}SQL}{45}{subsection.21.5}%
+\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{45}{subsubsection.21.5.1}%
+\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{45}{subsubsection.21.5.2}%
+\contentsline {section}{\numberline {22}Fachsprache}{45}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{45}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{45}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{45}{section.23}%

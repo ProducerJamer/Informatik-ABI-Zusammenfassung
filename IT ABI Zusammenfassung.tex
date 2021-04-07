@@ -2484,11 +2484,11 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \draw[black,very thick] (-5,1) -- (-3,1);
             \draw[black,very thick] (-3,-1) -- (-3,1);
             \draw[black,very thick] (-6, 0) -- (-5,0);
-            \node at (-4,0.5){\textbf{Counter}};
-            \node[blue] at (-4,0){\textbf{+3BIT}};
+            \node at (-4,0.5){Counter};
+            \node[blue] at (-4,0){+3BIT};
             \node[blue] at (-5,2.5){\textbf{+} positiver Zähler};
             \node[blue] at (-5,2){\textbf{-} negativer Zähler};
-            \node at (-6.5,0){\textbf{Takt}};
+            \node at (-6.5,0){Takt};
             \draw[black,very thick] (-5, 0.3) -- (-4.7,0);
             \draw[black,very thick] (-5, -0.3) -- (-4.7,0);
             \draw[black,very thick] (-5, -1) -- (-4.5,-1) -- (-4.5,-1.5);
@@ -2573,6 +2573,30 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     %Ich hab dazu keine Aufschriebe mehr und find die Darstellungen in der Formelsammlung und im Internet scheiße
 
 \subsection{Schieberegister}
+    Ein Schieberegister kann mehrstellige binäre Taktsignale aufnehmen, speichern und wieder ausgeben. Hierzu speichert es die einzelnen Bits eines Signales in Flip Flops. Für jedes Bit in einer Bitfolge wird ein FF benötigt. Das Bauteil sieht folgendermaßen aus:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-0.5,0)--(-0.5,0.5)--(-2,0.5)--(-2,3)--(2,3)--(2,0.5)--(0.5,0.5)--(0.5,0);
+            \draw[black,very thick](-2,-4) rectangle (2,0);
+            \draw[black,very thick](-2,1.6)--(-1.7,1.3)--(-2,1);
+            \draw[black,very thick](-3,1.3)--(-2,1.3);
+            \draw[black,very thick](-3,2.25)--(-2,2.25);
+            \draw[black,very thick](-2,-1)--(2,-1);
+            \draw[black,very thick](-2,-2)--(2,-2);
+            \draw[black,very thick](-2,-3)--(2,-3);
+            \draw[black,very thick](2,-0.5)--(2.5,-0.5);
+            \draw[black,very thick](2,-1.5)--(2.5,-1.5);
+            \draw[black,very thick](2,-2.5)--(2.5,-2.5);
+            \draw[black,very thick](2,-3.5)--(2.5,-3.5);
+            \node at (3,-0.5){Q1};
+            \node at (3,-1.5){Q2};
+            \node at (3,-2.5){Q3};
+            \node at (3,-3.5){Q4};
+            \node at (-3.5,1.3){E};
+            \node at (-3.5,2.25){T};
+            \node at (0,2.5){SRG4};
+        \end{tikzpicture}
+    \end{center}
 
 \subsection{Entprellen von Signalen}
     Ein Signal ist prellfrei, wenn das Signal sauber als Ein- oder Ausschaltsignal entziffert werden kann. Dies wird zum Beispiel mit Flip Flops erreicht.
