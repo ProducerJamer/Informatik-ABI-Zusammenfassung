@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  7 APR 2021 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  7 APR 2021 16:39
 entering extended mode
 **"d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
 (d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
@@ -768,7 +768,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/robin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 38.
-<Bilder/BSZLOGO.png, id=787, 767.86874pt x 198.7425pt>
+<Bilder/BSZLOGO.png, id=795, 767.86874pt x 198.7425pt>
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 82.
@@ -1258,12 +1258,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [26]
-<Bilder/OSI-Modell1.png, id=999, 534.49687pt x 543.53062pt>
+<Bilder/OSI-Modell1.png, id=1009, 534.49687pt x 543.53062pt>
 File: Bilder/OSI-Modell1.png Graphic file (type png)
 <use Bilder/OSI-Modell1.png>
 Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1400.
 (pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
-<Bilder/OSI-Modell2.png, id=1000, 639.38875pt x 231.86626pt>
+<Bilder/OSI-Modell2.png, id=1010, 639.38875pt x 231.86626pt>
 File: Bilder/OSI-Modell2.png Graphic file (type png)
 <use Bilder/OSI-Modell2.png>
 Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1414.
@@ -1303,7 +1303,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [28 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png> <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
-<Bilder/MAC.png, id=1011, 414.79968pt x 94.10156pt>
+<Bilder/MAC.png, id=1021, 414.79968pt x 94.10156pt>
 File: Bilder/MAC.png Graphic file (type png)
 <use Bilder/MAC.png>
 Package pdftex.def Info: Bilder/MAC.png  used on input line 1475.
@@ -1340,7 +1340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1538--1538
 []|\T1/phv/m/n/12 Nutzdaten
  []
 
-<Bilder/CSMACD.png, id=1017, 1266.7325pt x 1365.1pt>
+<Bilder/CSMACD.png, id=1027, 1266.7325pt x 1365.1pt>
 File: Bilder/CSMACD.png Graphic file (type png)
 <use Bilder/CSMACD.png>
 Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1547.
@@ -1392,7 +1392,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1586--1593
 
  []
 
-<Bilder/ARP-Protokoll PAP.png, id=1028, 975.645pt x 1240.635pt>
+<Bilder/ARP-Protokoll PAP.png, id=1038, 975.645pt x 1240.635pt>
 File: Bilder/ARP-Protokoll PAP.png Graphic file (type png)
 <use Bilder/ARP-Protokoll PAP.png>
 Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1604.
@@ -1429,7 +1429,7 @@ Overfull \hbox (27.83076pt too wide) in alignment at lines 1628--1628
 [][][][][][][][] 
  []
 
-<Bilder/Netzwerkklassen.png, id=1038, 375.65344pt x 211.54031pt>
+<Bilder/Netzwerkklassen.png, id=1048, 375.65344pt x 211.54031pt>
 File: Bilder/Netzwerkklassen.png Graphic file (type png)
 <use Bilder/Netzwerkklassen.png>
 Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1634.
@@ -1859,7 +1859,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [41]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2601.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2624.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1872,7 +1872,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [42]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2680.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2728.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1894,7 +1894,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2759.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2807.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1906,7 +1906,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [44]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2760.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2808.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1919,7 +1919,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [45]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2760.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2808.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1932,7 +1932,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [46]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2760.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2808.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1945,7 +1945,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [47]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2760.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2808.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -1957,20 +1957,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [48] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
-(rerunfilecheck)             Checksum: B31E022FF04BF36B64DE8C61DF6FA52D;23710.
+(rerunfilecheck)             Checksum: 4D298693A0EEE3428FEC4B9CDBC7C9F8;23998.
  ) 
 Here is how much of TeX's memory you used:
- 33140 strings out of 479334
- 762160 string characters out of 2857084
+ 33148 strings out of 479334
+ 762296 string characters out of 2857084
  1217088 words of memory out of 3000000
- 49783 multiletter control sequences out of 15000+200000
+ 49789 multiletter control sequences out of 15000+200000
  456988 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,89p,1049b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (48 pages, 670251 bytes).
+Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (48 pages, 672908 bytes).
 PDF statistics:
- 1205 PDF objects out of 1440 (max. 8388607)
- 227 named destinations out of 1000 (max. 500000)
- 1432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1216 PDF objects out of 1440 (max. 8388607)
+ 229 named destinations out of 1000 (max. 500000)
+ 1448 words of extra memory for PDF output out of 10000 (max. 10000000)
 

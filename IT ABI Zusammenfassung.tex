@@ -2574,6 +2574,46 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Schieberegister}
 
+\subsection{Entprellen von Signalen}
+    Ein Signal ist prellfrei, wenn das Signal sauber als Ein- oder Ausschaltsignal entziffert werden kann. Dies wird zum Beispiel mit Flip Flops erreicht.
+    Hier ein Beispiel zum Entprellen eines Tasters:
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick, dotted](0,-2) rectangle (4,2);
+            \draw[black,very thick](-4,1.3)--(-4,0.5)--(-3.5,0.5)--(-2.5,0.8);
+            \draw[black,very thick] (-4,1.5) circle (0.2);
+            \draw[black,very thick](-3,0.6)--(-3,2);
+            \draw[black,very thick](-3.6,2)--(-2.4,2);
+            \node at (-3,2.3){Taster};
+            \draw[black,very thick](-2.7,0.6)--(-2.7,1)--(2.1,1);
+            \draw[black,very thick] (2.3,1) circle (0.2);
+            \draw[black,very thick](2.5,0) rectangle (3.5,1.5);
+            \node at (1.7,2.3){digitale Schaltung:};
+            \node at (3,0.75){\textbf{\&}};
+            \draw[black,very thick](-2.7,0.3)--(-2.7,-0.1)--(0.5,-0.1);
+            \node at (-1,0.3){e2};
+            \node at (-1,1.3){e1};
+            \draw[black,very thick](0.5,-1)rectangle(1.5,0.5);
+            \node at (1,-0.25){\textbf{$\geq 1$}};
+            \draw[black,very thick](1.5,-0.25)--(2,-0.25)--(2,0.5)--(2.5,0.5);
+            \draw[black,very thick](0.5,-0.4)--(0.25,-0.4)--(0.25,-1.5)--(3.75,-1.5)--(3.75,0.75);
+            \draw[black,very thick](3.5,0.75)--(4.5,0.75);
+            \node at (4.75,0.75){Q};
+            \node at (-5,1.5){Vc=5V};
+            \draw[black,very thick](-1.5,-0.1)--(-1.5,-1);
+            \draw[black,very thick](-2,1)--(-2,-1);
+            \draw[black,very thick](-2.2,-1) rectangle (-1.8,-1.75);
+            \draw[black,very thick](-1.7,-1) rectangle (-1.3,-1.75);
+            \draw[black,very thick](-1.5,-1.75)--(-1.5,-2);
+            \draw[black,very thick](-2,-1.75)--(-2,-2);
+            \draw[black,very thick](-2.5,-2)--(-1,-2);
+            \node at (-2.5,-1.375){R1};
+            \node at (-1,-1.375){R2};
+            \node at (-3,-2){GND};
+        \end{tikzpicture}
+    \end{center}
+    %Hier noch ne Erklärung davon (Hab felix schon gefragt und warte auf Antwort)
+
 \section{Mirkocontroller}
 
 \subsection{Aufbau}
@@ -2592,6 +2632,8 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Zeitschleife erstellen ohne Timer}
 
+\subsection{Interrupt}
+
 \section{Objektorientierte Programmierung}
 
 \subsection{Grundverständnis}
@@ -2609,11 +2651,17 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{UML}
     \subsubsection{Struktogramm}
+
     \subsubsection{Objektdiagramm}
+
     \subsubsection{Assoziationen}
+
     \subsubsection{Polymorphie}
+
     \subsubsection{Vererbungen}
+
     \subsubsection{Sequenzdiagramm}
+
     \subsubsection{Zustandsdiagramm}
 
 \section{Datenbanken}
