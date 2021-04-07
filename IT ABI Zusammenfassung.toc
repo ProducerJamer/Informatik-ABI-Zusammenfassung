@@ -109,66 +109,66 @@
 \contentsline {subsection}{\numberline {15.3}Subnetzmaske}{34}{subsection.15.3}%
 \contentsline {subsection}{\numberline {15.4}CIDAR}{34}{subsection.15.4}%
 \contentsline {subsection}{\numberline {15.5}VLSM}{35}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}Schaltnetze}{35}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}Einfache Bauteile}{35}{subsection.15.7}%
-\contentsline {subsubsection}{\numberline {15.7.1}NOT}{35}{subsubsection.15.7.1}%
-\contentsline {subsubsection}{\numberline {15.7.2}AND}{35}{subsubsection.15.7.2}%
-\contentsline {subsubsection}{\numberline {15.7.3}OR}{35}{subsubsection.15.7.3}%
-\contentsline {subsubsection}{\numberline {15.7.4}NAND}{36}{subsubsection.15.7.4}%
-\contentsline {subsubsection}{\numberline {15.7.5}NOR}{36}{subsubsection.15.7.5}%
-\contentsline {subsubsection}{\numberline {15.7.6}XOR}{36}{subsubsection.15.7.6}%
-\contentsline {subsubsection}{\numberline {15.7.7}XNOR}{37}{subsubsection.15.7.7}%
-\contentsline {subsection}{\numberline {15.8}Wahrheitstabelle}{37}{subsection.15.8}%
-\contentsline {subsection}{\numberline {15.9}KV-Diagramm}{37}{subsection.15.9}%
-\contentsline {subsubsection}{\numberline {15.9.1}Don't-Care-Positions}{38}{subsubsection.15.9.1}%
-\contentsline {subsection}{\numberline {15.10}Disjunktive Normalform}{38}{subsection.15.10}%
-\contentsline {subsection}{\numberline {15.11}Impulsdiagramm}{38}{subsection.15.11}%
-\contentsline {subsection}{\numberline {15.12}Zustandsfolgetabelle}{39}{subsection.15.12}%
-\contentsline {section}{\numberline {16}Schaltwerke}{40}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Schaltwerke}{40}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Taktgeber}{40}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}Flip-Flops}{40}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}RS Flip Flop}{40}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}T Flip Flop}{40}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}JK Flip Flop}{41}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}D Flip Flop}{41}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Zähler}{41}{subsection.16.4}%
-\contentsline {subsection}{\numberline {16.5}Addierschaltungen}{42}{subsection.16.5}%
-\contentsline {subsection}{\numberline {16.6}Subtrahierschaltungen}{42}{subsection.16.6}%
-\contentsline {subsection}{\numberline {16.7}Schieberegister}{42}{subsection.16.7}%
-\contentsline {section}{\numberline {17}Mirkocontroller}{42}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Aufbau}{42}{subsection.17.1}%
-\contentsline {section}{\numberline {18}Assembler}{42}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Wichtige Befehle}{43}{subsection.18.1}%
-\contentsline {subsection}{\numberline {18.2}Adressierungsarten bei Mikrocontroller}{43}{subsection.18.2}%
-\contentsline {subsection}{\numberline {18.3}Datenpointer}{43}{subsection.18.3}%
-\contentsline {subsection}{\numberline {18.4}Zeitberechnung mit der Näherungsformel}{43}{subsection.18.4}%
-\contentsline {subsection}{\numberline {18.5}Zeitschleife erstellen ohne Timer}{43}{subsection.18.5}%
-\contentsline {section}{\numberline {19}Objektorientierte Programmierung}{43}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Grundverständnis}{43}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Klassen}{44}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Objekte}{44}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Datentypen}{44}{subsection.19.4}%
-\contentsline {subsection}{\numberline {19.5}Notationen}{44}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}UML}{44}{subsection.19.6}%
-\contentsline {subsubsection}{\numberline {19.6.1}Struktogramm}{44}{subsubsection.19.6.1}%
-\contentsline {subsubsection}{\numberline {19.6.2}Objektdiagramm}{44}{subsubsection.19.6.2}%
-\contentsline {subsubsection}{\numberline {19.6.3}Assoziationen}{44}{subsubsection.19.6.3}%
-\contentsline {subsubsection}{\numberline {19.6.4}Polymorphie}{44}{subsubsection.19.6.4}%
-\contentsline {subsubsection}{\numberline {19.6.5}Vererbungen}{44}{subsubsection.19.6.5}%
-\contentsline {subsubsection}{\numberline {19.6.6}Sequenzdiagramm}{44}{subsubsection.19.6.6}%
-\contentsline {subsubsection}{\numberline {19.6.7}Zustandsdiagramm}{44}{subsubsection.19.6.7}%
-\contentsline {section}{\numberline {20}Datenbanken}{44}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Grundverständnis Datenbanken}{44}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Verwendung}{44}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Entity-Relationship-Diagramm}{44}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Realtionen}{44}{subsection.20.4}%
-\contentsline {subsubsection}{\numberline {20.4.1}Primärschlüssel}{44}{subsubsection.20.4.1}%
-\contentsline {subsubsection}{\numberline {20.4.2}Sekundärschlüssel}{44}{subsubsection.20.4.2}%
-\contentsline {subsection}{\numberline {20.5}SQL}{44}{subsection.20.5}%
-\contentsline {subsubsection}{\numberline {20.5.1}SQL Abfragen}{44}{subsubsection.20.5.1}%
-\contentsline {subsubsection}{\numberline {20.5.2}SQL Selektion}{44}{subsubsection.20.5.2}%
-\contentsline {section}{\numberline {21}Fachsprache}{44}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Fachwörter}{44}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Typfeld Kennungen}{44}{subsection.21.2}%
-\contentsline {section}{\numberline {22}Epilog}{44}{section.22}%
+\contentsline {section}{\numberline {16}Schaltnetze}{35}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{35}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}NOT}{35}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}AND}{35}{subsubsection.16.1.2}%
+\contentsline {subsubsection}{\numberline {16.1.3}OR}{35}{subsubsection.16.1.3}%
+\contentsline {subsubsection}{\numberline {16.1.4}NAND}{36}{subsubsection.16.1.4}%
+\contentsline {subsubsection}{\numberline {16.1.5}NOR}{36}{subsubsection.16.1.5}%
+\contentsline {subsubsection}{\numberline {16.1.6}XOR}{36}{subsubsection.16.1.6}%
+\contentsline {subsubsection}{\numberline {16.1.7}XNOR}{37}{subsubsection.16.1.7}%
+\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{37}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{37}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{38}{subsubsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{38}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{38}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{39}{subsection.16.6}%
+\contentsline {section}{\numberline {17}Schaltwerke}{40}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Schaltwerke}{40}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Taktgeber}{40}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Flip-Flops}{40}{subsection.17.3}%
+\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{40}{subsubsection.17.3.1}%
+\contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{40}{subsubsection.17.3.2}%
+\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{41}{subsubsection.17.3.3}%
+\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{41}{subsubsection.17.3.4}%
+\contentsline {subsection}{\numberline {17.4}Zähler}{41}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{42}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{42}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Schieberegister}{42}{subsection.17.7}%
+\contentsline {section}{\numberline {18}Mirkocontroller}{42}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Aufbau}{42}{subsection.18.1}%
+\contentsline {section}{\numberline {19}Assembler}{42}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{43}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{43}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Datenpointer}{43}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Zeitberechnung mit der Näherungsformel}{43}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}Zeitschleife erstellen ohne Timer}{43}{subsection.19.5}%
+\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{43}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Grundverständnis}{43}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Klassen}{44}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Objekte}{44}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Datentypen}{44}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}Notationen}{44}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}UML}{44}{subsection.20.6}%
+\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{44}{subsubsection.20.6.1}%
+\contentsline {subsubsection}{\numberline {20.6.2}Objektdiagramm}{44}{subsubsection.20.6.2}%
+\contentsline {subsubsection}{\numberline {20.6.3}Assoziationen}{44}{subsubsection.20.6.3}%
+\contentsline {subsubsection}{\numberline {20.6.4}Polymorphie}{44}{subsubsection.20.6.4}%
+\contentsline {subsubsection}{\numberline {20.6.5}Vererbungen}{44}{subsubsection.20.6.5}%
+\contentsline {subsubsection}{\numberline {20.6.6}Sequenzdiagramm}{44}{subsubsection.20.6.6}%
+\contentsline {subsubsection}{\numberline {20.6.7}Zustandsdiagramm}{44}{subsubsection.20.6.7}%
+\contentsline {section}{\numberline {21}Datenbanken}{44}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{44}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{44}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{44}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Realtionen}{44}{subsection.21.4}%
+\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{44}{subsubsection.21.4.1}%
+\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{44}{subsubsection.21.4.2}%
+\contentsline {subsection}{\numberline {21.5}SQL}{44}{subsection.21.5}%
+\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{44}{subsubsection.21.5.1}%
+\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{44}{subsubsection.21.5.2}%
+\contentsline {section}{\numberline {22}Fachsprache}{44}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{44}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{44}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{44}{section.23}%
