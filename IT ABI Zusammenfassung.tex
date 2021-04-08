@@ -7,7 +7,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
 \usepackage{multicol}
 \usepackage{booktabs}
 \usepackage[hidelinks]{hyperref}
@@ -29,6 +29,7 @@
 	\fancyhead[L]{\includegraphics[scale=0.15]{Bilder/BSZLOGO.png}} 
 	\fancyhead[C]{\slshape Informationstechnik} 
 	\fancyhead[R]{\slshape ABI Zusammenfassung}
+	\fancyfoot[C]{\thepage}
 
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -2566,7 +2567,36 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Addierschaltungen}
     Addierschaltungen lassen sich aufteilen in Halb- und Volladdierer. Diese unterscheiden sich in der Größe der Summanden.
-    %Ich hab dazu keine Aufschriebe mehr und find die Darstellungen in der Formelsammlung und im Internet scheiße
+\par\noindent\rule{\textwidth}{0.4pt}
+\vspace{.5cm}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{center}
+		Halbaddierer aus UND und XOR:
+		\includegraphics[scale=.2]{Bilder/HalbaddiererAlternativ.png}
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{center}
+		Halbaddierer Schaltsymbol:
+		\includegraphics[scale=.13]{Bilder/HalbaddiererSymbol.png}
+	\end{center}
+\end{minipage}
+\par\noindent\rule{\textwidth}{0.4pt}
+\vspace{.5cm}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{center}
+		Volladdierer aus zwei Halbaddern und einem OR:
+		\includegraphics[scale=.13]{Bilder/VolladiererAlternativ.png}
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{center}
+		Volladdierer Schaltsymbol:
+		\includegraphics[scale=.13]{Bilder/VolladdiererSymbol.png}
+	\end{center}
+\end{minipage}
 
 \subsection{Subtrahierschaltungen}
     Subtrahierschaltungen lassen sich aufteilen in Halb- und Vollsubtrahierer. Diese unterscheiden sich in der Größe der Subtrahenden.
