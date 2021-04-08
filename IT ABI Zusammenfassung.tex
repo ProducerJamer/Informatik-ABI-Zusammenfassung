@@ -210,8 +210,6 @@
     \vspace{-1cm}
 	\begin{figure}[h]
     	\centering
-    	\caption{Von Neumann Prinzip}
-    	\vspace{.3cm}
     	\begin{tikzpicture}
         	\draw[black, very thick] (-4,-4) rectangle (2,8);
         	\node (A) at (-1, 7.4){\textbf{CPU}};
@@ -231,7 +229,6 @@
         	\node (E) at (-1, 2.4) {Arithemtic Logical Unit(ALU)};
         	\node (F) at (-1, -1.4) {Speicherwerk};
         	\node (G) at (-1, -2.6) {Ein- und Ausgabewerk};
-        	\node (H) at (10, -4.6) {Hauptspeicher Random Access Memory(RAM)};
         	\node (I) at (10, 5.9) {5};
         	\node (J) at (10, 4.1) {\textcolor{orange}{9}};
         	\node (K) at (10, 2.3) {4};
@@ -244,7 +241,8 @@
         	\draw[->, very thick, dotted, blue] (G) to[out=160, in=200] (D);
         	\draw[->, very thick, orange] (D) to[out=-30, in=160] (N);
     	\end{tikzpicture}
-	\end{figure}
+    	\caption{Von Neumann Prinzip}
+	\end{figure}\newpage
 
 \section{Betriebssysteme}
 	\begin{figure}[h]
@@ -511,8 +509,8 @@ Das NTFS (\textit{New Technology File System}) Dateisystem wurde erstmals mit Wi
 		\node at (5.8,-0.7){Größe};
 	\end{tikzpicture}
 	\caption{NTFS Record Dateien größer 1.5KiB}
-	\end{figure}\newline
-NTFS verfüht über eine hohe Fehlertoleranz. Eine geschriebene Datei wird mit der sich noch im RAM befindender Datei verglichen, um Fehler zu vermeiden. Wird ein Fehler erkannt, wird der betreffende Block als fehlerhaft markiert. Der Schreibvorgang wird dann an einem Anderen versucht. Dieses Prinzip nennt man Hot-Fixing. NTFS verfügt zudem über eine sogenannte LOGFILE. Alle Transaktionen werden in diese eingetragen. So kann nach einem Absturz verlorenes Datengut wiederhergestellt werden. NTFS Dateinamen können bis zu 255 Unicode Zeichen lang sein. 
+	\end{figure}\newpage
+\noindent NTFS verfügt über eine hohe Fehlertoleranz. Eine geschriebene Datei wird mit der sich noch im RAM befindender Original Datei verglichen, um Fehler zu vermeiden. Wird ein Fehler erkannt, wird der betreffende Block als fehlerhaft markiert. Der Schreibvorgang wird dann an einem Anderen versucht. Dieses Prinzip nennt man Hot-Fixing. NTFS verfügt zudem über eine sogenannte LOGFILE. Alle Transaktionen werden in diese eingetragen. So kann nach einem Absturz verlorenes Datengut wiederhergestellt werden. NTFS Dateinamen können bis zu 255 Unicode Zeichen lang sein. 
 
 \subsubsection{Dataruns}
 Ist ein Dateneintrag bei NTFS zu groß, muss dieser in den Datenbereich ausgelagert werden, liegt eine sehr große Datei vor, so muss diese zusätzlich fragmentiert werden. Diese Fragmentierung wird mit Hilfe des B-Tree Prinzipes in den Datenbereich des Records eingetragen. Mittles LCN-VCN Mapping ist es nun möglich die fragmentierte Datei auf dem Datenträger richtig und vollständig zusammen zu setzen.
