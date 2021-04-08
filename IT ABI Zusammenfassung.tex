@@ -437,11 +437,86 @@ Die FAT (\textit{File Allocation Table, Dateizuordnungstabelle}) stellt ein Inha
 Durch die geringe Clustergröße können Dateien meist nur fragmentiert abgelegt werden. In einer Dateizuordnungstabelle werden Dateipfade gespeichert und können ausgelesen werden. Das richtige Zusammensetzen der Fragmente ist so möglich.\\
 Ein Nachteil des FAT Systemes liegt darin, dass die FAT an einer festen Position auf dem Datenträger gespeichert ist. Bei Festplatten (Speichermedien mit rotierender Disk und Lesekopf) muss der Lesekopf bei jedem Lese/Schreib Vorgang zur FAT und zurück bewegt werden. Dann muss gewartet werden, bis die FAT den Lesekopf passiert. Das kostet viel Zeit. Heutzutage findet man das FAT System in der Flash Drive Technik.
 
-\subsection{EXT}
-
 \subsection{NTFS}
+Das NTFS (\textit{New Technology File System}) Dateisystem wurde erstmals mit Windows NT (\textit{New Technology}) eingeführt und ist seither das preferierte Dateisystem von Windows. NTFS verwaltet Dateien anders als bei FAT in der MFT (\textit{Mater File Table}). Diese enthält die sogenannten Records. Zu jeder abgelegten Datei existiert also ein Record in der MFT der folgende Informationen enthält: Header, Informationen (z.B. Erstellungsdatum), den Dateinamen, Zugriffsrechte und die eigentlichen Daten bzw. die Position der Daten im Datenbereich. Dateien kleiner 1.5 KiB können direkt in den Record in der MFT gespeichert werden, wohingegen Dateien größer 1.5 KiB in den Datenbereich des Datenträgers gespeichert werden. Der Record verweist dann auf die entsprechende Stelle. Der Datenbereich ist bei NTFS variabel. Daraus resultieren kürzere Lese/Schreib Zeiten. Außerdem ist die MFT zwei mal zwischen den Datenbereichen enthalten.
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\fill [olive!40!white](-7,0)rectangle(-3,-4);
+		\fill [purple!80!white](-3,0)rectangle(-1,-4);
+		\fill [cyan!60!white](-1,0)rectangle(1,-4);
+		\fill [purple!60!white](1,0)rectangle(3,-4);
+		\fill [cyan!40!white](3,0)rectangle(5,-4);
+		\fill [purple!40!white](5,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-7,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-7,-1)--(-3,-1);
+		\draw [line width = 1.2pt](-5,-1)--(-5,-4);
+		\draw [line width = 1.2pt](-3,0)--(-3,-4);
+		\draw [line width = 1.2pt](-1,0)--(-1,-4);
+		\draw [line width = 1.2pt](1,0)--(1,-4);
+		\draw [line width = 1.2pt](3,0)--(3,-4);
+		\draw [line width = 1.2pt](5,0)--(5,-4);
+		\node at (-5,-0.5){Boot-Block};
+		\node [rotate=90] at (-6,-2.5){BIOS Block};
+		\node [rotate=90] at (-4,-2.5){Viewers MFT};
+		\node [rotate=90] at (-2,-2){Variabler Bereich};
+		\node [rotate=90] at (0,-2){MFT};
+		\node [rotate=90] at (2,-2){Variabler Bereich};
+		\node [rotate=90] at (4,-2){MFT};
+		\node [rotate=90] at (6,-2){Variabler Bereich};
+	\end{tikzpicture}
+	\caption{Aufbau einer NTFS Partition}
+	\end{figure}
+	\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\fill [cyan!60!white] (-7,0)rectangle(1,-4);
+		\fill [purple!60!white] (1,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-7,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-5,0)--(-5,-4);
+		\draw [line width = 1.2pt](-3,0)--(-3,-4);
+		\draw [line width = 1.2pt](-1,0)--(-1,-4);
+		\draw [line width = 1.2pt](1,0)--(1,-4);
+		\node [rotate=90] at (-6,-2){Header};
+		\node [rotate=90] at (-4,-2){Informationen};
+		\node [rotate=90] at (-2,-2){Dateiname};
+		\node [rotate=90] at (0,-2){Rechte};
+		\node [rotate=90] at (2,-2){Daten};
+	\end{tikzpicture}
+	\caption{NTFS Record Dateien kleiner 1.5KiB}
+	\end{figure}
+	\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\fill [cyan!60!white] (-7,0)rectangle(1,-4);
+		\fill [purple!60!white] (1,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-7,0)rectangle(7,-4);
+		\draw [line width = 1.2pt](-5,0)--(-5,-4);
+		\draw [line width = 1.2pt](-3,0)--(-3,-4);
+		\draw [line width = 1.2pt](-1,0)--(-1,-4);
+		\draw [line width = 1.2pt](1,0)--(1,-4);
+		\node [rotate=90] at (-6,-2){Header};
+		\node [rotate=90] at (-4,-2){Informationen};
+		\node [rotate=90] at (-2,-2){Dateiname};
+		\node [rotate=90] at (0,-2){Rechte};
+		\filldraw [fill=white,line width = 1.2pt](1.2,-0.2)rectangle(6.8,-3.8);
+		\fill [purple!20!white] (1.2,-0.2)rectangle(6.8,-1.1);
+		\draw [line width = 1.2pt](1.2,-1.1)--(6.8,-1.1);
+		\draw [line width = 1.2pt](1.2,-2)--(6.8,-2);
+		\draw [line width = 1.2pt](1.2,-2.9)--(6.8,-2.9);
+		\draw [line width = 1.2pt](3,-0.2)--(3,-3.8);
+		\draw [line width = 1.2pt](4.8,-0.2)--(4.8,-3.8);
+		\node at (2.1,-0.7){VCN};
+		\node at (3.9,-0.7){LCN};
+		\node at (5.8,-0.7){Größe};
+	\end{tikzpicture}
+	\caption{NTFS Record Dateien größer 1.5KiB}
+	\end{figure}\newline
+NTFS verfüht über eine hohe Fehlertoleranz. Eine geschriebene Datei wird mit der sich noch im RAM befindender Datei verglichen, um Fehler zu vermeiden. Wird ein Fehler erkannt, wird der betreffende Block als fehlerhaft markiert. Der Schreibvorgang wird dann an einem Anderen versucht. Dieses Prinzip nennt man Hot-Fixing. NTFS verfügt zudem über eine sogenannte LOGFILE. Alle Transaktionen werden in diese eingetragen. So kann nach einem Absturz verlorenes Datengut wiederhergestellt werden. NTFS Dateinamen können bis zu 255 Unicode Zeichen lang sein. 
 
 \subsubsection{Dataruns}
+
+\subsection{EXT}
 
 \section{Prozessverwaltung}
 
