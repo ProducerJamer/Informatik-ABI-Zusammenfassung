@@ -288,6 +288,7 @@
             \filldraw[fill=cyan!80!white, draw=black, line width = 1.5pt](0,0) circle (1);
             \node at (0,0){\small Hardware};
         \end{tikzpicture}
+        \caption{Aufbau eines Betriebssystemes}
 	\end{figure}
 
 \subsection{Kernel}
@@ -395,8 +396,9 @@
 \section{Dateisysteme}
 
 \subsection{FAT}
-Die FAT (\textit{File Allocation Table, Dateizuordnungstabelle}) stellt ein Inhaltsverzeichnis der Festplatte dar und ist notwendig, um die auf dem Datenträger bereitstehenden Daten zu finden. In einem 16-Bit System (FAT 16) sind genau $2^{16} = 65536$ Adressenverwaltungseinträge in der FAT möglich. Bei einer Sektorengröße von 512 Byte beträgt die maximale Partitionsgröße 32 MiB ($2^{16} \cdot 512 \text{ Byte}$).  
-\begin{center}
+Die FAT (\textit{File Allocation Table, Dateizuordnungstabelle}) stellt ein Inhaltsverzeichnis der Festplatte dar und ist notwendig, um die auf dem Datenträger bereitstehenden Daten zu finden. In einem 16-Bit System (FAT 16) sind genau $2^{16} = 65536$ Adressenverwaltungseinträge in der FAT möglich. Bei einer Sektorengröße von 512 Byte beträgt die maximale Partitionsgröße 32 MiB ($2^{16} \cdot 512 \text{ Byte}$).
+	\begin{figure}[h]
+	\centering
 	\begin{tikzpicture}
 		\fill [olive!40!white](-6,0)rectangle(-4.5,-3);
 		\fill [cyan!80!white](-4.5,-1.5)rectangle(0.75,-3);
@@ -430,7 +432,10 @@ Die FAT (\textit{File Allocation Table, Dateizuordnungstabelle}) stellt ein Inha
 		\draw [line width = 1.2pt] (2.75,0)--(2.75,-1.5);
 		\draw [line width = 1.2pt] (4.75,0)--(4.75,-1.5);
 	\end{tikzpicture}
-\end{center}
+	\caption{Aufbau des FAT Dateisystems}
+	\end{figure}\newline
+Durch die geringe Clustergröße können Dateien meist nur fragmentiert abgelegt werden. In einer Dateizuordnungstabelle werden Dateipfade gespeichert und können ausgelesen werden. Das richtige Zusammensetzen der Fragmente ist so möglich.\\
+Ein Nachteil des FAT Systemes liegt darin, dass die FAT an einer festen Position auf dem Datenträger gespeichert ist. Bei Festplatten (Speichermedien mit rotierender Disk und Lesekopf) muss der Lesekopf bei jedem Lese/Schreib Vorgang zur FAT und zurück bewegt werden. Dann muss gewartet werden, bis die FAT den Lesekopf passiert. Das kostet viel Zeit. Heutzutage findet man das FAT System in der Flash Drive Technik.
 
 \subsection{EXT}
 
