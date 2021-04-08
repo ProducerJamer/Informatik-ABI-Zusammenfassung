@@ -152,26 +152,26 @@
 \contentsline {subsection}{\numberline {20.3}Objekte}{44}{subsection.20.3}%
 \contentsline {subsection}{\numberline {20.4}Datentypen}{44}{subsection.20.4}%
 \contentsline {subsection}{\numberline {20.5}Arrays}{45}{subsection.20.5}%
-\contentsline {subsection}{\numberline {20.6}Notationen}{45}{subsection.20.6}%
-\contentsline {subsection}{\numberline {20.7}UML}{45}{subsection.20.7}%
-\contentsline {subsubsection}{\numberline {20.7.1}Struktogramm}{45}{subsubsection.20.7.1}%
-\contentsline {subsubsection}{\numberline {20.7.2}Objektdiagramm}{45}{subsubsection.20.7.2}%
-\contentsline {subsubsection}{\numberline {20.7.3}Assoziationen}{45}{subsubsection.20.7.3}%
-\contentsline {subsubsection}{\numberline {20.7.4}Polymorphie}{45}{subsubsection.20.7.4}%
-\contentsline {subsubsection}{\numberline {20.7.5}Vererbungen}{45}{subsubsection.20.7.5}%
-\contentsline {subsubsection}{\numberline {20.7.6}Sequenzdiagramm}{45}{subsubsection.20.7.6}%
-\contentsline {subsubsection}{\numberline {20.7.7}Zustandsdiagramm}{45}{subsubsection.20.7.7}%
-\contentsline {section}{\numberline {21}Datenbanken}{45}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{45}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{45}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{45}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Realtionen}{45}{subsection.21.4}%
-\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{45}{subsubsection.21.4.1}%
-\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{45}{subsubsection.21.4.2}%
-\contentsline {subsection}{\numberline {21.5}SQL}{45}{subsection.21.5}%
-\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{45}{subsubsection.21.5.1}%
-\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{45}{subsubsection.21.5.2}%
-\contentsline {section}{\numberline {22}Fachsprache}{45}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{45}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{45}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{45}{section.23}%
+\contentsline {subsection}{\numberline {20.6}UML}{45}{subsection.20.6}%
+\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{45}{subsubsection.20.6.1}%
+\contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{46}{subsubsection.20.6.2}%
+\contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{46}{subsubsection.20.6.3}%
+\contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{46}{subsubsection.20.6.4}%
+\contentsline {subsubsection}{\numberline {20.6.5}Polymorphie}{46}{subsubsection.20.6.5}%
+\contentsline {subsubsection}{\numberline {20.6.6}Vererbungen}{46}{subsubsection.20.6.6}%
+\contentsline {subsubsection}{\numberline {20.6.7}Sequenzdiagramm}{46}{subsubsection.20.6.7}%
+\contentsline {subsubsection}{\numberline {20.6.8}Zustandsdiagramm}{46}{subsubsection.20.6.8}%
+\contentsline {section}{\numberline {21}Datenbanken}{46}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{46}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{46}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{46}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Realtionen}{46}{subsection.21.4}%
+\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{46}{subsubsection.21.4.1}%
+\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{46}{subsubsection.21.4.2}%
+\contentsline {subsection}{\numberline {21.5}SQL}{46}{subsection.21.5}%
+\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{46}{subsubsection.21.5.1}%
+\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{46}{subsubsection.21.5.2}%
+\contentsline {section}{\numberline {22}Fachsprache}{46}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{46}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{46}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{46}{section.23}%

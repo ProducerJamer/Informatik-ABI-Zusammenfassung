@@ -2693,23 +2693,82 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \end{table}
 
 \subsection{Arrays}
-
-\subsection{Notationen}
+    Ein Array/Feld ist in der Informatik eine Datenstruktur-Variante, mit deren Verwendung viele gleichartig strukturierte Daten […] verarbeitet werden sollen. Der Zugriff auf bestimmte Inhalte eines Felds erfolgt mit Hilfe von Indizes, die dessen Position bezeichnen.
+    \begin{center}
+        \textit{int[] myArray = new int[3];}
+    \end{center}
+    Ein Array namens \textit{myArray} wurde erstellt und ihm wurden drei Integer-Speicheradressen reserviert.
 
 \subsection{UML}
-    \subsubsection{Struktogramm}
+    Die Unified Modeling Language, kurz UML, ist eine grafische Modellierungssprache zur Spezifikation, Konstruktion, Dokumentation und Visualisierung von Software-Teilen und anderen Systemen. Sie wird von der Object Management Group entwickelt und ist sowohl von ihr als auch von der ISO genormt.
 
-    \subsubsection{Objektdiagramm}
+\subsubsection{Struktogramm}
+    Ein Struktogramm wird verwendet um einen Ablauf eines Programmes dar zu stellen.
+    \newline
+    \begin{minipage}{.45\textwidth}
+        \color{gray}
+        Anweisung;\\
+        for(int i=0; i<=n; i++){\\
+        \hspace{0.5cm}if(Bedingung){\\
+        \hspace{1cm}    Anweisung1;\\
+        \hspace{0.5cm}}else{\\
+        \hspace{1cm}Anweisung2;\\
+        \hspace{0.5cm}}\\
+        }
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.45\textwidth}
+        \begin{center}
+            \begin{tikzpicture}
+                \draw[black,very thick](0,6) rectangle (8,-6);
+                \draw[black,very thick](0,5)--(8,5);
+                \draw[black,very thick](0,0)--(8,0);
+                \draw[black,very thick](1,0)--(1,4)--(8,4);
+                \draw[black,very thick](1,4)--(4.5,1)--(8,4);
+                \draw[black,very thick](1,1)--(8,1);
+                \draw[black,very thick](4.5,1)--(4.5,0);
+                \node at (4.5,3){Bedingung};
+                \node at (2.75,1.5){wahr};
+                \node at (6.25,1.5){falsch};
+                \node at (2.75,0.5){Anweisung1};
+                \node at (6.25,0.5){Anweisung2};
+                \node at (2.5,4.5){für i:=0 bis n, Schritt: +1};
+                \node at (1.4,5.5){Anweisung};
+                \draw[black,very thick](0,-1)--(8,-1);
+                \draw[black,very thick](0,-1)--(6,-3)--(8,-1);
+                \draw[black,very thick](0,-4)--(8,-4);
+                \draw[black,very thick](2,-5)--(2,-1.67);
+                \draw[black,very thick](4,-5)--(4,-2.35);
+                \draw[black,very thick](6,-5)--(6,-3);
+                \draw[black,very thick](0,-5)--(8,-5);
+                \node at (5.5,-2){Selektor=};
+                \node at (1,-3.5){Fall1};
+                \node at (3,-3.5){Fall2};
+                \node at (5,-3.5){Fall3};
+                \node at (7,-3.5){sonst};
+                \node at (1,-4.5){Anw.1};
+                \node at (3,-4.5){Anw.2};
+                \node at (5,-4.5){Anw.3};
+                \node at (7,-4.5){Anw.4};
+                \node at (1.4,-5.5){Anweisung};
+                \node at (1.4,-0.5){Anweisung};
+            \end{tikzpicture}
+        \end{center}
+    \end{minipage}
 
-    \subsubsection{Assoziationen}
+\subsubsection{Klassendiagramm}
 
-    \subsubsection{Polymorphie}
+\subsubsection{Objektdiagramm}
 
-    \subsubsection{Vererbungen}
+\subsubsection{Assoziationen}
 
-    \subsubsection{Sequenzdiagramm}
+\subsubsection{Polymorphie}
 
-    \subsubsection{Zustandsdiagramm}
+\subsubsection{Vererbungen}
+
+\subsubsection{Sequenzdiagramm}
+
+\subsubsection{Zustandsdiagramm}
 
 \section{Datenbanken}
 
@@ -2720,12 +2779,16 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsection{Entity-Relationship-Diagramm}
 
 \subsection{Realtionen}
-    \subsubsection{Primärschlüssel}
-    \subsubsection{Sekundärschlüssel}
+    
+\subsubsection{Primärschlüssel}
+    
+\subsubsection{Sekundärschlüssel}
 
 \subsection{SQL}
-    \subsubsection{SQL Abfragen}
-    \subsubsection{SQL Selektion}
+    
+\subsubsection{SQL Abfragen}
+    
+\subsubsection{SQL Selektion}
 
 \section{Fachsprache}
 
