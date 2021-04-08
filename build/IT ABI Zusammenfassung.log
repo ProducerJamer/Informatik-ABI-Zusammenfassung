@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  8 APR 2021 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  8 APR 2021 15:07
 entering extended mode
 **"./IT ABI Zusammenfassung.tex"
 ("IT ABI Zusammenfassung.tex"
@@ -1166,18 +1166,15 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
 (C:\Users\janni\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Overfull \hbox (4.206pt too wide) in paragraph at lines 440--441
-\T1/phv/m/n/12 Beim Ein-pro-gramm-be-trieb ver-wal-tet das Be-triebs-sys-tem de
-n Haupt-spei-cher als einen groÿen
- []
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 441.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 463.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 [10]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 489--490
- [][][] 
+Overfull \hbox (4.206pt too wide) in paragraph at lines 476--477
+\T1/phv/m/n/12 Beim Ein-pro-gramm-be-trieb ver-wal-tet das Be-triebs-sys-tem de
+n Haupt-spei-cher als einen groÿen
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
@@ -1185,120 +1182,140 @@ File: Bilder/BSZLOGO.png Graphic file (type png)
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 490.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [11]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 525--526
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 630.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 602.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [12]
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 637.
+[12]
 
-Underfull \hbox (badness 10000) in alignment at lines 656--656
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 673.
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 678.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+[13]
+Underfull \hbox (badness 10000) in alignment at lines 692--692
 [][][][][][][]
  []
 
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 666.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 699--699
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--735
 []|\T1/phv/m/n/10.95 reelle An-fangs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--723
+Underfull \hbox (badness 10000) in paragraph at lines 759--759
 []|\T1/phv/m/n/10.95 reelle An-fangs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--725
+Underfull \hbox (badness 10000) in paragraph at lines 717--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 727--731
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 731.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 761.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [14]
+Underfull \hbox (badness 10000) in paragraph at lines 763--767
+
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 798.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 794.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [15]
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 822--822
+[15]
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 858--858
 []|\T1/phv/m/n/10.95 Seitennummer| 
  []
 
 
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 836--836
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 872--872
 []|\T1/phv/m/n/10.95 Seitennummer| 
  []
 
 
-Overfull \hbox (3.33708pt too wide) in paragraph at lines 850--850
+Overfull \hbox (3.33708pt too wide) in paragraph at lines 886--886
 []|\T1/phv/m/n/10.95 Seitennummer| 
- []
-
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 866.
-
-Underfull \hbox (badness 3068) in paragraph at lines 882--882
-[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cm
-r/m/n/12 =
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 882--882
-[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cm
-r/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
-
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 894.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 887.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 901--901
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 902.
+
+Underfull \hbox (badness 3068) in paragraph at lines 918--918
+[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cm
+r/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 918--918
+[]|\T1/phv/m/n/12 Offset $\OT1/cmr/m/n/12 2[] = 16\OML/cmm/m/it/12 Byte \OT1/cm
+r/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 920--921
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--937
 []|\T1/phv/m/n/12 seitenorientierte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 901--901
+Underfull \hbox (badness 10000) in paragraph at lines 937--937
 []|\T1/phv/m/n/12 segmentorientierte
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 929--936
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 947.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 965--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--936
+Underfull \hbox (badness 10000) in paragraph at lines 965--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--936
+Underfull \hbox (badness 10000) in paragraph at lines 965--972
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 936.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 972.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 956--956
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 992--992
 []|\T1/phv/m/n/12 überflüssige Ko-pier-vor-gän-ge, Backups
  []
 
@@ -1307,36 +1324,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 971.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 984--991
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--991
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--991
-
- []
-
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 994.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[19]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1018.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [20]
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1027
+
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1045.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1036.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+[20]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1061.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [21]
 
@@ -1344,612 +1356,620 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1103.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1106.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [22]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1200.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1239.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1148.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [23]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 1236.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+
+ []
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1239.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1275.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [24]
+[24]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1275.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+ [25]
 Overfull \vbox (11.80995pt too high) has occurred while \output is active []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1239.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1275.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
-[25]
+[26]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1264.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1300.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [26]
-Overfull \hbox (25.1347pt too wide) in paragraph at lines 1267--1268
+ [27]
+Overfull \hbox (25.1347pt too wide) in paragraph at lines 1303--1304
 \T1/phv/m/n/12 Ein Port ist der Teil ei-ner Netzwerk-Adresse, der die Zu-ord-nu
 ng von TCP- und UDP-Verbindungen
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1302.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1338.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[27]
+[28]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1356.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1392.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [28]
+ [29]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/OSI-Modell1.png, id=1024, 534.49687pt x 543.53062pt>
+<Bilder/OSI-Modell1.png, id=1028, 534.49687pt x 543.53062pt>
 File: Bilder/OSI-Modell1.png Graphic file (type png)
 <use Bilder/OSI-Modell1.png>
-Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1406.
+Package pdftex.def Info: Bilder/OSI-Modell1.png  used on input line 1442.
 (pdftex.def)             Requested size: 240.52136pt x 244.58652pt.
-<Bilder/OSI-Modell2.png, id=1025, 639.38875pt x 231.86626pt>
+<Bilder/OSI-Modell2.png, id=1029, 639.38875pt x 231.86626pt>
 File: Bilder/OSI-Modell2.png Graphic file (type png)
 <use Bilder/OSI-Modell2.png>
-Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1420.
+Package pdftex.def Info: Bilder/OSI-Modell2.png  used on input line 1456.
 (pdftex.def)             Requested size: 479.54037pt x 173.89925pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1421
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1457
 
  []
 
 
-Overfull \hbox (2.54399pt too wide) in paragraph at lines 1404--1421
+Overfull \hbox (2.54399pt too wide) in paragraph at lines 1440--1457
 []$ $[]$
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1422.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1458.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[29 <./Bilder/OSI-Modell1.png>]
+[30 <./Bilder/OSI-Modell1.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1452.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1488.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[30 <./Bilder/OSI-Modell2.png>]
-<Bilder/MAC.png, id=1036, 414.79968pt x 94.10156pt>
+[31 <./Bilder/OSI-Modell2.png>]
+<Bilder/MAC.png, id=1041, 414.79968pt x 94.10156pt>
 File: Bilder/MAC.png Graphic file (type png)
 <use Bilder/MAC.png>
-Package pdftex.def Info: Bilder/MAC.png  used on input line 1481.
+Package pdftex.def Info: Bilder/MAC.png  used on input line 1517.
 (pdftex.def)             Requested size: 414.79868pt x 94.10132pt.
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1489.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1525.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [31 <./Bilder/MAC.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1516
+ [32 <./Bilder/MAC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1548--1552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1534--1536
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1572
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1534--1536
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1572
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1580
 []|\T1/phv/m/n/12 Nutzdaten
  []
 
-<Bilder/CSMACD.png, id=1043, 1266.7325pt x 1365.1pt>
+<Bilder/CSMACD.png, id=1047, 1266.7325pt x 1365.1pt>
 File: Bilder/CSMACD.png Graphic file (type png)
 <use Bilder/CSMACD.png>
-Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1553.
+Package pdftex.def Info: Bilder/CSMACD.png  used on input line 1589.
 (pdftex.def)             Requested size: 380.02269pt x 409.53316pt.
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1554.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1590.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1563
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1599
 
- []
-
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1591.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[33 <./Bilder/CSMACD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1599
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1599
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1599
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1599
-
- []
-
-<Bilder/ARP-Protokoll PAP.png, id=1053, 975.645pt x 1240.635pt>
-File: Bilder/ARP-Protokoll PAP.png Graphic file (type png)
-<use Bilder/ARP-Protokoll PAP.png>
-Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1610.
-
-(pdftex.def)             Requested size: 292.69576pt x 372.19337pt.
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1611.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[34]
-Underfull \hbox (badness 10000) in alignment at lines 1626--1626
-[][] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1627.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[35 <./Bilder/ARP-Protokoll PAP.png>]
-Overfull \hbox (27.83076pt too wide) in alignment at lines 1634--1634
+[34 <./Bilder/CSMACD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1635
+
+ []
+
+<Bilder/ARP-Protokoll PAP.png, id=1057, 975.645pt x 1240.635pt>
+File: Bilder/ARP-Protokoll PAP.png Graphic file (type png)
+<use Bilder/ARP-Protokoll PAP.png>
+Package pdftex.def Info: Bilder/ARP-Protokoll PAP.png  used on input line 1646.
+
+(pdftex.def)             Requested size: 292.69576pt x 372.19337pt.
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1647.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+[35]
+Underfull \hbox (badness 10000) in alignment at lines 1662--1662
+[][] 
+ []
+
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1663.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+[36 <./Bilder/ARP-Protokoll PAP.png>]
+Overfull \hbox (27.83076pt too wide) in alignment at lines 1670--1670
 [][][][][][][][] 
  []
 
-<Bilder/Netzwerkklassen.png, id=1063, 375.65344pt x 211.54031pt>
+<Bilder/Netzwerkklassen.png, id=1067, 375.65344pt x 211.54031pt>
 File: Bilder/Netzwerkklassen.png Graphic file (type png)
 <use Bilder/Netzwerkklassen.png>
-Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1640.
+Package pdftex.def Info: Bilder/Netzwerkklassen.png  used on input line 1676.
 (pdftex.def)             Requested size: 262.9556pt x 148.0772pt.
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 2| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 3| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 4| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 5| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 6| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 7| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 8| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 9| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 10| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 11| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 12| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 13| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 14| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 15| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 16| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 17| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 18| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 19| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 20| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 21| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 22| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 23| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 24| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 25| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 26| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 27| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 28| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 29| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 30| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 31| 
  []
 
 
-Overfull \hbox (10.2283pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (10.2283pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 32| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 1| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 
-Overfull \hbox (3.55638pt too wide) in paragraph at lines 1654--1654
+Overfull \hbox (3.55638pt too wide) in paragraph at lines 1690--1690
 []|\T1/phv/m/n/12 0| 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1655.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1691.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[36 <./Bilder/Netzwerkklassen.png>]
+[37 <./Bilder/Netzwerkklassen.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1758.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [37]
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1869.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1794.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [38]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1983.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 1905.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [39]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2178.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2019.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [40]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2336.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2214.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [41]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2359.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2372.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [42]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2483.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2395.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [43]
-<Bilder/HalbaddiererAlternativ.png, id=1102, 1284.8pt x 906.38625pt>
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2519.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+ [44]
+<Bilder/HalbaddiererAlternativ.png, id=1106, 1284.8pt x 906.38625pt>
 File: Bilder/HalbaddiererAlternativ.png Graphic file (type png)
 <use Bilder/HalbaddiererAlternativ.png>
 Package pdftex.def Info: Bilder/HalbaddiererAlternativ.png  used on input line 
-2580.
+2616.
 (pdftex.def)             Requested size: 256.95544pt x 181.27403pt.
 
-Overfull \hbox (39.29333pt too wide) in paragraph at lines 2579--2581
+Overfull \hbox (39.29333pt too wide) in paragraph at lines 2615--2617
  [] 
  []
 
-<Bilder/HalbaddiererSymbol.png, id=1103, 1927.2pt x 828.09375pt>
+<Bilder/HalbaddiererSymbol.png, id=1107, 1927.2pt x 828.09375pt>
 File: Bilder/HalbaddiererSymbol.png Graphic file (type png)
 <use Bilder/HalbaddiererSymbol.png>
-Package pdftex.def Info: Bilder/HalbaddiererSymbol.png  used on input line 2587
+Package pdftex.def Info: Bilder/HalbaddiererSymbol.png  used on input line 2623
 .
 (pdftex.def)             Requested size: 250.5448pt x 107.65596pt.
 
-Overfull \hbox (32.88269pt too wide) in paragraph at lines 2586--2588
+Overfull \hbox (32.88269pt too wide) in paragraph at lines 2622--2624
  [] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2590.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2626.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[44]
-<Bilder/VolladiererAlternativ.png, id=1108, 1927.2pt x 603.25375pt>
+[45]
+<Bilder/VolladiererAlternativ.png, id=1112, 1927.2pt x 603.25375pt>
 File: Bilder/VolladiererAlternativ.png Graphic file (type png)
 <use Bilder/VolladiererAlternativ.png>
 Package pdftex.def Info: Bilder/VolladiererAlternativ.png  used on input line 2
-595.
+631.
 (pdftex.def)             Requested size: 250.5448pt x 78.42574pt.
 
-Overfull \hbox (32.88269pt too wide) in paragraph at lines 2594--2596
+Overfull \hbox (32.88269pt too wide) in paragraph at lines 2630--2632
  [] 
  []
 
-<Bilder/VolladdiererSymbol.png, id=1109, 1927.2pt x 991.705pt>
+<Bilder/VolladdiererSymbol.png, id=1113, 1927.2pt x 991.705pt>
 File: Bilder/VolladdiererSymbol.png Graphic file (type png)
 <use Bilder/VolladdiererSymbol.png>
-Package pdftex.def Info: Bilder/VolladdiererSymbol.png  used on input line 2602
+Package pdftex.def Info: Bilder/VolladdiererSymbol.png  used on input line 2638
 .
 (pdftex.def)             Requested size: 250.5448pt x 128.92618pt.
 
-Overfull \hbox (32.88269pt too wide) in paragraph at lines 2601--2603
+Overfull \hbox (32.88269pt too wide) in paragraph at lines 2637--2639
  [] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2666.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2702.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[45 <./Bilder/HalbaddiererAlternativ.png> <./Bilder/HalbaddiererSymbol.png> <./
+[46 <./Bilder/HalbaddiererAlternativ.png> <./Bilder/HalbaddiererSymbol.png> <./
 Bilder/VolladiererAlternativ.png> <./Bilder/VolladdiererSymbol.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2734.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2770.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [46]
-Overfull \hbox (1.82973pt too wide) in paragraph at lines 2739--2740
+ [47]
+Overfull \hbox (1.82973pt too wide) in paragraph at lines 2775--2776
 \T1/phv/m/n/12 In den meis-ten ob-jek-t-ori-en-tier-ten Pro-gram-mier-spra-chen
  wird ein Ob-jekt oder Ex-em-plar (auch
  []
@@ -1959,61 +1979,61 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2768.
-(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 2777--2785
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2777--2785
-
- []
-
-File: Bilder/BSZLOGO.png Graphic file (type png)
-<use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2905.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2804.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [48]
+Underfull \hbox (badness 10000) in paragraph at lines 2813--2821
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 2813--2821
+
+ []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2985.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2941.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [49]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2985.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3021.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [50]
+[50]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2985.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3021.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [51]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2985.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3021.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
- [52] ("IT ABI Zusammenfassung.aux")
+ [52]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3021.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+ [53] ("IT ABI Zusammenfassung.aux")
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not change
 d.
 (rerunfilecheck)             Checksum: 716E144851A7C3E23750E269E446A072;24300.
  ) 
 Here is how much of TeX's memory you used:
- 31041 strings out of 480236
- 747837 string characters out of 2880557
- 1177271 words of memory out of 3000000
- 46777 multiletter control sequences out of 15000+200000
+ 31056 strings out of 480236
+ 748144 string characters out of 2880557
+ 1177314 words of memory out of 3000000
+ 46791 multiletter control sequences out of 15000+200000
  592181 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,17n,105p,975b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2038,9 +2058,9 @@ onts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/janni/AppData/Local/Programs/M
 iKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on "C:\Users\janni\OneDrive\Dokumente\GitHub\Informatik-ABI-Zusa
-mmenfassung\build\IT ABI Zusammenfassung.pdf" (52 pages, 794183 bytes).
+mmenfassung\build\IT ABI Zusammenfassung.pdf" (53 pages, 796759 bytes).
 PDF statistics:
- 1254 PDF objects out of 1440 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
+ 1259 PDF objects out of 1440 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
  1476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
