@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  8 APR 2021 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  8 APR 2021 14:09
 entering extended mode
 **"./IT ABI Zusammenfassung.tex"
 ("IT ABI Zusammenfassung.tex"
@@ -1955,16 +1955,16 @@ Overfull \hbox (32.88269pt too wide) in paragraph at lines 2596--2598
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2629.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2661.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [45 <./Bilder/HalbaddiererAlternativ.png> <./Bilder/HalbaddiererSymbol.png> <./
 Bilder/VolladiererAlternativ.png> <./Bilder/VolladdiererSymbol.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2697.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2729.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [46]
-Overfull \hbox (1.82973pt too wide) in paragraph at lines 2702--2703
+Overfull \hbox (1.82973pt too wide) in paragraph at lines 2734--2735
 \T1/phv/m/n/12 In den meis-ten ob-jek-t-ori-en-tier-ten Pro-gram-mier-spra-chen
  wird ein Ob-jekt oder Ex-em-plar (auch
  []
@@ -1974,26 +1974,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2731.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2763.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 2740--2748
+Underfull \hbox (badness 10000) in paragraph at lines 2772--2780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2740--2748
+Underfull \hbox (badness 10000) in paragraph at lines 2772--2780
 
- []
-
-
-Overfull \hbox (11.15982pt too wide) in paragraph at lines 2785--2786
- [] 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2868.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2900.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [48]
 
@@ -2007,22 +2002,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2948.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2980.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 [49]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2948.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2980.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [50]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2948.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2980.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [51]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2948.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2980.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
  [52] ("IT ABI Zusammenfassung.aux")
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not change
@@ -2056,7 +2051,7 @@ helvetic/uhvbo8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/helvetic/uhvr8a.pfb><C:/Users/janni/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
 Output written on "C:\Users\janni\OneDrive\Dokumente\GitHub\Informatik-ABI-Zusa
-mmenfassung\build\IT ABI Zusammenfassung.pdf" (52 pages, 777257 bytes).
+mmenfassung\build\IT ABI Zusammenfassung.pdf" (52 pages, 777297 bytes).
 PDF statistics:
  1246 PDF objects out of 1440 (max. 8388607)
  234 named destinations out of 1000 (max. 500000)
