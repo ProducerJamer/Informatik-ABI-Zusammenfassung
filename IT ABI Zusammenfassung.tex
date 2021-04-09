@@ -2683,7 +2683,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         \end{tikzpicture}
     \end{center}
 
-\subsection{Addierschaltungen}
+\subsection{Addierschaltungen} %Wir hatten die aber deutlich einfacher im Unterricht. Weis nicht ob wir die so zeichnen oder können müssen.
     Addierschaltungen lassen sich aufteilen in Halb- und Volladdierer. Diese unterscheiden sich in der Größe der Summanden.
 \par\noindent\rule{\textwidth}{0.4pt}
 \vspace{.5cm}
@@ -2885,20 +2885,31 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsubsection{Struktogramm}
     Ein Struktogramm wird verwendet um einen Ablauf eines Programmes dar zu stellen.
     \begin{center}
-    	\begin{minipage}{.3\textwidth}
+    	\begin{minipage}{.4\textwidth}
         \color{gray}
-        Anweisung;\\
-        for(int i=0; i<=n; i++){\\
-        \hspace{0.5cm}if(Bedingung){\\
-        \hspace{1cm}    Anweisung1;\\
-        \hspace{0.5cm}}else{\\
-        \hspace{1cm}Anweisung2;\\
-        \hspace{0.5cm}}\\
-        }
+        public void methode()\{\\
+        \hspace*{0.5cm}Anweisung;\\
+        \hspace*{0.5cm}for(int i=0; i<=n; i++)\{\\
+        \hspace*{1cm}if(Bedingung)\{\\
+        \hspace*{1.5cm}Anweisung1;\\
+        \hspace*{1cm}\}else\{\\
+        \hspace*{1.5cm}Anweisung2;\\
+        \hspace*{1cm}\}\\
+        \hspace*{0.5cm}\}\\
+        \hspace*{0.5cm}Anweisung;\\
+        \hspace*{0.5cm}switch(Bedingung)\{\\
+        \hspace*{1cm}case Fall1: Anweisung1; break;\\
+        \hspace*{1cm}case Fall1: Anweisung2; break;\\
+        \hspace*{1cm}case Fall1: Anweisung3; break;\\
+        \hspace*{1cm}default: Anweisung4;\\
+        \hspace*{0.5cm}\}\\
+        \hspace*{0.5cm}Anweisung;\\
+        \}\\
     \end{minipage}
     \begin{minipage}{.5\textwidth}
         \begin{center}
             \begin{tikzpicture}
+                \node at (1,6.5){\textit{methode()}};
                 \draw[black,very thick](0,6) rectangle (8,-6);
                 \draw[black,very thick](0,5)--(8,5);
                 \draw[black,very thick](0,0)--(8,0);
