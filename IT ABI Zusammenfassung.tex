@@ -292,18 +292,18 @@
 \subsection{Kernel}
     Der Kernel ist die Schnittstelle zwischen der Anwendersoftware und der Speicher- und Prozessverwaltung. Er kann auch als Betriebssystem-Kern bezeichnet werden.
 
-\subsubsection{Monolitischer Kernel}
+\subsubsection{Monolithischer Kernel}
 	\begin{description}
-    	\item[+]{sehr schnell, da alles nah bei einander liegt}
+    	\item[+]{sehr schnell, da alles im Kernel geschieht und es kaum Schnittstellen hat}
     	\item[-]{wenn eine Komponente defekt ist oder einen Fehler hat, ist der Kernel nichtmehr \\ funktionsfähig}
-    	\item[-]{Updates müssen im Gesamten direkt erfolgen}
+    	\item[-]{Updates müssen im Gesamten direkt erfolgen(z.B. Treiberupdates)}
 	\end{description}
     Der Monolitische Kernel wird bei Betriebsystemen wie z.B. DOS, Linux und Android verwendet.
 
 \subsubsection{Mirkokernel}
 	\begin{description}
     	\item[+]{wenn eine Komponente defekt ist oder einen Fehler hat, kann man den Kernel trotzdem weiterhin 							 verwenden}
-    	\item[-]{Prozesse dauern länger, da nicht Alles bei einander liegt}
+    	\item[-]{Prozesse dauern länger, da auch Prozesse/Treiber ausgelagert sind}
 	\end{description}
     Der Mirkokernel wird bei Betriebsystemen wie z.B. Echtzeitsbetriebssystemen oder RISC OS verwendet.
 

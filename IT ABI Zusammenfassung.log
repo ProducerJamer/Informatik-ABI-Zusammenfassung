@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  9 APR 2021 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  9 APR 2021 12:01
 entering extended mode
 **"d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
 (d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
@@ -2081,7 +2081,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [54] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
-(rerunfilecheck)             Checksum: 092F7601DC70B7A1557D6C5A4F2FCF5B;24050.
+(rerunfilecheck)             Checksum: BF04AAE33E3F9F24E3A56761F49E28F6;24055.
  ) 
 Here is how much of TeX's memory you used:
  33203 strings out of 479334
@@ -2092,7 +2092,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  87i,17n,89p,1069b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (54 pages, 801695 bytes).
+Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (54 pages, 801748 bytes).
 PDF statistics:
  1263 PDF objects out of 1440 (max. 8388607)
  240 named destinations out of 1000 (max. 500000)
