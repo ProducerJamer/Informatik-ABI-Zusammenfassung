@@ -2779,7 +2779,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \end{center}
 
 \subsection{Entprellen von Signalen}
-    Ein Signal ist prellfrei, wenn das Signal sauber als Ein- oder Ausschaltsignal entziffert werden kann. Dies wird zum Beispiel mit Flip Flops erreicht.
+    Ein Signal ist prellfrei, wenn das Signal sauber als Ein- oder Ausschaltsignal entziffert werden kann.
     Hier ein Beispiel zum Entprellen eines Tasters:
     \begin{center}
         \begin{tikzpicture}
@@ -2816,7 +2816,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \node at (-3,-2){GND};
         \end{tikzpicture}
     \end{center}
-    %Hier noch ne Erklärung davon (Hab felix schon gefragt und warte auf Antwort)
+    Die Wiederstände R1 und R2 dienen zum Entladen der Leitungen e1 und e2 nach Umschalten des Tasters. Nur die markierte digitale Schaltung dient zum Entprellen des Tasters. Oft wird aber auch mit Flip Flops ein Signal entprellt.
 
 \section{Mirkocontroller}
 
@@ -2909,7 +2909,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \begin{minipage}{.5\textwidth}
         \begin{center}
             \begin{tikzpicture}
-                \node at (1,6.5){\textit{methode()}};
+                \node at (1,6.25){\textit{methode()}};
                 \draw[black,very thick](0,6) rectangle (8,-6);
                 \draw[black,very thick](0,5)--(8,5);
                 \draw[black,very thick](0,0)--(8,0);
