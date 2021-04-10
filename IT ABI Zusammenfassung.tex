@@ -519,6 +519,24 @@ Ist ein Dateneintrag bei NTFS zu groß, muss dieser in den Datenbereich ausgelag
 Die Betriebsmittel des Computersystems müssen zwischen den verschiedenen laufenden Programmen und Systemaufgaben verteilt werden. Zu diesem Zweck werden die einzelnen Aufgaben als Prozesse ausgeführt, die vom Betriebssystem verwaltet werden.
 
 \subsection{Prozesse}
+Ein Prozess besteht aus dem Programmcode und dem Prozesskontext. Der Prozesskontext wiederum setzt sich zusammen aus den Registerinhalten des Prozessors, Speicherbereichen für die Daten und weiteren Betriebsmitteln.\newline
+Ein Programm kann sich aus mehreren Prozessen (Windows: Tasks) zusammensetzen. Ein Prozess kann Unterprozesse besitzen.
+\begin{figure}[h]
+\centering
+	\begin{tikzpicture}
+		\filldraw[fill=cyan!60!white, line width=1.2pt](0,0)circle(1cm);
+		\node at (0,0) {A};
+		\filldraw[fill=orange!60!white, line width=1.2pt](-3,-1)circle(1cm);
+		\node at (-3,-1) {B};
+		\filldraw[fill=purple!80!white, line width=1.2pt](-5,-1)circle(.5cm);
+		\node at (-5,-1) {D};
+		\filldraw[fill=purple!60!white, line width=1.2pt](-4.3,-2.5)circle(.5cm);
+		\node at (-4.3,-2.5) {E};
+		\filldraw[fill=purple!40!white, line width=1.2pt](-2.5,-3)circle(.5cm);
+		\node at (-2.5,-3) {F};
+		
+		\end{tikzpicture}
+\end{figure}
 
 \subsection{Threads}
 
