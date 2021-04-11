@@ -520,7 +520,7 @@
 
 \subsection{Prozesse}
     Ein Prozess besteht aus dem Programmcode und dem Prozesskontext. Der Prozesskontext wiederum setzt sich zusammen aus den Registerinhalten des Prozessors, Speicherbereichen für die Daten und weiteren Betriebsmitteln.\newline
-    Ein Programm kann sich aus mehreren Prozessen (Windows: Tasks) zusammensetzen. Ein Prozess kann Unterprozesse besitzen.
+    Ein Programm kann sich aus mehreren Prozessen (Windows: Tasks) zusammensetzen. Ein Prozess kann Unterprozesse besitzen. So ist hier B ein Unterprozess von A, D E und F wiederum sind Unterprozesse von B.
     \begin{figure}[h]
     \centering
         \begin{tikzpicture}
@@ -546,9 +546,85 @@
             \draw [line width=1.5pt] (-3.6,-1.8)--(-3.95,-2.15);
             \draw [line width=1.5pt] (-2.75,-2)--(-2.6,-2.5);
             \end{tikzpicture}
+            \caption{Prozesse, Unterprozesse und Threads}
     \end{figure}
 
-\subsection{Threads}
+\subsubsection{Threads}
+Prozesse können neben eigenständigen Unterprozessen auch noch Threads haben. Threads sind leichtgewichtige Prozesse innerhalb eines übergeordneten Prozesses. Threads teilen sich mit anderen Threads verschiedene Betriebsmittel. Threads, die dem selben Prozess zugeordnet sind, verwenden den gleichen Adressraum. Dadurch ist eine Kommunikation zwischen diesen Threads möglich.
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}
+			\filldraw[fill=olive!30!cyan, line width=1.2pt](4,-1.5)circle(2cm);
+            \node at (5,-0.5) {C};
+            \filldraw[fill=olive!20!cyan, line width=1.2pt](3.2,-1)circle(0.85cm);
+            \node at (3.2,-1) {Thread1};
+            \filldraw[fill=olive!20!cyan, line width=1.2pt](4.5,-2.3)circle(0.85cm);
+            \node at (4.5,-2.3) {Thread2};
+		\end{tikzpicture}
+		\caption{Threads in Prozess C}
+	\end{figure}
+	
+\subsubsection{Prozesszustände}
+Ein Prozess kann folgende Zustände annehmen:
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\filldraw [line width=1.2pt,fill=cyan!60!white] (0,0)circle(1.2cm);
+		\node at (0,0){rechnend};
+		\filldraw [line width=1.2pt,fill=orange!60!white] (3,-2)circle(1.2cm);
+		\node at (3,-2){bereit};
+		\filldraw [line width=1.2pt,fill=purple!60!white] (-3,-2)circle(1.2cm);
+		\node at (-3,-2){blockiert};
+		\draw [<->, line width=1.5pt] (1.1,-0.5)--(2.3,-1);
+		\draw [->, line width=1.5pt] (-1.1,-0.5)--(-2.3,-1);
+		\draw [->, line width=1.5pt] (-1.7,-2)--(1.7,-2);
+	\end{tikzpicture}
+	\caption{Prozessmodell}
+\end{figure}
+	
+\subsection{Mehrprozessbetrieb}
+Der Kern eines Prozessors kann immer nur einen Prozess bearbeiten. Prozesse nutzen die zur Verfügung stehende Rechenzeit allerdings nicht optimal, da viele Prozesse auf langsamere äußere Einflüsse warten müssen (bsp. Tastatureingabe). Die Wartezeit eines Prozesses kann effizient genutzt werden, indem diese Wartezeit einem anderen Prozess zugeteilt wird. Man unterscheidet hierbei zwischen zwei Prinzipien:
+\begin{enumerate}
+	\item parallel, wenn jeder Kern einer CPU genau einen Prozess bearbeitet
+	\item quasiparallel, wenn ein Kern einer CPU mehrere Prozesse nacheinander bearbeitet.
+\end{enumerate}
+\begin{minipage}{.45\textwidth}
+	\centering
+	\begin{tikzpicture}
+	\draw [->](0,0)--(4,0);
+	\draw [->](0,0)--(0,2);
+	\node [rotate=90] at (-0.5,1){Prozesse};
+	\node at (2,-0.4){Zeit};
+	\filldraw [fill = cyan!60!white] (0.1,0.1)rectangle(3.8,0.7);
+	\filldraw [fill = orange!60!white](0.3,0.8)rectangle(3.3,1.4);
+	\end{tikzpicture}\newline
+	parallel
+\end{minipage}
+\hspace{1cm}
+\begin{minipage}{.45\textwidth}
+	\centering
+	\begin{tikzpicture}
+	\draw [->](0,0)--(4,0);
+	\draw [->](0,0)--(0,2);
+	\node [rotate=90] at (-0.5,1){Prozesse};
+	\node at (2,-0.4){Zeit};
+	\filldraw [fill = cyan!60!white] (0.1,0.1)rectangle(1,0.7);
+	\filldraw [fill = orange!60!white](1.1,0.1)rectangle(2,0.7);
+	\filldraw [fill = purple!60!white](2.1,0.1)rectangle(3,0.7);
+	\end{tikzpicture}\newline
+	quasiparallel
+\end{minipage}
+
+\subsection{Multitasking}
+Es wird zwischen zwei Arten von Multitasking unterschieden:
+\begin{enumerate}
+	\item Koorperatives Multitasking, hier ist es jedem Prozess selbst überlassen, wann er die Kontrolle an das Betriebssystem zurück gibt. Geringer Verwaltungsaufwand, aber es besteht die Gefahr, dass ein unkoorperativer Prozess das System blockiert.
+	\item Präemptives Multitasking, hier steuert das Betriebssystem die Vergabe der Rechenzeit. Der Scheduler kann einem Prozess Zeit oder Ereignis gesteuert Rechenzeit entziehen. Somit ist die Bearbeitung wichtigerer Prozesse zu jedem Zeitpunkt möglich, ein unkoorperativer Prozess legt das System nicht lahm. 
+\end{enumerate}
+
+\subsubsection{Kontext}
+Um einen Prozess unterbrechen zu können, muss dieser nach der Unterbrechung dieselbe Umgebung vorfinden können, welche der Prozess hatte, bevor er unterbrochen wurde. Der Zustand des Prozesses wird also vor der Unterbrechung gespeichert, und bleibt das so lange, bis ihm wieder Rechenzeit zugeteilt wird. Unmittelbar bevor er wieder aktiv wird, wird der gespeicherte Zustand geladen. Aus Sicht des Prozesses scheint es so, als wäre er nie angehalten worden.\newline
+Wichtig für dieses Verhalten ist, dass Prozesse abgeschirmt voneinander sein müssen. Prozess A darf den Kontext von Prozess B nicht kennen. Prozess A erfährt immer nur seinen eigenen Kontext.
 
 \subsection{Scheduling}
 

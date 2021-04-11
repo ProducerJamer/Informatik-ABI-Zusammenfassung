@@ -1,0 +1,180 @@
+\BOOKMARK [1][-]{section.1}{Zahlensysteme}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Dezimalsystem}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Dualsystem}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Oktalsystem}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Hexadezimalsystem}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Aufbau Computer}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Von Neumann Prinzip}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Betriebssysteme}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Kernel}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Monolithischer Kernel}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Mirkokernel}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Hybridkernel}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Master Boot Record \(MBR\)}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{GPT}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.4}{UEFI und BIOS}{section.3}% 15
+\BOOKMARK [1][-]{section.4}{Dateisysteme}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{FAT}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{NTFS}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Dataruns}{subsection.4.2}% 19
+\BOOKMARK [1][-]{section.5}{Prozessverwaltung}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Prozesse}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Threads}{subsection.5.1}% 22
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Prozesszust\344nde}{subsection.5.1}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Mehrprozessbetrieb}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Multitasking}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Kontext}{subsection.5.3}% 26
+\BOOKMARK [2][-]{subsection.5.4}{Scheduling}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.5}{Prozesssynchronisation}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Shortest Remaining Time}{subsection.5.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.5.2}{First Come first Serve}{subsection.5.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.5.3}{Shortest Job First}{subsection.5.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.5.4}{Round-Robin}{subsection.5.5}% 32
+\BOOKMARK [1][-]{section.6}{Speicherkonzepte}{}% 33
+\BOOKMARK [2][-]{subsection.6.1}{Speicherhierarchie}{section.6}% 34
+\BOOKMARK [1][-]{section.7}{Speicherverwaltung}{}% 35
+\BOOKMARK [2][-]{subsection.7.1}{Direkte Speicherverwaltung}{section.7}% 36
+\BOOKMARK [2][-]{subsection.7.2}{Swapping}{section.7}% 37
+\BOOKMARK [2][-]{subsection.7.3}{virtueller Speicher}{section.7}% 38
+\BOOKMARK [2][-]{subsection.7.4}{segmentorientierter Speicher}{section.7}% 39
+\BOOKMARK [2][-]{subsection.7.5}{seitenorientierter Speicher - Paging}{section.7}% 40
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Beispielaufgaben}{subsection.7.5}% 41
+\BOOKMARK [3][-]{subsubsection.7.5.2}{Buch Aufgabe 1, S.243}{subsection.7.5}% 42
+\BOOKMARK [3][-]{subsubsection.7.5.3}{Buch Aufgabe 3, S.243}{subsection.7.5}% 43
+\BOOKMARK [3][-]{subsubsection.7.5.4}{Buch Aufgabe 4, S.243}{subsection.7.5}% 44
+\BOOKMARK [3][-]{subsubsection.7.5.5}{Buch Aufgabe 5, S.243}{subsection.7.5}% 45
+\BOOKMARK [3][-]{subsubsection.7.5.6}{Buch Aufgabe 6, S.243}{subsection.7.5}% 46
+\BOOKMARK [3][-]{subsubsection.7.5.7}{Buch Aufgabe 7, S.243}{subsection.7.5}% 47
+\BOOKMARK [2][-]{subsection.7.6}{Speicherverwaltungsmethodenchronologie}{section.7}% 48
+\BOOKMARK [1][-]{section.8}{Datensicherung}{}% 49
+\BOOKMARK [2][-]{subsection.8.1}{Sicherungsmedien}{section.8}% 50
+\BOOKMARK [2][-]{subsection.8.2}{Datenverlust}{section.8}% 51
+\BOOKMARK [2][-]{subsection.8.3}{Datenvernichtung}{section.8}% 52
+\BOOKMARK [2][-]{subsection.8.4}{Sicherungsverfahren}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Vollst\344ndige Sicherung}{subsection.8.4}% 54
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Differenzielle Sicherung}{subsection.8.4}% 55
+\BOOKMARK [3][-]{subsubsection.8.4.3}{Inkrementelle Sicherung}{subsection.8.4}% 56
+\BOOKMARK [3][-]{subsubsection.8.4.4}{Sicherungsstrategie: Generationen Konzept}{subsection.8.4}% 57
+\BOOKMARK [2][-]{subsection.8.5}{Vernetzte Sicherung}{section.8}% 58
+\BOOKMARK [3][-]{subsubsection.8.5.1}{verteilte Sicherung}{subsection.8.5}% 59
+\BOOKMARK [3][-]{subsubsection.8.5.2}{lokale Sicherung}{subsection.8.5}% 60
+\BOOKMARK [3][-]{subsubsection.8.5.3}{Netzwerk Sicherung}{subsection.8.5}% 61
+\BOOKMARK [3][-]{subsubsection.8.5.4}{Kapazit\344t des Netzwerks}{subsection.8.5}% 62
+\BOOKMARK [3][-]{subsubsection.8.5.5}{Logfiles}{subsection.8.5}% 63
+\BOOKMARK [2][-]{subsection.8.6}{RAID Systeme}{section.8}% 64
+\BOOKMARK [3][-]{subsubsection.8.6.1}{RAID 0}{subsection.8.6}% 65
+\BOOKMARK [3][-]{subsubsection.8.6.2}{RAID 1}{subsection.8.6}% 66
+\BOOKMARK [3][-]{subsubsection.8.6.3}{RAID 5}{subsection.8.6}% 67
+\BOOKMARK [3][-]{subsubsection.8.6.4}{RAID 10}{subsection.8.6}% 68
+\BOOKMARK [3][-]{subsubsection.8.6.5}{RAID 50}{subsection.8.6}% 69
+\BOOKMARK [3][-]{subsubsection.8.6.6}{Gegen\374berstellung der RAID Systeme}{subsection.8.6}% 70
+\BOOKMARK [1][-]{section.9}{Netze}{}% 71
+\BOOKMARK [2][-]{subsection.9.1}{Einf\374hrung}{section.9}% 72
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Beispiele f\374r Netze}{subsection.9.1}% 73
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Gemeinsamkeiten aller Netze}{subsection.9.1}% 74
+\BOOKMARK [2][-]{subsection.9.2}{Einfaches Computernetz}{section.9}% 75
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Netz Topologien}{subsection.9.2}% 76
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Netze in Unternehmen}{subsection.9.2}% 77
+\BOOKMARK [3][-]{subsubsection.9.2.3}{Private Netze}{subsection.9.2}% 78
+\BOOKMARK [2][-]{subsection.9.3}{Servermodelle}{section.9}% 79
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Ein-Server-Modell}{subsection.9.3}% 80
+\BOOKMARK [3][-]{subsubsection.9.3.2}{Multi-Server-Modell}{subsection.9.3}% 81
+\BOOKMARK [2][-]{subsection.9.4}{Kommunikationsarten}{section.9}% 82
+\BOOKMARK [3][-]{subsubsection.9.4.1}{Simplex}{subsection.9.4}% 83
+\BOOKMARK [3][-]{subsubsection.9.4.2}{Halbduplex}{subsection.9.4}% 84
+\BOOKMARK [3][-]{subsubsection.9.4.3}{Vollduplex}{subsection.9.4}% 85
+\BOOKMARK [2][-]{subsection.9.5}{Netzwerkkomponenten}{section.9}% 86
+\BOOKMARK [3][-]{subsubsection.9.5.1}{Port}{subsection.9.5}% 87
+\BOOKMARK [3][-]{subsubsection.9.5.2}{Client}{subsection.9.5}% 88
+\BOOKMARK [3][-]{subsubsection.9.5.3}{Netzwerkkarte}{subsection.9.5}% 89
+\BOOKMARK [3][-]{subsubsection.9.5.4}{Repeater}{subsection.9.5}% 90
+\BOOKMARK [3][-]{subsubsection.9.5.5}{HUB}{subsection.9.5}% 91
+\BOOKMARK [3][-]{subsubsection.9.5.6}{Bridge}{subsection.9.5}% 92
+\BOOKMARK [3][-]{subsubsection.9.5.7}{Switch}{subsection.9.5}% 93
+\BOOKMARK [3][-]{subsubsection.9.5.8}{Router}{subsection.9.5}% 94
+\BOOKMARK [3][-]{subsubsection.9.5.9}{Einordnung der Komponenten ins OSI-Modell}{subsection.9.5}% 95
+\BOOKMARK [2][-]{subsection.9.6}{Round Trip Delay Time - RTDT}{section.9}% 96
+\BOOKMARK [2][-]{subsection.9.7}{Bezeichnungen von Netzen}{section.9}% 97
+\BOOKMARK [2][-]{subsection.9.8}{OSI 7-Schichten Modell}{section.9}% 98
+\BOOKMARK [1][-]{section.10}{Ethernet}{}% 99
+\BOOKMARK [2][-]{subsection.10.1}{MAC Adresse}{section.10}% 100
+\BOOKMARK [3][-]{subsubsection.10.1.1}{Aufbau MAC Adresse}{subsection.10.1}% 101
+\BOOKMARK [1][-]{section.11}{Netzwerkprotokolle}{}% 102
+\BOOKMARK [2][-]{subsection.11.1}{Daten\374bertragung}{section.11}% 103
+\BOOKMARK [1][-]{section.12}{Vollst\344ndiges Ethernet-Paket}{}% 104
+\BOOKMARK [1][-]{section.13}{CSMA/CD - Verfahren}{}% 105
+\BOOKMARK [2][-]{subsection.13.1}{Kollision}{section.13}% 106
+\BOOKMARK [1][-]{section.14}{ARP-Protokoll}{}% 107
+\BOOKMARK [1][-]{section.15}{Subnetting}{}% 108
+\BOOKMARK [2][-]{subsection.15.1}{Die IP Adresse}{section.15}% 109
+\BOOKMARK [2][-]{subsection.15.2}{Netzwerkklassen}{section.15}% 110
+\BOOKMARK [2][-]{subsection.15.3}{Subnetzmaske}{section.15}% 111
+\BOOKMARK [2][-]{subsection.15.4}{CIDAR}{section.15}% 112
+\BOOKMARK [2][-]{subsection.15.5}{VLSM}{section.15}% 113
+\BOOKMARK [1][-]{section.16}{Schaltnetze}{}% 114
+\BOOKMARK [2][-]{subsection.16.1}{Einfache Bauteile}{section.16}% 115
+\BOOKMARK [3][-]{subsubsection.16.1.1}{NOT}{subsection.16.1}% 116
+\BOOKMARK [3][-]{subsubsection.16.1.2}{AND}{subsection.16.1}% 117
+\BOOKMARK [3][-]{subsubsection.16.1.3}{OR}{subsection.16.1}% 118
+\BOOKMARK [3][-]{subsubsection.16.1.4}{NAND}{subsection.16.1}% 119
+\BOOKMARK [3][-]{subsubsection.16.1.5}{NOR}{subsection.16.1}% 120
+\BOOKMARK [3][-]{subsubsection.16.1.6}{XOR}{subsection.16.1}% 121
+\BOOKMARK [3][-]{subsubsection.16.1.7}{XNOR}{subsection.16.1}% 122
+\BOOKMARK [2][-]{subsection.16.2}{Wahrheitstabelle}{section.16}% 123
+\BOOKMARK [2][-]{subsection.16.3}{KV-Diagramm}{section.16}% 124
+\BOOKMARK [3][-]{subsubsection.16.3.1}{Don't-Care-Positions}{subsection.16.3}% 125
+\BOOKMARK [2][-]{subsection.16.4}{Disjunktive Normalform}{section.16}% 126
+\BOOKMARK [2][-]{subsection.16.5}{Impulsdiagramm}{section.16}% 127
+\BOOKMARK [2][-]{subsection.16.6}{Zustandsfolgetabelle}{section.16}% 128
+\BOOKMARK [1][-]{section.17}{Schaltwerke}{}% 129
+\BOOKMARK [2][-]{subsection.17.1}{Schaltwerke}{section.17}% 130
+\BOOKMARK [2][-]{subsection.17.2}{Taktgeber}{section.17}% 131
+\BOOKMARK [2][-]{subsection.17.3}{Flip-Flops}{section.17}% 132
+\BOOKMARK [3][-]{subsubsection.17.3.1}{RS Flip Flop}{subsection.17.3}% 133
+\BOOKMARK [3][-]{subsubsection.17.3.2}{T Flip Flop}{subsection.17.3}% 134
+\BOOKMARK [3][-]{subsubsection.17.3.3}{JK Flip Flop}{subsection.17.3}% 135
+\BOOKMARK [3][-]{subsubsection.17.3.4}{D Flip Flop}{subsection.17.3}% 136
+\BOOKMARK [2][-]{subsection.17.4}{Z\344hler}{section.17}% 137
+\BOOKMARK [2][-]{subsection.17.5}{Addierschaltungen}{section.17}% 138
+\BOOKMARK [2][-]{subsection.17.6}{Subtrahierschaltungen}{section.17}% 139
+\BOOKMARK [2][-]{subsection.17.7}{Schieberegister}{section.17}% 140
+\BOOKMARK [2][-]{subsection.17.8}{Entprellen von Signalen}{section.17}% 141
+\BOOKMARK [1][-]{section.18}{Mirkocontroller}{}% 142
+\BOOKMARK [2][-]{subsection.18.1}{Aufbau}{section.18}% 143
+\BOOKMARK [1][-]{section.19}{Assembler}{}% 144
+\BOOKMARK [2][-]{subsection.19.1}{Wichtige Befehle}{section.19}% 145
+\BOOKMARK [2][-]{subsection.19.2}{Adressierungsarten bei Mikrocontroller}{section.19}% 146
+\BOOKMARK [2][-]{subsection.19.3}{Datenpointer}{section.19}% 147
+\BOOKMARK [2][-]{subsection.19.4}{Zeitberechnung mit der N\344herungsformel}{section.19}% 148
+\BOOKMARK [2][-]{subsection.19.5}{Zeitschleife erstellen ohne Timer}{section.19}% 149
+\BOOKMARK [2][-]{subsection.19.6}{Interrupt}{section.19}% 150
+\BOOKMARK [1][-]{section.20}{Objektorientierte Programmierung}{}% 151
+\BOOKMARK [2][-]{subsection.20.1}{Grundverst\344ndnis}{section.20}% 152
+\BOOKMARK [2][-]{subsection.20.2}{Klassen}{section.20}% 153
+\BOOKMARK [2][-]{subsection.20.3}{Objekte}{section.20}% 154
+\BOOKMARK [2][-]{subsection.20.4}{Datentypen}{section.20}% 155
+\BOOKMARK [2][-]{subsection.20.5}{Arrays}{section.20}% 156
+\BOOKMARK [2][-]{subsection.20.6}{UML}{section.20}% 157
+\BOOKMARK [3][-]{subsubsection.20.6.1}{Struktogramm}{subsection.20.6}% 158
+\BOOKMARK [3][-]{subsubsection.20.6.2}{Klassendiagramm}{subsection.20.6}% 159
+\BOOKMARK [3][-]{subsubsection.20.6.3}{Objektdiagramm}{subsection.20.6}% 160
+\BOOKMARK [3][-]{subsubsection.20.6.4}{Assoziationen}{subsection.20.6}% 161
+\BOOKMARK [3][-]{subsubsection.20.6.5}{Polymorphie}{subsection.20.6}% 162
+\BOOKMARK [3][-]{subsubsection.20.6.6}{Vererbungen}{subsection.20.6}% 163
+\BOOKMARK [3][-]{subsubsection.20.6.7}{Sequenzdiagramm}{subsection.20.6}% 164
+\BOOKMARK [3][-]{subsubsection.20.6.8}{Zustandsdiagramm}{subsection.20.6}% 165
+\BOOKMARK [1][-]{section.21}{Datenbanken}{}% 166
+\BOOKMARK [2][-]{subsection.21.1}{Grundverst\344ndnis Datenbanken}{section.21}% 167
+\BOOKMARK [2][-]{subsection.21.2}{Verwendung}{section.21}% 168
+\BOOKMARK [2][-]{subsection.21.3}{Entity-Relationship-Diagramm}{section.21}% 169
+\BOOKMARK [2][-]{subsection.21.4}{Realtionen}{section.21}% 170
+\BOOKMARK [3][-]{subsubsection.21.4.1}{Prim\344rschl\374ssel}{subsection.21.4}% 171
+\BOOKMARK [3][-]{subsubsection.21.4.2}{Sekund\344rschl\374ssel}{subsection.21.4}% 172
+\BOOKMARK [2][-]{subsection.21.5}{SQL}{section.21}% 173
+\BOOKMARK [3][-]{subsubsection.21.5.1}{SQL Abfragen}{subsection.21.5}% 174
+\BOOKMARK [3][-]{subsubsection.21.5.2}{SQL Selektion}{subsection.21.5}% 175
+\BOOKMARK [1][-]{section.22}{Fachsprache}{}% 176
+\BOOKMARK [2][-]{subsection.22.1}{Fachw\366rter}{section.22}% 177
+\BOOKMARK [2][-]{subsection.22.2}{Typfeld Kennungen}{section.22}% 178
+\BOOKMARK [1][-]{section.23}{Epilog}{}% 179
+\BOOKMARK [2][-]{subsection.23.1}{Literatur}{section.23}% 180
