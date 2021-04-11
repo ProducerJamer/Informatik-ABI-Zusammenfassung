@@ -627,8 +627,14 @@ Um einen Prozess unterbrechen zu können, muss dieser nach der Unterbrechung die
 Wichtig für dieses Verhalten ist, dass Prozesse abgeschirmt voneinander sein müssen. Prozess A darf den Kontext von Prozess B nicht kennen. Prozess A erfährt immer nur seinen eigenen Kontext.
 
 \subsection{Scheduling}
-
-\subsection{Prozesssynchronisation}
+Konkurrieren mehrere Prozesse um die Rechenzeit, teilt der Scheduler ihnen gemäß folgender Kriterien die Rechenzeit zu:
+\begin{enumerate}
+	\item \textbf{Fairness}, jeder Prozess erhält einen gerechten Anteil der Rechenzeit
+	\item \textbf{Effizienz}, der Prozessor arbeitet möglichst effizient
+	\item \textbf{Antwortzeit}, diese wird für interaktiv arbeitende Benutzer minimiert
+	\item \textbf{Verweilzeit}, die Wartezeit für die Ausgabe von Stapelaufträgen wird minimiert
+	\item \textbf{Durchsatz}, Maximierung der Auftragszahl für ein bestimmtes Zeitintervall
+\end{enumerate}
 
 \subsubsection{Shortest Remaining Time}
 
