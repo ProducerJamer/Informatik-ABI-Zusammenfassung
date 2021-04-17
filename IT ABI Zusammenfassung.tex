@@ -2934,6 +2934,26 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \section{Mirkocontroller}
 
 \subsection{Aufbau}
+    Ein Mirkocontroller besteht aus CPU, RAM, internen und externen Speichern, Interrupts, Timern und Ports.
+    Wir beschäftigen uns hier ausschließlich mit dem 8051-Controller.
+    \begin{table}[h]
+        \centering
+        \begin{tabularx}{17cm}{|X|X|}
+            \hline
+            \textbf{Variante} & \textbf{Größe}\\
+            \hline
+            Port X & Byte\\
+            \hline
+            Port X.Y & Bit\\
+            \hline
+            Akku & Byte\\
+            \hline
+            Register $\text{R}_{\text{n}}$ & Byte\\
+            \hline
+        \end{tabularx}
+    \end{table}
+    Außerdem gibt es noch Datenpointer, welche ein gesamtes Byte aus einer Tabelle in den Akku laden können.
+    Interrupts sind Prozesse, welche ganz nach oben auf den Stack gelegt werden und dann direkt abgearbeitet werden. Sie unterbrechen damit eine Abfolge von Prozessen da ihre Priorität höher ist. Der Stack ist ein Stapel an Prozessen, welcher von der CPU abgearbeitet werden muss.
 
 \section{Assembler}
     Eine Assemblersprache, kurz auch Assembler genannt, ist eine Programmiersprache, die auf den Befehlsvorrat eines

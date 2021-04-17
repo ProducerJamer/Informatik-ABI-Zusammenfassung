@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  16 APR 2021 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  17 APR 2021 16:19
 entering extended mode
 **"d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
 (d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
@@ -2011,7 +2011,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [49 <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererAlternativ.png> <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererSymbol.png> <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/VolladiererAlternativ.png> <d:/Schuldateien/TeX Zusammenfassungen IT ABI/Informatik-ABI-Zusammenfassung/Bilder/VolladdiererSymbol.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2960.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2957.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -2022,16 +2022,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [50]
-Overfull \hbox (1.82973pt too wide) in paragraph at lines 2965--2966
+Overfull \hbox (1.82973pt too wide) in paragraph at lines 2985--2986
 \T1/phv/m/n/12 In den meis-ten ob-jek-t-ori-en-tier-ten Pro-gram-mier-spra-chen wird ein Ob-jekt oder Ex-em-plar (auch
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2994.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2986.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2041,13 +2038,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 3003--3021
+Underfull \hbox (badness 10000) in paragraph at lines 3023--3041
 
  []
 
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3142.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3081.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2057,19 +2054,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [52]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3225.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3162.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -2078,11 +2067,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
 [53]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3226.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3245.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.16011pt, for example:
@@ -2093,7 +2090,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [54]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3226.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3246.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -2106,7 +2103,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [55]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3226.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3246.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -2119,7 +2116,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [56]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
-Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3226.
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3246.
 (pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
 
 
@@ -2129,22 +2126,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[57] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
+[57]
+File: Bilder/BSZLOGO.png Graphic file (type png)
+<use Bilder/BSZLOGO.png>
+Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3246.
+(pdftex.def)             Requested size: 115.17534pt x 29.81007pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.16011pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.16011pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
+
+[58] (d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
 (rerunfilecheck)             Checksum: 016CDD0EC81197E9155933AF4900E6DF;24610.
  ) 
 Here is how much of TeX's memory you used:
- 33258 strings out of 479334
- 764317 string characters out of 2857084
+ 33259 strings out of 479334
+ 764324 string characters out of 2857084
  1210433 words of memory out of 3000000
  49861 multiletter control sequences out of 15000+200000
  460523 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,89p,1073b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (57 pages, 815597 bytes).
+Output written on "d:/Schuldateien\TeX Zusammenfassungen IT ABI\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (58 pages, 817203 bytes).
 PDF statistics:
- 1318 PDF objects out of 1440 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
+ 1322 PDF objects out of 1440 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
  1508 words of extra memory for PDF output out of 10000 (max. 10000000)
 

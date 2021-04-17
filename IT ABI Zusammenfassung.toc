@@ -142,7 +142,7 @@
 \contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{50}{subsection.17.8}%
 \contentsline {section}{\numberline {18}Mirkocontroller}{50}{section.18}%
 \contentsline {subsection}{\numberline {18.1}Aufbau}{50}{subsection.18.1}%
-\contentsline {section}{\numberline {19}Assembler}{50}{section.19}%
+\contentsline {section}{\numberline {19}Assembler}{51}{section.19}%
 \contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{51}{subsection.19.1}%
 \contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{51}{subsection.19.2}%
 \contentsline {subsection}{\numberline {19.3}Datenpointer}{51}{subsection.19.3}%
@@ -153,29 +153,29 @@
 \contentsline {subsection}{\numberline {20.1}Grundverständnis}{51}{subsection.20.1}%
 \contentsline {subsection}{\numberline {20.2}Klassen}{51}{subsection.20.2}%
 \contentsline {subsection}{\numberline {20.3}Objekte}{51}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Datentypen}{51}{subsection.20.4}%
-\contentsline {subsection}{\numberline {20.5}Arrays}{51}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.4}Datentypen}{52}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}Arrays}{52}{subsection.20.5}%
 \contentsline {subsection}{\numberline {20.6}UML}{52}{subsection.20.6}%
 \contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{52}{subsubsection.20.6.1}%
-\contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{53}{subsubsection.20.6.2}%
-\contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{53}{subsubsection.20.6.3}%
-\contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{53}{subsubsection.20.6.4}%
-\contentsline {subsubsection}{\numberline {20.6.5}Polymorphie}{53}{subsubsection.20.6.5}%
-\contentsline {subsubsection}{\numberline {20.6.6}Vererbungen}{53}{subsubsection.20.6.6}%
-\contentsline {subsubsection}{\numberline {20.6.7}Sequenzdiagramm}{53}{subsubsection.20.6.7}%
-\contentsline {subsubsection}{\numberline {20.6.8}Zustandsdiagramm}{53}{subsubsection.20.6.8}%
-\contentsline {section}{\numberline {21}Datenbanken}{53}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{53}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{53}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{53}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Realtionen}{53}{subsection.21.4}%
-\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{53}{subsubsection.21.4.1}%
-\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{53}{subsubsection.21.4.2}%
-\contentsline {subsection}{\numberline {21.5}SQL}{53}{subsection.21.5}%
-\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{53}{subsubsection.21.5.1}%
-\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{53}{subsubsection.21.5.2}%
-\contentsline {section}{\numberline {22}Fachsprache}{53}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{53}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{53}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{53}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Literatur}{54}{subsection.23.1}%
+\contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{54}{subsubsection.20.6.2}%
+\contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{54}{subsubsection.20.6.3}%
+\contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{54}{subsubsection.20.6.4}%
+\contentsline {subsubsection}{\numberline {20.6.5}Polymorphie}{54}{subsubsection.20.6.5}%
+\contentsline {subsubsection}{\numberline {20.6.6}Vererbungen}{54}{subsubsection.20.6.6}%
+\contentsline {subsubsection}{\numberline {20.6.7}Sequenzdiagramm}{54}{subsubsection.20.6.7}%
+\contentsline {subsubsection}{\numberline {20.6.8}Zustandsdiagramm}{54}{subsubsection.20.6.8}%
+\contentsline {section}{\numberline {21}Datenbanken}{54}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{54}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{54}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{54}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Realtionen}{54}{subsection.21.4}%
+\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{54}{subsubsection.21.4.1}%
+\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{54}{subsubsection.21.4.2}%
+\contentsline {subsection}{\numberline {21.5}SQL}{54}{subsection.21.5}%
+\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{54}{subsubsection.21.5.1}%
+\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{54}{subsubsection.21.5.2}%
+\contentsline {section}{\numberline {22}Fachsprache}{54}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{54}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{54}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{54}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Literatur}{55}{subsection.23.1}%
