@@ -2965,10 +2965,54 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Datenpointer}
 
-\subsection{Zeitberechnung mit der Näherungsformel}
-
 \subsection{Zeitschleife erstellen ohne Timer}
-
+    Aufgrund Covid-19 ist der Timer kein Bestandteil des diesjährigen Abiturs, weshalb wir Wartezeiten nur mit Schleifen erstellen können. Hierbei verwenden wir Register. Man setzt die 8-Bit Register auf eine Zahl und bildet mit mindestens 2 Registern eine Schleife. Zuerst wird der Wert des inneren Registers immer um 1 reduziert, bis es 0 ist, dann wird das äußere Register um 1 reduziert und das Innere Register beginnt von neu. Hierbei wird je nach Geschwindigkeit des Mikrocontrollers eine Wartezeit erzeugt.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw [black,very thick](0, 2) ellipse (2 and 0.7);
+            \node at (0,2){Zeitschleife};
+            \draw [black,very thick](0,1.3)--(0,0.5);
+            \draw [black,very thick](-2,0.5) rectangle (2,-0.5);
+            \node at (0,0){$\text{R}_{\text{1}}$=255d};
+            \draw [black,very thick](0,-1)--(0,-0.5);
+            \draw [black,very thick](-2,-1) rectangle (2,-2);
+            \node at (0,-1.5){$\text{R}_{\text{2}}$=220d};
+            \draw [black,very thick](0,-2)--(0,-2.5);
+            \draw [black,very thick](-2,-2.5) rectangle (2,-3.5);
+            \node at (0,-3){$\text{R}_{\text{2}}$=$\text{R}_{\text{2}}$-1};
+            \draw [black,very thick](0,-3.5)--(0,-4)--(2,-5)--(0,-6)--(-2,-5)--(0,-4);
+            \draw [black,very thick](2,-5)--(4,-5)--(4,-2.25);
+            \draw [black,very thick, ->](4,-2.25)--(0,-2.25);
+            \node at (0,-5){$\text{R}_{\text{2}}$=0?};
+            \node at (3,-4.75){Nein};
+            \draw [black,very thick](0,-6)--(0,-6.5);
+            \node at (0.25,-6.25){Ja};
+            \draw [black,very thick](-2,-6.5) rectangle (2,-7.5);
+            \node at (0,-7){$\text{R}_{\text{1}}$=$\text{R}_{\text{1}}$-1};
+            \draw [black,very thick](0,-7.5)--(0,-8)--(2,-9)--(0,-10)--(-2,-9)--(0,-8);
+            \node at (0,-9){$\text{R}_{\text{1}}$=0?};
+            \node at (-3,-8.75){Nein};
+            \draw [black,very thick](-2,-9)--(-4,-9)--(-4,-0.75);
+            \draw [black,very thick, ->](-4,-0.75)--(0,-0.75);
+            \draw [black,very thick](0,-10)--(0,-10.5);
+            \node at (0.25,-10.25){Ja};
+            \draw [black,very thick](0,-11.2) ellipse (2 and 0.7);
+            \node at (0,-11.2){Ende};
+        \end{tikzpicture}
+    \end{center}
+    
+\subsection{Zeitberechnung mit der Näherungsformel}
+    Die Formel lautet:
+    \begin{center}
+        Zeit = Maschienenzyklengeschwindigkeit des Mikrocontrollers * Wert R1 * Wert R2 * Maschienenzyklen für DJNZ Befehl
+    \end{center}
+    \textbf{Beispiel:}\newline
+    R1=255 \& R2=220 \& Geschw. des Mikrocontrollers=1MZ \& DJNZ-Befehl=2MZ\newline
+    \begin{center}
+        $\text{t} = 2*255*220 = 112200\text{\textmu s} = 112,2\text{ms} = 0,1122\text{s}$    
+    \end{center}
+    Wenn man die ganz genaue Zeit eines Programmes berechnen will, muss man natürlich noch alle Initialisierungsbefehle, usw. hinzuaddieren.
+    
 \subsection{Interrupt}
 
 \section{Objektorientierte Programmierung}
