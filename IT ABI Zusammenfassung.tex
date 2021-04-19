@@ -3014,6 +3014,28 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Wenn man die ganz genaue Zeit eines Programmes berechnen will, muss man natürlich noch alle Initialisierungsbefehle, usw. hinzuaddieren.
     
 \subsection{Interrupt}
+    In der Informatik versteht man unter einem Interrupt eine kurzfristige Unterbrechung der normalen Programmausführung, um einen, in der Regel kurzen, aber zeitlich kritischen, Vorgang abzuarbeiten. Das Program, welches nach dem Interrupt ausgeführt wird nennt man Interrupt Service Routine(ISR).
+    Um den Interrupt verwenden zu können, sollte man ihn zuerst initialisieren. Dazu muss man in der Formelsammlung des Mirkocontrollers nachschauen, welche Ports Interrupt-fähig sind. An diesen Ports kann man nun seinen Interrupt aktivieren und Einstellen wann er reagieren soll.\newline
+    Eine mögliche Initialisierung könnte folgendermaßen aussehen:
+    \begin{table}[h]
+        \centering
+        \begin{tabularx}{5cm}{XX}
+            Init: & SETB IT0\\
+            &SETB EX0\\
+            &SETB EAL\\
+        \end{tabularx}
+    \end{table}
+    \vspace{1cm}
+    \newline Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts zu finden.\newline
+    Dies sieht dann folgendermaßen aus:
+    \begin{table}[h]
+        \centering
+        \begin{tabularx}{6cm}{XX}
+            \textbf{ORG 0003h:} & \\
+            marke0: & ...\\
+            & ...\\
+        \end{tabularx}
+    \end{table}
 
 \section{Objektorientierte Programmierung}
 
