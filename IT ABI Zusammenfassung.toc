@@ -118,47 +118,47 @@
 \contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{42}{subsection.16.1}%
 \contentsline {subsubsection}{\numberline {16.1.1}NOT}{42}{subsubsection.16.1.1}%
 \contentsline {subsubsection}{\numberline {16.1.2}AND}{42}{subsubsection.16.1.2}%
-\contentsline {subsubsection}{\numberline {16.1.3}OR}{42}{subsubsection.16.1.3}%
+\contentsline {subsubsection}{\numberline {16.1.3}OR}{43}{subsubsection.16.1.3}%
 \contentsline {subsubsection}{\numberline {16.1.4}NAND}{43}{subsubsection.16.1.4}%
 \contentsline {subsubsection}{\numberline {16.1.5}NOR}{43}{subsubsection.16.1.5}%
-\contentsline {subsubsection}{\numberline {16.1.6}XOR}{43}{subsubsection.16.1.6}%
+\contentsline {subsubsection}{\numberline {16.1.6}XOR}{44}{subsubsection.16.1.6}%
 \contentsline {subsubsection}{\numberline {16.1.7}XNOR}{44}{subsubsection.16.1.7}%
 \contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{44}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{44}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{45}{subsubsection.16.3.1}%
-\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{45}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{45}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{46}{subsubsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{46}{subsection.16.4}%
 \contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{46}{subsection.16.5}%
-\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{46}{subsection.16.6}%
+\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{47}{subsection.16.6}%
 \contentsline {section}{\numberline {17}Schaltwerke}{47}{section.17}%
 \contentsline {subsection}{\numberline {17.1}Schaltwerke}{47}{subsection.17.1}%
 \contentsline {subsection}{\numberline {17.2}Taktgeber}{47}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Flip-Flops}{47}{subsection.17.3}%
-\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{47}{subsubsection.17.3.1}%
+\contentsline {subsection}{\numberline {17.3}Flip-Flops}{48}{subsection.17.3}%
+\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{48}{subsubsection.17.3.1}%
 \contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{48}{subsubsection.17.3.2}%
 \contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{48}{subsubsection.17.3.3}%
-\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{48}{subsubsection.17.3.4}%
+\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{49}{subsubsection.17.3.4}%
 \contentsline {subsection}{\numberline {17.4}Zähler}{49}{subsection.17.4}%
-\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{49}{subsection.17.5}%
-\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{50}{subsection.17.6}%
-\contentsline {subsection}{\numberline {17.7}Schieberegister}{50}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{50}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{51}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Schieberegister}{51}{subsection.17.7}%
 \contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{51}{subsection.17.8}%
-\contentsline {section}{\numberline {18}Mirkocontroller}{51}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Aufbau}{51}{subsection.18.1}%
+\contentsline {section}{\numberline {18}Mirkocontroller}{52}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Aufbau}{52}{subsection.18.1}%
 \contentsline {section}{\numberline {19}Assembler}{52}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{52}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{52}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Datenpointer}{52}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{52}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{53}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{53}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Datenpointer}{53}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{53}{subsection.19.4}%
 \contentsline {subsection}{\numberline {19.5}Zeitberechnung mit der Näherungsformel}{53}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Interrupt}{53}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.6}Interrupt}{54}{subsection.19.6}%
 \contentsline {section}{\numberline {20}Objektorientierte Programmierung}{54}{section.20}%
 \contentsline {subsection}{\numberline {20.1}Grundverständnis}{54}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Klassen}{54}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Objekte}{54}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.2}Klassen}{55}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Objekte}{55}{subsection.20.3}%
 \contentsline {subsection}{\numberline {20.4}Datentypen}{55}{subsection.20.4}%
 \contentsline {subsection}{\numberline {20.5}Arrays}{55}{subsection.20.5}%
 \contentsline {subsection}{\numberline {20.6}UML}{55}{subsection.20.6}%
-\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{55}{subsubsection.20.6.1}%
+\contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{56}{subsubsection.20.6.1}%
 \contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{57}{subsubsection.20.6.2}%
 \contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{57}{subsubsection.20.6.3}%
 \contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{57}{subsubsection.20.6.4}%

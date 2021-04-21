@@ -1883,9 +1883,18 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 
 \subsection{VLSM}
     VLSM ist ein erweitertes Subnetting. Hierzu wird die Subnetmaske in eine variable Länge gebracht um das Subnetz in mehrere verschieden große Teile zu unterteilen und sie hierarchisch nach ihrer Größe sortiert. Somit ist es möglich, Subnetze mit einer jeweils verschiedenen Anzahl an Hosts zu erschaffen, ohne dass dafür eine große Menge an IP-Adressen verschwendet werden muss.\newline
+    \hspace{2cm}
     \textbf{Beispiel:}\newline
-    Aufgabenstellung:\newline
-
+    \textcolor{red}{Aufgabenstellung:}\newline
+    Es wird ein neues Gebäude gebaut. Dafür steht der IP-Bereich 11.137.4.0/23 zur Verfügung. Die ersten 2 von den 6 Etagen sollen jeweilt 100 IP-Adressen haben und die restlichen 4 jeweils 50 IP-Adressen.
+    Gib die IP-Range jeder Etage an!\newline
+    \textcolor{red}{Lösung:}\newline
+    \textbf{Etage 1:} 11.137.4.1   -  11.137.4.126\newline
+    \textbf{Etage 2:} 11.137.4.129 -  11.137.4.254\newline
+    \textbf{Etage 3:} 11.137.5.1   -  11.137.5.62 \newline
+    \textbf{Etage 4:} 11.137.5.65  -  11.137.5.126\newline
+    \textbf{Etage 5:} 11.137.5.129 -  11.137.5.190\newline
+    \textbf{Etage 6:} 11.137.5.193 -  11.137.5.254\newline
 
 \subsection{Routing Tabellen}%??? JA oder NEIN?
 
