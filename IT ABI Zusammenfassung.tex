@@ -3186,12 +3186,72 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsubsection{Zustandsdiagramm}
 
 \section{Datenbanken}
-
 \subsection{Grundverständnis Datenbanken}
+    Eine Datenbank, auch Datenbanksystem genannt, ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe einer Datenbank ist es, große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen.
+    Eine Datenbank besteht aus mehreren Tabellen. Jede Tabelle hat eigene Spalten. Diese Tabellen können zusammenarbeiten und effizient Daten speichern. Daten müssen nicht doppelt oder dreifach gespeichert werden.
 
 \subsection{Verwendung}
+    Um Daten dauerhaft, effizeint und widerspruchsfrei zu speichern.
 
 \subsection{Entity-Relationship-Diagramm}
+    Das ER-Diagramm gibt einen schnellen und übersichtlichen Überblick über die Tabellen einer Datenbank. Das ER-Diagramm wird zum Beispiel beim Erstellen und Planen einer Datenbank verwendet.
+    Bevor man das ER-Diagramm zeichnen will, sollte man sich aber alle Beziehungen der Tabellen ansehen. Treten n:m-Beziehungen auf, müssen diese zuerst aufgelöst werden:\newline
+    \textbf{1:1 Beziehung:}
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-7,-1) rectangle (-3,1);
+            \draw[black,very thick](-3,0)--(3,0);
+            \draw[black,very thick](3,-1) rectangle (7,1);
+            \node at (-2.5,0.5){1};
+            \node at (2.5,0.5){1};
+            \node at (-5,0){Entität 1};
+            \node at (5,0){Entität 2};
+        \end{tikzpicture}
+    \end{center}
+
+    \textbf{1:n Beziehung:}
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-7,-1) rectangle (-3,1);
+            \draw[black,very thick](-3,0)--(3,0);
+            \draw[black,very thick](3,-1) rectangle (7,1);
+            \node at (-2.5,0.5){1};
+            \node at (2.5,0.5){N};
+            \node at (-5,0){Entität 1};
+            \node at (5,0){Entität 2};
+        \end{tikzpicture}
+    \end{center}
+
+    \textbf{n:m Beziehung:}
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-7,-1) rectangle (-3,1);
+            \draw[black,very thick](-3,0)--(3,0);
+            \draw[black,very thick](3,-1) rectangle (7,1);
+            \node at (-2.5,0.5){N};
+            \node at (2.5,0.5){M};
+            \node at (-5,0){Entität 1};
+            \node at (5,0){Entität 2};
+        \end{tikzpicture}
+    \end{center}
+
+    \textbf{n:m Beziehung(aufgelöst):}
+    \begin{center}
+        \begin{tikzpicture}
+            \draw[black,very thick](-8,-1) rectangle (-4,1);
+            \draw[black,very thick](-4,0)--(-2,0);
+            \draw[black,very thick](4,0)--(2,0);
+            \draw[black,very thick](4,-1) rectangle (8,1);
+            \node at (-3.5,0.5){1};
+            \node at (3.5,0.5){1};
+            \node at (-2.5,0.5){N};
+            \node at (2.5,0.5){M};
+            \node at (-6,0){Entität 1};
+            \node at (6,0){Entität 2};
+            \node at (0,0){Verbindungsentität};
+            \draw[black,very thick](-2,-1) rectangle (2,1);
+        \end{tikzpicture}
+    \end{center}
 
 \subsection{Primärschlüssel}
     Der Primärschlüssel findet sich in jeder Tabelle einer Datenbank. Er ist meist die ID der jeweiligen Einträge, da diese sich nicht doppelt. Mit dem Primär- und Sekundärschlüssel können Tabellen verknüpft werden.

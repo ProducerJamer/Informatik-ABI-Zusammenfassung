@@ -160,21 +160,21 @@
 \contentsline {subsection}{\numberline {20.5}Arrays}{55}{subsection.20.5}%
 \contentsline {subsection}{\numberline {20.6}UML}{55}{subsection.20.6}%
 \contentsline {subsubsection}{\numberline {20.6.1}Struktogramm}{56}{subsubsection.20.6.1}%
-\contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{57}{subsubsection.20.6.2}%
-\contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{57}{subsubsection.20.6.3}%
-\contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{57}{subsubsection.20.6.4}%
-\contentsline {subsubsection}{\numberline {20.6.5}Polymorphie}{57}{subsubsection.20.6.5}%
-\contentsline {subsubsection}{\numberline {20.6.6}Vererbungen}{57}{subsubsection.20.6.6}%
-\contentsline {subsubsection}{\numberline {20.6.7}Sequenzdiagramm}{57}{subsubsection.20.6.7}%
-\contentsline {subsubsection}{\numberline {20.6.8}Zustandsdiagramm}{57}{subsubsection.20.6.8}%
-\contentsline {section}{\numberline {21}Datenbanken}{57}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{57}{subsection.21.1}%
+\contentsline {subsubsection}{\numberline {20.6.2}Klassendiagramm}{56}{subsubsection.20.6.2}%
+\contentsline {subsubsection}{\numberline {20.6.3}Objektdiagramm}{56}{subsubsection.20.6.3}%
+\contentsline {subsubsection}{\numberline {20.6.4}Assoziationen}{56}{subsubsection.20.6.4}%
+\contentsline {subsubsection}{\numberline {20.6.5}Polymorphie}{56}{subsubsection.20.6.5}%
+\contentsline {subsubsection}{\numberline {20.6.6}Vererbungen}{56}{subsubsection.20.6.6}%
+\contentsline {subsubsection}{\numberline {20.6.7}Sequenzdiagramm}{56}{subsubsection.20.6.7}%
+\contentsline {subsubsection}{\numberline {20.6.8}Zustandsdiagramm}{56}{subsubsection.20.6.8}%
+\contentsline {section}{\numberline {21}Datenbanken}{56}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{56}{subsection.21.1}%
 \contentsline {subsection}{\numberline {21.2}Verwendung}{57}{subsection.21.2}%
 \contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{57}{subsection.21.3}%
 \contentsline {subsection}{\numberline {21.4}Primärschlüssel}{57}{subsection.21.4}%
-\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{57}{subsection.21.5}%
-\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{57}{subsection.21.6}%
-\contentsline {subsection}{\numberline {21.7}SQL}{57}{subsection.21.7}%
+\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{58}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{58}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}SQL}{58}{subsection.21.7}%
 \contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{58}{subsubsection.21.7.1}%
 \contentsline {section}{\numberline {22}Fachsprache}{59}{section.22}%
 \contentsline {subsection}{\numberline {22.1}Fachwörter}{59}{subsection.22.1}%
