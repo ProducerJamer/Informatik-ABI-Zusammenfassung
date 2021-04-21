@@ -3193,27 +3193,79 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Entity-Relationship-Diagramm}
 
-\subsection{Realtionen}
+\subsection{Primärschlüssel}
+    Der Primärschlüssel findet sich in jeder Tabelle einer Datenbank. Er ist meist die ID der jeweiligen Einträge, da diese sich nicht doppelt. Mit dem Primär- und Sekundärschlüssel können Tabellen verknüpft werden.
     
-\subsubsection{Primärschlüssel}
-    
-\subsubsection{Sekundärschlüssel}
+\subsection{Sekundärschlüssel}
+    Der Sekundärschlüssel ist der Primärschlüssel der jeweils anderen Tabelle. Dieser befindet sich außerdem in der lokalen Tabelle.
 
+\subsection{Realtionsschreibweise}
+    Bei der Realtionsschreibweise erkennt man direkt die wichtigsten Informationen und die Spalten einer Datenbank. Hierbei muss deutlich klar gemacht werden, was der Primär- und was der Sekundärschlüssel sind.\newline
+    \textbf{Beispiel:}\newline
+    Angestellter(\textbf{PerNr}, Name, Vorname, \underline{AbtNr})\newline
+    Abteilung(\textbf{AbtNr}, Bezeichnung)\newline
+    \vspace{0.2cm}\newline
+    Legende:\newline
+    \textbf{Fett}=Primärschlüssel, \underline{Unterstrichen}=Sekundärschlüssel
+    
 \subsection{SQL}
     SQL ist eine Datenbanksprache zur Definition von Datenstrukturen in relationalen Datenbanken sowie zum Bearbeiten und Abfragen von darauf basierenden Datenbeständen.
 
 \subsubsection{SQL Abfragen}
     Um gefilterte Informationen aus Datenbanken zu entnehmen werden SQL-Abfragen geschrieben. Mit diesen kann man mehrere Tabellen verknüpfen und gefiltert nach den gewünschten Daten suchen.\newline
+    \vspace{0.5cm}\newline
     \textbf{SELECT Buchungen.BuchungsID, Buchungen.KundenID, \newline
     Kunden.Name FROM Kunden, Buchungen\newline
     WHERE Kunden.KundenID = Buchungen.KundenID\newline
     AND KUNDEN.Name LIKE "Müller"\newline}
-    Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und Kundennamen von Kunden mit dem Namen Müller ausgegeben.
-    
-\subsubsection{SQL Selektion}
+    \vspace{0.5cm}\newline
+    Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und 
+    Kundennamen von Kunden mit dem Namen Müller ausgegeben.\newline
+    \vspace{1cm}\newline
+    Der Aufbau einer SQL-Abfrage muss folgende Reihenfolge einhalten:\newline
+    \textbf{SELECT <Spalte>,<Aggregatfunktion>\newline
+    FROM <Tabelle>\newline
+    WHERE <Bedingung>\newline
+    GROUP BY <Spalte>\newline
+    HAVING <Aggregatfunktion> <VerglOp> <Wert>\newline
+    ORDER BY <Spalte>[ASC|DESC], <Aggregatfunktion>\newline
+    LIMIT [start,] anzahl}\newline
+    \vspace{1cm}\newline
+    Hier einige Befehle:
+    \begin{table}[h]
+        \centering
+        \begin{tabularx}{17cm}{|X|X|}
+            \hline
+            DISTINCT & Vermeidet doppelte Datensätze(kommt nach SELECT)\\
+            \hline
+            ASC & Alphabetische/Aufsteigende Sortierung\\
+            \hline
+            DESC & Absteigende Sortierung\\
+            \hline
+            SUM() & Summe\\
+            \hline
+            COUNT() & Anzahl\\
+            \hline
+            AVG() & Durchschnittlicher Wert\\
+            \hline
+            MAX() & Höchster Wert\\
+            \hline
+            MIN() & Kleinster Wert\\
+            \hline
+        \end{tabularx}
+    \end{table}
+    \vspace{0.5cm}\newline
+    Beispiel:\newline
+    \textbf{SELECT fahrradtypen.Typbezeichnung, SUM(DATEDIFF(bis, von) * Tagesmietpreis) AS "Mieteinnahmen"\newline
+    FROM fahrraeder, fahrradtypen, vermietungen\newline
+    WHERE fahrraeder.FahrradNr = vermietungen.FahrradNr\newline
+    AND fahrradtypen.TypNr = vermietungen.TypNr\newline
+    GROUP BY fahrradtypen.Typbezeichnung\newline
+    HAVING SUM(DATEDIFF(bis, von) * Tagesmietpreis) >= 1000}\newline
+    \vspace{0.5cm}\newline
+    Mit diesem Befehl werden alle Mieteinnahmen und Fahrradtyp ausgegeben bei denen die Mieteinnahmen größer als 1000€ sind.
 
 \section{Fachsprache}
-
 \subsection{Fachwörter}
     \begin{table}[h]
         \renewcommand{\arraystretch}{2}

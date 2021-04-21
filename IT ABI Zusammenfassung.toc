@@ -171,14 +171,13 @@
 \contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{57}{subsection.21.1}%
 \contentsline {subsection}{\numberline {21.2}Verwendung}{57}{subsection.21.2}%
 \contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{57}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Realtionen}{57}{subsection.21.4}%
-\contentsline {subsubsection}{\numberline {21.4.1}Primärschlüssel}{57}{subsubsection.21.4.1}%
-\contentsline {subsubsection}{\numberline {21.4.2}Sekundärschlüssel}{57}{subsubsection.21.4.2}%
-\contentsline {subsection}{\numberline {21.5}SQL}{57}{subsection.21.5}%
-\contentsline {subsubsection}{\numberline {21.5.1}SQL Abfragen}{57}{subsubsection.21.5.1}%
-\contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{57}{subsubsection.21.5.2}%
-\contentsline {section}{\numberline {22}Fachsprache}{57}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{57}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{58}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{58}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Literatur}{58}{subsection.23.1}%
+\contentsline {subsection}{\numberline {21.4}Primärschlüssel}{57}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{57}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{57}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}SQL}{57}{subsection.21.7}%
+\contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{58}{subsubsection.21.7.1}%
+\contentsline {section}{\numberline {22}Fachsprache}{59}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{59}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{59}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{59}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Literatur}{59}{subsection.23.1}%
