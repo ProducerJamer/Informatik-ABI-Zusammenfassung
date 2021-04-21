@@ -114,6 +114,7 @@
 \contentsline {subsection}{\numberline {15.5}VLSM}{41}{subsection.15.5}%
 \contentsline {subsection}{\numberline {15.6}Routing Tabellen}{41}{subsection.15.6}%
 \contentsline {subsection}{\numberline {15.7}DMZ - Demilitarisierte Zone}{41}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}IPv6}{42}{subsection.15.8}%
 \contentsline {section}{\numberline {16}Schaltnetze}{42}{section.16}%
 \contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{42}{subsection.16.1}%
 \contentsline {subsubsection}{\numberline {16.1.1}NOT}{42}{subsubsection.16.1.1}%
@@ -178,6 +179,6 @@
 \contentsline {subsubsection}{\numberline {21.5.2}SQL Selektion}{57}{subsubsection.21.5.2}%
 \contentsline {section}{\numberline {22}Fachsprache}{57}{section.22}%
 \contentsline {subsection}{\numberline {22.1}Fachwörter}{57}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{57}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{57}{section.23}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{58}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{58}{section.23}%
 \contentsline {subsection}{\numberline {23.1}Literatur}{58}{subsection.23.1}%

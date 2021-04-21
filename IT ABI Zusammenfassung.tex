@@ -1905,6 +1905,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
         \includegraphics[scale=0.9]{Bilder/DMZ.PNG}
     \end{center}
 
+\subsection{IPv6}
+
+
 \section{Schaltnetze}
     Schaltnetze sind Zusammensetzungen von logischen Gattern ohne Speicherverhalten. Sie bestehen aus einem oder mehreren einfachen Bauteilen.
     
@@ -3197,8 +3200,15 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsubsection{Sekundärschlüssel}
 
 \subsection{SQL}
-    
+    SQL ist eine Datenbanksprache zur Definition von Datenstrukturen in relationalen Datenbanken sowie zum Bearbeiten und Abfragen von darauf basierenden Datenbeständen.
+
 \subsubsection{SQL Abfragen}
+    Um gefilterte Informationen aus Datenbanken zu entnehmen werden SQL-Abfragen geschrieben. Mit diesen kann man mehrere Tabellen verknüpfen und gefiltert nach den gewünschten Daten suchen.\newline
+    \textbf{SELECT Buchungen.BuchungsID, Buchungen.KundenID, \newline
+    Kunden.Name FROM Kunden, Buchungen\newline
+    WHERE Kunden.KundenID = Buchungen.KundenID\newline
+    AND KUNDEN.Name LIKE "Müller"\newline}
+    Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und Kundennamen von Kunden mit dem Namen Müller ausgegeben.
     
 \subsubsection{SQL Selektion}
 
