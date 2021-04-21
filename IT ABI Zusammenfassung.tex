@@ -1881,7 +1881,20 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
         In diesem Falle wäre die CIDAR /17
     \end{center}
 
-\subsection{VLSM}%Kommt noch, machen wir grad in IT
+\subsection{VLSM}
+    VLSM ist ein erweitertes Subnetting. Hierzu wird die Subnetmaske in eine variable Länge gebracht um das Subnetz in mehrere verschieden große Teile zu unterteilen und sie hierarchisch nach ihrer Größe sortiert. Somit ist es möglich, Subnetze mit einer jeweils verschiedenen Anzahl an Hosts zu erschaffen, ohne dass dafür eine große Menge an IP-Adressen verschwendet werden muss.\newline
+    \textbf{Beispiel:}\newline
+    Aufgabenstellung:\newline
+
+
+\subsection{Routing Tabellen}%??? JA oder NEIN?
+
+
+\subsection{DMZ - Demilitarisierte Zone}
+    Eine Demilitarisierte Zone bezeichnet ein Computernetz mit sicherheitstechnisch kontrollierten Zugriffsmöglichkeiten auf die daran angeschlossenen Server. Die in der DMZ aufgestellten Systeme werden durch eine oder mehrere Firewalls gegen andere Netze abgeschirmt.
+    \begin{center}
+        \includegraphics[scale=0.9]{Bilder/DMZ.PNG}
+    \end{center}
 
 \section{Schaltnetze}
     Schaltnetze sind Zusammensetzungen von logischen Gattern ohne Speicherverhalten. Sie bestehen aus einem oder mehreren einfachen Bauteilen.
@@ -2866,7 +2879,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 %\end{minipage}
 
 \subsection{Schieberegister}
-    Ein Schieberegister kann mehrstellige binäre Taktsignale aufnehmen, speichern und wieder ausgeben. Hierzu speichert es die einzelnen Bits eines Signales in Flip Flops. Für jedes Bit in einer Bitfolge wird ein FF benötigt. Das Bauteil sieht folgendermaßen aus:
+    Mehrere in Reihe geschaltete Flipflops schieben ihren Speicherinhalt bei jedem Arbeitstakt um ein Flipflop weiter – anschaulich gesehen ähnlich einer Eimerkette. Die Anzahl der im Register vorhandenen Speicherplätze ist konstant.
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-0.5,0)--(-0.5,0.5)--(-2,0.5)--(-2,3)--(2,3)--(2,0.5)--(0.5,0.5)--(0.5,0);
@@ -3026,7 +3039,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         \end{tabularx}
     \end{table}
     \vspace{1cm}
-    \newline Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts zu finden.\newline
+    \newline Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\newline
     Dies sieht dann folgendermaßen aus:
     \begin{table}[h]
         \centering
