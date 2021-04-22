@@ -116,27 +116,27 @@
 \contentsline {subsection}{\numberline {15.7}DMZ - Demilitarisierte Zone}{41}{subsection.15.7}%
 \contentsline {subsection}{\numberline {15.8}IPv6}{42}{subsection.15.8}%
 \contentsline {section}{\numberline {16}Schaltnetze}{42}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{42}{subsection.16.1}%
-\contentsline {subsubsection}{\numberline {16.1.1}NOT}{42}{subsubsection.16.1.1}%
-\contentsline {subsubsection}{\numberline {16.1.2}AND}{42}{subsubsection.16.1.2}%
+\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{43}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}NOT}{43}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}AND}{43}{subsubsection.16.1.2}%
 \contentsline {subsubsection}{\numberline {16.1.3}OR}{43}{subsubsection.16.1.3}%
 \contentsline {subsubsection}{\numberline {16.1.4}NAND}{43}{subsubsection.16.1.4}%
-\contentsline {subsubsection}{\numberline {16.1.5}NOR}{43}{subsubsection.16.1.5}%
+\contentsline {subsubsection}{\numberline {16.1.5}NOR}{44}{subsubsection.16.1.5}%
 \contentsline {subsubsection}{\numberline {16.1.6}XOR}{44}{subsubsection.16.1.6}%
 \contentsline {subsubsection}{\numberline {16.1.7}XNOR}{44}{subsubsection.16.1.7}%
-\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{44}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{45}{subsection.16.2}%
 \contentsline {subsection}{\numberline {16.3}KV-Diagramm}{45}{subsection.16.3}%
 \contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{46}{subsubsection.16.3.1}%
 \contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{46}{subsection.16.4}%
 \contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{46}{subsection.16.5}%
 \contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{47}{subsection.16.6}%
-\contentsline {section}{\numberline {17}Schaltwerke}{47}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Schaltwerke}{47}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Taktgeber}{47}{subsection.17.2}%
+\contentsline {section}{\numberline {17}Schaltwerke}{48}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Schaltwerke}{48}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Taktgeber}{48}{subsection.17.2}%
 \contentsline {subsection}{\numberline {17.3}Flip-Flops}{48}{subsection.17.3}%
 \contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{48}{subsubsection.17.3.1}%
 \contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{48}{subsubsection.17.3.2}%
-\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{48}{subsubsection.17.3.3}%
+\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{49}{subsubsection.17.3.3}%
 \contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{49}{subsubsection.17.3.4}%
 \contentsline {subsection}{\numberline {17.4}Zähler}{49}{subsection.17.4}%
 \contentsline {subsection}{\numberline {17.5}Addierschaltungen}{50}{subsection.17.5}%
