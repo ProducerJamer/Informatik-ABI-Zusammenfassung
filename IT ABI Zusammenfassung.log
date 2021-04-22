@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  22 APR 2021 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.30)  22 APR 2021 11:06
 entering extended mode
-**"d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
-(d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
+**"d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex"
+(d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/IT ABI Zusammenfassung.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -662,7 +662,7 @@ Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS)
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 40.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-) (d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
+) (d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 \openout1 = `"IT ABI Zusammenfassung.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -747,7 +747,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out) (d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out)
+ (d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out) (d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.out)
 \@outlinefile=\write4
 \openout4 = `"IT ABI Zusammenfassung.out"'.
 
@@ -763,7 +763,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (C:\Users\robin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc [1
+) (d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.toc [1
 
 {C:/Users/robin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
@@ -781,7 +781,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[2 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/BSZLOGO.png>]
+[2 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/BSZLOGO.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 123.
@@ -1375,7 +1375,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[33 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png>]
+[33 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell1.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1390,7 +1390,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[34 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
+[34 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/OSI-Modell2.png>]
 <Bilder/MAC.png, id=1100, 414.79968pt x 94.10156pt>
 File: Bilder/MAC.png Graphic file (type png)
 <use Bilder/MAC.png>
@@ -1408,7 +1408,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[35 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
+[35 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/MAC.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1738--1742
 
  []
@@ -1460,7 +1460,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[37 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
+[37 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/CSMACD.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1818--1825
 
  []
@@ -1512,7 +1512,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[39 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
+[39 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/ARP-Protokoll PAP.png>]
 Overfull \hbox (27.83076pt too wide) in alignment at lines 1860--1860
 [][][][][][][][] 
  []
@@ -1853,7 +1853,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[40 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
+[40 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/Netzwerkklassen.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1885--1898
 
  []
@@ -1890,7 +1890,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[42 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/DMZ.PNG>]
+[42 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/DMZ.PNG>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 2033.
@@ -2045,7 +2045,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[51 <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererAlternativ.png> <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererSymbol.png> <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/VolladiererAlternativ.png> <d:/Schuldateien/IT Abitur Zusammenfassung/Informatik-ABI-Zusammenfassung/Bilder/VolladdiererSymbol.png>]
+[51 <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererAlternativ.png> <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/HalbaddiererSymbol.png> <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/VolladiererAlternativ.png> <d:/Schuldateien/Tex Zusammenfassung IT Abitur/Informatik-ABI-Zusammenfassung/Bilder/VolladdiererSymbol.png>]
 File: Bilder/BSZLOGO.png Graphic file (type png)
 <use Bilder/BSZLOGO.png>
 Package pdftex.def Info: Bilder/BSZLOGO.png  used on input line 3002.
@@ -2234,20 +2234,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-22.16011pt}.
 
-[64] (d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
+[64] (d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.aux)
 Package rerunfilecheck Info: File `"IT ABI Zusammenfassung".out' has not changed.
 (rerunfilecheck)             Checksum: E27F30888A27DE57570BAE86FDFA82DF;24936.
  ) 
 Here is how much of TeX's memory you used:
  33289 strings out of 479334
- 764660 string characters out of 2857084
+ 764724 string characters out of 2857084
  1209430 words of memory out of 3000000
  49881 multiletter control sequences out of 15000+200000
  461149 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,89p,1070b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 87i,17n,89p,1074b,1593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/robin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "d:/Schuldateien\IT Abitur Zusammenfassung\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (64 pages, 988743 bytes).
+Output written on "d:/Schuldateien\Tex Zusammenfassung IT Abitur\Informatik-ABI-Zusammenfassung\IT ABI Zusammenfassung.pdf" (64 pages, 988743 bytes).
 PDF statistics:
  1360 PDF objects out of 1440 (max. 8388607)
  269 named destinations out of 1000 (max. 500000)
