@@ -3009,6 +3009,26 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsection{Adressierungsarten bei Mikrocontroller}
 
 \subsection{Datenpointer}
+    Der Datenpointer kann mithilfe des Akkus auf eine 1 Byte-große Zeile in einer Tabelle verweisen und diese in den Akku laden.
+    Vor der Benutzung eines Datenpointers, muss man diesen zuerst initialisieren. Hierzu schreibt man:
+    \begin{flushleft}
+        \textcolor{blue}{MOV DPTR, \#tabelle}
+    \end{flushleft}
+    Um nun eine Zeile aus der Tabelle in den Akku zu laden, schreibt man die Nummer der Zeile in den Akku und benutzt den Befehl MOVC:
+    \begin{flushleft}
+        \textcolor{blue}{MOV A, \#2\newline
+        MOVC A, @A+DPTR\newline
+        MOV A, P2 ;Speichert Zeile in Port 2}
+    \end{flushleft}
+    Die Tabelle muss folgendermaßen gestaltet werden:
+    \begin{flushleft}
+        \textcolor{blue}{tabelle:\newline
+        db 0101 0111b\newline
+        db 0001 1010b\newline
+        db 1010 1000b\newline
+        ...}
+    \end{flushleft}
+    'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal nehmen.
 
 \subsection{Zeitschleife erstellen ohne Timer}
     Aufgrund Covid-19 ist der Timer kein Bestandteil des diesjährigen Abiturs, weshalb wir Wartezeiten nur mit Schleifen erstellen können. Hierbei verwenden wir Register. Man setzt die 8-Bit Register auf eine Zahl und bildet mit mindestens 2 Registern eine Schleife. Zuerst wird der Wert des inneren Registers immer um 1 reduziert, bis es 0 ist, dann wird das äußere Register um 1 reduziert und das Innere Register beginnt von neu. Hierbei wird je nach Geschwindigkeit des Mikrocontrollers eine Wartezeit erzeugt.
