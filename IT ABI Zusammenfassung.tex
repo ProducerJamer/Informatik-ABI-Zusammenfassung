@@ -3032,7 +3032,9 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         ...}
     \end{flushleft}
     'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal nehmen.
-
+    Wichtig ist außerdem, dass wenn bei Hexadezimal-Darstellung die erste Ziffer einer Zeile mit einem Buchstaben beginnt, eine 0 davor muss.\newline 
+    Beispiel: \textit{db A2h} muss als \textit{db 0A2h} geschrieben werden.
+    
 \subsection{Zeitschleife erstellen ohne Timer}
     Aufgrund Covid-19 ist der Timer kein Bestandteil des diesjährigen Abiturs, weshalb wir Wartezeiten nur mit Schleifen erstellen können. Hierbei verwenden wir Register. Man setzt die 8-Bit Register auf eine Zahl und bildet mit mindestens 2 Registern eine Schleife. Zuerst wird der Wert des inneren Registers immer um 1 reduziert, bis es 0 ist, dann wird das äußere Register um 1 reduziert und das Innere Register beginnt von neu. Hierbei wird je nach Geschwindigkeit des Mikrocontrollers eine Wartezeit erzeugt.
     \begin{center}

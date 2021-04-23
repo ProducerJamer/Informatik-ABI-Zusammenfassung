@@ -150,23 +150,23 @@
 \contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{54}{subsection.19.1}%
 \contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{54}{subsection.19.2}%
 \contentsline {subsection}{\numberline {19.3}Datenpointer}{54}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{54}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{55}{subsection.19.4}%
 \contentsline {subsection}{\numberline {19.5}Zeitberechnung mit der Näherungsformel}{55}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Interrupt}{55}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.6}Interrupt}{56}{subsection.19.6}%
 \contentsline {section}{\numberline {20}Objektorientierte Programmierung}{56}{section.20}%
 \contentsline {subsection}{\numberline {20.1}Grundverständnis}{56}{subsection.20.1}%
 \contentsline {subsection}{\numberline {20.2}Klassen}{56}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Objekte}{56}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.3}Objekte}{57}{subsection.20.3}%
 \contentsline {subsection}{\numberline {20.4}Datentypen}{57}{subsection.20.4}%
 \contentsline {subsection}{\numberline {20.5}Arrays}{57}{subsection.20.5}%
 \contentsline {subsection}{\numberline {20.6}Verebung}{57}{subsection.20.6}%
 \contentsline {subsection}{\numberline {20.7}Polymorphie}{57}{subsection.20.7}%
 \contentsline {subsubsection}{\numberline {20.7.1}Polymorphie}{57}{subsubsection.20.7.1}%
-\contentsline {subsubsection}{\numberline {20.7.2}Dynamische Polymorphie}{57}{subsubsection.20.7.2}%
+\contentsline {subsubsection}{\numberline {20.7.2}Dynamische Polymorphie}{58}{subsubsection.20.7.2}%
 \contentsline {subsection}{\numberline {20.8}UML}{58}{subsection.20.8}%
 \contentsline {subsubsection}{\numberline {20.8.1}Struktogramm}{58}{subsubsection.20.8.1}%
-\contentsline {subsubsection}{\numberline {20.8.2}Klassendiagramm}{58}{subsubsection.20.8.2}%
-\contentsline {subsubsection}{\numberline {20.8.3}Objektdiagramm}{58}{subsubsection.20.8.3}%
+\contentsline {subsubsection}{\numberline {20.8.2}Klassendiagramm}{59}{subsubsection.20.8.2}%
+\contentsline {subsubsection}{\numberline {20.8.3}Objektdiagramm}{59}{subsubsection.20.8.3}%
 \contentsline {subsubsection}{\numberline {20.8.4}Assoziationen}{59}{subsubsection.20.8.4}%
 \contentsline {subsubsection}{\numberline {20.8.5}Polymorphie}{59}{subsubsection.20.8.5}%
 \contentsline {subsubsection}{\numberline {20.8.6}Vererbungen}{59}{subsubsection.20.8.6}%
@@ -174,11 +174,11 @@
 \contentsline {subsubsection}{\numberline {20.8.8}Zustandsdiagramm}{59}{subsubsection.20.8.8}%
 \contentsline {section}{\numberline {21}Datenbanken}{59}{section.21}%
 \contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{59}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{59}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{59}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{60}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{60}{subsection.21.3}%
 \contentsline {subsection}{\numberline {21.4}Primärschlüssel}{60}{subsection.21.4}%
 \contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{60}{subsection.21.5}%
-\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{60}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{61}{subsection.21.6}%
 \contentsline {subsection}{\numberline {21.7}SQL}{61}{subsection.21.7}%
 \contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{61}{subsubsection.21.7.1}%
 \contentsline {section}{\numberline {22}Fachsprache}{62}{section.22}%
