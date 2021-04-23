@@ -3123,6 +3123,19 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     \end{center}
     Ein Array namens \textit{myArray} wurde erstellt und ihm wurden drei Integer-Speicheradressen reserviert.
 
+\subsection{Verebung}
+    Wenn Klassen erben, besitzen diese eine abstrakte \textit{Mutterklasse}. Diese vererbt Methoden und Attribute. Für jedes Objekt gibt es nun 2 Objekte. Eines der Mutterklasse und eines der Unterklasse. Ein gutes Beispiel hierfür ist die Mutterklasse Fahrzeug mit ihrer \textit{Kindklasse} PKW.
+    Beim Aufrufen des Konstruktors von PKW wird ebenso der Konstruktor der Klasse Fahrzeug aufgerufen.
+
+\subsection{Polymorphie}
+\subsubsection{Polymorphie}
+    Polymorphie bedeutet, dass ein Bezeichner abhängig von seiner Verwendung, Objekte unterschiedlichen Datentyps annehmen kann. Somit kann man mit einem Verweis/Pointer mehrere Objekte/Datentypen aufrufen.
+    Eine Methode ist polymorph, wenn sie in verschiedenen Klassen die gleiche Signatur hat, jedoch erneut implementiert ist.
+    Polymorphie wird oft auch als Überladen beschrieben. Ebenso ist das Überladen einer Methode mit unterschiedlichen oder unterschiedlich vielen Parametern Polymorphie.
+
+\subsubsection{Dynamische Polymorphie}
+    Man spricht von der dynamischen Polymorphie, wenn Methoden von einer Basisklasse/Mutterklasse abgeleitet und unterschiedlich implementiert werden. Dies wird auch als Überschreiben von Methoden bezeichnet.
+
 \subsection{UML}
     Die Unified Modeling Language, kurz UML, ist eine grafische Modellierungssprache zur Spezifikation, Konstruktion, Dokumentation und Visualisierung von Software-Teilen und anderen Systemen. Sie wird von der Object Management Group entwickelt und ist sowohl von ihr als auch von der ISO genormt.
 
