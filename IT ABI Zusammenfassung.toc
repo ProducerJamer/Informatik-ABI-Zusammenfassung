@@ -69,119 +69,120 @@
 \contentsline {subsubsection}{\numberline {8.6.4}RAID 10}{26}{subsubsection.8.6.4}%
 \contentsline {subsubsection}{\numberline {8.6.5}RAID 50}{26}{subsubsection.8.6.5}%
 \contentsline {subsubsection}{\numberline {8.6.6}Gegenüberstellung der RAID Systeme}{26}{subsubsection.8.6.6}%
-\contentsline {section}{\numberline {9}Netze}{26}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Einführung}{26}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Beispiele für Netze}{26}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {8.6.7}RAM vs ROM}{26}{subsubsection.8.6.7}%
+\contentsline {section}{\numberline {9}Netze}{27}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Einführung}{27}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Beispiele für Netze}{27}{subsubsection.9.1.1}%
 \contentsline {subsubsection}{\numberline {9.1.2}Gemeinsamkeiten aller Netze}{27}{subsubsection.9.1.2}%
 \contentsline {subsection}{\numberline {9.2}Einfaches Computernetz}{27}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Netz Topologien}{29}{subsubsection.9.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2}Netze in Unternehmen}{30}{subsubsection.9.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.3}Private Netze}{30}{subsubsection.9.2.3}%
-\contentsline {subsection}{\numberline {9.3}Servermodelle}{30}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}Ein-Server-Modell}{30}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Multi-Server-Modell}{30}{subsubsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.4}Kommunikationsarten}{30}{subsection.9.4}%
-\contentsline {subsubsection}{\numberline {9.4.1}Simplex}{30}{subsubsection.9.4.1}%
-\contentsline {subsubsection}{\numberline {9.4.2}Halbduplex}{30}{subsubsection.9.4.2}%
-\contentsline {subsubsection}{\numberline {9.4.3}Vollduplex}{31}{subsubsection.9.4.3}%
-\contentsline {subsection}{\numberline {9.5}Netzwerkkomponenten}{31}{subsection.9.5}%
-\contentsline {subsubsection}{\numberline {9.5.1}Port}{31}{subsubsection.9.5.1}%
-\contentsline {subsubsection}{\numberline {9.5.2}Client}{31}{subsubsection.9.5.2}%
-\contentsline {subsubsection}{\numberline {9.5.3}Netzwerkkarte}{31}{subsubsection.9.5.3}%
-\contentsline {subsubsection}{\numberline {9.5.4}Repeater}{31}{subsubsection.9.5.4}%
-\contentsline {subsubsection}{\numberline {9.5.5}HUB}{31}{subsubsection.9.5.5}%
-\contentsline {subsubsection}{\numberline {9.5.6}Bridge}{32}{subsubsection.9.5.6}%
-\contentsline {subsubsection}{\numberline {9.5.7}Switch}{32}{subsubsection.9.5.7}%
-\contentsline {subsubsection}{\numberline {9.5.8}Router}{32}{subsubsection.9.5.8}%
-\contentsline {subsubsection}{\numberline {9.5.9}Einordnung der Komponenten ins OSI-Modell}{32}{subsubsection.9.5.9}%
-\contentsline {subsection}{\numberline {9.6}Round Trip Delay Time - RTDT}{33}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Bezeichnungen von Netzen}{33}{subsection.9.7}%
-\contentsline {subsection}{\numberline {9.8}OSI 7-Schichten Modell}{33}{subsection.9.8}%
-\contentsline {section}{\numberline {10}Ethernet}{34}{section.10}%
-\contentsline {subsection}{\numberline {10.1}MAC Adresse}{35}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}Aufbau MAC Adresse}{35}{subsubsection.10.1.1}%
-\contentsline {section}{\numberline {11}Netzwerkprotokolle}{36}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Datenübertragung}{36}{subsection.11.1}%
-\contentsline {section}{\numberline {12}Vollständiges Ethernet-Paket}{36}{section.12}%
-\contentsline {section}{\numberline {13}CSMA/CD - Verfahren}{37}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Kollision}{37}{subsection.13.1}%
-\contentsline {section}{\numberline {14}ARP-Protokoll}{38}{section.14}%
-\contentsline {section}{\numberline {15}Subnetting}{39}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Die IP Adresse}{39}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Netzwerkklassen}{40}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Subnetzmaske}{40}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}CIDAR}{40}{subsection.15.4}%
-\contentsline {subsection}{\numberline {15.5}VLSM}{41}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}Routing Tabellen}{41}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}DMZ - Demilitarisierte Zone}{41}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}IPv6}{42}{subsection.15.8}%
-\contentsline {section}{\numberline {16}Schaltnetze}{43}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{43}{subsection.16.1}%
-\contentsline {subsubsection}{\numberline {16.1.1}NOT}{43}{subsubsection.16.1.1}%
-\contentsline {subsubsection}{\numberline {16.1.2}AND}{43}{subsubsection.16.1.2}%
-\contentsline {subsubsection}{\numberline {16.1.3}OR}{43}{subsubsection.16.1.3}%
-\contentsline {subsubsection}{\numberline {16.1.4}NAND}{44}{subsubsection.16.1.4}%
-\contentsline {subsubsection}{\numberline {16.1.5}NOR}{44}{subsubsection.16.1.5}%
-\contentsline {subsubsection}{\numberline {16.1.6}XOR}{44}{subsubsection.16.1.6}%
-\contentsline {subsubsection}{\numberline {16.1.7}XNOR}{45}{subsubsection.16.1.7}%
-\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{45}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{45}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{46}{subsubsection.16.3.1}%
-\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{46}{subsection.16.4}%
-\contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{47}{subsection.16.5}%
-\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{47}{subsection.16.6}%
-\contentsline {section}{\numberline {17}Schaltwerke}{48}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Schaltwerke}{48}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Taktgeber}{48}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Flip-Flops}{48}{subsection.17.3}%
-\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{48}{subsubsection.17.3.1}%
-\contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{49}{subsubsection.17.3.2}%
-\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{49}{subsubsection.17.3.3}%
-\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{49}{subsubsection.17.3.4}%
-\contentsline {subsection}{\numberline {17.4}Zähler}{50}{subsection.17.4}%
-\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{50}{subsection.17.5}%
-\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{51}{subsection.17.6}%
-\contentsline {subsection}{\numberline {17.7}Schieberegister}{51}{subsection.17.7}%
-\contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{52}{subsection.17.8}%
-\contentsline {section}{\numberline {18}Mirkocontroller}{52}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Aufbau}{52}{subsection.18.1}%
-\contentsline {section}{\numberline {19}Assembler}{53}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{53}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{53}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Datenpointer}{53}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{53}{subsection.19.4}%
-\contentsline {subsection}{\numberline {19.5}Zeitberechnung mit der Näherungsformel}{54}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Interrupt}{54}{subsection.19.6}%
-\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{55}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Grundverständnis}{55}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Klassen}{55}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Objekte}{55}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Datentypen}{56}{subsection.20.4}%
-\contentsline {subsection}{\numberline {20.5}Arrays}{56}{subsection.20.5}%
-\contentsline {subsection}{\numberline {20.6}Verebung}{56}{subsection.20.6}%
-\contentsline {subsection}{\numberline {20.7}Polymorphie}{56}{subsection.20.7}%
-\contentsline {subsubsection}{\numberline {20.7.1}Polymorphie}{56}{subsubsection.20.7.1}%
-\contentsline {subsubsection}{\numberline {20.7.2}Dynamische Polymorphie}{56}{subsubsection.20.7.2}%
-\contentsline {subsection}{\numberline {20.8}UML}{57}{subsection.20.8}%
-\contentsline {subsubsection}{\numberline {20.8.1}Struktogramm}{57}{subsubsection.20.8.1}%
-\contentsline {subsubsection}{\numberline {20.8.2}Klassendiagramm}{57}{subsubsection.20.8.2}%
-\contentsline {subsubsection}{\numberline {20.8.3}Objektdiagramm}{57}{subsubsection.20.8.3}%
-\contentsline {subsubsection}{\numberline {20.8.4}Assoziationen}{58}{subsubsection.20.8.4}%
-\contentsline {subsubsection}{\numberline {20.8.5}Polymorphie}{58}{subsubsection.20.8.5}%
-\contentsline {subsubsection}{\numberline {20.8.6}Vererbungen}{58}{subsubsection.20.8.6}%
-\contentsline {subsubsection}{\numberline {20.8.7}Sequenzdiagramm}{58}{subsubsection.20.8.7}%
-\contentsline {subsubsection}{\numberline {20.8.8}Zustandsdiagramm}{58}{subsubsection.20.8.8}%
-\contentsline {section}{\numberline {21}Datenbanken}{58}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{58}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{58}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{58}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Primärschlüssel}{59}{subsection.21.4}%
-\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{59}{subsection.21.5}%
-\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{59}{subsection.21.6}%
-\contentsline {subsection}{\numberline {21.7}SQL}{60}{subsection.21.7}%
-\contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{60}{subsubsection.21.7.1}%
-\contentsline {section}{\numberline {22}Fachsprache}{61}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{61}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{61}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{61}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Literatur}{61}{subsection.23.1}%
+\contentsline {subsubsection}{\numberline {9.2.1}Netz Topologien}{30}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Netze in Unternehmen}{31}{subsubsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.3}Private Netze}{31}{subsubsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.3}Servermodelle}{31}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Ein-Server-Modell}{31}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Multi-Server-Modell}{31}{subsubsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.4}Kommunikationsarten}{31}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Simplex}{31}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Halbduplex}{31}{subsubsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.3}Vollduplex}{32}{subsubsection.9.4.3}%
+\contentsline {subsection}{\numberline {9.5}Netzwerkkomponenten}{32}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Port}{32}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {9.5.2}Client}{32}{subsubsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {9.5.3}Netzwerkkarte}{32}{subsubsection.9.5.3}%
+\contentsline {subsubsection}{\numberline {9.5.4}Repeater}{32}{subsubsection.9.5.4}%
+\contentsline {subsubsection}{\numberline {9.5.5}HUB}{32}{subsubsection.9.5.5}%
+\contentsline {subsubsection}{\numberline {9.5.6}Bridge}{33}{subsubsection.9.5.6}%
+\contentsline {subsubsection}{\numberline {9.5.7}Switch}{33}{subsubsection.9.5.7}%
+\contentsline {subsubsection}{\numberline {9.5.8}Router}{33}{subsubsection.9.5.8}%
+\contentsline {subsubsection}{\numberline {9.5.9}Einordnung der Komponenten ins OSI-Modell}{33}{subsubsection.9.5.9}%
+\contentsline {subsection}{\numberline {9.6}Round Trip Delay Time - RTDT}{34}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Bezeichnungen von Netzen}{34}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}OSI 7-Schichten Modell}{34}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Ethernet}{35}{section.10}%
+\contentsline {subsection}{\numberline {10.1}MAC Adresse}{36}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Aufbau MAC Adresse}{36}{subsubsection.10.1.1}%
+\contentsline {section}{\numberline {11}Netzwerkprotokolle}{37}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Datenübertragung}{37}{subsection.11.1}%
+\contentsline {section}{\numberline {12}Vollständiges Ethernet-Paket}{37}{section.12}%
+\contentsline {section}{\numberline {13}CSMA/CD - Verfahren}{38}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Kollision}{38}{subsection.13.1}%
+\contentsline {section}{\numberline {14}ARP-Protokoll}{39}{section.14}%
+\contentsline {section}{\numberline {15}Subnetting}{40}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Die IP Adresse}{40}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Netzwerkklassen}{41}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Subnetzmaske}{41}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}CIDAR}{41}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}VLSM}{42}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}Routing Tabellen}{42}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}DMZ - Demilitarisierte Zone}{42}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}IPv6}{43}{subsection.15.8}%
+\contentsline {section}{\numberline {16}Schaltnetze}{44}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{44}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}NOT}{44}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}AND}{44}{subsubsection.16.1.2}%
+\contentsline {subsubsection}{\numberline {16.1.3}OR}{44}{subsubsection.16.1.3}%
+\contentsline {subsubsection}{\numberline {16.1.4}NAND}{45}{subsubsection.16.1.4}%
+\contentsline {subsubsection}{\numberline {16.1.5}NOR}{45}{subsubsection.16.1.5}%
+\contentsline {subsubsection}{\numberline {16.1.6}XOR}{45}{subsubsection.16.1.6}%
+\contentsline {subsubsection}{\numberline {16.1.7}XNOR}{46}{subsubsection.16.1.7}%
+\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{46}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{46}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{47}{subsubsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{47}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{48}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{48}{subsection.16.6}%
+\contentsline {section}{\numberline {17}Schaltwerke}{49}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Schaltwerke}{49}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Taktgeber}{49}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Flip-Flops}{49}{subsection.17.3}%
+\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{49}{subsubsection.17.3.1}%
+\contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{50}{subsubsection.17.3.2}%
+\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{50}{subsubsection.17.3.3}%
+\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{50}{subsubsection.17.3.4}%
+\contentsline {subsection}{\numberline {17.4}Zähler}{51}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{51}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{52}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Schieberegister}{52}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{53}{subsection.17.8}%
+\contentsline {section}{\numberline {18}Mirkocontroller}{53}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Aufbau}{53}{subsection.18.1}%
+\contentsline {section}{\numberline {19}Assembler}{54}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{54}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{54}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Datenpointer}{54}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{54}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}Zeitberechnung mit der Näherungsformel}{55}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}Interrupt}{55}{subsection.19.6}%
+\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{56}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Grundverständnis}{56}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Klassen}{56}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Objekte}{56}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Datentypen}{57}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}Arrays}{57}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}Verebung}{57}{subsection.20.6}%
+\contentsline {subsection}{\numberline {20.7}Polymorphie}{57}{subsection.20.7}%
+\contentsline {subsubsection}{\numberline {20.7.1}Polymorphie}{57}{subsubsection.20.7.1}%
+\contentsline {subsubsection}{\numberline {20.7.2}Dynamische Polymorphie}{57}{subsubsection.20.7.2}%
+\contentsline {subsection}{\numberline {20.8}UML}{58}{subsection.20.8}%
+\contentsline {subsubsection}{\numberline {20.8.1}Struktogramm}{58}{subsubsection.20.8.1}%
+\contentsline {subsubsection}{\numberline {20.8.2}Klassendiagramm}{58}{subsubsection.20.8.2}%
+\contentsline {subsubsection}{\numberline {20.8.3}Objektdiagramm}{58}{subsubsection.20.8.3}%
+\contentsline {subsubsection}{\numberline {20.8.4}Assoziationen}{59}{subsubsection.20.8.4}%
+\contentsline {subsubsection}{\numberline {20.8.5}Polymorphie}{59}{subsubsection.20.8.5}%
+\contentsline {subsubsection}{\numberline {20.8.6}Vererbungen}{59}{subsubsection.20.8.6}%
+\contentsline {subsubsection}{\numberline {20.8.7}Sequenzdiagramm}{59}{subsubsection.20.8.7}%
+\contentsline {subsubsection}{\numberline {20.8.8}Zustandsdiagramm}{59}{subsubsection.20.8.8}%
+\contentsline {section}{\numberline {21}Datenbanken}{59}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{59}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Verwendung}{59}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{59}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Primärschlüssel}{60}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{60}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{60}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}SQL}{61}{subsection.21.7}%
+\contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{61}{subsubsection.21.7.1}%
+\contentsline {section}{\numberline {22}Fachsprache}{62}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Fachwörter}{62}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{62}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Epilog}{62}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Literatur}{62}{subsection.23.1}%
