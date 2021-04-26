@@ -639,12 +639,27 @@ Konkurrieren mehrere Prozesse um die Rechenzeit, teilt der Scheduler ihnen gemä
 \subsection{Scheduling Strategien}
 
 \subsubsection{First Come First Serve}
+Frei nach dem Sprichwort: \textit{Wer zuerst kommt, mahlt zuerst}. Dem Prozess, der als erstes Betriebsmittel und Rechenzeit anfordert, werden diese zugeteilt. Wurde einem Prozess Rechenzeit zugeteilt, befindet dieser sich im Prozesszustand \textit{rechnend}, und kann nicht unterbrochen werden. Erst wenn der Prozess die Betriebsmittel wieder frei gibt, ist der nächste an der Reihe.\newline\newline
+$\longrightarrow$ nicht präemptiv
 
 \subsubsection{Shortest Job First}
+Lässt sich die benötigte Rechenzeit gut voraussagen, kann dieses Verfahren angewendet werden. Die Prozesse werden hier nach der kürzesten benötigten Rechenzeit geordnet und der Reihe nach abgearbeitet. Große Prozesse können demnach niemals bearbeitet werden, da sich kleine Prozesse immer vordrängeln können.\newline\newline
+$\longrightarrow$ (Vohwinkel fragen)
 
 \subsubsection{Round Robin}
+Jedem Prozess wird gleich viel Rechenzeit in Form von Zeitscheiben zugeteilt. Ist die Zeit abgelaufen, wird der Prozess in den Prozesszustand \textit{bereit} gesetzt, der nächste Prozess wird aufgerufen. Nachdem ein Prozess bearbeitet wurde, und nicht vollständig abgearbeitet werden konnte, wird dieser hinten in der Warteschlange eingereiht, und muss warten, bis er erneut an der Reihe ist. Ein Prozess, der die zugeteilte Rechenzeit nicht in vollem Maße ausschöpfen kann, weil er schon früher fertig ist, blockiert das ganze System, bis die Zeitscheibe abgelaufen ist. Eine effiziente Nutzung der Ressourcen ist daher nicht möglich.\newline\newline
+$\longrightarrow$ präemptiv
 
 \subsubsection{Priority}
+Es wird zwischen zwei Priority verfahren unterschieden:
+\begin{enumerate}
+	\item Priority\newline
+			Ein \textit{bereit} stehender Prozess höherer Priorität verdrängt einen \textit{rechnenden} Prozess, geringer Priorität.
+	\item dynamisches Priority
+			Die Priorität eines lange wartenden Prozesses wird mit längerer Wartezeit erhöht.
+\end{enumerate}
+Bei Prozessen mit gleicher Priorität erfolgt die Abarbeitung nach der Eingangsreihenfolge.\newline\newline
+$\longrightarrow$ präemptiv
 
 \section{Speicherkonzepte}
 
@@ -1610,8 +1625,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 
 \subsection{Bezeichnungen von Netzen}
 	\begin{table}[h]
+		\footnotesize
 		\caption{Bezeichnungen von Netzen}
-		\renewcommand{\arraystretch}{3}
+		\renewcommand{\arraystretch}{2}
         \begin{tabularx}{17cm}{|l|X|c|X|}
             \hline
             \cellcolor{cyan!60}Abkürzung&Beschreibung&Kabellänge&Anwendungen\\
@@ -1912,25 +1928,27 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 \subsection{IPv6}
     Vorteile und Nachteile von IPv6 zu IPv4:
     \begin{table}[h]
-        \centering
-        \begin{tabularx}{17cm}{X|X}
-            Vorteile & Nachteile\\
+    	\renewcommand{\arraystretch}{2}
+    	\begin{tabularx}{17cm}{|X|X|}
             \hline
-            128 Bit = $\text{2}^{\text{128}}$ Adressen & Wenn jedes Gerät eine feste, statische Adresse bekommt, kommt es evtl. zu Sicherheitsrisiken \\
-            Kunden bekommen ein /64 Netz &  \\
-            \vspace{0.1cm}
-            NAT wird nichtmehr gebraucht &  \\
-            \vspace{0.1cm}
-            Broadcast-Adressen werden nichtmehr gebraucht &  \\
-            \vspace{0.1cm}
-            ARP wird nichtmehr gebraucht &  \\
-            \vspace{0.1cm}
-            bis zu 4GiB Datenversandt &  \\
-            \vspace{0.1cm}
-            verbessertes Multicast &  \\
-            \vspace{0.1cm}
+            \cellcolor{cyan!60}Vorteile&\cellcolor{cyan!60}Nachteile\\
+            \hline
+            \hline
+			128 Bit = $\text{2}^{\text{128}}$ Adressen&Wenn jedes Gerät eine feste, statische Adresse bekommt, kommt es evtl. zu Sicherheitsrisiken \\
+			\hline
+			NAT wird nichtmehr gebraucht& \\
+			\hline
+			Broadcast-Adressen werden nichtmehr gebraucht& \\
+			\hline
+			ARP wird nichtmehr gebraucht& \\
+			\hline
+			bis zu 4GiB Datenversandt& \\
+			\hline
+			verbessertes Multicast& \\
+			\hline
         \end{tabularx}
-    \end{table}
+    \end{table}    
+
 
 \section{Schaltnetze}
     Schaltnetze sind Zusammensetzungen von logischen Gattern ohne Speicherverhalten. Sie bestehen aus einem oder mehreren einfachen Bauteilen.
@@ -2986,6 +3004,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Ein Mirkocontroller besteht aus CPU, RAM, internen und externen Speichern, Interrupts, Timern und Ports.
     Wir beschäftigen uns hier ausschließlich mit dem 8051-Controller.
     \begin{table}[h]
+    	\renewcommand{\arraystretch}{1.5}
         \centering
         \begin{tabularx}{17cm}{|X|X|}
             \hline
@@ -3256,9 +3275,6 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Eine Datenbank, auch Datenbanksystem genannt, ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe einer Datenbank ist es, große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen.
     Eine Datenbank besteht aus mehreren Tabellen. Jede Tabelle hat eigene Spalten. Diese Tabellen können zusammenarbeiten und effizient Daten speichern. Daten müssen nicht doppelt oder dreifach gespeichert werden.
 
-\subsection{Verwendung}
-    Um Daten dauerhaft, effizeint und widerspruchsfrei zu speichern.
-
 \subsection{Entity-Relationship-Diagramm}
     Das ER-Diagramm gibt einen schnellen und übersichtlichen Überblick über die Tabellen einer Datenbank. Das ER-Diagramm wird zum Beispiel beim Erstellen und Planen einer Datenbank verwendet.
     Bevor man das ER-Diagramm zeichnen will, sollte man sich aber alle Beziehungen der Tabellen ansehen. Treten n:m-Beziehungen auf, müssen diese zuerst aufgelöst werden:\newline
@@ -3339,15 +3355,15 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsubsection{SQL Abfragen}
     Um gefilterte Informationen aus Datenbanken zu entnehmen werden SQL-Abfragen geschrieben. Mit diesen kann man mehrere Tabellen verknüpfen und gefiltert nach den gewünschten Daten suchen.\newline
-    \vspace{0.5cm}\newline
+    \vspace{0.2cm}\newline
     \textbf{SELECT Buchungen.BuchungsID, Buchungen.KundenID, \newline
     Kunden.Name FROM Kunden, Buchungen\newline
     WHERE Kunden.KundenID = Buchungen.KundenID\newline
     AND KUNDEN.Name LIKE "Müller"\newline}
-    \vspace{0.5cm}\newline
+    \vspace{0.2cm}\newline
     Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und 
     Kundennamen von Kunden mit dem Namen Müller ausgegeben.\newline
-    \vspace{1cm}\newline
+    \vspace{.2cm}\newline
     Der Aufbau einer SQL-Abfrage muss folgende Reihenfolge einhalten:\newline
     \textbf{SELECT <Spalte>,<Aggregatfunktion>\newline
     FROM <Tabelle>\newline
@@ -3356,31 +3372,32 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     HAVING <Aggregatfunktion> <VerglOp> <Wert>\newline
     ORDER BY <Spalte>[ASC|DESC], <Aggregatfunktion>\newline
     LIMIT [start,] anzahl}\newline
-    \vspace{1cm}\newline
+    \vspace{.2cm}\newline
     Hier einige Befehle:
     \begin{table}[h]
         \centering
-        \begin{tabularx}{17cm}{|X|X|}
+        \renewcommand{\arraystretch}{1.5}
+        \begin{tabularx}{17cm}{|l|X|}
             \hline
-            DISTINCT & Vermeidet doppelte Datensätze(kommt nach SELECT)\\
+            \cellcolor{cyan!40!white}DISTINCT & Vermeidet doppelte Datensätze(kommt nach SELECT)\\
             \hline
-            ASC & Alphabetische/Aufsteigende Sortierung\\
+            \cellcolor{cyan!40!white}ASC & Alphabetische/Aufsteigende Sortierung\\
             \hline
-            DESC & Absteigende Sortierung\\
+            \cellcolor{cyan!40!white}DESC & Absteigende Sortierung\\
             \hline
-            SUM() & Summe\\
+            \cellcolor{cyan!40!white}SUM() & Summe\\
             \hline
-            COUNT() & Anzahl\\
+            \cellcolor{cyan!40!white}COUNT() & Anzahl\\
             \hline
-            AVG() & Durchschnittlicher Wert\\
+            \cellcolor{cyan!40!white}AVG() & Durchschnittlicher Wert\\
             \hline
-            MAX() & Höchster Wert\\
+            \cellcolor{cyan!40!white}MAX() & Höchster Wert\\
             \hline
-            MIN() & Kleinster Wert\\
+            \cellcolor{cyan!40!white}MIN() & Kleinster Wert\\
             \hline
         \end{tabularx}
     \end{table}
-    \vspace{0.5cm}\newline
+    \vspace{0.2cm}\newline
     Beispiel:\newline
     \textbf{SELECT fahrradtypen.Typbezeichnung, SUM(DATEDIFF(bis, von) * Tagesmietpreis) AS "Mieteinnahmen"\newline
     FROM fahrraeder, fahrradtypen, vermietungen\newline
@@ -3388,12 +3405,11 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     AND fahrradtypen.TypNr = vermietungen.TypNr\newline
     GROUP BY fahrradtypen.Typbezeichnung\newline
     HAVING SUM(DATEDIFF(bis, von) * Tagesmietpreis) >= 1000}\newline
-    \vspace{0.5cm}\newline
+    \vspace{0.2cm}\newline
     Mit diesem Befehl werden alle Mieteinnahmen und Fahrradtyp ausgegeben bei denen die Mieteinnahmen größer als 1000€ sind.
 
 \section{Fachsprache}
 \subsection{Fachwörter}
-    \begin{table}[h]
         \renewcommand{\arraystretch}{2}
         \begin{tabularx}{17cm}{|l|X|}
             \hline
@@ -3435,7 +3451,6 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             OSI (Modell)&Open Systems Interconnedtion (Modell)\\
             \hline
         \end{tabularx}
-    \end{table}
     \begin{table}[h]
         \renewcommand{\arraystretch}{2}
         \begin{tabularx}{17cm}{|l|X|}
@@ -3457,12 +3472,12 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \hline
             Virtuelle Kommunikation&Beschreibt die Kommunikation der zwei Systeme auf der entsprechenden Ebene über einheitliche Sprache bzw. Protokolle\\
             \hline
+            präemptiv&Prozessverwaltung, bei der ein Prozess vom Scheduler unterbrochen werden kann \\
+            \hline
         \end{tabularx}
     \end{table}
 
 \subsection{Typfeld Kennungen}
-    \begin{table}[h]
-        \centering
         \renewcommand{\arraystretch}{2}
         \begin{tabularx}{17cm}{|l|X|}
             \hline
@@ -3509,7 +3524,6 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             0x8914&FCoE Initialization Protocol FIP\\
             \hline
         \end{tabularx}
-    \end{table}
 
 \section{Epilog}
     \noindent
