@@ -1359,15 +1359,15 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
                 \draw[red] (3,-2.5)--(0.5,-5);
                 \draw[red] (3,-2.5)--(3,-3.5);
             \end{tikzpicture}\newline
-            \small Vorteile:
+            \footnotesize Vorteile:
             \begin{itemize}
-                \small
+                \footnotesize
                 \item Bei Ausfall einer Komponente bricht nur ein Teil des Netzes zusammen
                 \item leichte Skalierbarkeit
             \end{itemize}
-            \small Nachteile:
+            \footnotesize Nachteile:
             \begin{itemize}
-                \small
+                \footnotesize
                 \item Durchsatzproblem an der Wurzel / jeder Netzkomponente $\longrightarrow$ höhere Laufzeiten
             \end{itemize}
         \vspace{0.3cm}
@@ -1388,15 +1388,15 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
                 \draw[red] (0.3,-2.8)--(2.5,-2);
                 \draw[red] (1.7,-4.5)--(2.5,-4);
             \end{tikzpicture}\newline
-        \small Vorteile:
+        \footnotesize Vorteile:
             \begin{itemize}
-                \small
+                \footnotesize
                 \item hohe Ausfallsicherheit
                 \item leichte Skalierbarkeit
             \end{itemize}
-        \small Nachteile:
+        \footnotesize Nachteile:
             \begin{itemize}
-                \small
+                \footnotesize
                 \item Ausfall der Hauptleitung\newline $\longrightarrow$ Totalausfall
                 \item Hauptleitung benötigt hohe Bandbreite
             \end{itemize}
@@ -1421,16 +1421,16 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
                 \draw[red] (0.5,-2.5)--(2.5,-4);
             \end{tikzpicture}
         \end{flushright}
-        \small Vorteile:
+        \footnotesize Vorteile:
         \begin{itemize}
-            \small
+            \footnotesize
             \item Leicht umsetzbar / skalierbar
             \item sehr schnell
             \item Beim Ausfall einer Komponente ist \textit{nur} diese betroffen
         \end{itemize}
-        \small Nachteile:
+        \footnotesize Nachteile:
         \begin{itemize}
-            \small
+            \footnotesize
             \item Beim Ausfall der zentralen Wurzel\newline $\longrightarrow$ Totalausfall
             \item Clients müssen immer über zentrale Wurzel kommunizieren.
         \end{itemize}
@@ -1452,15 +1452,15 @@ $\longrightarrow$ Jeden Tag wird eine Vollsicherung durchgeführt.
             	\draw[red] (-3,-3.5)--(-3,-1.5);
         	\end{tikzpicture}
         \end{flushright}
-        \small Vorteile:
+        \footnotesize Vorteile:
         \begin{itemize}
-            \small
+            \footnotesize
             \item simpler Aufbau
             \item leichte Skalierbarkeit
             \end{itemize}
-            \small Nachteile:
+            \footnotesize Nachteile:
             \begin{itemize}
-                \small
+                \footnotesize
                 \item Unterbrechung des Rings\newline $\longrightarrow$ Totalausfall
                 \end{itemize}
 	\end{minipage}
@@ -1875,11 +1875,12 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 \subsection{CIDAR}
     Die CIDAR ist eine vereinfachte Schreibweise für die Subnetzmaske. Da eine Subnetzmaske dadurch definiert wird, dass sie in binär Schreibweise eine fortlaufende Kette von gesetzten Bits haben muss, die nicht durch ein nicht gesetztes Bit unterbrochen werden darf, kann man die Schreibweise dahingehend vereinfachen, dass einfach die gesetzten Bits gezählt werden:
     \begin{center}
+    	\footnotesize
         \renewcommand{\arraystretch}{1.5}
         \begin{tabularx}{\columnwidth}{XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}
-            1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&\cellcolor{red!50!white}17&18&19&20&21&22&23&24&25&26&27&28&29&30&31&32 \\
+            1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&\textcolor{red}{17}&18&19&20&21&22&23&24&25&26&27&28&29&30&31&32 \\
             \hline
-            1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1\cellcolor{red!50!white}&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0 \\
+            1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&1&\textcolor{red}1&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0 \\
         \end{tabularx}\\
         In diesem Falle wäre die CIDAR /17
     \end{center}
@@ -3074,12 +3075,12 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsection{Zeitberechnung mit der Näherungsformel}
     Die Formel lautet:
     \begin{center}
-        Zeit = Maschienenzyklengeschwindigkeit des Mikrocontrollers * Wert R1 * Wert R2 * Maschienenzyklen für DJNZ Befehl
+        Zeit = Maschienenzyklengeschwindigkeit des Mikrocontrollers $\cdot$ Wert R1 $\cdot$ Wert R2 $\cdot$ Maschienenzyklen für DJNZ Befehl
     \end{center}
     \textbf{Beispiel:}\newline
     R1=255 \& R2=220 \& Geschw. des Mikrocontrollers=1MZ \& DJNZ-Befehl=2MZ\newline
     \begin{center}
-        $\text{t} = 2*255*220 = 112200\text{\textmu s} = 112,2\text{ms} = 0,1122\text{s}$    
+        $\text{t} = 2 \cdot 255 \cdot 220 = 112200\text{\textmu s} = 112,2\text{ms} = 0,1122\text{s}$    
     \end{center}
     Wenn man die ganz genaue Zeit eines Programmes berechnen will, muss man natürlich noch alle Initialisierungsbefehle, usw. hinzuaddieren.
     
