@@ -100,14 +100,14 @@
 \contentsline {subsubsection}{\numberline {9.3.1}Kollision}{36}{subsubsection.9.3.1}%
 \contentsline {section}{\numberline {10}Netzwerkprotokolle}{37}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Datenübertragung}{38}{subsection.10.1}%
-\contentsline {section}{\numberline {11}ARP-Protokoll}{38}{section.11}%
+\contentsline {section}{\numberline {11}ARP-Protokoll}{39}{section.11}%
 \contentsline {section}{\numberline {12}Subnetting}{39}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Die IP Adresse}{39}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.1}Die IP Adresse}{40}{subsection.12.1}%
 \contentsline {subsection}{\numberline {12.2}Netzwerkklassen}{40}{subsection.12.2}%
 \contentsline {subsection}{\numberline {12.3}Subnetzmaske}{40}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}CIDAR}{40}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.4}CIDAR}{41}{subsection.12.4}%
 \contentsline {subsection}{\numberline {12.5}VLSM}{41}{subsection.12.5}%
-\contentsline {subsection}{\numberline {12.6}DMZ - Demilitarisierte Zone}{41}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.6}DMZ - Demilitarisierte Zone}{42}{subsection.12.6}%
 \contentsline {subsection}{\numberline {12.7}IPv6 und IPv4 im Vergleich}{42}{subsection.12.7}%
 \contentsline {section}{\numberline {13}Schaltnetze}{43}{section.13}%
 \contentsline {subsection}{\numberline {13.1}Einfache Bauteile}{43}{subsection.13.1}%
@@ -119,7 +119,7 @@
 \contentsline {subsubsection}{\numberline {13.1.6}XOR}{44}{subsubsection.13.1.6}%
 \contentsline {subsubsection}{\numberline {13.1.7}XNOR}{45}{subsubsection.13.1.7}%
 \contentsline {subsection}{\numberline {13.2}Wahrheitstabelle}{45}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}KV-Diagramm}{46}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.3}KV-Diagramm}{45}{subsection.13.3}%
 \contentsline {subsubsection}{\numberline {13.3.1}Don't-Care-Positions}{46}{subsubsection.13.3.1}%
 \contentsline {subsubsection}{\numberline {13.3.2}Disjunktive Normalform}{46}{subsubsection.13.3.2}%
 \contentsline {subsection}{\numberline {13.4}Impulsdiagramm}{47}{subsection.13.4}%
@@ -131,12 +131,12 @@
 \contentsline {subsubsection}{\numberline {14.2.2}T Flip Flop}{49}{subsubsection.14.2.2}%
 \contentsline {subsubsection}{\numberline {14.2.3}JK Flip Flop}{49}{subsubsection.14.2.3}%
 \contentsline {subsubsection}{\numberline {14.2.4}D Flip Flop}{49}{subsubsection.14.2.4}%
-\contentsline {subsection}{\numberline {14.3}Zähler}{50}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.3}Zähler}{49}{subsection.14.3}%
 \contentsline {subsection}{\numberline {14.4}Schieberegister}{50}{subsection.14.4}%
 \contentsline {subsection}{\numberline {14.5}Entprellen von Signalen}{51}{subsection.14.5}%
 \contentsline {section}{\numberline {15}Mirkocontroller}{51}{section.15}%
 \contentsline {subsection}{\numberline {15.1}Aufbau}{51}{subsection.15.1}%
-\contentsline {section}{\numberline {16}Assembler}{52}{section.16}%
+\contentsline {section}{\numberline {16}Assembler}{51}{section.16}%
 \contentsline {subsection}{\numberline {16.1}Datenpointer}{52}{subsection.16.1}%
 \contentsline {subsection}{\numberline {16.2}Zeitschleife ohne Timer}{52}{subsection.16.2}%
 \contentsline {subsection}{\numberline {16.3}Zeitberechnung mit der Näherungsformel}{53}{subsection.16.3}%
