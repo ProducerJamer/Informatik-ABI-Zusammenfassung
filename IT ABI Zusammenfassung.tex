@@ -2896,6 +2896,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 
 \subsection{Schieberegister}
     Mehrere in Reihe geschaltete Flipflops schieben ihren Speicherinhalt bei jedem Arbeitstakt um ein Flipflop weiter – anschaulich gesehen ähnlich einer Eimerkette. Die Anzahl der im Register vorhandenen Speicherplätze ist konstant.
+    Somit wird eine anliegende 1 ans Q1 bei jedem Takt auf den nächsten Ausgang(bzw. das nächste FF) verschoben. Die 1 liegt dann an Q2 an.
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-0.5,0)--(-0.5,0.5)--(-2,0.5)--(-2,3)--(2,3)--(2,0.5)--(0.5,0.5)--(0.5,0);
@@ -2989,45 +2990,39 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
     Eine Assemblersprache, kurz auch Assembler genannt, ist eine Programmiersprache, die auf den Befehlsvorrat eines
     bestimmten Computertyps ausgerichtet ist. Sie ist die letzte/tiefste Sprache vor der Maschienensprache. Alle Hochsprachen basieren auf Assembler oder C.
 
-\subsection{Wichtige Befehle}
-
-\subsection{Adressierungsarten bei Mikrocontroller}
-
 \subsection{Datenpointer}
-
-\begin{minipage}{.45\textwidth}
-Der Datenpointer kann mithilfe des Akkus auf eine 1 Byte-große Zeile in einer Tabelle verweisen und diese in den Akku laden.
-Vor der Benutzung eines Datenpointers, muss man diesen zuerst initialisieren. Hierzu schreibt man:\newline
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}{.45\textwidth}
-\textcolor{blue}{MOV DPTR, \#tabelle}
-\end{minipage}\newline
-\noindent\rule{\textwidth}{1pt}\vspace{.2cm}\newline
-\begin{minipage}{.45\textwidth}
-Um nun eine Zeile aus der Tabelle in den Akku zu laden, schreibt man die Nummer der Zeile in den Akku und benutzt den Befehl MOVC:\newline
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}{.45\textwidth}
-\textcolor{blue}{MOV A, \#2\newline
-MOVC A, @A+DPTR\newline
-MOV A, P2 ;Speichert Zeile in Port 2}
-\end{minipage}\newline
-\noindent\rule{\textwidth}{1pt}\vspace{.2cm}\newline
-\begin{minipage}{.45\textwidth}
-Die Tabelle muss folgendermaßen gestaltet werden:\newline
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}{.45\textwidth}
+    \begin{minipage}{.45\textwidth}
+        Der Datenpointer kann mithilfe des Akkus auf eine 1 Byte-große Zeile in einer Tabelle verweisen und diese in den Akku laden.
+        Vor der Benutzung eines Datenpointers, muss man diesen zuerst initialisieren. Hierzu schreibt man:\newline
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.45\textwidth}
+        \textcolor{blue}{MOV DPTR, \#tabelle}
+    \end{minipage}\newline
+    \noindent\rule{\textwidth}{1pt}\vspace{.2cm}\newline
+    \begin{minipage}{.45\textwidth}
+        Um nun eine Zeile aus der Tabelle in den Akku zu laden, schreibt man die Nummer der Zeile in den Akku und benutzt den Befehl MOVC:\newline
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.45\textwidth}
+        \textcolor{blue}{MOV A, \#2\newline
+        MOVC A, @A+DPTR\newline
+        MOV A, P2 ;Speichert Zeile in Port 2}
+    \end{minipage}\newline
+    \noindent\rule{\textwidth}{1pt}\vspace{.2cm}\newline
+    \begin{minipage}{.45\textwidth}
+        Die Tabelle muss folgendermaßen gestaltet werden:\newline
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.45\textwidth}
         \textcolor{blue}{tabelle:\newline
         db 0101 0111b\newline
         db 0001 1010b\newline
         db 1010 1000b\newline
         ...}\newline
-\end{minipage}
-
-\noindent'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal verwenden. Zu beachten ist außerdem, dass bei hexadezimaler Darstellung eine 0 vorgestellt werden muss.\newline
-Beispiel: \textit{db A2h} muss als \textit{db 0A2h} geschrieben werden.
+    \end{minipage}
+    \noindent'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal verwenden. Zu beachten ist außerdem, dass bei hexadezimaler Darstellung eine 0 vorgestellt werden muss.\newline
+    Beispiel: \textit{db A2h} muss als \textit{db 0A2h} geschrieben werden.
     
 \subsection{Zeitschleife ohne Timer}
     Aufgrund Covid-19 ist der Timer kein Bestandteil des diesjährigen Abiturs, weshalb wir Wartezeiten nur mit Schleifen erstellen können. Hierbei verwenden wir Register. Man setzt die 8-Bit Register auf eine Zahl und bildet mit mindestens 2 Registern eine Schleife. Zuerst wird der Wert des inneren Registers immer um 1 reduziert, bis es 0 ist, dann wird das äußere Register um 1 reduziert und das Innere Register beginnt von neu. Hierbei wird je nach Geschwindigkeit des Mikrocontrollers eine Wartezeit erzeugt.
@@ -3147,6 +3142,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
 \subsection{Verebung}
     Wenn Klassen erben, besitzen diese eine abstrakte \textit{Mutterklasse}. Diese vererbt Methoden und Attribute. Für jedes Objekt gibt es nun 2 Objekte. Eines der Mutterklasse und eines der Unterklasse. Ein gutes Beispiel hierfür ist die Mutterklasse Fahrzeug mit ihrer \textit{Kindklasse} PKW.
     Beim Aufrufen des Konstruktors von PKW wird ebenso der Konstruktor der Klasse Fahrzeug aufgerufen.
+    Von abtrakten Klassen kann KEIN OBjekt gebildet werden!
 
 \subsection{Polymorphie}
 \subsubsection{Polymorphie}
@@ -3156,6 +3152,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
 
 \subsubsection{Dynamische Polymorphie}
     Man spricht von der dynamischen Polymorphie, wenn Methoden von einer Basisklasse/Mutterklasse abgeleitet und unterschiedlich implementiert werden. Dies wird auch als Überschreiben von Methoden bezeichnet.
+    Bei der dynamischen Polymorphie werden in mehreren Klassen einer Vererbungslinie gleiche, d.h. mit identischen Signaturen versehene Methoden unterschiedlich implementiert, sodass zur Laufzeit entschieden werden muss, welche der Methoden ausgeführt wird.
 
 \subsection{UML}
     Die Unified Modeling Language, kurz UML, ist eine grafische Modellierungssprache zur Spezifikation, Konstruktion, Dokumentation und Visualisierung von Software-Teilen und anderen Systemen. Sie wird von der Object Management Group entwickelt und ist sowohl von ihr als auch von der ISO genormt.
@@ -3232,16 +3229,16 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
     Objektdiagramme werden im Bezug zum Klassendiagramm gezeichnet. Sie sind eine Instanz der Klasse und die Attribute sind mit Werten gefüllt.
 
 \subsubsection{Assoziationen}
-    Klassendiagramme können außerdem die Assoziationen zwischen verschiedenen Klassen darstellen:
+    Klassendiagramme können außerdem die Assoziationen zwischen verschiedenen Klassen darstellen.
 
 \subsubsection{Polymorphie}
     Polymorphie beschreibt das Erben zwischen Klassen und veranschaulicht dies.
 
 \subsubsection{Vererbungen}
-    Vererbungen können außerdem vereinfacht dargestellt werden.
+    Vererbungen können außerdem vereinfacht dargestellt werden. Diese werden meist ebenfalls in Klassendiagrammen veranschaulicht.
 
 \subsubsection{Sequenzdiagramm}
-    Sequenzdiagramme stellen den Ablauf eines Programmes dar. Hierbei sieht man außerdem die Schritte in den verschiedenen Klassen.
+    Sequenzdiagramme stellen den Ablauf eines Programmes dar. Hierbei sieht man außerdem die Schritte in und zwischen den verschiedenen Klassen.
 
 \subsubsection{Zustandsdiagramm}
     Beim Zustandsdiagramm kann man herauslesen, wie das Programm in einem gewissen Zustand fortfahren kann. Hierbei wird jeder Zustand aufgezeichnet und alle möglichen Optionen ergänzt.
@@ -3254,7 +3251,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
 \subsection{Entity-Relationship-Diagramm}
     Das ER-Diagramm gibt einen schnellen und übersichtlichen Überblick über die Tabellen einer Datenbank. Das ER-Diagramm wird zum Beispiel beim Erstellen und Planen einer Datenbank verwendet.
     Bevor man das ER-Diagramm zeichnen will, sollte man sich aber alle Beziehungen der Tabellen ansehen. Treten n:m-Beziehungen auf, müssen diese zuerst aufgelöst werden:\vspace{.2cm}\newline
-\textbf{1:1 Beziehung:}
+    \textbf{1:1 Beziehung:}
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-7,-1) rectangle (-3,1);
@@ -3266,7 +3263,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
             \node at (5,0){Entität 2};
         \end{tikzpicture}
     \end{center}
-\textbf{1:n Beziehung:}
+    \textbf{1:n Beziehung:}
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-7,-1) rectangle (-3,1);
@@ -3278,7 +3275,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
             \node at (5,0){Entität 2};
         \end{tikzpicture}
     \end{center}
-\textbf{n:m Beziehung:}
+    \textbf{n:m Beziehung:}
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-7,-1) rectangle (-3,1);
@@ -3290,7 +3287,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
             \node at (5,0){Entität 2};
         \end{tikzpicture}
     \end{center}
-\textbf{n:m Beziehung(aufgelöst):}
+    \textbf{n:m Beziehung(aufgelöst):}
     \begin{center}
         \begin{tikzpicture}
             \draw[black,very thick](-8,-1) rectangle (-4,1);
@@ -3316,52 +3313,52 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
 
 \subsection{Realtionsschreibweise}
     Bei der Realtionsschreibweise erkennt man direkt die wichtigsten Informationen und die Spalten einer Datenbank. Hierbei muss deutlich klar gemacht werden, was der Primär- und was der Sekundärschlüssel sind.\vspace{.2cm}\newline
-\begin{minipage}[t]{.5\textwidth}
-	\textbf{Beispiel:}\newline
-    Angestellter(\textbf{PerNr}, Name, Vorname, \underline{AbtNr})\newline
-    Abteilung(\textbf{AbtNr}, Bezeichnung)
-\end{minipage} 
-\hspace{1cm}
-\begin{minipage}[t]{.4\textwidth}
-	\textcolor{gray}{
-	Legende:\newline
-    \textbf{Fett} = Primärschlüssel,\newline \underline{Unterstrichen} = Sekundärschlüssel}
-\end{minipage}   
+    \begin{minipage}[t]{.5\textwidth}
+        \textbf{Beispiel:}\newline
+        Angestellter(\textbf{PerNr}, Name, Vorname, \underline{AbtNr})\newline
+        Abteilung(\textbf{AbtNr}, Bezeichnung)
+    \end{minipage} 
+    \hspace{1cm}
+    \begin{minipage}[t]{.4\textwidth}
+        \textcolor{gray}{
+        Legende:\newline
+        \textbf{Fett} = Primärschlüssel,\newline \underline{Unterstrichen} = Sekundärschlüssel}
+    \end{minipage}   
   
 \subsection{SQL}
     SQL ist eine Datenbanksprache zur Definition von Datenstrukturen in relationalen Datenbanken sowie zum Bearbeiten und Abfragen von darauf basierenden Datenbeständen.
 
 \subsubsection{SQL Abfragen}
-\begin{minipage}{.4\textwidth}
-Um gefilterte Informationen aus Datenbanken zu entnehmen werden SQL-Abfragen geschrieben. Mit diesen kann man mehrere Tabellen verknüpfen und gefiltert nach den gewünschten Daten suchen.
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}{.5\textwidth}
-\textbf{SELECT Buchungen.BuchungsID, Buchungen.KundenID,\newline
-Kunden.Name FROM Kunden, Buchungen\newline
-WHERE Kunden.KundenID = Buchungen.KundenID\newline
-AND KUNDEN.Name LIKE "Müller"}
-\end{minipage}\newline
-\textcolor{white}{Platzhalter}\newline
-\noindent\rule{\textwidth}{1pt}
-\textcolor{white}{Platzhalter}\newline
-\begin{minipage}{.4\textwidth}
-Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und 
-Kundennamen von Kunden mit dem Namen Müller ausgegeben.\newline
-Der Aufbau einer SQL-Abfrage muss folgende Reihenfolge einhalten:
-\end{minipage}
-\hspace{1cm}
-\begin{minipage}{.5\textwidth}
-\textbf{SELECT <Spalte>,<Aggregatfunktion>\newline
-FROM <Tabelle>\newline
-WHERE <Bedingung>\newline
-GROUP BY <Spalte>\newline
-HAVING <Aggregatfunktion> <VerglOp> <Wert>\newline
-ORDER BY <Spalte>[ASC|DESC], <Aggregatfunktion>\newline
-LIMIT [start,] anzahl}
-\end{minipage}\newline
+    \begin{minipage}{.4\textwidth}
+        Um gefilterte Informationen aus Datenbanken zu entnehmen werden SQL-Abfragen geschrieben. Mit diesen kann man mehrere Tabellen verknüpfen und gefiltert nach den gewünschten Daten suchen.
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.5\textwidth}
+        \textbf{SELECT Buchungen.BuchungsID, Buchungen.KundenID,\newline
+        Kunden.Name FROM Kunden, Buchungen\newline
+        WHERE Kunden.KundenID = Buchungen.KundenID\newline
+        AND KUNDEN.Name LIKE "Müller"}
+    \end{minipage}\newline
+    \textcolor{white}{Platzhalter}\newline
+    \noindent\rule{\textwidth}{1pt}
+    \textcolor{white}{Platzhalter}\newline
+    \begin{minipage}{.4\textwidth}
+        Mit diesem Befehl werden alle Buchungsnummern, Kundennummern und 
+        Kundennamen von Kunden mit dem Namen Müller ausgegeben.\newline
+        Der Aufbau einer SQL-Abfrage muss folgende Reihenfolge einhalten:
+    \end{minipage}
+    \hspace{1cm}
+    \begin{minipage}{.5\textwidth}
+        \textbf{SELECT <Spalte>,<Aggregatfunktion>\newline
+        FROM <Tabelle>\newline
+        WHERE <Bedingung>\newline
+        GROUP BY <Spalte>\newline
+        HAVING <Aggregatfunktion> <VerglOp> <Wert>\newline
+        ORDER BY <Spalte>[ASC|DESC], <Aggregatfunktion>\newline
+        LIMIT [start,] anzahl}
+    \end{minipage}\newline
 
-\noindent Hier einige Befehle:
+    \noindent Hier einige Befehle:
     \begin{table}[h]
         \centering
         \renewcommand{\arraystretch}{1.5}
@@ -3398,47 +3395,47 @@ LIMIT [start,] anzahl}
 
 \section{Fachsprache}
 \subsection{Fachwörter}
-        \renewcommand{\arraystretch}{2}
-        \begin{tabularx}{17cm}{|l|X|}
-            \hline
-            Fachbegriff&Erklärung\\
-            \hline
-            \hline
-            Algorithmus&Eine genau definierte Handlungsvorschrift zur Lösung von Problemen in endlich vielen Schritten\\
-            \hline
-            Attribut&Eigenschaft einer Klasse\\
-            \hline
-            ASCII&American Standard Code for Information Interchange\\
-            \hline
-            ARP&Adress Resolution Protocol\\
-            \hline
-            BCD-Code&Binary Coded Decimal (dualkodierte Dezimalziffer)\\
-            \hline
-            Client-Server Netz&Ein Client-Server Netz besteht zwischen einem Server und einem Computer. Der Server bietet dem Client verschiedene Dienste an, der Client kann Dienste vom Server anfordern.\\
-            \hline
-            CRC / FCS& Cyclic Redundancy Check / Frame Check Sequence\\
-            \hline
-            CSMA/CD&Carrier Sense Multiple Access / Collision Detection\\
-            \hline
-            Geheimnisprinzip&Lesen oder Schreiben der Attributwerte eines Objekts nur durch Operation möglich\\
-            \hline
-            Kapselung&Attribute sind durch Operationen von der Außenwelt abgeschlossen (Attribute private, Operationen public)\\
-            \hline
-            Klasse&Beschreibt Gemeinsamkeiten einer Menge gleichartiger Objekte\\
-            \hline
-            Klassenattribut&Ein Attributwert für alle Objekte der Klasse\\
-            \hline
-            MAC Adresse& Media Access Control Adresse\\
-            \hline
-            MTU&Maximum Transmission Unit (Nutzdatenblock Ethernet Frame)\\
-            \hline
-            Objekt&Gegenstand der Programmierung (materieller Gegensand, Organisationseinheit, Begriff, Aspekt eines Systems)\\
-            \hline
-            OUI&Organizationally Unique Identifier\\
-            \hline
-            OSI (Modell)&Open Systems Interconnedtion (Modell)\\
-            \hline
-        \end{tabularx}
+    \renewcommand{\arraystretch}{2}
+    \begin{tabularx}{17cm}{|l|X|}
+        \hline
+        Fachbegriff&Erklärung\\
+        \hline
+        \hline
+        Algorithmus&Eine genau definierte Handlungsvorschrift zur Lösung von Problemen in endlich vielen Schritten\\
+        \hline
+        Attribut&Eigenschaft einer Klasse\\
+        \hline
+        ASCII&American Standard Code for Information Interchange\\
+        \hline
+        ARP&Adress Resolution Protocol\\
+        \hline
+        BCD-Code&Binary Coded Decimal (dualkodierte Dezimalziffer)\\
+        \hline
+        Client-Server Netz&Ein Client-Server Netz besteht zwischen einem Server und einem Computer. Der Server bietet dem Client verschiedene Dienste an, der Client kann Dienste vom Server anfordern.\\
+        \hline
+        CRC / FCS& Cyclic Redundancy Check / Frame Check Sequence\\
+        \hline
+        CSMA/CD&Carrier Sense Multiple Access / Collision Detection\\
+        \hline
+        Geheimnisprinzip&Lesen oder Schreiben der Attributwerte eines Objekts nur durch Operation möglich\\
+        \hline
+        Kapselung&Attribute sind durch Operationen von der Außenwelt abgeschlossen (Attribute private, Operationen public)\\
+        \hline
+        Klasse&Beschreibt Gemeinsamkeiten einer Menge gleichartiger Objekte\\
+        \hline
+        Klassenattribut&Ein Attributwert für alle Objekte der Klasse\\
+        \hline
+        MAC Adresse& Media Access Control Adresse\\
+        \hline
+        MTU&Maximum Transmission Unit (Nutzdatenblock Ethernet Frame)\\
+        \hline
+        Objekt&Gegenstand der Programmierung (materieller Gegensand, Organisationseinheit, Begriff, Aspekt eines Systems)\\
+        \hline
+        OUI&Organizationally Unique Identifier\\
+        \hline
+        OSI (Modell)&Open Systems Interconnedtion (Modell)\\
+        \hline
+    \end{tabularx}
     \begin{table}[h]
         \renewcommand{\arraystretch}{2}
         \begin{tabularx}{17cm}{|l|X|}
@@ -3466,59 +3463,59 @@ LIMIT [start,] anzahl}
     \end{table}
 
 \subsection{Typfeld Kennungen}
-        \renewcommand{\arraystretch}{2}
-        \begin{tabularx}{17cm}{|l|X|}
-            \hline
-            0x0800&IPv4 Internet Protocol, Version 4\\
-            \hline
-            0x0806&ARP Adress Resolution Protocol\\
-            \hline
-            0x0842&WoL Wake on Lan\\
-            \hline
-            0x8035&RARP Reverse Adress Resolution Protocol\\
-            \hline
-            0x809B&EtherTalk Appletalk\\
-            \hline
-            0x80F3&AARP Appletalk Adress Resolution Protocol\\
-            \hline
-            0x8100&VLAN Tag\\
-            \hline
-            0x8137&Novell IPX\\
-            \hline
-            0x8138&Novell\\
-            \hline
-            0x86DD&IPv6 Internet Protocol, Version 6\\
-            \hline
-            0x8863&PPPoE Discovery\\
-            \hline
-            0x8864&PPPoE Session\\
-            \hline
-            0x8870&Jumbo Frames\\
-            \hline
-            0x8892&Echtzeit-Ethernet PROFINET\\
-            \hline
-            0x88A2&ATA over Ethernet Coraid AoE\\
-            \hline
-            0x88A4&EtherCAT Echtzeit-Ethernet\\
-            \hline
-            0x88A8&Provider Bridging\\
-            \hline
-            0x88AB&Echtzeit-Ethernet POWERLINK\\
-            \hline
-            0x88CD&Echtzeit-Ethernet SERCOS III\\
-            \hline
-            0x8906&Fibre Channel over Ethernet\\
-            \hline
-            0x8914&FCoE Initialization Protocol FIP\\
-            \hline
-        \end{tabularx}
+    \renewcommand{\arraystretch}{2}
+    \begin{tabularx}{17cm}{|l|X|}
+        \hline
+        0x0800&IPv4 Internet Protocol, Version 4\\
+        \hline
+        0x0806&ARP Adress Resolution Protocol\\
+        \hline
+        0x0842&WoL Wake on Lan\\
+        \hline
+        0x8035&RARP Reverse Adress Resolution Protocol\\
+        \hline
+        0x809B&EtherTalk Appletalk\\
+        \hline
+        0x80F3&AARP Appletalk Adress Resolution Protocol\\
+        \hline
+        0x8100&VLAN Tag\\
+        \hline
+        0x8137&Novell IPX\\
+        \hline
+        0x8138&Novell\\
+        \hline
+        0x86DD&IPv6 Internet Protocol, Version 6\\
+        \hline
+        0x8863&PPPoE Discovery\\
+        \hline
+        0x8864&PPPoE Session\\
+        \hline
+        0x8870&Jumbo Frames\\
+        \hline
+        0x8892&Echtzeit-Ethernet PROFINET\\
+        \hline
+        0x88A2&ATA over Ethernet Coraid AoE\\
+        \hline
+        0x88A4&EtherCAT Echtzeit-Ethernet\\
+        \hline
+        0x88A8&Provider Bridging\\
+        \hline
+        0x88AB&Echtzeit-Ethernet POWERLINK\\
+        \hline
+        0x88CD&Echtzeit-Ethernet SERCOS III\\
+        \hline
+        0x8906&Fibre Channel over Ethernet\\
+        \hline
+        0x8914&FCoE Initialization Protocol FIP\\
+        \hline
+    \end{tabularx}
 
 \section{Epilog}
     \noindent
     Diese Zusammenfassung wurde erstellt und geteilt von \textit{Robin Rausch} und \textit{Jannis Müller}. Für Falschaussagen oder Fehlinformationen übernehmen die Autoren keinerlei Gewähr. Es ist empfehlenswert, sich selbst mit den Inhalten vertraut zu machen und die hier dargestellten Inhalte gegebenenfalls zu korrigieren. Bei Fragen oder inhaltlichen Fehlern kontaktieren sie bitte umgehend einen der Autoren und weisen auf die von Ihnen festgestellten Mängel hin. 
     
 \subsection{Literatur}
-Fachwissen sowie einige Inhalte wurden übernommen aus:\newline
-\textit{Informatik und Informationstechnik - für Gymnasien und höhere Bildungsgänge im beruflichen Schulwesen (3. Auflage)} verlegt von \textit{Europa Lehrmittel}. 
+    Fachwissen sowie einige Inhalte wurden übernommen aus:\newline
+    \textit{Informatik und Informationstechnik - für Gymnasien und höhere Bildungsgänge im beruflichen Schulwesen (3. Auflage)} verlegt von \textit{Europa Lehrmittel}. 
 
 \end{document}

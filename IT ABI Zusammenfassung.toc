@@ -26,163 +26,150 @@
 \contentsline {subsection}{\numberline {5.3}Multitasking}{14}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Kontext}{14}{subsubsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.4}Scheduling}{14}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Scheduling Strategien}{15}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {5.5.1}First Come First Serve}{15}{subsubsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5}Scheduling Strategien}{14}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}First Come First Serve}{14}{subsubsection.5.5.1}%
 \contentsline {subsubsection}{\numberline {5.5.2}Shortest Job First}{15}{subsubsection.5.5.2}%
 \contentsline {subsubsection}{\numberline {5.5.3}Round Robin}{15}{subsubsection.5.5.3}%
 \contentsline {subsubsection}{\numberline {5.5.4}Priority}{15}{subsubsection.5.5.4}%
-\contentsline {section}{\numberline {6}Speicherkonzepte}{15}{section.6}%
+\contentsline {section}{\numberline {6}Speicherverwaltung}{15}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Speicherhierarchie}{15}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Speicherverwaltung}{15}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Direkte Speicherverwaltung}{15}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Swapping}{15}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}virtueller Speicher}{16}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}segmentorientierter Speicher}{16}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}seitenorientierter Speicher - \textit {Paging}}{17}{subsection.7.5}%
-\contentsline {subsubsection}{\numberline {7.5.1}Beispielaufgaben}{18}{subsubsection.7.5.1}%
-\contentsline {subsubsection}{\numberline {7.5.2}Buch Aufgabe 1, S.243}{18}{subsubsection.7.5.2}%
-\contentsline {subsubsection}{\numberline {7.5.3}Buch Aufgabe 3, S.243}{19}{subsubsection.7.5.3}%
-\contentsline {subsubsection}{\numberline {7.5.4}Buch Aufgabe 4, S.243}{19}{subsubsection.7.5.4}%
-\contentsline {subsubsection}{\numberline {7.5.5}Buch Aufgabe 5, S.243}{20}{subsubsection.7.5.5}%
-\contentsline {subsubsection}{\numberline {7.5.6}Buch Aufgabe 6, S.243}{20}{subsubsection.7.5.6}%
-\contentsline {subsubsection}{\numberline {7.5.7}Buch Aufgabe 7, S.243}{21}{subsubsection.7.5.7}%
-\contentsline {subsection}{\numberline {7.6}Speicherverwaltungsmethodenchronologie}{21}{subsection.7.6}%
-\contentsline {section}{\numberline {8}Datensicherung}{21}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Sicherungsmedien}{22}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Datenverlust}{22}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Datenvernichtung}{22}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Sicherungsverfahren}{23}{subsection.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.1}Vollständige Sicherung}{23}{subsubsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.2}Differenzielle Sicherung}{23}{subsubsection.8.4.2}%
-\contentsline {subsubsection}{\numberline {8.4.3}Inkrementelle Sicherung}{23}{subsubsection.8.4.3}%
-\contentsline {subsubsection}{\numberline {8.4.4}Sicherungsstrategie: Generationen Konzept}{24}{subsubsection.8.4.4}%
-\contentsline {subsection}{\numberline {8.5}Vernetzte Sicherung}{24}{subsection.8.5}%
-\contentsline {subsubsection}{\numberline {8.5.1}verteilte Sicherung}{24}{subsubsection.8.5.1}%
-\contentsline {subsubsection}{\numberline {8.5.2}lokale Sicherung}{24}{subsubsection.8.5.2}%
-\contentsline {subsubsection}{\numberline {8.5.3}Netzwerk Sicherung}{24}{subsubsection.8.5.3}%
-\contentsline {subsubsection}{\numberline {8.5.4}Kapazität des Netzwerks}{25}{subsubsection.8.5.4}%
-\contentsline {subsubsection}{\numberline {8.5.5}Logfiles}{25}{subsubsection.8.5.5}%
-\contentsline {subsection}{\numberline {8.6}RAID Systeme}{25}{subsection.8.6}%
-\contentsline {subsubsection}{\numberline {8.6.1}RAID 0}{25}{subsubsection.8.6.1}%
-\contentsline {subsubsection}{\numberline {8.6.2}RAID 1}{25}{subsubsection.8.6.2}%
-\contentsline {subsubsection}{\numberline {8.6.3}RAID 5}{26}{subsubsection.8.6.3}%
-\contentsline {subsubsection}{\numberline {8.6.4}RAID 10}{26}{subsubsection.8.6.4}%
-\contentsline {subsubsection}{\numberline {8.6.5}RAID 50}{26}{subsubsection.8.6.5}%
-\contentsline {subsubsection}{\numberline {8.6.6}Gegenüberstellung der RAID Systeme}{26}{subsubsection.8.6.6}%
-\contentsline {subsubsection}{\numberline {8.6.7}RAM vs ROM}{26}{subsubsection.8.6.7}%
-\contentsline {section}{\numberline {9}Netze}{27}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Einführung}{27}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}Beispiele für Netze}{27}{subsubsection.9.1.1}%
-\contentsline {subsubsection}{\numberline {9.1.2}Gemeinsamkeiten aller Netze}{27}{subsubsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.2}Einfaches Computernetz}{27}{subsection.9.2}%
-\contentsline {subsubsection}{\numberline {9.2.1}Netz Topologien}{30}{subsubsection.9.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2}Netze in Unternehmen}{31}{subsubsection.9.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.3}Private Netze}{31}{subsubsection.9.2.3}%
-\contentsline {subsection}{\numberline {9.3}Servermodelle}{31}{subsection.9.3}%
-\contentsline {subsubsection}{\numberline {9.3.1}Ein-Server-Modell}{31}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Multi-Server-Modell}{31}{subsubsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.4}Kommunikationsarten}{31}{subsection.9.4}%
-\contentsline {subsubsection}{\numberline {9.4.1}Simplex}{31}{subsubsection.9.4.1}%
-\contentsline {subsubsection}{\numberline {9.4.2}Halbduplex}{31}{subsubsection.9.4.2}%
-\contentsline {subsubsection}{\numberline {9.4.3}Vollduplex}{32}{subsubsection.9.4.3}%
-\contentsline {subsection}{\numberline {9.5}Netzwerkkomponenten}{32}{subsection.9.5}%
-\contentsline {subsubsection}{\numberline {9.5.1}Port}{32}{subsubsection.9.5.1}%
-\contentsline {subsubsection}{\numberline {9.5.2}Client}{32}{subsubsection.9.5.2}%
-\contentsline {subsubsection}{\numberline {9.5.3}Netzwerkkarte}{32}{subsubsection.9.5.3}%
-\contentsline {subsubsection}{\numberline {9.5.4}Repeater}{32}{subsubsection.9.5.4}%
-\contentsline {subsubsection}{\numberline {9.5.5}HUB}{32}{subsubsection.9.5.5}%
-\contentsline {subsubsection}{\numberline {9.5.6}Bridge}{33}{subsubsection.9.5.6}%
-\contentsline {subsubsection}{\numberline {9.5.7}Switch}{33}{subsubsection.9.5.7}%
-\contentsline {subsubsection}{\numberline {9.5.8}Router}{33}{subsubsection.9.5.8}%
-\contentsline {subsubsection}{\numberline {9.5.9}Einordnung der Komponenten ins OSI-Modell}{33}{subsubsection.9.5.9}%
-\contentsline {subsection}{\numberline {9.6}Round Trip Delay Time - RTDT}{34}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Bezeichnungen von Netzen}{34}{subsection.9.7}%
-\contentsline {subsection}{\numberline {9.8}OSI 7-Schichten Modell}{34}{subsection.9.8}%
-\contentsline {section}{\numberline {10}Ethernet}{35}{section.10}%
-\contentsline {subsection}{\numberline {10.1}MAC Adresse}{36}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}Aufbau MAC Adresse}{36}{subsubsection.10.1.1}%
-\contentsline {section}{\numberline {11}Netzwerkprotokolle}{37}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Datenübertragung}{37}{subsection.11.1}%
-\contentsline {section}{\numberline {12}Vollständiges Ethernet-Paket}{37}{section.12}%
-\contentsline {section}{\numberline {13}CSMA/CD - Verfahren}{38}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Kollision}{38}{subsection.13.1}%
-\contentsline {section}{\numberline {14}ARP-Protokoll}{39}{section.14}%
-\contentsline {section}{\numberline {15}Subnetting}{40}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Die IP Adresse}{40}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Netzwerkklassen}{41}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Subnetzmaske}{41}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}CIDAR}{41}{subsection.15.4}%
-\contentsline {subsection}{\numberline {15.5}VLSM}{42}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}Routing Tabellen}{42}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}DMZ - Demilitarisierte Zone}{42}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}IPv6}{43}{subsection.15.8}%
-\contentsline {section}{\numberline {16}Schaltnetze}{44}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Einfache Bauteile}{44}{subsection.16.1}%
-\contentsline {subsubsection}{\numberline {16.1.1}NOT}{44}{subsubsection.16.1.1}%
-\contentsline {subsubsection}{\numberline {16.1.2}AND}{44}{subsubsection.16.1.2}%
-\contentsline {subsubsection}{\numberline {16.1.3}OR}{44}{subsubsection.16.1.3}%
-\contentsline {subsubsection}{\numberline {16.1.4}NAND}{45}{subsubsection.16.1.4}%
-\contentsline {subsubsection}{\numberline {16.1.5}NOR}{45}{subsubsection.16.1.5}%
-\contentsline {subsubsection}{\numberline {16.1.6}XOR}{45}{subsubsection.16.1.6}%
-\contentsline {subsubsection}{\numberline {16.1.7}XNOR}{46}{subsubsection.16.1.7}%
-\contentsline {subsection}{\numberline {16.2}Wahrheitstabelle}{46}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}KV-Diagramm}{46}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Don't-Care-Positions}{47}{subsubsection.16.3.1}%
-\contentsline {subsection}{\numberline {16.4}Disjunktive Normalform}{47}{subsection.16.4}%
-\contentsline {subsection}{\numberline {16.5}Impulsdiagramm}{48}{subsection.16.5}%
-\contentsline {subsection}{\numberline {16.6}Zustandsfolgetabelle}{48}{subsection.16.6}%
-\contentsline {section}{\numberline {17}Schaltwerke}{49}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Schaltwerke}{49}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Taktgeber}{49}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Flip-Flops}{49}{subsection.17.3}%
-\contentsline {subsubsection}{\numberline {17.3.1}RS Flip Flop}{49}{subsubsection.17.3.1}%
-\contentsline {subsubsection}{\numberline {17.3.2}T Flip Flop}{50}{subsubsection.17.3.2}%
-\contentsline {subsubsection}{\numberline {17.3.3}JK Flip Flop}{50}{subsubsection.17.3.3}%
-\contentsline {subsubsection}{\numberline {17.3.4}D Flip Flop}{50}{subsubsection.17.3.4}%
-\contentsline {subsection}{\numberline {17.4}Zähler}{51}{subsection.17.4}%
-\contentsline {subsection}{\numberline {17.5}Addierschaltungen}{51}{subsection.17.5}%
-\contentsline {subsection}{\numberline {17.6}Subtrahierschaltungen}{52}{subsection.17.6}%
-\contentsline {subsection}{\numberline {17.7}Schieberegister}{52}{subsection.17.7}%
-\contentsline {subsection}{\numberline {17.8}Entprellen von Signalen}{53}{subsection.17.8}%
-\contentsline {section}{\numberline {18}Mirkocontroller}{53}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Aufbau}{53}{subsection.18.1}%
-\contentsline {section}{\numberline {19}Assembler}{54}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Wichtige Befehle}{54}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Adressierungsarten bei Mikrocontroller}{54}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Datenpointer}{54}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Zeitschleife erstellen ohne Timer}{55}{subsection.19.4}%
-\contentsline {subsection}{\numberline {19.5}Zeitberechnung mit der Näherungsformel}{55}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Interrupt}{56}{subsection.19.6}%
-\contentsline {section}{\numberline {20}Objektorientierte Programmierung}{56}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Grundverständnis}{56}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Klassen}{56}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Objekte}{57}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Datentypen}{57}{subsection.20.4}%
-\contentsline {subsection}{\numberline {20.5}Arrays}{57}{subsection.20.5}%
-\contentsline {subsection}{\numberline {20.6}Verebung}{57}{subsection.20.6}%
-\contentsline {subsection}{\numberline {20.7}Polymorphie}{57}{subsection.20.7}%
-\contentsline {subsubsection}{\numberline {20.7.1}Polymorphie}{57}{subsubsection.20.7.1}%
-\contentsline {subsubsection}{\numberline {20.7.2}Dynamische Polymorphie}{58}{subsubsection.20.7.2}%
-\contentsline {subsection}{\numberline {20.8}UML}{58}{subsection.20.8}%
-\contentsline {subsubsection}{\numberline {20.8.1}Struktogramm}{58}{subsubsection.20.8.1}%
-\contentsline {subsubsection}{\numberline {20.8.2}Klassendiagramm}{59}{subsubsection.20.8.2}%
-\contentsline {subsubsection}{\numberline {20.8.3}Objektdiagramm}{59}{subsubsection.20.8.3}%
-\contentsline {subsubsection}{\numberline {20.8.4}Assoziationen}{59}{subsubsection.20.8.4}%
-\contentsline {subsubsection}{\numberline {20.8.5}Polymorphie}{59}{subsubsection.20.8.5}%
-\contentsline {subsubsection}{\numberline {20.8.6}Vererbungen}{59}{subsubsection.20.8.6}%
-\contentsline {subsubsection}{\numberline {20.8.7}Sequenzdiagramm}{59}{subsubsection.20.8.7}%
-\contentsline {subsubsection}{\numberline {20.8.8}Zustandsdiagramm}{59}{subsubsection.20.8.8}%
-\contentsline {section}{\numberline {21}Datenbanken}{59}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Grundverständnis Datenbanken}{59}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Verwendung}{60}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Entity-Relationship-Diagramm}{60}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Primärschlüssel}{60}{subsection.21.4}%
-\contentsline {subsection}{\numberline {21.5}Sekundärschlüssel}{60}{subsection.21.5}%
-\contentsline {subsection}{\numberline {21.6}Realtionsschreibweise}{61}{subsection.21.6}%
-\contentsline {subsection}{\numberline {21.7}SQL}{61}{subsection.21.7}%
-\contentsline {subsubsection}{\numberline {21.7.1}SQL Abfragen}{61}{subsubsection.21.7.1}%
-\contentsline {section}{\numberline {22}Fachsprache}{62}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Fachwörter}{62}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Typfeld Kennungen}{62}{subsection.22.2}%
-\contentsline {section}{\numberline {23}Epilog}{62}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Literatur}{62}{subsection.23.1}%
+\contentsline {subsection}{\numberline {6.2}Direkte Speicherverwaltung}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Swapping}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}virtueller Speicher}{17}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}segmentorientierter Speicher}{18}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}seitenorientierter Speicher - \textit {Paging}}{18}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}Beispielaufgaben}{19}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}Buch Aufgabe 1, S.243}{19}{subsubsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.3}Buch Aufgabe 3, S.243}{20}{subsubsection.6.6.3}%
+\contentsline {subsubsection}{\numberline {6.6.4}Buch Aufgabe 4, S.243}{20}{subsubsection.6.6.4}%
+\contentsline {subsubsection}{\numberline {6.6.5}Buch Aufgabe 5, S.243}{20}{subsubsection.6.6.5}%
+\contentsline {subsubsection}{\numberline {6.6.6}Buch Aufgabe 6, S.243}{21}{subsubsection.6.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.7}Buch Aufgabe 7, S.243}{21}{subsubsection.6.6.7}%
+\contentsline {subsection}{\numberline {6.7}Speicherverwaltungsmethodenchronologie}{22}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Datensicherung}{22}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Sicherungsmedien}{22}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Datenverlust}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Datenvernichtung}{23}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Sicherungsverfahren}{23}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Vollständige Sicherung}{23}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Differenzielle Sicherung}{24}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}Inkrementelle Sicherung}{24}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}Sicherungsstrategie: Generationen Konzept}{24}{subsubsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.5}Vernetzte Sicherung}{25}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}verteilte Sicherung}{25}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}lokale Sicherung}{25}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.3}Netzwerk Sicherung}{25}{subsubsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {7.5.4}Kapazität des Netzwerks}{25}{subsubsection.7.5.4}%
+\contentsline {subsubsection}{\numberline {7.5.5}Logfiles}{25}{subsubsection.7.5.5}%
+\contentsline {subsection}{\numberline {7.6}RAID Systeme}{26}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}RAID 0}{26}{subsubsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.2}RAID 1}{26}{subsubsection.7.6.2}%
+\contentsline {subsubsection}{\numberline {7.6.3}RAID 5}{26}{subsubsection.7.6.3}%
+\contentsline {subsubsection}{\numberline {7.6.4}RAID 10}{26}{subsubsection.7.6.4}%
+\contentsline {subsubsection}{\numberline {7.6.5}RAID 50}{27}{subsubsection.7.6.5}%
+\contentsline {subsubsection}{\numberline {7.6.6}Gegenüberstellung der RAID Systeme}{27}{subsubsection.7.6.6}%
+\contentsline {subsubsection}{\numberline {7.6.7}RAM vs ROM}{27}{subsubsection.7.6.7}%
+\contentsline {section}{\numberline {8}Netze}{27}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Einführung}{27}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Beispiele für Netze}{27}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Gemeinsamkeiten aller Netze}{28}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Einfaches Computernetz}{28}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Netz Topologien}{29}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Netze in Unternehmen}{30}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Private Netze}{30}{subsubsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.3}Servermodelle}{30}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Kommunikationsarten}{30}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Netzwerkkomponenten}{31}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Port}{31}{subsubsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.2}Client}{31}{subsubsection.8.5.2}%
+\contentsline {subsubsection}{\numberline {8.5.3}Netzwerkkarte}{31}{subsubsection.8.5.3}%
+\contentsline {subsubsection}{\numberline {8.5.4}Repeater}{31}{subsubsection.8.5.4}%
+\contentsline {subsubsection}{\numberline {8.5.5}HUB}{31}{subsubsection.8.5.5}%
+\contentsline {subsubsection}{\numberline {8.5.6}Bridge}{32}{subsubsection.8.5.6}%
+\contentsline {subsubsection}{\numberline {8.5.7}Switch}{32}{subsubsection.8.5.7}%
+\contentsline {subsubsection}{\numberline {8.5.8}Router}{32}{subsubsection.8.5.8}%
+\contentsline {subsubsection}{\numberline {8.5.9}Einordnung der Komponenten ins OSI-Modell}{32}{subsubsection.8.5.9}%
+\contentsline {subsection}{\numberline {8.6}Round Trip Delay Time - RTDT}{33}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Bezeichnungen von Netzen}{33}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}OSI 7-Schichten Modell}{34}{subsection.8.8}%
+\contentsline {section}{\numberline {9}Ethernet}{34}{section.9}%
+\contentsline {subsection}{\numberline {9.1}MAC Adresse}{35}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Aufbau MAC Adresse}{35}{subsubsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.2}Vollständiges Ethernet-Paket}{35}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}CSMA/CD - Verfahren}{36}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Kollision}{36}{subsubsection.9.3.1}%
+\contentsline {section}{\numberline {10}Netzwerkprotokolle}{37}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Datenübertragung}{38}{subsection.10.1}%
+\contentsline {section}{\numberline {11}ARP-Protokoll}{38}{section.11}%
+\contentsline {section}{\numberline {12}Subnetting}{39}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Die IP Adresse}{39}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Netzwerkklassen}{40}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Subnetzmaske}{40}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}CIDAR}{40}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}VLSM}{41}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}DMZ - Demilitarisierte Zone}{41}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}IPv6 und IPv4 im Vergleich}{42}{subsection.12.7}%
+\contentsline {section}{\numberline {13}Schaltnetze}{43}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Einfache Bauteile}{43}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}NOT}{43}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}AND}{43}{subsubsection.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.3}OR}{43}{subsubsection.13.1.3}%
+\contentsline {subsubsection}{\numberline {13.1.4}NAND}{44}{subsubsection.13.1.4}%
+\contentsline {subsubsection}{\numberline {13.1.5}NOR}{44}{subsubsection.13.1.5}%
+\contentsline {subsubsection}{\numberline {13.1.6}XOR}{44}{subsubsection.13.1.6}%
+\contentsline {subsubsection}{\numberline {13.1.7}XNOR}{45}{subsubsection.13.1.7}%
+\contentsline {subsection}{\numberline {13.2}Wahrheitstabelle}{45}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}KV-Diagramm}{46}{subsection.13.3}%
+\contentsline {subsubsection}{\numberline {13.3.1}Don't-Care-Positions}{46}{subsubsection.13.3.1}%
+\contentsline {subsubsection}{\numberline {13.3.2}Disjunktive Normalform}{46}{subsubsection.13.3.2}%
+\contentsline {subsection}{\numberline {13.4}Impulsdiagramm}{47}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Zustandsfolgetabelle}{47}{subsection.13.5}%
+\contentsline {section}{\numberline {14}Schaltwerke}{48}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Taktgeber}{48}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Flip-Flops}{48}{subsection.14.2}%
+\contentsline {subsubsection}{\numberline {14.2.1}RS Flip Flop}{48}{subsubsection.14.2.1}%
+\contentsline {subsubsection}{\numberline {14.2.2}T Flip Flop}{49}{subsubsection.14.2.2}%
+\contentsline {subsubsection}{\numberline {14.2.3}JK Flip Flop}{49}{subsubsection.14.2.3}%
+\contentsline {subsubsection}{\numberline {14.2.4}D Flip Flop}{49}{subsubsection.14.2.4}%
+\contentsline {subsection}{\numberline {14.3}Zähler}{50}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Schieberegister}{50}{subsection.14.4}%
+\contentsline {subsection}{\numberline {14.5}Entprellen von Signalen}{51}{subsection.14.5}%
+\contentsline {section}{\numberline {15}Mirkocontroller}{51}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Aufbau}{51}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Assembler}{52}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Datenpointer}{52}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Zeitschleife ohne Timer}{52}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Zeitberechnung mit der Näherungsformel}{53}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Interrupt}{54}{subsection.16.4}%
+\contentsline {section}{\numberline {17}Objektorientierte Programmierung}{54}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Grundverständnis}{54}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Klassen}{54}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Objekte}{54}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Datentypen}{55}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Arrays}{55}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Verebung}{55}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Polymorphie}{55}{subsection.17.7}%
+\contentsline {subsubsection}{\numberline {17.7.1}Polymorphie}{55}{subsubsection.17.7.1}%
+\contentsline {subsubsection}{\numberline {17.7.2}Dynamische Polymorphie}{56}{subsubsection.17.7.2}%
+\contentsline {subsection}{\numberline {17.8}UML}{56}{subsection.17.8}%
+\contentsline {subsubsection}{\numberline {17.8.1}Struktogramm}{56}{subsubsection.17.8.1}%
+\contentsline {subsubsection}{\numberline {17.8.2}Klassendiagramm}{57}{subsubsection.17.8.2}%
+\contentsline {subsubsection}{\numberline {17.8.3}Objektdiagramm}{57}{subsubsection.17.8.3}%
+\contentsline {subsubsection}{\numberline {17.8.4}Assoziationen}{57}{subsubsection.17.8.4}%
+\contentsline {subsubsection}{\numberline {17.8.5}Polymorphie}{57}{subsubsection.17.8.5}%
+\contentsline {subsubsection}{\numberline {17.8.6}Vererbungen}{57}{subsubsection.17.8.6}%
+\contentsline {subsubsection}{\numberline {17.8.7}Sequenzdiagramm}{57}{subsubsection.17.8.7}%
+\contentsline {subsubsection}{\numberline {17.8.8}Zustandsdiagramm}{57}{subsubsection.17.8.8}%
+\contentsline {section}{\numberline {18}Datenbanken}{57}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Grundverständnis Datenbanken}{57}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Entity-Relationship-Diagramm}{58}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Primärschlüssel}{58}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Sekundärschlüssel}{58}{subsection.18.4}%
+\contentsline {subsection}{\numberline {18.5}Realtionsschreibweise}{59}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}SQL}{59}{subsection.18.6}%
+\contentsline {subsubsection}{\numberline {18.6.1}SQL Abfragen}{59}{subsubsection.18.6.1}%
+\contentsline {section}{\numberline {19}Fachsprache}{61}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Fachwörter}{61}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Typfeld Kennungen}{63}{subsection.19.2}%
+\contentsline {section}{\numberline {20}Epilog}{64}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Literatur}{64}{subsection.20.1}%
