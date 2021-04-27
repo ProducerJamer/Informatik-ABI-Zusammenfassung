@@ -323,7 +323,7 @@
 		\vspace{.2cm}
         \begin{tabularx}{\columnwidth}{|c|X|}
             \hline
-            Adresse&Inhalt \\
+            \cellcolor{cyan!60!white}Adresse&\cellcolor{cyan!60!white}Inhalt \\
             \hline
             00&80hex = bootfähige Partition \\
             &00hex = nicht bootfähige Partition \\
@@ -644,7 +644,7 @@ $\longrightarrow$ nicht präemptiv
 
 \subsubsection{Shortest Job First}
 Lässt sich die benötigte Rechenzeit gut voraussagen, kann dieses Verfahren angewendet werden. Die Prozesse werden hier nach der kürzesten benötigten Rechenzeit geordnet und der Reihe nach abgearbeitet. Große Prozesse können demnach niemals bearbeitet werden, da sich kleine Prozesse immer vordrängeln können.\newline\newline
-$\longrightarrow$ (Vohwinkel fragen)
+$\longrightarrow$ nicht präemptiv
 
 \subsubsection{Round Robin}
 Jedem Prozess wird gleich viel Rechenzeit in Form von Zeitscheiben zugeteilt. Ist die Zeit abgelaufen, wird der Prozess in den Prozesszustand \textit{bereit} gesetzt, der nächste Prozess wird aufgerufen. Nachdem ein Prozess bearbeitet wurde, und nicht vollständig abgearbeitet werden konnte, wird dieser hinten in der Warteschlange eingereiht, und muss warten, bis er erneut an der Reihe ist. Ein Prozess, der die zugeteilte Rechenzeit nicht in vollem Maße ausschöpfen kann, weil er schon früher fertig ist, blockiert das ganze System, bis die Zeitscheibe abgelaufen ist. Eine effiziente Nutzung der Ressourcen ist daher nicht möglich.\newline\newline
@@ -908,7 +908,7 @@ $\longrightarrow$ präemptiv
 	\begin{figure} [h]
 		\begin{tabularx}{17cm}{| l | X | X | X | X | X | X | }
 			\hline
-			\small{Seitengröße} & 0 & 4096 & 8182 & 12288 & 16384 & 20480 \\
+			\small{Seitengröße} & 0 & 4096 & 8192 & 12288 & 16384 & 20480 \\
 			\hline
 			\small{Seite} & 0&1&2&3&4&5\\
 			\hline
@@ -916,7 +916,7 @@ $\longrightarrow$ präemptiv
 			\hline
 		\end{tabularx}
 	\end{figure}
-    \noindent Die Größe einer Seite beträgt 4096 Byte. Es wird nun geprüft, in welche Seite die virtuelle Anfangsadresse "reinpasst". Z.b.: die virtuelle Anfangsadresse 9000 passt nur in die Seite 2. Diese geht von 8182-12288.
+    \noindent Die Größe einer Seite beträgt 4096 Byte. Es wird nun geprüft, in welche Seite die virtuelle Anfangsadresse "reinpasst". Z.b.: die virtuelle Anfangsadresse 9000 passt nur in die Seite 2. Diese geht von 8192-12288.
     \begin{figure}[h]
         \begin{tabularx}{17cm}{| X | X | X | X | X |}
             \hline 
@@ -1061,7 +1061,7 @@ c) Wie viel Speicherplatz ist für die Seitentabelle erforderlich?\newline
 		\end{center}
 		\begin{center}
 			\begin{tabularx}{17cm}{X X r}
-				virtueller Speicher = \textit{2GiB}& reeller Speicher = \textit{265MiB}&16 Seitenrahmen \\
+				virtueller Speicher = \textit{2GiB}& reeller Speicher = \textit{256MiB}&16 Seitenrahmen \\
 			\end{tabularx}
 		\end{center}
 		\begin{center}
@@ -1861,6 +1861,8 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \end{tikzpicture}\newline\newline\newline
     Unterschreitet der Anteil der Nutzdaten 46Byte, wird durch Padding aufgefüllt.
 
+\newpage
+
 \section{ARP-Protokoll}
     Programmablaufplan des ARP Verfahrens:
     \begin{center}
@@ -1943,6 +1945,8 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     	\end{tabularx}
 \end{minipage}
 
+\newpage
+
 \subsection{DMZ - Demilitarisierte Zone}
     Eine Demilitarisierte Zone bezeichnet ein Computernetz mit sicherheitstechnisch kontrollierten Zugriffsmöglichkeiten auf die daran angeschlossenen Server. Die in der DMZ aufgestellten Systeme werden durch eine oder mehrere Firewalls gegen andere Netze abgeschirmt.
     \begin{center}
@@ -1952,7 +1956,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
 \subsection{IPv6 und IPv4 im Vergleich}
     Vorteile und Nachteile von IPv6 zu IPv4:
     \begin{table}[h]
-    	\renewcommand{\arraystretch}{2}
+    	\renewcommand{\arraystretch}{1.5}
     	\begin{tabularx}{17cm}{|X|X|}
             \hline
             \cellcolor{cyan!60}Vorteile&\cellcolor{cyan!60}Nachteile\\
@@ -1981,7 +1985,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{NOT}
         Das Not(Negation)-Bauteil negiert das Signal. Somit wird eine Eins zur Null und Nullen werden zu Einsen.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0) -- (-5,0);
                     \draw[black,very thick] (-2.8,0) circle (0.2);
@@ -2005,7 +2009,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{AND}
         Das AND-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird nur Eins, wenn beide Eingangssignale auf Eins standen.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2041,7 +2045,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{OR}
         Das OR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn mindestens einer der Beide Eingangssignale auf Eins steht.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2077,7 +2081,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{NAND}
         Das NAND-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn mindestens einer der beiden Eingangssignale auf Null steht.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2114,7 +2118,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{NOR}
         Das NOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn beide Eingangssignale auf Null steht.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2151,7 +2155,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
     \subsubsection{XOR}
         Das XOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die Eingangssignale ungleich sind.
             \begin{center}
-                \begin{tikzpicture}
+                \begin{tikzpicture}[scale=0.9]
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2184,11 +2188,13 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \node at (4,-2){0};
                 \end{tikzpicture}
             \end{center}
+            
+\newpage
 
     \subsubsection{XNOR}
         Das XNOR-Bauteil vereint zwei Eingänge zu einem Ausgang. Das Ausgangssignal wird dann Eins, wenn die beiden Eingangssignale gleich stehen.
         \begin{center}
-            \begin{tikzpicture}
+            \begin{tikzpicture}[scale=0.9]
                 \draw[black,very thick] (-5,-1) rectangle (-3,1);
                 \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                 \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
@@ -2339,7 +2345,9 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
             \node[red] at (4.5,-4.5){0};
         \end{tikzpicture}
     \end{center}
-\end{minipage}\vspace{.2cm}\newline 
+\end{minipage}\vspace{.2cm}
+
+\newpage
     
 \textbf{Beispiel:}\\
 Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
@@ -2499,6 +2507,8 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 	siehe oben: \textcolor{green!50!olive}{$Z=A \wedge B$}
 \end{center}
 
+\newpage
+
 \subsection{Impulsdiagramm}
     Das Impulsdiagramm zeigt die Highs und Lows der Ein- und Ausgänge, also quasi eine bildliche Wahrheitstabelle
     \begin{center}
@@ -2579,7 +2589,7 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
 \subsection{Zustandsfolgetabelle}
     Die Zustandsfolgetabelle gibt die aktuelle und Übergangsfunktion für ein Schaltwerk oder Schaltnetz.
     \begin{center}
-        \begin{tikzpicture}
+        \begin{tikzpicture}[scale=0.8]
             \draw[black,very thick] (-5,-1) -- (-5,1);
             \draw[black,very thick] (-5,1) -- (-3,1);
             \draw[black,very thick] (-3,-1) -- (-3,1);
@@ -2716,6 +2726,8 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
             \node at (5.5,-2.5){undefined};
         \end{tikzpicture}
     \end{center}
+    
+\newpage
 
 \subsubsection{T Flip Flop}
     Das t Flip Flop ändert bei jeder aufsteigenden Taktflanke das Ausgangssignal Q.
@@ -2921,6 +2933,8 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         \end{tikzpicture}
     \end{center}
 
+\newpage
+
 \subsection{Entprellen von Signalen}
     Ein Signal ist prellfrei, wenn das Signal sauber als Ein- oder Ausschaltsignal entziffert werden kann.
     Hier ein Beispiel zum Entprellen eines Tasters:
@@ -3020,8 +3034,8 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         db 0001 1010b\newline
         db 1010 1000b\newline
         ...}\newline
-    \end{minipage}
-    \noindent'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal verwenden. Zu beachten ist außerdem, dass bei hexadezimaler Darstellung eine 0 vorgestellt werden muss.\newline
+    \end{minipage}\newline
+    \noindent 'db' steht für define Byte und 'b' für Binär. Statt binär kann man natürlich auch 'h' für Hexadezimal oder 'd' für Dezimal verwenden. Zu beachten ist außerdem, dass bei hexadezimaler Darstellung eine 0 vorgestellt werden muss.\newline
     Beispiel: \textit{db A2h} muss als \textit{db 0A2h} geschrieben werden.
     
 \subsection{Zeitschleife ohne Timer}
@@ -3071,7 +3085,9 @@ Für folgende Wahrheitstabelle sieht das KV-Diagramm folgendermaßen aus:
         $\text{t} = 2 \cdot 255 \cdot 220 = 112200\text{\textmu s} = 112,2\text{ms} = 0,1122\text{s}$    
     \end{center}
     Wenn man die ganz genaue Zeit eines Programmes berechnen will, muss man natürlich noch alle Initialisierungsbefehle, usw. hinzuaddieren.
-    
+
+\newpage
+
 \subsection{Interrupt}
     In der Informatik versteht man unter einem Interrupt eine kurzfristige Unterbrechung der normalen Programmausführung, um einen, in der Regel kurzen, aber zeitlich kritischen, Vorgang abzuarbeiten. Das Program, welches nach dem Interrupt ausgeführt wird nennt man Interrupt Service Routine (ISR).
     Um den Interrupt verwenden zu können, muss man ihn zuerst initialisieren. Dazu muss man in der Formelsammlung des Mirkocontrollers nachschauen, welche Ports Interrupt-fähig sind. An diesen Ports kann man nun seinen Interrupt aktivieren und Einstellen wann er reagieren soll.\newline
@@ -3516,6 +3532,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
     
 \subsection{Literatur}
     Fachwissen sowie einige Inhalte wurden übernommen aus:\newline
-    \textit{Informatik und Informationstechnik - für Gymnasien und höhere Bildungsgänge im beruflichen Schulwesen (3. Auflage)} verlegt von \textit{Europa Lehrmittel}. 
+    \textit{Informatik und Informationstechnik - für Gymnasien und höhere Bildungsgänge im beruflichen Schulwesen (3. Auflage)} verlegt von \textit{Europa Lehrmittel}.\newline\newline
+    Diese Zusammenfassung sollte am besten in Kombination mit der Informatik ABI Merkhilfe verwendet werden.
 
 \end{document}
