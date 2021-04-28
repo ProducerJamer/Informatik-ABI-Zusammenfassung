@@ -205,7 +205,7 @@
     \begin{align*}
         \text{zahl1} &= \text{1}; \\
         \text{zahl2} &= \text{4}; \\
-        \text{zahl1 + zahl2} &= \text{sum};
+        \text{sum} &= \text{zahl1 + zahl2};
     \end{align*}
     \vspace{-1cm}
 	\begin{figure}[h]
@@ -374,7 +374,7 @@
 \end{table}
 
 \subsection{GPT}
-    Die Guide Partition Table ist der bessere MBR und hat folgende Vor- und Nachteile gegenüber dem MBR:
+    Die GUID Partition Table ist der bessere MBR und hat folgende Vor- und Nachteile gegenüber dem MBR:
 	\begin{description}
     	\item[+]{Funktioniert auch bei 64-Bit Systemen}
     	\item[+]{beliebig viele primäre Partitionen}
@@ -1651,7 +1651,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
             \hline
             \cellcolor{cyan!30}MAN&Metropolitan\newline Area Network&100km&Unternehmen\newline mit mehreren							\newline Standorten\\
             \hline
-            \cellcolor{cyan!30}WAN&Worldwide\newline Area Network&Weltweit&Internet, Telefon\\
+            \cellcolor{cyan!30}WAN&Wide\newline Area Network&Weltweit&Internet, Telefon\\
             \hline
         \end{tabularx}
 	\end{table}
@@ -1889,7 +1889,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
         \renewcommand{\arraystretch}{1.5}
         \begin{tabularx}{6cm}{cccccccc}
             $2^7$&$2^6$&$2^5$&$2^4$&$2^3$&$2^2$&$2^1$&$2^0$ \\
-            128&46&32&16&8&4&2&1 \\
+            128&64&32&16&8&4&2&1 \\
         \end{tabularx}
     \end{center}
 
@@ -2159,8 +2159,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                     \draw[black,very thick] (-5,-1) rectangle (-3,1);
                     \draw[black,very thick] (-6, 0.5) -- (-5,0.5);
                     \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
-                    \draw[black,very thick] (-2.8, 0) circle (0.2);
-                    \draw[black,very thick] (-2.6, 0) -- (-2,0);
+                    \draw[black,very thick] (-3, 0) -- (-2,0);
                     \node at (-4,0){\textbf{=1}};
                     \node at (-6.5,0.5){\textbf{A}};
                     \node at (-6.5,-0.5){\textbf{B}};
@@ -2200,7 +2199,7 @@ Der HUB ist ein Multiport Repeater. D.h. er hat mehrere Ein- und Ausgänge und a
                 \draw[black,very thick] (-6, -0.5) -- (-5,-0.5);
                 \draw[black,very thick] (-2.8, 0) circle (0.2);
                 \draw[black,very thick] (-2.6, 0) -- (-2,0);
-                \node at (-4,0){\textbf{=}};
+                \node at (-4,0){\textbf{=1}};
                 \node at (-6.5,0.5){\textbf{A}};
                 \node at (-6.5,-0.5){\textbf{B}};
                 \node at (-1.5,0){\textbf{Z}};
@@ -3158,7 +3157,7 @@ Um die ISR zu schreiben, muss man die Einsprung Adresse des Interrupts finden.\n
 \subsection{Verebung}
     Wenn Klassen erben, besitzen diese eine abstrakte \textit{Mutterklasse}. Diese vererbt Methoden und Attribute. Für jedes Objekt gibt es nun 2 Objekte. Eines der Mutterklasse und eines der Unterklasse. Ein gutes Beispiel hierfür ist die Mutterklasse Fahrzeug mit ihrer \textit{Kindklasse} PKW.
     Beim Aufrufen des Konstruktors von PKW wird ebenso der Konstruktor der Klasse Fahrzeug aufgerufen.
-    Von abtrakten Klassen kann KEIN OBjekt gebildet werden!
+    Von abtrakten Klassen kann KEIN Objekt gebildet werden!
 
 \subsection{Polymorphie}
 \subsubsection{Polymorphie}
